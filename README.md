@@ -26,11 +26,12 @@ See `docs/engine.md`.
 
 ```bash
 cd mv
+pnpm dev:web      # :5182
 pnpm build:web    # web/dist, a static site
 pnpm preview:web  # :5183
 ```
 
-See `mv/web/README.md`.
+On Vercel, import the repository with **Root Directory** `mv`; `mv/vercel.json` does the rest. See `mv/web/README.md`.
 
 ## License
 

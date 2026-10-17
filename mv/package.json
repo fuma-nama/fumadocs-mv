@@ -9,7 +9,8 @@
     "render": "node render/render.mjs",
     "typecheck": "tsc --noEmit",
     "dev:web": "vite -c web/vite.config.ts",
-    "build:web": "node web/build-assets.mjs && vite build -c web/vite.config.ts",
+    "assets:web": "node web/build-assets.mjs",
+    "build:web": "vite build -c web/vite.config.ts",
     "preview:web": "vite preview -c web/vite.config.ts"
   },
   "dependencies": {

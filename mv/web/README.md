@@ -1,14 +1,18 @@
 # README, the web page
 
-The film as a static site: a workspace around the live render, with an explorer, an inspector and a timeline, in sync with the music.
+The film as a static Vite app: a workspace around the live render, with an explorer, an inspector and a timeline, in sync with the music.
 
 ```bash
-pnpm dev:web      # http://localhost:5182, serves the original files
+pnpm dev:web      # http://localhost:5182
 pnpm build:web    # writes web/dist
 pnpm preview:web  # serves web/dist on http://localhost:5183
 ```
 
 `web/dist` is plain static files with relative URLs, so it can be served from any host and path.
+
+## Deploy on Vercel
+
+Import the repository, set **Root Directory** to `mv`, and deploy. `mv/vercel.json` sets the Vite framework, `pnpm build:web` and the `web/dist` output, and caches the hashed bundles under `_app/` for a year.
 
 ## Files
 
@@ -23,9 +27,10 @@ pnpm preview:web  # serves web/dist on http://localhost:5183
 | `ui/film.ts`, `ui/app.ts` | chapters, features and their docs pages, lyric faces; the panels' shared state |
 | `files.txt` | every public file the film loads |
 | `glyphs.json` | the characters the film draws, per font; re-record with `node web/record-glyphs.mjs` when drawn text changes |
-| `build-assets.mjs` | copies those files into `.public/` and writes `asset-map.json`: fonts as WOFF2 subsets, PNG as lossless WebP (photo-like ones at q90), JPG as WebP q90, minified JSON, AAC audio |
+| `public/`, `asset-map.json` | the converted files the page loads, and the map from each original path to them (committed, so the build is plain `vite build`) |
+| `build-assets.mjs` | `pnpm assets:web` regenerates `public/` and `asset-map.json` from the originals: fonts as WOFF2 subsets, PNG as lossless WebP (photo-like ones at q90), JPG as WebP q90, minified JSON, AAC audio |
 
-The engine loads every file through `assetUrl()` (`src/engine/url.ts`), which applies the map in builds. The build needs `ffmpeg`, `cwebp` and `uv` (for fonttools). Page text stays in what the subsets hold: ASCII and `·` in every face, plus the film's own glyphs (`×` in Geist Mono, each lyric in the face the film sets it in).
+The engine loads every file through `assetUrl()` (`src/engine/url.ts`), which applies the map. Regenerating the assets needs `ffmpeg` (macOS, for the AudioToolbox AAC encoder), `cwebp` and `uv` (for fonttools); building and deploying need only Node. Page text stays in what the subsets hold: ASCII and `·` in every face, plus the film's own glyphs (`×` in Geist Mono, each lyric in the face the film sets it in).
 
 ## Workspace
 

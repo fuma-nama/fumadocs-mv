@@ -4,6 +4,7 @@ import { explore } from '../src/engine/explore';
 import { stream } from '../src/engine/stream';
 import { DURATION, FPS } from '../src/engine/time';
 import { assetUrl, setAssetMap } from '../src/engine/url';
+import assetMap from './asset-map.json';
 import overlay, { setup as setupOverlay } from '../src/overlay';
 import { boundaries, registry } from '../src/scenes';
 import { app } from './ui/app';
@@ -13,10 +14,7 @@ import * as inspector from './ui/inspector';
 import * as timeline from './ui/timeline';
 import * as viewport from './ui/viewport';
 
-if (import.meta.env.PROD) {
-  const maps = import.meta.glob<Record<string, string>>('./asset-map.json', { eager: true, import: 'default' });
-  setAssetMap(maps['./asset-map.json'] ?? {});
-}
+setAssetMap(assetMap);
 
 const params = new URLSearchParams(location.search);
 const renderMode = params.get('mode') === 'render';

@@ -1,6 +1,6 @@
-// Copy the files the film loads (files.txt) into web/.public, converting where the web build ships
+// Copy the files the film loads (files.txt) into web/public, converting where the web build ships
 // another format, and write web/asset-map.json (public path → shipped path) for the player.
-// Files newer than their source are kept; delete web/.public to redo them after changing a setting.
+// Files newer than their source are kept; delete web/public to redo them after changing a setting.
 import { execFile } from 'node:child_process';
 import fs from 'node:fs';
 import os from 'node:os';
@@ -10,7 +10,7 @@ import { promisify } from 'node:util';
 const run = promisify(execFile);
 const web = import.meta.dirname;
 const pub = path.join(web, '../public');
-const out = path.join(web, '.public');
+const out = path.join(web, 'public');
 const glyphsFile = path.join(web, 'glyphs.json');
 const glyphs = JSON.parse(fs.readFileSync(glyphsFile, 'utf8'));
 const SHIP = { '.wav': '.m4a', '.png': '.webp', '.jpg': '.webp', '.ttf': '.woff2' };
