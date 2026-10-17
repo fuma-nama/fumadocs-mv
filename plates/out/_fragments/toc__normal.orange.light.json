@@ -1,0 +1,283 @@
+{
+ "group": "toc",
+ "id": "normal.orange.light",
+ "entry": {
+  "kind": "geometry+stills",
+  "layout": "docs",
+  "tocStyle": "normal",
+  "theme": "neutral (+ primary #FA8023)",
+  "mode": "light",
+  "url": "/themes/orange/getting-started/introduction?toc=normal",
+  "dpr": 2,
+  "viewport": [
+   1440,
+   810
+  ],
+  "states": {
+   "top": {
+    "label": "scroll 0",
+    "still": "toc/normal-orange-light/top.png",
+    "geometry": "toc/normal-orange-light/top.json",
+    "scrollY": 0,
+    "active": [
+     "#reading"
+    ],
+    "clip": [
+     1172,
+     0,
+     268,
+     810
+    ]
+   },
+   "table-of-contents": {
+    "label": "only Table of Contents active (scrollY = heading - 112, like the ⌘K jump)",
+    "still": "toc/normal-orange-light/table-of-contents.png",
+    "geometry": "toc/normal-orange-light/table-of-contents.json",
+    "scrollY": 1944,
+    "active": [
+     "#table-of-contents"
+    ],
+    "clip": [
+     1172,
+     0,
+     268,
+     810
+    ]
+   },
+   "layouts-flux": {
+    "label": "Layouts…Flux range active (viewport 1440x1110 so that exactly these four headings are visible)",
+    "still": "toc/normal-orange-light/layouts-flux.png",
+    "geometry": "toc/normal-orange-light/layouts-flux.json",
+    "scrollY": 3028,
+    "active": [
+     "#layouts",
+     "#docs",
+     "#notebook",
+     "#flux"
+    ],
+    "clip": [
+     1172,
+     0,
+     268,
+     1110
+    ],
+    "viewport": [
+     1440,
+     1110
+    ]
+   }
+  },
+  "activeRanges": [
+   {
+    "id": "reading",
+    "text": "Reading",
+    "depth": 2,
+    "top": 370,
+    "height": 31.98,
+    "visibleScrollRange": [
+     0,
+     373.2
+    ]
+   },
+   {
+    "id": "search",
+    "text": "Search",
+    "depth": 3,
+    "top": 1023.55,
+    "height": 32,
+    "visibleScrollRange": [
+     242.35,
+     1026.75
+    ]
+   },
+   {
+    "id": "code-blocks",
+    "text": "Code Blocks",
+    "depth": 3,
+    "top": 1365.8,
+    "height": 32,
+    "visibleScrollRange": [
+     584.6,
+     1369
+    ]
+   },
+   {
+    "id": "table-of-contents",
+    "text": "Table of Contents",
+    "depth": 2,
+    "top": 2055.98,
+    "height": 31.98,
+    "visibleScrollRange": [
+     1274.76,
+     2059.18
+    ]
+   },
+   {
+    "id": "layouts",
+    "text": "Layouts",
+    "depth": 2,
+    "top": 3032.59,
+    "height": 31.98,
+    "visibleScrollRange": [
+     2251.37,
+     3035.79
+    ]
+   },
+   {
+    "id": "docs",
+    "text": "Docs",
+    "depth": 3,
+    "top": 3560.58,
+    "height": 32,
+    "visibleScrollRange": [
+     2779.38,
+     3563.78
+    ]
+   },
+   {
+    "id": "notebook",
+    "text": "Notebook",
+    "depth": 3,
+    "top": 3956.77,
+    "height": 32,
+    "visibleScrollRange": [
+     3175.57,
+     3959.97
+    ]
+   },
+   {
+    "id": "flux",
+    "text": "Flux",
+    "depth": 3,
+    "top": 4061.77,
+    "height": 32,
+    "visibleScrollRange": [
+     3280.57,
+     4064.97
+    ]
+   },
+   {
+    "id": "glass",
+    "text": "Glass",
+    "depth": 3,
+    "top": 4165.77,
+    "height": 32,
+    "visibleScrollRange": [
+     3384.57,
+     4168.97
+    ]
+   },
+   {
+    "id": "styles",
+    "text": "Styles",
+    "depth": 4,
+    "top": 4289.77,
+    "height": 24,
+    "visibleScrollRange": [
+     3501.37,
+     4292.17
+    ]
+   },
+   {
+    "id": "spacious",
+    "text": "Spacious",
+    "depth": 3,
+    "top": 4572.02,
+    "height": 32,
+    "visibleScrollRange": [
+     3790.82,
+     4575.22
+    ]
+   },
+   {
+    "id": "themes",
+    "text": "Themes",
+    "depth": 2,
+    "top": 4816.58,
+    "height": 31.98,
+    "visibleScrollRange": [
+     4035.36,
+     4819.78
+    ]
+   },
+   {
+    "id": "make-it-yours",
+    "text": "Make it yours",
+    "depth": 2,
+    "top": 5168.25,
+    "height": 31.98,
+    "visibleScrollRange": [
+     4387.03,
+     5171.45
+    ]
+   },
+   {
+    "id": "integrations",
+    "text": "Integrations",
+    "depth": 2,
+    "top": 5898.8,
+    "height": 31.98,
+    "visibleScrollRange": [
+     5117.58,
+     5902
+    ]
+   },
+   {
+    "id": "openapi",
+    "text": "OpenAPI",
+    "depth": 3,
+    "top": 6042.78,
+    "height": 32,
+    "visibleScrollRange": [
+     5261.58,
+     6045.98
+    ]
+   },
+   {
+    "id": "obsidian",
+    "text": "Obsidian",
+    "depth": 3,
+    "top": 6364.72,
+    "height": 32,
+    "visibleScrollRange": [
+     5583.52,
+     6367.92
+    ]
+   },
+   {
+    "id": "sanity",
+    "text": "Sanity",
+    "depth": 3,
+    "top": 6562.72,
+    "height": 32,
+    "visibleScrollRange": [
+     5781.52,
+     6565.92
+    ]
+   },
+   {
+    "id": "story",
+    "text": "Story",
+    "depth": 3,
+    "top": 6666.72,
+    "height": 32,
+    "visibleScrollRange": [
+     5885.52,
+     6669.92
+    ]
+   },
+   {
+    "id": "showcase",
+    "text": "Showcase",
+    "depth": 2,
+    "top": 6787.72,
+    "height": 31.98,
+    "visibleScrollRange": [
+     6006.5,
+     6790.92
+    ]
+   }
+  ],
+  "notes": "Each state: <name>.png = opaque crop of #nd-toc (clip = css rect in the viewport), <name>.json = geometry in coordinates of the TOCItems container (geometry.container is its viewport rect): items (rect, offset, padding, textBox, textTop/textBottom, baseline, depth, rail svg paths), thumb (d, clip, --track-top/bottom, offset-distance, itemLineLengths, dot), block clip-path, title + icon, computed styles and colours."
+ }
+}

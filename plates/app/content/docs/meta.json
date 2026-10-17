@@ -1,0 +1,16 @@
+{
+  "title": "Fumadocs",
+  "pages": [
+    "getting-started",
+    "---Fumadocs UI---",
+    "layouts",
+    "themes",
+    "components",
+    "search",
+    "---Framework---",
+    "core",
+    "mdx",
+    "cli",
+    "integrations"
+  ]
+}

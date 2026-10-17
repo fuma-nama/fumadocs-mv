@@ -1,0 +1,108 @@
+{
+ "cmd": [
+  "npx",
+  "--yes",
+  "@fumadocs/cli@1.7.5",
+  "add"
+ ],
+ "cwd": "$WORKDIR/my-docs",
+ "cols": 100,
+ "rows": 40,
+ "tail": 5,
+ "steps": [
+  {
+   "label": "start",
+   "settle": 0.2
+  },
+  {
+   "wait": "Select components to install",
+   "label": "prompt: select components",
+   "settle": 1.2,
+   "send": [
+    "b"
+   ],
+   "delay": 0.25
+  },
+  {
+   "label": "search: b",
+   "settle": 0.3,
+   "send": [
+    "a"
+   ],
+   "delay": 0.25
+  },
+  {
+   "label": "search: ba",
+   "settle": 0.3,
+   "send": [
+    "n"
+   ],
+   "delay": 0.25
+  },
+  {
+   "label": "search: ban",
+   "settle": 0.4,
+   "send": "\t"
+  },
+  {
+   "label": "selected ui - banner",
+   "settle": 0.4,
+   "send": [
+    "\u007f",
+    "\u007f",
+    "\u007f"
+   ],
+   "delay": 0.2
+  },
+  {
+   "label": "search cleared",
+   "settle": 0.3,
+   "send": [
+    "t"
+   ],
+   "delay": 0.25
+  },
+  {
+   "label": "search: t",
+   "settle": 0.3,
+   "send": [
+    "a"
+   ],
+   "delay": 0.25
+  },
+  {
+   "label": "search: ta",
+   "settle": 0.3,
+   "send": [
+    "b"
+   ],
+   "delay": 0.25
+  },
+  {
+   "label": "search: tab",
+   "settle": 0.4,
+   "send": "\u001b[B"
+  },
+  {
+   "label": "down",
+   "settle": 0.4,
+   "send": "\t"
+  },
+  {
+   "label": "selected 2nd match",
+   "settle": 0.4,
+   "send": "\r"
+  },
+  {
+   "wait": "(install with|Overwrite)",
+   "label": "prompt after confirm",
+   "settle": 1.0,
+   "send": "\r"
+  },
+  {
+   "wait": "(Successful|Overwrite)",
+   "label": "done",
+   "settle": 1.0
+  }
+ ]
+}

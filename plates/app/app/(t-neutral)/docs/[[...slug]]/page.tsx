@@ -1,0 +1,6 @@
+import * as Mod from 'fumadocs-ui/layouts/docs/page';
+import { renderPage, type RouteProps } from '@/lib/render-page';
+
+export default function Page(props: RouteProps) {
+  return renderPage(Mod, props, { baseUrl: '/docs' });
+}

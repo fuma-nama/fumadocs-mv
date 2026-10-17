@@ -1,0 +1,44 @@
+---
+title: Lazy Loading
+description: Configure lazy loading on collection outputs.
+---
+
+## Introduction
+
+By default, all Markdown and MDX files need to be pre-compiled first. The same constraint also applies to the development server.
+
+This may result in longer dev server start times for large docs sites. You can enable Async or Dynamic mode on doc collections to improve this.
+
+## Async Mode
+
+Async mode will generate collection outputs using async imports.
+
+```ts tab="Docs Collection"
+import { defineDocs } from 'fumadocs-mdx/config';
+
+export const docs = defineDocs({
+  dir: 'content/docs',
+  docs: {
+    // [!code ++]
+    async: true,
+  },
+});
+```
+
+```ts tab="Doc Collection"
+import { defineCollections } from 'fumadocs-mdx/config';
+
+export const doc = defineCollections({
+  type: 'doc',
+  dir: 'content/docs',
+  // [!code ++]
+  async: true,
+});
+```
+
+Depending on your bundler, this may reduce compilation time significantly on development server.
+
+<Callout title="For Next.js">
+  Turbopack doesn't support lazy bundling at the moment, async mode will only improve server
+  performance.
+</Callout>

@@ -1,0 +1,1446 @@
+{
+ "viewport": [
+  1440,
+  810
+ ],
+ "dpr": 2,
+ "overlay": {
+  "css": [
+   0,
+   0,
+   1440,
+   810
+  ],
+  "px": [
+   0,
+   0,
+   2880,
+   1620
+  ],
+  "background": "rgba(0, 0, 0, 0.2)",
+  "backdropFilter": "blur(4px)"
+ },
+ "dialog": {
+  "css": [
+   400,
+   155,
+   640,
+   517
+  ],
+  "px": [
+   800,
+   310,
+   1280,
+   1034
+  ],
+  "r": 12,
+  "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 25px 50px -12px"
+ },
+ "header": null,
+ "icon": {
+  "css": [
+   413,
+   173,
+   20,
+   20
+  ],
+  "px": [
+   826,
+   346,
+   40,
+   40
+  ]
+ },
+ "input": {
+  "css": [
+   441,
+   169,
+   538.39,
+   28
+  ],
+  "px": [
+   882,
+   338,
+   1077,
+   56
+  ],
+  "value": "con",
+  "placeholder": "Search",
+  "font": "18px / 28px geist, \"geist Fallback\""
+ },
+ "caret": [
+  471.25,
+  171.75,
+  1,
+  22.5
+ ],
+ "close": {
+  "css": [
+   987.39,
+   168,
+   39.61,
+   30
+  ],
+  "px": [
+   1975,
+   336,
+   79,
+   60
+  ],
+  "r": 6,
+  "text": "ESC"
+ },
+ "list": {
+  "css": [
+   401,
+   211,
+   638,
+   460
+  ],
+  "px": [
+   802,
+   422,
+   1276,
+   920
+  ]
+ },
+ "rows": [
+  {
+   "css": [
+    405,
+    215,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    430,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Story",
+   "breadcrumbs": "FumadocsFrameworkIntegrations",
+   "active": true,
+   "textBox": [
+    415,
+    243,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     243,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    271,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    542,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Display components with a controls panel",
+   "active": false,
+   "textBox": [
+    415,
+    279,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     279,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    307,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    614,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Display components with a controls panel.",
+   "active": false,
+   "textBox": [
+    415,
+    315,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     315,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    343,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    686,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Introduction",
+   "breadcrumbs": "FumadocsGetting Started",
+   "active": false,
+   "textBox": [
+    415,
+    371,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     371,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    399,
+    630,
+    37
+   ],
+   "px": [
+    810,
+    798,
+    1260,
+    74
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Add the mdx() plugin from fumadocs-mdx/vite to your Vite config.",
+   "active": false,
+   "textBox": [
+    415,
+    407,
+    610,
+    21
+   ],
+   "lines": [
+    [
+     431,
+     407,
+     594,
+     21
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    436,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    872,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "heading",
+   "text": "Table of Contents",
+   "active": false,
+   "textBox": [
+    415,
+    444,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     447,
+     444,
+     578,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    472,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    944,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Write content",
+   "active": false,
+   "textBox": [
+    415,
+    480,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     480,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    508,
+    630,
+    57
+   ],
+   "px": [
+    810,
+    1016,
+    1260,
+    114
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Document your components with live previews and a controls panel, powered by @fumadocs/story.",
+   "active": false,
+   "textBox": [
+    415,
+    516,
+    610,
+    41
+   ],
+   "lines": [
+    [
+     431,
+     516,
+     594,
+     41
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    565,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    1130,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The classic: sidebar, article and table of contents.",
+   "active": false,
+   "textBox": [
+    415,
+    573,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     573,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    601,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    1202,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Translucent surfaces, a floating sidebar and a minimap table of contents that expands on hover.",
+   "active": false,
+   "textBox": [
+    415,
+    609,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     609,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    657,
+    630,
+    37
+   ],
+   "px": [
+    810,
+    1314,
+    1260,
+    74
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Add Markdown or MDX files to content/docs, every file becomes a page.",
+   "active": false,
+   "textBox": [
+    415,
+    665,
+    610,
+    21
+   ],
+   "lines": [
+    [
+     431,
+     665,
+     594,
+     21
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    694,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    1388,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "On smaller screens, the table of contents collapses into a popover bar with a progress circle.",
+   "active": false,
+   "textBox": [
+    415,
+    702,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     702,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    730,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    1460,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Quick Start",
+   "breadcrumbs": "FumadocsGetting Started",
+   "active": false,
+   "textBox": [
+    415,
+    758,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     758,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    786,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    1572,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "heading",
+   "text": "Writing Content",
+   "active": false,
+   "textBox": [
+    415,
+    794,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     447,
+     794,
+     578,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    822,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    1644,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "For authoring docs, you can read the Markdown guide, or Search to configure the search dialog.",
+   "active": false,
+   "textBox": [
+    415,
+    830,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     830,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    878,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    1756,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Content source: Fumadocs MDX.",
+   "active": false,
+   "textBox": [
+    415,
+    886,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     886,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    914,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    1828,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Fumadocs (Foo-ma docs) is a documentation framework, designed to be fast, flexible, and composes seamlessly into your React framework. It consists of multiple layers:",
+   "active": false,
+   "textBox": [
+    415,
+    922,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     922,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    970,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    1940,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The source of your content, can be a CMS or local data layers like Fumadocs MDX (the official content source).",
+   "active": false,
+   "textBox": [
+    415,
+    978,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     978,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1026,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    2052,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Handles most of the logic, including document search, content source adapters, and Markdown extensions.",
+   "active": false,
+   "textBox": [
+    415,
+    1034,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     1034,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1082,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    2164,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Fumadocs is built from layers, you can replace any of them, from the content source to the layout.",
+   "active": false,
+   "textBox": [
+    415,
+    1090,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     1090,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1138,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    2276,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Async Mode",
+   "breadcrumbs": "FumadocsFrameworkMDX",
+   "active": false,
+   "textBox": [
+    415,
+    1166,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     1166,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1194,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    2388,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Compile content on demand",
+   "active": false,
+   "textBox": [
+    415,
+    1202,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1202,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1230,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    2460,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Compile content on demand, with Fumadocs MDX, the official content source of Fumadocs.",
+   "active": false,
+   "textBox": [
+    415,
+    1238,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1238,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1266,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    2532,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Collections",
+   "breadcrumbs": "FumadocsFrameworkMDX",
+   "active": false,
+   "textBox": [
+    415,
+    1294,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     1294,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1322,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    2644,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Collections of content files",
+   "active": false,
+   "textBox": [
+    415,
+    1330,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1330,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1358,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    2716,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Collections of content files, with Fumadocs MDX, the official content source of Fumadocs.",
+   "active": false,
+   "textBox": [
+    415,
+    1366,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1366,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1394,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    2788,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Source API",
+   "breadcrumbs": "FumadocsFrameworkCore",
+   "active": false,
+   "textBox": [
+    415,
+    1422,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     1422,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1450,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    2900,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Turn a content source into a unified interface",
+   "active": false,
+   "textBox": [
+    415,
+    1458,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1458,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1486,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    2972,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Turn a content source into a unified interface. Part of Fumadocs Core, the headless layer of Fumadocs.",
+   "active": false,
+   "textBox": [
+    415,
+    1494,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     1494,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1542,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    3084,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Docs Layout",
+   "breadcrumbs": "FumadocsUILayouts",
+   "active": false,
+   "textBox": [
+    415,
+    1570,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     1570,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1598,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    3196,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The default layout of Fumadocs: sidebar, article and table of contents.",
+   "active": false,
+   "textBox": [
+    415,
+    1606,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1606,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1634,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    3268,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The Docs Layout layout is one of the layouts of Fumadocs UI. The default layout of Fumadocs: sidebar, article and table of contents.",
+   "active": false,
+   "textBox": [
+    415,
+    1642,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     1642,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1690,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    3380,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Glass",
+   "breadcrumbs": "FumadocsUILayouts",
+   "active": false,
+   "textBox": [
+    415,
+    1718,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     1718,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1746,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    3492,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "A layout with translucent surfaces and a minimap table of contents.",
+   "active": false,
+   "textBox": [
+    415,
+    1754,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1754,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1782,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    3564,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The Glass layout is one of the layouts of Fumadocs UI. A layout with translucent surfaces and a minimap table of contents.",
+   "active": false,
+   "textBox": [
+    415,
+    1790,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     1790,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1838,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    3676,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Plugins",
+   "breadcrumbs": "FumadocsFrameworkMDX",
+   "active": false,
+   "textBox": [
+    415,
+    1866,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     1866,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1894,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    3788,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Remark and rehype plugins, with Fumadocs MDX, the official content source of Fumadocs.",
+   "active": false,
+   "textBox": [
+    415,
+    1902,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1902,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1930,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    3860,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "What is Fumadocs",
+   "breadcrumbs": "FumadocsGetting Started",
+   "active": false,
+   "textBox": [
+    415,
+    1958,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     1958,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1986,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    3972,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Fumadocs is built from layers: a headless core, a content source, and a UI on top. You can use them together, or replace any of them.",
+   "active": false,
+   "textBox": [
+    415,
+    1994,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     1994,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2042,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    4084,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Themes",
+   "breadcrumbs": "FumadocsUI",
+   "active": false,
+   "textBox": [
+    415,
+    2070,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     2070,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2098,
+    630,
+    77
+   ],
+   "px": [
+    810,
+    4196,
+    1260,
+    154
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Fumadocs UI adds its own colors, animations and utilities with a Tailwind CSS preset. Import a preset in your global.css, and every component, from the sidebar to the table of contents, follows it.",
+   "active": false,
+   "textBox": [
+    415,
+    2106,
+    610,
+    61
+   ],
+   "lines": [
+    [
+     431,
+     2106,
+     594,
+     61
+    ]
+   ]
+  }
+ ],
+ "footer": {
+  "css": [
+   401,
+   211,
+   638,
+   460
+  ],
+  "px": [
+   802,
+   422,
+   1276,
+   920
+  ]
+ }
+}

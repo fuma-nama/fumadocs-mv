@@ -1,0 +1,40 @@
+---
+title: Search
+description: Implement document search in your docs
+icon: Search
+---
+
+## Search UI
+
+See [Search UI](/docs/ui/search) to learn how to customize the UI of document search.
+
+## Search Client
+
+You can choose & configure the search client according to your search engine, it defaults to ZBSearch.
+
+### Search Hooks
+
+Search clients come with React hooks, like `useFetchSearch()` and `useAlgoliaSearch()`, returning the props of `<SearchDialog />`:
+
+```tsx
+import { useFetchSearch } from 'fumadocs-core/search/client';
+
+const search = useFetchSearch();
+
+<SearchDialog {...search} {...props} />;
+```
+
+Along with `search` and `onSearchChange` for the search input, they return:
+
+- `data`: the last successful search, kept while searching again and after an error.
+  - `items`: its results, with their content also parsed as [hast](https://github.com/syntax-tree/hast) as `hastContent`. The rows of a table are grouped into a `table` item.
+  - `query`: the query it searched for.
+- `error`: set when the last search failed.
+- `isLoading`: whether a search for `search` is pending.
+
+### Community Integrations
+
+A list of integrations maintained by community.
+
+- [Trieve Search](/docs/headless/search/trieve)
+- [Typesense Search](/docs/headless/search/typesense)

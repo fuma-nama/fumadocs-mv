@@ -1,0 +1,209 @@
+{
+ "group": "layouts",
+ "id": "glass",
+ "entry": {
+  "kind": "still+boxes+layers",
+  "path": "layouts/glass.png",
+  "size": [
+   2880,
+   1800
+  ],
+  "css": [
+   1440,
+   900
+  ],
+  "dpr": 2,
+  "layout": "glass",
+  "theme": "neutral",
+  "mode": "dark",
+  "url": "/themes/neutral/x/glass/getting-started/quick-start",
+  "scrollY": 0,
+  "boxes": "layouts/glass.boxes.json",
+  "layers": {
+   "background": "layouts/glass/layers/background.png",
+   "sidebar": "layouts/glass/layers/sidebar.png",
+   "article": "layouts/glass/layers/article.png",
+   "toc": "layouts/glass/layers/toc.png",
+   "pills": "layouts/glass/layers/pills.png"
+  },
+  "keyBoxes": {
+   "header": null,
+   "tabs": null,
+   "sidebar": {
+    "css": [
+     8,
+     8,
+     272,
+     884
+    ],
+    "px": [
+     16,
+     16,
+     544,
+     1768
+    ],
+    "r": 16
+   },
+   "logo": {
+    "css": [
+     27,
+     25,
+     95.88,
+     20
+    ],
+    "px": [
+     54,
+     50,
+     192,
+     40
+    ],
+    "text": "Fumadocs"
+   },
+   "search": {
+    "css": [
+     1158,
+     8,
+     200,
+     40
+    ],
+    "px": [
+     2316,
+     16,
+     400,
+     80
+    ],
+    "r": 33554400,
+    "kbd": [
+     {
+      "css": [
+       1304.19,
+       17,
+       22.41,
+       22
+      ],
+      "px": [
+       2608,
+       34,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "⌘"
+     },
+     {
+      "css": [
+       1328.59,
+       17,
+       22.41,
+       22
+      ],
+      "px": [
+       2657,
+       34,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "K"
+     }
+    ]
+   },
+   "tabDropdown": {
+    "css": [
+     17,
+     59,
+     254,
+     38
+    ],
+    "px": [
+     34,
+     118,
+     508,
+     76
+    ],
+    "r": 12,
+    "text": "Framework"
+   },
+   "toc": {
+    "css": [
+     1200,
+     40,
+     240,
+     860
+    ],
+    "px": [
+     2400,
+     80,
+     480,
+     1720
+    ]
+   },
+   "tocTitle": null,
+   "glass": {
+    "sidebarCard": {
+     "css": [
+      8,
+      8,
+      272,
+      884
+     ],
+     "px": [
+      16,
+      16,
+      544,
+      1768
+     ],
+     "r": 16
+    },
+    "pillRow": {
+     "css": [
+      280,
+      0,
+      1160,
+      48
+     ],
+     "px": [
+      560,
+      0,
+      2320,
+      96
+     ]
+    },
+    "pills": [
+     {
+      "css": [
+       288,
+       8,
+       1070,
+       40
+      ],
+      "px": [
+       576,
+       16,
+       2140,
+       80
+      ],
+      "text": "Search⌘K"
+     },
+     {
+      "css": [
+       1366,
+       8,
+       66,
+       40
+      ],
+      "px": [
+       2732,
+       16,
+       132,
+       80
+      ],
+      "r": 33554400,
+      "text": ""
+     }
+    ]
+   }
+  },
+  "notes": "Quick Start page, scroll 0. Full boxes (sidebar items, article blocks, TOC items + geometry, tabs, controls) in the .boxes.json. Layers: alpha, full frame, stack over the opaque background layer."
+ }
+}

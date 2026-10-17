@@ -1,0 +1,20 @@
+# dependencies and build caches
+node_modules/
+.next/
+.venv/
+*.tsbuildinfo
+.turbo/
+
+# renders and encodes (large, reproducible with mv/render)
+/out/
+
+# music: keep the final mixes and their timing data, not the stems or old takes
+/music/out*/stems*/
+/music/out*/*-v[0-9]*.wav
+
+# OS and editor
+.DS_Store
+*.log
+
+# python
+__pycache__/

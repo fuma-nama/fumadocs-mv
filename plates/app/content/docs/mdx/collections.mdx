@@ -1,0 +1,40 @@
+---
+title: Collections
+description: Collection of content data for your app
+---
+
+## Define Collections
+
+Define a collection to parse a certain set of files.
+
+```ts
+import { defineCollections } from 'fumadocs-mdx/config';
+import { z } from 'zod';
+
+export const blog = defineCollections({
+  type: 'doc',
+  dir: './content/blog',
+  schema: z.object({
+    // schema
+  }),
+  // other options
+});
+```
+
+## Define Docs
+
+Define a collection for Fumadocs.
+
+```ts
+import { defineDocs } from 'fumadocs-mdx/config';
+
+export const docs = defineDocs({
+  dir: '/my/content/dir',
+  docs: {
+    // optional, options of `doc` collection
+  },
+  meta: {
+    // optional, options of `meta` collection
+  },
+});
+```

@@ -1,0 +1,21 @@
+// lucide icons used inside MDX content
+export {
+  BookOpen,
+  NotebookPen,
+  PanelBottom,
+  GlassWater,
+  Maximize,
+  House,
+  Cpu,
+  PanelsTopLeft,
+  FileCode,
+  Terminal,
+  Palette,
+  Search,
+  Blocks,
+  Zap,
+  Layers,
+  Sparkles,
+  Rocket,
+  Library,
+} from 'lucide-react';

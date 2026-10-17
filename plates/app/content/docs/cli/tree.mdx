@@ -1,0 +1,43 @@
+---
+title: Tree
+---
+
+Generate files tree for Fumadocs UI `Files` component, using the `tree` command from your terminal.
+
+```package-install
+npx @fumadocs/cli tree ./my-dir ./output.tsx
+```
+
+You can output MDX files too:
+
+```package-install
+npx @fumadocs/cli tree ./my-dir ./output.mdx
+```
+
+See help for further details:
+
+```package-install
+npx @fumadocs/cli tree -h
+```
+
+#### Example Output
+
+```tsx title="output.tsx"
+import { File, Folder, Files } from 'fumadocs-ui/components/files';
+
+export default (
+  <Files>
+    <Folder name="app">
+      <File name="layout.tsx" />
+      <File name="page.tsx" />
+      <File name="global.css" />
+    </Folder>
+    <Folder name="components">
+      <File name="button.tsx" />
+      <File name="tabs.tsx" />
+      <File name="dialog.tsx" />
+    </Folder>
+    <File name="package.json" />
+  </Files>
+);
+```

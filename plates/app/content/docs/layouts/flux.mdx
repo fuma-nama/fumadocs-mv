@@ -1,0 +1,41 @@
+---
+title: Flux Layout
+description: An aggressively minimal layout for docs
+---
+
+A docs layout that impractically minimal & clean, originally made for experimental purpose.
+
+## Usage
+
+Enable the Flux layout with `fumadocs-ui/layouts/flux`.
+
+```tsx title="layout.tsx"
+import { DocsLayout } from 'fumadocs-ui/layouts/flux'; // [!code highlight]
+import { baseOptions } from '@/lib/layout.shared';
+import { source } from '@/lib/source';
+import type { ReactNode } from 'react';
+
+export default function Layout({ children }: { children: ReactNode }) {
+  return (
+    <DocsLayout {...baseOptions()} tree={source.getPageTree()}>
+      {children}
+    </DocsLayout>
+  );
+}
+```
+
+<Callout title="Important to know">
+
+- It is best to be paired with [static/local search](/docs/search/orama#static), the navigation is more efficient using document search.
+- It prioritizes subjective aesthetics over user experience.
+- It is opinionated, use Fumadocs CLI for customization instead.
+
+</Callout>
+
+## Configurations
+
+The options are inherited from [Docs Layout](/docs/ui/layouts/docs), with minor differences:
+
+- Flux layout is a client component, you cannot pass unserializable props from a server component.
+- A `renderNavigationPanel` prop to customize the bottom navigation panel.
+- There is no `tocPopover` options.

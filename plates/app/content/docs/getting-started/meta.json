@@ -1,0 +1,6 @@
+{
+  "title": "Getting Started",
+  "icon": "Rocket",
+  "defaultOpen": true,
+  "pages": ["introduction", "quick-start", "what-is-fumadocs", "comparisons"]
+}

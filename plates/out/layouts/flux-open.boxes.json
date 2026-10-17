@@ -1,0 +1,1273 @@
+{
+ "viewport": [
+  1440,
+  900
+ ],
+ "dpr": 2,
+ "scrollY": 0,
+ "root": {
+  "id": "nd-flux-layout",
+  "css": [
+   0,
+   0,
+   1440,
+   2701.88
+  ],
+  "px": [
+   0,
+   0,
+   2880,
+   5404
+  ]
+ },
+ "background": "rgb(18, 18, 18)",
+ "header": null,
+ "headerBody": null,
+ "tabs": null,
+ "logo": {
+  "css": [
+   541,
+   799,
+   97.88,
+   20
+  ],
+  "px": [
+   1082,
+   1598,
+   196,
+   40
+  ],
+  "text": "Fumadocs"
+ },
+ "logoMark": {
+  "css": [
+   541,
+   799,
+   20,
+   20
+  ],
+  "px": [
+   1082,
+   1598,
+   40,
+   40
+  ]
+ },
+ "search": null,
+ "searchIcons": [
+  {
+   "css": [
+    779,
+    838,
+    30,
+    30
+   ],
+   "px": [
+    1558,
+    1676,
+    60,
+    60
+   ],
+   "r": 8
+  }
+ ],
+ "themeToggles": [
+  {
+   "css": [
+    843,
+    835,
+    62,
+    36
+   ],
+   "px": [
+    1686,
+    1670,
+    124,
+    72
+   ],
+   "r": 12
+  }
+ ],
+ "github": [
+  {
+   "css": [
+    740,
+    838,
+    30,
+    30
+   ],
+   "px": [
+    1480,
+    1676,
+    60,
+    60
+   ],
+   "r": 6
+  }
+ ],
+ "tabDropdown": {
+  "css": [
+   535,
+   836,
+   196,
+   34
+  ],
+  "px": [
+   1070,
+   1672,
+   392,
+   68
+  ],
+  "r": 12,
+  "text": "Framework"
+ },
+ "sidebar": {
+  "box": {
+   "css": [
+    520,
+    64,
+    400,
+    600
+   ],
+   "px": [
+    1040,
+    128,
+    800,
+    1200
+   ]
+  },
+  "background": "rgba(0, 0, 0, 0)",
+  "items": [
+   {
+    "css": [
+     536,
+     80,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     160,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Getting Started",
+    "depth": 0,
+    "active": false,
+    "open": true,
+    "icon": [
+     544,
+     90,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     536,
+     116,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     232,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Introduction",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     536,
+     152,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     304,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Quick Start",
+    "depth": 1,
+    "active": true
+   },
+   {
+    "css": [
+     536,
+     188,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     376,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "What is Fumadocs",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     536,
+     224,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     448,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Comparisons",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     536,
+     284,
+     368,
+     20
+    ],
+    "px": [
+     1072,
+     568,
+     736,
+     40
+    ],
+    "kind": "separator",
+    "text": "UI",
+    "depth": 0,
+    "active": false
+   },
+   {
+    "css": [
+     536,
+     310,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     620,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Layouts",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     544,
+     320,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     536,
+     346,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     692,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Themes",
+    "depth": 0,
+    "active": false,
+    "icon": [
+     544,
+     356,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     536,
+     382,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     764,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Components",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     544,
+     392,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     536,
+     418,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     836,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Search",
+    "depth": 0,
+    "active": false,
+    "icon": [
+     544,
+     428,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     536,
+     478,
+     368,
+     20
+    ],
+    "px": [
+     1072,
+     956,
+     736,
+     40
+    ],
+    "kind": "separator",
+    "text": "Framework",
+    "depth": 0,
+    "active": false
+   },
+   {
+    "css": [
+     536,
+     504,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     1008,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Core",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     544,
+     514,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     536,
+     540,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     1080,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "MDX",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     544,
+     550,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     536,
+     576,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     1152,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "CLI",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     544,
+     586,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     536,
+     612,
+     368,
+     36
+    ],
+    "px": [
+     1072,
+     1224,
+     736,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Integrations",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     544,
+     622,
+     16,
+     16
+    ]
+   }
+  ],
+  "footer": null
+ },
+ "main": {
+  "css": [
+   270,
+   0,
+   900,
+   2605.88
+  ],
+  "px": [
+   540,
+   0,
+   1800,
+   5212
+  ]
+ },
+ "article": {
+  "box": {
+   "css": [
+    270,
+    0,
+    900,
+    2605.88
+   ],
+   "px": [
+    540,
+    0,
+    1800,
+    5212
+   ]
+  },
+  "breadcrumb": {
+   "css": [
+    302,
+    56,
+    836,
+    20
+   ],
+   "px": [
+    604,
+    112,
+    1672,
+    40
+   ]
+  },
+  "h1": {
+   "css": [
+    302,
+    92,
+    836,
+    42
+   ],
+   "px": [
+    604,
+    184,
+    1672,
+    84
+   ],
+   "text": "Quick Start"
+  },
+  "description": {
+   "css": [
+    302,
+    150,
+    836,
+    28
+   ],
+   "px": [
+    604,
+    300,
+    1672,
+    56
+   ],
+   "text": "Getting Started with Fumadocs"
+  },
+  "actions": {
+   "css": [
+    302,
+    194,
+    836,
+    55
+   ],
+   "px": [
+    604,
+    388,
+    1672,
+    110
+   ],
+   "buttons": [
+    {
+     "css": [
+      302,
+      194,
+      130.94,
+      30
+     ],
+     "px": [
+      604,
+      388,
+      262,
+      60
+     ],
+     "r": 6,
+     "text": "Copy Markdown"
+    },
+    {
+     "css": [
+      440.94,
+      194,
+      70.08,
+      30
+     ],
+     "px": [
+      882,
+      388,
+      140,
+      60
+     ],
+     "r": 6,
+     "text": "Open"
+    }
+   ]
+  },
+  "blocks": [
+   {
+    "css": [
+     302,
+     265,
+     836,
+     31.98
+    ],
+    "px": [
+     604,
+     530,
+     1672,
+     64
+    ],
+    "kind": "h2",
+    "id": "introduction",
+    "text": "Introduction"
+   },
+   {
+    "css": [
+     302,
+     320.98,
+     836,
+     56
+    ],
+    "px": [
+     604,
+     642,
+     1672,
+     112
+    ],
+    "kind": "p",
+    "text": "Fumadocs (Foo-ma docs) is a documentation framework, designed to be fast, flexible, and composes seamlessly into your React framework. It consists of multiple layers:"
+   },
+   {
+    "css": [
+     302,
+     396.98,
+     836,
+     284
+    ],
+    "px": [
+     604,
+     794,
+     1672,
+     568
+    ],
+    "kind": "cards",
+    "cards": [
+     {
+      "css": [
+       302,
+       396.98,
+       412,
+       136
+      ],
+      "px": [
+       604,
+       794,
+       824,
+       272
+      ],
+      "r": 12,
+      "title": "Fumadocs Core",
+      "text": "Fumadocs CoreHandles most of the logic, including document search, content source adapters, and Markdown extensions."
+     },
+     {
+      "css": [
+       726,
+       396.98,
+       412,
+       136
+      ],
+      "px": [
+       1452,
+       794,
+       824,
+       272
+      ],
+      "r": 12,
+      "title": "Fumadocs UI",
+      "text": "Fumadocs UIThe default theme of Fumadocs offers a beautiful look for documentation sites and interactive components."
+     },
+     {
+      "css": [
+       302,
+       544.98,
+       412,
+       136
+      ],
+      "px": [
+       604,
+       1090,
+       824,
+       272
+      ],
+      "r": 12,
+      "title": "Content Source",
+      "text": "Content SourceThe source of your content, can be a CMS or local data layers like Fumadocs MDX (the official content source)."
+     },
+     {
+      "css": [
+       726,
+       544.98,
+       412,
+       136
+      ],
+      "px": [
+       1452,
+       1090,
+       824,
+       272
+      ],
+      "r": 12,
+      "title": "Fumadocs CLI",
+      "text": "Fumadocs CLIA command line tool to install UI components and automate things, useful for customizing layouts."
+     }
+    ]
+   },
+   {
+    "css": [
+     302,
+     696.98,
+     836,
+     74
+    ],
+    "px": [
+     604,
+     1394,
+     1672,
+     148
+    ],
+    "r": 12,
+    "kind": "callout",
+    "title": "Want to learn more?",
+    "text": "Want to learn more?Read our in-depth What is Fumadocs introduction.",
+    "color": "lab(54.1736% 13.3369 -74.6839)"
+   },
+   {
+    "css": [
+     302,
+     802.98,
+     836,
+     32
+    ],
+    "px": [
+     604,
+     1606,
+     1672,
+     64
+    ],
+    "kind": "h3",
+    "id": "terminology",
+    "text": "Terminology"
+   },
+   {
+    "css": [
+     302,
+     846.98,
+     836,
+     56
+    ],
+    "px": [
+     604,
+     1694,
+     1672,
+     112
+    ],
+    "kind": "p",
+    "text": "Markdown/MDX: Markdown is a markup language for creating formatted text. Fumadocs natively supports Markdown and MDX (superset of Markdown)."
+   },
+   {
+    "css": [
+     302,
+     922.98,
+     836,
+     28
+    ],
+    "px": [
+     604,
+     1846,
+     1672,
+     56
+    ],
+    "kind": "p",
+    "text": "Bun: A JavaScript runtime, it will be used in our guides for running scripts. If you prefer Node.js, try unrun instead."
+   },
+   {
+    "css": [
+     302,
+     970.98,
+     836,
+     28
+    ],
+    "px": [
+     604,
+     1942,
+     1672,
+     56
+    ],
+    "kind": "p",
+    "text": "Some basic knowledge of React.js would be useful for further customizations."
+   },
+   {
+    "css": [
+     302,
+     1046.98,
+     836,
+     31.98
+    ],
+    "px": [
+     604,
+     2094,
+     1672,
+     64
+    ],
+    "kind": "h2",
+    "id": "automatic-installation",
+    "text": "Automatic Installation"
+   },
+   {
+    "css": [
+     302,
+     1102.97,
+     836,
+     28
+    ],
+    "px": [
+     604,
+     2206,
+     1672,
+     56
+    ],
+    "kind": "p",
+    "text": "A minimum version of Node.js 22 required."
+   },
+   {
+    "css": [
+     302,
+     1150.97,
+     836,
+     81.56
+    ],
+    "px": [
+     604,
+     2302,
+     1672,
+     163
+    ],
+    "r": 12,
+    "kind": "codetabs",
+    "list": [
+     303,
+     1151.97,
+     834,
+     32
+    ],
+    "tabs": [
+     {
+      "css": [
+       311,
+       1151.97,
+       44.78,
+       32
+      ],
+      "px": [
+       622,
+       2304,
+       90,
+       64
+      ],
+      "text": "npm",
+      "selected": true
+     },
+     {
+      "css": [
+       355.78,
+       1151.97,
+       53.16,
+       32
+      ],
+      "px": [
+       712,
+       2304,
+       106,
+       64
+      ],
+      "text": "pnpm",
+      "selected": false
+     },
+     {
+      "css": [
+       408.94,
+       1151.97,
+       44.58,
+       32
+      ],
+      "px": [
+       818,
+       2304,
+       89,
+       64
+      ],
+      "text": "yarn",
+      "selected": false
+     },
+     {
+      "css": [
+       453.52,
+       1151.97,
+       40.86,
+       32
+      ],
+      "px": [
+       907,
+       2304,
+       82,
+       64
+      ],
+      "text": "bun",
+      "selected": false
+     }
+    ],
+    "panel": [
+     303,
+     1183.97,
+     834,
+     48.56
+    ],
+    "text": "npm create fumadocs-app"
+   },
+   {
+    "css": [
+     302,
+     1252.53,
+     836,
+     28
+    ],
+    "px": [
+     604,
+     2505,
+     1672,
+     56
+    ],
+    "kind": "p",
+    "text": "It will ask you the built-in template to use:"
+   },
+   {
+    "css": [
+     302,
+     1300.53,
+     836,
+     64
+    ],
+    "px": [
+     604,
+     2601,
+     1672,
+     128
+    ],
+    "kind": "list",
+    "items": [
+     {
+      "css": [
+       318,
+       1300.53,
+       820,
+       28
+      ],
+      "px": [
+       636,
+       2601,
+       1640,
+       56
+      ],
+      "text": "Framework: Next.js, Astro (with React), Waku, React Router, Tanstack Start."
+     },
+     {
+      "css": [
+       318,
+       1336.53,
+       820,
+       28
+      ],
+      "px": [
+       636,
+       2673,
+       1640,
+       56
+      ],
+      "text": "Content source: Fumadocs MDX."
+     }
+    ]
+   },
+   {
+    "css": [
+     302,
+     1384.53,
+     836,
+     74
+    ],
+    "px": [
+     604,
+     2769,
+     1672,
+     148
+    ],
+    "r": 12,
+    "kind": "callout",
+    "title": "From Existing Codebase?",
+    "text": "From Existing Codebase?You can follow the Manual Installation guide to get started.",
+    "color": "lab(54.1736% 13.3369 -74.6839)"
+   },
+   {
+    "css": [
+     302,
+     1490.53,
+     836,
+     32
+    ],
+    "px": [
+     604,
+     2981,
+     1672,
+     64
+    ],
+    "kind": "h3",
+    "id": "enjoy",
+    "text": "Enjoy!"
+   },
+   {
+    "css": [
+     302,
+     1534.53,
+     836,
+     28
+    ],
+    "px": [
+     604,
+     3069,
+     1672,
+     56
+    ],
+    "kind": "p",
+    "text": "Create your first MDX file in the docs folder."
+   }
+  ]
+ },
+ "toc": null,
+ "flux": {
+  "panel": {
+   "css": [
+    530,
+    786,
+    380,
+    90
+   ],
+   "px": [
+    1060,
+    1572,
+    760,
+    180
+   ],
+   "r": 16
+  },
+  "rows": [
+   {
+    "css": [
+     531,
+     787,
+     378,
+     44
+    ],
+    "px": [
+     1062,
+     1574,
+     756,
+     88
+    ]
+   },
+   {
+    "css": [
+     531,
+     831,
+     378,
+     44
+    ],
+    "px": [
+     1062,
+     1662,
+     756,
+     88
+    ]
+   }
+  ],
+  "tocPopover": {
+   "css": [
+    646.88,
+    791,
+    258.13,
+    36
+   ],
+   "px": [
+    1294,
+    1582,
+    516,
+    72
+   ],
+   "r": 12,
+   "text": "Introduction"
+  },
+  "progress": {
+   "css": [
+    655.88,
+    800,
+    18,
+    18
+   ],
+   "px": [
+    1312,
+    1600,
+    36,
+    36
+   ],
+   "value": "0.25"
+  },
+  "controls": [
+   {
+    "css": [
+     541,
+     799,
+     97.88,
+     20
+    ],
+    "px": [
+     1082,
+     1598,
+     196,
+     40
+    ],
+    "label": "Fumadocs"
+   },
+   {
+    "css": [
+     647.88,
+     792,
+     256.13,
+     34
+    ],
+    "px": [
+     1296,
+     1584,
+     512,
+     68
+    ],
+    "label": "Introduction"
+   },
+   {
+    "css": [
+     535,
+     836,
+     196,
+     34
+    ],
+    "px": [
+     1070,
+     1672,
+     392,
+     68
+    ],
+    "r": 12,
+    "label": "Framework"
+   },
+   {
+    "css": [
+     740,
+     838,
+     30,
+     30
+    ],
+    "px": [
+     1480,
+     1676,
+     60,
+     60
+    ],
+    "r": 6,
+    "label": "GitHub"
+   },
+   {
+    "css": [
+     779,
+     838,
+     30,
+     30
+    ],
+    "px": [
+     1558,
+     1676,
+     60,
+     60
+    ],
+    "r": 8,
+    "label": "Open Search"
+   },
+   {
+    "css": [
+     809,
+     838,
+     30,
+     30
+    ],
+    "px": [
+     1618,
+     1676,
+     60,
+     60
+    ],
+    "r": 6,
+    "label": "Close Sidebar"
+   },
+   {
+    "css": [
+     843,
+     835,
+     62,
+     36
+    ],
+    "px": [
+     1686,
+     1670,
+     124,
+     72
+    ],
+    "r": 12,
+    "label": "Toggle Theme"
+   }
+  ],
+  "overlay": {
+   "css": [
+    0,
+    0,
+    1440,
+    900
+   ],
+   "px": [
+    0,
+    0,
+    2880,
+    1800
+   ],
+   "opacity": "1",
+   "sidebar": [
+    520,
+    64,
+    400,
+    600
+   ]
+  }
+ },
+ "url": "/themes/neutral/x/flux/getting-started/quick-start",
+ "theme": "neutral",
+ "mode": "dark",
+ "layout": "flux-open"
+}

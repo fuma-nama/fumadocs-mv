@@ -1,0 +1,266 @@
+{
+ "group": "integrations",
+ "id": "sanity",
+ "entry": {
+  "kind": "still+block layers",
+  "path": "integrations/sanity/page.png",
+  "css": [
+   1920,
+   1080
+  ],
+  "dpr": 2,
+  "theme": "neutral",
+  "mode": "dark",
+  "url": "/themes/neutral/integrations/sanity",
+  "blocks": [
+   {
+    "index": 0,
+    "tag": "p",
+    "css": [
+     542,
+     265,
+     836,
+     56
+    ],
+    "px": [
+     1084,
+     530,
+     1672,
+     112
+    ],
+    "text": "Write in Sanity Studio, publish with Fumadocs. Pages are fetched from your dataset, and Portable Text blocks are rendere",
+    "kind": "p",
+    "layer": "integrations/sanity/blocks/00-p.png"
+   },
+   {
+    "index": 1,
+    "tag": "h2",
+    "css": [
+     542,
+     369,
+     836,
+     31.98
+    ],
+    "px": [
+     1084,
+     738,
+     1672,
+     64
+    ],
+    "text": "Content Source",
+    "kind": "h2",
+    "layer": "integrations/sanity/blocks/01-h2.png"
+   },
+   {
+    "index": 2,
+    "tag": "p",
+    "css": [
+     542,
+     424.98,
+     836,
+     28
+    ],
+    "px": [
+     1084,
+     850,
+     1672,
+     56
+    ],
+    "text": "Create a source from your Sanity client, the page tree is generated from your documents.",
+    "kind": "p",
+    "layer": "integrations/sanity/blocks/02-p.png"
+   },
+   {
+    "index": 3,
+    "tag": "figure",
+    "css": [
+     542,
+     472.98,
+     836,
+     216.5
+    ],
+    "px": [
+     1084,
+     946,
+     1672,
+     433
+    ],
+    "r": 12,
+    "text": "lib/source.tsimport { loader } from 'fumadocs-core/source'; import { createSanitySource } from '@fumadocs/sanity'; impor",
+    "kind": "code",
+    "layer": "integrations/sanity/blocks/03-code.png"
+   },
+   {
+    "index": 4,
+    "tag": "div",
+    "css": [
+     542,
+     705.48,
+     836,
+     74.56
+    ],
+    "px": [
+     1084,
+     1411,
+     1672,
+     149
+    ],
+    "r": 12,
+    "text": "Live previewEdits in Sanity Studio show up on the page as you type, powered by next-sanity/live.",
+    "kind": "callout",
+    "layer": "integrations/sanity/blocks/04-callout.png"
+   },
+   {
+    "index": 5,
+    "tag": "h2",
+    "css": [
+     542,
+     828.05,
+     836,
+     31.98
+    ],
+    "px": [
+     1084,
+     1656,
+     1672,
+     64
+    ],
+    "text": "Blocks",
+    "kind": "h2",
+    "layer": "integrations/sanity/blocks/05-h2.png"
+   },
+   {
+    "index": 6,
+    "tag": "p",
+    "css": [
+     542,
+     884.03,
+     836,
+     28
+    ],
+    "px": [
+     1084,
+     1768,
+     1672,
+     56
+    ],
+    "text": "Headings, paragraphs, code and callouts in your Portable Text become the same components as in MDX.",
+    "kind": "p",
+    "layer": "integrations/sanity/blocks/06-p.png"
+   },
+   {
+    "index": 7,
+    "tag": "div",
+    "css": [
+     542,
+     932.03,
+     836,
+     116
+    ],
+    "px": [
+     1084,
+     1864,
+     1672,
+     232
+    ],
+    "text": "Structured contentModel pages as documents, reuse blocks across pages.Live previewSee changes from the Studio instantly.",
+    "kind": "cards",
+    "layer": "integrations/sanity/blocks/07-cards.png"
+   },
+   {
+    "index": 8,
+    "tag": "h2",
+    "css": [
+     542,
+     1096.03,
+     836,
+     31.98
+    ],
+    "px": [
+     1084,
+     2192,
+     1672,
+     64
+    ],
+    "text": "Search",
+    "kind": "h2",
+    "layer": "integrations/sanity/blocks/08-h2.png"
+   },
+   {
+    "index": 9,
+    "tag": "p",
+    "css": [
+     542,
+     1152.02,
+     836,
+     28
+    ],
+    "px": [
+     1084,
+     2304,
+     1672,
+     56
+    ],
+    "text": "Structured data is extracted from each document, so the built-in search works out of the box.",
+    "kind": "p",
+    "layer": "integrations/sanity/blocks/09-p.png"
+   }
+  ],
+  "layers": {
+   "toc": "integrations/sanity/layers/toc.png",
+   "pageHeader": "integrations/sanity/layers/page-header.png",
+   "chrome": "integrations/sanity/layers/chrome.png"
+  },
+  "toc": [
+   {
+    "css": [
+     1469,
+     80,
+     251,
+     26
+    ],
+    "px": [
+     2938,
+     160,
+     502,
+     52
+    ],
+    "text": "Content Source",
+    "active": true
+   },
+   {
+    "css": [
+     1469,
+     106,
+     251,
+     32
+    ],
+    "px": [
+     2938,
+     212,
+     502,
+     64
+    ],
+    "text": "Blocks",
+    "active": true
+   },
+   {
+    "css": [
+     1469,
+     138,
+     251,
+     26
+    ],
+    "px": [
+     2938,
+     276,
+     502,
+     52
+    ],
+    "text": "Search",
+    "active": false
+   }
+  ],
+  "notes": "Sanity is not wired to a hosted project (needs one); this is the docs page with the block types @fumadocs/sanity pages render through Fumadocs components (paragraph, h2, code block, Callout, Cards). Each block is a full-frame alpha layer (blocks/NN-kind.png) at its real position; chrome.png = everything except the article content and TOC (opaque); stack chrome + page-header + blocks + toc to rebuild page.png."
+ }
+}

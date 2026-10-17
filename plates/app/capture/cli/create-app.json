@@ -1,0 +1,81 @@
+{
+ "cmd": [
+  "npm",
+  "create",
+  "fumadocs-app@latest"
+ ],
+ "cwd": "$WORKDIR",
+ "cols": 100,
+ "rows": 34,
+ "tail": 400,
+ "steps": [
+  {
+   "label": "start",
+   "settle": 0.2
+  },
+  {
+   "wait": "Ok to proceed",
+   "label": "npm: Ok to proceed? (y)",
+   "settle": 0.5,
+   "send": [
+    "y",
+    "\r"
+   ],
+   "delay": 0.3
+  },
+  {
+   "wait": "Project name",
+   "label": "prompt: project name",
+   "send": [
+    "m",
+    "y",
+    "-",
+    "d",
+    "o",
+    "c",
+    "s"
+   ],
+   "delay": 0.12
+  },
+  {
+   "label": "typed my-docs",
+   "settle": 0.3,
+   "send": "\r"
+  },
+  {
+   "wait": "Choose a template",
+   "label": "prompt: template",
+   "send": "\r"
+  },
+  {
+   "wait": "src. directory",
+   "label": "prompt: src",
+   "send": "\r"
+  },
+  {
+   "wait": "Configure linter",
+   "label": "prompt: linter",
+   "send": "\r"
+  },
+  {
+   "wait": "Choose a search solution",
+   "label": "prompt: search",
+   "send": "\r"
+  },
+  {
+   "wait": "Open Graph",
+   "label": "prompt: og image",
+   "send": "\r"
+  },
+  {
+   "wait": "Configure AI Chat",
+   "label": "prompt: ai chat",
+   "send": "\r"
+  },
+  {
+   "wait": "install packages automatically",
+   "label": "prompt: install",
+   "send": "\r"
+  }
+ ]
+}

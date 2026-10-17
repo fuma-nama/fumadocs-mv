@@ -1,0 +1,1803 @@
+{
+ "viewport": [
+  1440,
+  900
+ ],
+ "dpr": 2,
+ "scrollY": 0,
+ "root": {
+  "id": "nd-notebook-layout",
+  "css": [
+   0,
+   0,
+   1440,
+   2661.88
+  ],
+  "px": [
+   0,
+   0,
+   2880,
+   5324
+  ]
+ },
+ "background": "rgb(245, 245, 245)",
+ "header": {
+  "css": [
+   268,
+   0,
+   1172,
+   56
+  ],
+  "px": [
+   536,
+   0,
+   2344,
+   112
+  ],
+  "id": "nd-subnav"
+ },
+ "headerBody": {
+  "css": [
+   268,
+   0,
+   1172,
+   56
+  ],
+  "px": [
+   536,
+   0,
+   2344,
+   112
+  ]
+ },
+ "tabs": null,
+ "logo": {
+  "css": [
+   15,
+   16,
+   97.88,
+   31
+  ],
+  "px": [
+   30,
+   32,
+   196,
+   62
+  ],
+  "text": "Fumadocs"
+ },
+ "logoMark": {
+  "css": [
+   15,
+   21.5,
+   20,
+   20
+  ],
+  "px": [
+   30,
+   43,
+   40,
+   40
+  ]
+ },
+ "search": {
+  "css": [
+   284,
+   9.5,
+   240,
+   36
+  ],
+  "px": [
+   568,
+   19,
+   480,
+   72
+  ],
+  "r": 8,
+  "kbd": [
+   {
+    "css": [
+     470.19,
+     16.5,
+     22.41,
+     22
+    ],
+    "px": [
+     940,
+     33,
+     45,
+     44
+    ],
+    "r": 6,
+    "text": "⌘"
+   },
+   {
+    "css": [
+     494.59,
+     16.5,
+     22.41,
+     22
+    ],
+    "px": [
+     989,
+     33,
+     45,
+     44
+    ],
+    "r": 6,
+    "text": "K"
+   }
+  ]
+ },
+ "searchIcons": [],
+ "themeToggles": [
+  {
+   "css": [
+    1362,
+    9.5,
+    62,
+    36
+   ],
+   "px": [
+    2724,
+    19,
+    124,
+    72
+   ],
+   "r": 33554400
+  }
+ ],
+ "github": [
+  {
+   "css": [
+    1324,
+    12.5,
+    30,
+    30
+   ],
+   "px": [
+    2648,
+    25,
+    60,
+    60
+   ],
+   "r": 6
+  }
+ ],
+ "tabDropdown": {
+  "css": [
+   15,
+   59,
+   236,
+   38
+  ],
+  "px": [
+   30,
+   118,
+   472,
+   76
+  ],
+  "r": 8,
+  "text": "FrameworkThe docs framework"
+ },
+ "sidebar": {
+  "box": {
+   "css": [
+    0,
+    0,
+    268,
+    900
+   ],
+   "px": [
+    0,
+    0,
+    536,
+    1800
+   ]
+  },
+  "background": "rgb(241, 241, 241)",
+  "items": [
+   {
+    "css": [
+     15,
+     121,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     242,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Getting Started",
+    "depth": 0,
+    "active": false,
+    "open": true,
+    "icon": [
+     23,
+     131,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     15,
+     159,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     318,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Introduction",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     15,
+     197,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     394,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Quick Start",
+    "depth": 1,
+    "active": true
+   },
+   {
+    "css": [
+     15,
+     235,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     470,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "What is Fumadocs",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     15,
+     273,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     546,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Comparisons",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     15,
+     335,
+     236,
+     20
+    ],
+    "px": [
+     30,
+     670,
+     472,
+     40
+    ],
+    "kind": "separator",
+    "text": "UI",
+    "depth": 0,
+    "active": false
+   },
+   {
+    "css": [
+     15,
+     363,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     726,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Layouts",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     23,
+     373,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     15,
+     401,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     802,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Themes",
+    "depth": 0,
+    "active": false,
+    "icon": [
+     23,
+     411,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     15,
+     439,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     878,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Components",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     23,
+     449,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     15,
+     477,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     954,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Search",
+    "depth": 0,
+    "active": false,
+    "icon": [
+     23,
+     487,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     15,
+     539,
+     236,
+     20
+    ],
+    "px": [
+     30,
+     1078,
+     472,
+     40
+    ],
+    "kind": "separator",
+    "text": "Framework",
+    "depth": 0,
+    "active": false
+   },
+   {
+    "css": [
+     15,
+     567,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     1134,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Core",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     23,
+     577,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     15,
+     605,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     1210,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "MDX",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     23,
+     615,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     15,
+     643,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     1286,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "CLI",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     23,
+     653,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     15,
+     681,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     1362,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Integrations",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     23,
+     691,
+     16,
+     16
+    ]
+   }
+  ],
+  "footer": null
+ },
+ "main": {
+  "css": [
+   268,
+   56,
+   904,
+   2605.88
+  ],
+  "px": [
+   536,
+   112,
+   1808,
+   5212
+  ]
+ },
+ "article": {
+  "box": {
+   "css": [
+    268,
+    56,
+    904,
+    2605.88
+   ],
+   "px": [
+    536,
+    112,
+    1808,
+    5212
+   ]
+  },
+  "breadcrumb": {
+   "css": [
+    300,
+    112,
+    840,
+    20
+   ],
+   "px": [
+    600,
+    224,
+    1680,
+    40
+   ]
+  },
+  "h1": {
+   "css": [
+    300,
+    148,
+    840,
+    42
+   ],
+   "px": [
+    600,
+    296,
+    1680,
+    84
+   ],
+   "text": "Quick Start"
+  },
+  "description": {
+   "css": [
+    300,
+    206,
+    840,
+    28
+   ],
+   "px": [
+    600,
+    412,
+    1680,
+    56
+   ],
+   "text": "Getting Started with Fumadocs"
+  },
+  "actions": {
+   "css": [
+    300,
+    250,
+    840,
+    55
+   ],
+   "px": [
+    600,
+    500,
+    1680,
+    110
+   ],
+   "buttons": [
+    {
+     "css": [
+      300,
+      250,
+      130.94,
+      30
+     ],
+     "px": [
+      600,
+      500,
+      262,
+      60
+     ],
+     "r": 6,
+     "text": "Copy Markdown"
+    },
+    {
+     "css": [
+      438.94,
+      250,
+      70.08,
+      30
+     ],
+     "px": [
+      878,
+      500,
+      140,
+      60
+     ],
+     "r": 6,
+     "text": "Open"
+    }
+   ]
+  },
+  "blocks": [
+   {
+    "css": [
+     300,
+     321,
+     840,
+     31.98
+    ],
+    "px": [
+     600,
+     642,
+     1680,
+     64
+    ],
+    "kind": "h2",
+    "id": "introduction",
+    "text": "Introduction"
+   },
+   {
+    "css": [
+     300,
+     376.98,
+     840,
+     56
+    ],
+    "px": [
+     600,
+     754,
+     1680,
+     112
+    ],
+    "kind": "p",
+    "text": "Fumadocs (Foo-ma docs) is a documentation framework, designed to be fast, flexible, and composes seamlessly into your React framework. It consists of multiple layers:"
+   },
+   {
+    "css": [
+     300,
+     452.98,
+     840,
+     284
+    ],
+    "px": [
+     600,
+     906,
+     1680,
+     568
+    ],
+    "kind": "cards",
+    "cards": [
+     {
+      "css": [
+       300,
+       452.98,
+       414,
+       136
+      ],
+      "px": [
+       600,
+       906,
+       828,
+       272
+      ],
+      "r": 12,
+      "title": "Fumadocs Core",
+      "text": "Fumadocs CoreHandles most of the logic, including document search, content source adapters, and Markdown extensions."
+     },
+     {
+      "css": [
+       726,
+       452.98,
+       414,
+       136
+      ],
+      "px": [
+       1452,
+       906,
+       828,
+       272
+      ],
+      "r": 12,
+      "title": "Fumadocs UI",
+      "text": "Fumadocs UIThe default theme of Fumadocs offers a beautiful look for documentation sites and interactive components."
+     },
+     {
+      "css": [
+       300,
+       600.98,
+       414,
+       136
+      ],
+      "px": [
+       600,
+       1202,
+       828,
+       272
+      ],
+      "r": 12,
+      "title": "Content Source",
+      "text": "Content SourceThe source of your content, can be a CMS or local data layers like Fumadocs MDX (the official content source)."
+     },
+     {
+      "css": [
+       726,
+       600.98,
+       414,
+       136
+      ],
+      "px": [
+       1452,
+       1202,
+       828,
+       272
+      ],
+      "r": 12,
+      "title": "Fumadocs CLI",
+      "text": "Fumadocs CLIA command line tool to install UI components and automate things, useful for customizing layouts."
+     }
+    ]
+   },
+   {
+    "css": [
+     300,
+     752.98,
+     840,
+     74
+    ],
+    "px": [
+     600,
+     1506,
+     1680,
+     148
+    ],
+    "r": 12,
+    "kind": "callout",
+    "title": "Want to learn more?",
+    "text": "Want to learn more?Read our in-depth What is Fumadocs introduction.",
+    "color": "lab(54.1736% 13.3369 -74.6839)"
+   },
+   {
+    "css": [
+     300,
+     858.98,
+     840,
+     32
+    ],
+    "px": [
+     600,
+     1718,
+     1680,
+     64
+    ],
+    "kind": "h3",
+    "id": "terminology",
+    "text": "Terminology"
+   },
+   {
+    "css": [
+     300,
+     902.98,
+     840,
+     56
+    ],
+    "px": [
+     600,
+     1806,
+     1680,
+     112
+    ],
+    "kind": "p",
+    "text": "Markdown/MDX: Markdown is a markup language for creating formatted text. Fumadocs natively supports Markdown and MDX (superset of Markdown)."
+   },
+   {
+    "css": [
+     300,
+     978.98,
+     840,
+     28
+    ],
+    "px": [
+     600,
+     1958,
+     1680,
+     56
+    ],
+    "kind": "p",
+    "text": "Bun: A JavaScript runtime, it will be used in our guides for running scripts. If you prefer Node.js, try unrun instead."
+   },
+   {
+    "css": [
+     300,
+     1026.98,
+     840,
+     28
+    ],
+    "px": [
+     600,
+     2054,
+     1680,
+     56
+    ],
+    "kind": "p",
+    "text": "Some basic knowledge of React.js would be useful for further customizations."
+   },
+   {
+    "css": [
+     300,
+     1102.98,
+     840,
+     31.98
+    ],
+    "px": [
+     600,
+     2206,
+     1680,
+     64
+    ],
+    "kind": "h2",
+    "id": "automatic-installation",
+    "text": "Automatic Installation"
+   },
+   {
+    "css": [
+     300,
+     1158.97,
+     840,
+     28
+    ],
+    "px": [
+     600,
+     2318,
+     1680,
+     56
+    ],
+    "kind": "p",
+    "text": "A minimum version of Node.js 22 required."
+   },
+   {
+    "css": [
+     300,
+     1206.97,
+     840,
+     81.56
+    ],
+    "px": [
+     600,
+     2414,
+     1680,
+     163
+    ],
+    "r": 12,
+    "kind": "codetabs",
+    "list": [
+     301,
+     1207.97,
+     838,
+     32
+    ],
+    "tabs": [
+     {
+      "css": [
+       309,
+       1207.97,
+       44.78,
+       32
+      ],
+      "px": [
+       618,
+       2416,
+       90,
+       64
+      ],
+      "text": "npm",
+      "selected": true
+     },
+     {
+      "css": [
+       353.78,
+       1207.97,
+       53.16,
+       32
+      ],
+      "px": [
+       708,
+       2416,
+       106,
+       64
+      ],
+      "text": "pnpm",
+      "selected": false
+     },
+     {
+      "css": [
+       406.94,
+       1207.97,
+       44.58,
+       32
+      ],
+      "px": [
+       814,
+       2416,
+       89,
+       64
+      ],
+      "text": "yarn",
+      "selected": false
+     },
+     {
+      "css": [
+       451.52,
+       1207.97,
+       40.86,
+       32
+      ],
+      "px": [
+       903,
+       2416,
+       82,
+       64
+      ],
+      "text": "bun",
+      "selected": false
+     }
+    ],
+    "panel": [
+     301,
+     1239.97,
+     838,
+     48.56
+    ],
+    "text": "npm create fumadocs-app"
+   },
+   {
+    "css": [
+     300,
+     1308.53,
+     840,
+     28
+    ],
+    "px": [
+     600,
+     2617,
+     1680,
+     56
+    ],
+    "kind": "p",
+    "text": "It will ask you the built-in template to use:"
+   },
+   {
+    "css": [
+     300,
+     1356.53,
+     840,
+     64
+    ],
+    "px": [
+     600,
+     2713,
+     1680,
+     128
+    ],
+    "kind": "list",
+    "items": [
+     {
+      "css": [
+       316,
+       1356.53,
+       824,
+       28
+      ],
+      "px": [
+       632,
+       2713,
+       1648,
+       56
+      ],
+      "text": "Framework: Next.js, Astro (with React), Waku, React Router, Tanstack Start."
+     },
+     {
+      "css": [
+       316,
+       1392.53,
+       824,
+       28
+      ],
+      "px": [
+       632,
+       2785,
+       1648,
+       56
+      ],
+      "text": "Content source: Fumadocs MDX."
+     }
+    ]
+   },
+   {
+    "css": [
+     300,
+     1440.53,
+     840,
+     74
+    ],
+    "px": [
+     600,
+     2881,
+     1680,
+     148
+    ],
+    "r": 12,
+    "kind": "callout",
+    "title": "From Existing Codebase?",
+    "text": "From Existing Codebase?You can follow the Manual Installation guide to get started.",
+    "color": "lab(54.1736% 13.3369 -74.6839)"
+   },
+   {
+    "css": [
+     300,
+     1546.53,
+     840,
+     32
+    ],
+    "px": [
+     600,
+     3093,
+     1680,
+     64
+    ],
+    "kind": "h3",
+    "id": "enjoy",
+    "text": "Enjoy!"
+   },
+   {
+    "css": [
+     300,
+     1590.53,
+     840,
+     28
+    ],
+    "px": [
+     600,
+     3181,
+     1680,
+     56
+    ],
+    "kind": "p",
+    "text": "Create your first MDX file in the docs folder."
+   }
+  ]
+ },
+ "toc": {
+  "box": {
+   "css": [
+    1172,
+    56,
+    268,
+    844
+   ],
+   "px": [
+    2344,
+    112,
+    536,
+    1688
+   ]
+  },
+  "title": {
+   "css": [
+    1172,
+    104,
+    252,
+    20
+   ],
+   "px": [
+    2344,
+    208,
+    504,
+    40
+   ],
+   "text": "On this page"
+  },
+  "items": [
+   {
+    "css": [
+     1173,
+     136,
+     251,
+     26
+    ],
+    "px": [
+     2346,
+     272,
+     502,
+     52
+    ],
+    "text": "Introduction",
+    "active": true
+   },
+   {
+    "css": [
+     1173,
+     162,
+     251,
+     32
+    ],
+    "px": [
+     2346,
+     324,
+     502,
+     64
+    ],
+    "text": "Terminology",
+    "active": true
+   },
+   {
+    "css": [
+     1173,
+     194,
+     251,
+     32
+    ],
+    "px": [
+     2346,
+     388,
+     502,
+     64
+    ],
+    "text": "Automatic Installation",
+    "active": false
+   },
+   {
+    "css": [
+     1173,
+     226,
+     251,
+     32
+    ],
+    "px": [
+     2346,
+     452,
+     502,
+     64
+    ],
+    "text": "Enjoy!",
+    "active": false
+   },
+   {
+    "css": [
+     1173,
+     258,
+     251,
+     32
+    ],
+    "px": [
+     2346,
+     516,
+     502,
+     64
+    ],
+    "text": "FAQ",
+    "active": false
+   },
+   {
+    "css": [
+     1173,
+     290,
+     251,
+     32
+    ],
+    "px": [
+     2346,
+     580,
+     502,
+     64
+    ],
+    "text": "Learn More",
+    "active": false
+   },
+   {
+    "css": [
+     1173,
+     322,
+     251,
+     32
+    ],
+    "px": [
+     2346,
+     644,
+     502,
+     64
+    ],
+    "text": "Writing Content",
+    "active": false
+   },
+   {
+    "css": [
+     1173,
+     354,
+     251,
+     26
+    ],
+    "px": [
+     2346,
+     708,
+     502,
+     52
+    ],
+    "text": "Special Needs",
+    "active": false
+   }
+  ],
+  "geometry": {
+   "container": [
+    1173,
+    136,
+    251,
+    244
+   ],
+   "title": {
+    "rect": [
+     -1,
+     -32,
+     252,
+     20
+    ],
+    "text": "On this page",
+    "icon": [
+     -1,
+     -30,
+     16,
+     16
+    ]
+   },
+   "scroller": [
+    0,
+    -12,
+    251,
+    268
+   ],
+   "items": [
+    {
+     "title": "Introduction",
+     "depth": 2,
+     "baseline": 15,
+     "url": "#introduction",
+     "active": true,
+     "rect": [
+      0,
+      0,
+      251,
+      26
+     ],
+     "offset": [
+      0,
+      0,
+      251,
+      26
+     ],
+     "padding": [
+      0,
+      0,
+      6,
+      20
+     ],
+     "textBox": [
+      20,
+      1,
+      77.38,
+      18
+     ],
+     "textTop": 0,
+     "textBottom": 20,
+     "color": "rgb(23, 23, 23)",
+     "rail": {
+      "rect": [
+       0,
+       -6,
+       17,
+       26
+      ],
+      "paths": [
+       {
+        "line": [
+         "8.5",
+         "6",
+         "8.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Terminology",
+     "depth": 3,
+     "baseline": 47,
+     "url": "#terminology",
+     "active": true,
+     "rect": [
+      0,
+      26,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      26,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      32
+     ],
+     "textBox": [
+      32,
+      33,
+      77.78,
+      18
+     ],
+     "textTop": 32,
+     "textBottom": 52,
+     "color": "rgb(23, 23, 23)",
+     "rail": {
+      "rect": [
+       0,
+       20,
+       25,
+       32
+      ],
+      "paths": [
+       {
+        "d": "M 8.5 0 C 8.5 8 16.5 4 16.5 12"
+       },
+       {
+        "line": [
+         "16.5",
+         "12",
+         "16.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Automatic Installation",
+     "depth": 2,
+     "baseline": 79,
+     "url": "#automatic-installation",
+     "active": false,
+     "rect": [
+      0,
+      58,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      58,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      20
+     ],
+     "textBox": [
+      20,
+      65,
+      139.23,
+      18
+     ],
+     "textTop": 64,
+     "textBottom": 84,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       52,
+       25,
+       32
+      ],
+      "paths": [
+       {
+        "d": "M 16.5 0 C 16.5 8 8.5 4 8.5 12"
+       },
+       {
+        "line": [
+         "8.5",
+         "12",
+         "8.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Enjoy!",
+     "depth": 3,
+     "baseline": 111,
+     "url": "#enjoy",
+     "active": false,
+     "rect": [
+      0,
+      90,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      90,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      32
+     ],
+     "textBox": [
+      32,
+      97,
+      37.83,
+      18
+     ],
+     "textTop": 96,
+     "textBottom": 116,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       84,
+       25,
+       32
+      ],
+      "paths": [
+       {
+        "d": "M 8.5 0 C 8.5 8 16.5 4 16.5 12"
+       },
+       {
+        "line": [
+         "16.5",
+         "12",
+         "16.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "FAQ",
+     "depth": 2,
+     "baseline": 143,
+     "url": "#faq",
+     "active": false,
+     "rect": [
+      0,
+      122,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      122,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      20
+     ],
+     "textBox": [
+      20,
+      129,
+      26.34,
+      18
+     ],
+     "textTop": 128,
+     "textBottom": 148,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       116,
+       25,
+       38
+      ],
+      "paths": [
+       {
+        "d": "M 16.5 0 C 16.5 8 8.5 4 8.5 12"
+       },
+       {
+        "line": [
+         "8.5",
+         "12",
+         "8.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Learn More",
+     "depth": 2,
+     "baseline": 175,
+     "url": "#learn-more",
+     "active": false,
+     "rect": [
+      0,
+      154,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      154,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      20
+     ],
+     "textBox": [
+      20,
+      161,
+      72.16,
+      18
+     ],
+     "textTop": 160,
+     "textBottom": 180,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       148,
+       17,
+       32
+      ],
+      "paths": [
+       {
+        "line": [
+         "8.5",
+         "6",
+         "8.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Writing Content",
+     "depth": 3,
+     "baseline": 207,
+     "url": "#writing-content",
+     "active": false,
+     "rect": [
+      0,
+      186,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      186,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      32
+     ],
+     "textBox": [
+      32,
+      193,
+      100.33,
+      18
+     ],
+     "textTop": 192,
+     "textBottom": 212,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       180,
+       25,
+       38
+      ],
+      "paths": [
+       {
+        "d": "M 8.5 0 C 8.5 8 16.5 4 16.5 12"
+       },
+       {
+        "line": [
+         "16.5",
+         "12",
+         "16.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Special Needs",
+     "depth": 3,
+     "baseline": 239,
+     "url": "#special-needs",
+     "active": false,
+     "rect": [
+      0,
+      218,
+      251,
+      26
+     ],
+     "offset": [
+      0,
+      218,
+      251,
+      26
+     ],
+     "padding": [
+      6,
+      0,
+      0,
+      32
+     ],
+     "textBox": [
+      32,
+      225,
+      91.63,
+      18
+     ],
+     "textTop": 224,
+     "textBottom": 244,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       212,
+       25,
+       32
+      ],
+      "paths": [
+       {
+        "line": [
+         "16.5",
+         "6",
+         "16.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "thumb": {
+    "rect": [
+     0,
+     0,
+     24.5,
+     244
+    ],
+    "d": " M8.5 0 L8.5 20 C 8.5 28 16.5 24 16.5 32 L16.5 52 C 16.5 60 8.5 56 8.5 64 L8.5 84 C 8.5 92 16.5 88 16.5 96 L16.5 116 C 16.5 124 8.5 120 8.5 128 L8.5 148 C 8.5 156 8.5 152 8.5 160 L8.5 180 C 8.5 188 16.5 184 16.5 192 L16.5 212 C 16.5 220 16.5 216 16.5 224 L16.5 244",
+    "svgClip": "polygon(0px 0px, 100% 0px, 100% 52px, 0px 52px)",
+    "trackTop": "0px",
+    "trackBottom": "52px",
+    "offsetDistance": "56px",
+    "dot": {
+     "rect": [
+      14.36,
+      50.54,
+      4.24,
+      4.24
+     ],
+     "offsetPath": "path(\"M 8.5 0 L 8.5 20 C 8.5 28 16.5 24 16.5 32 L 16.5 52 C 16.5 60 8.5 56 8.5 64 L 8.5 84 C 8.5 92 16.5 88 16.5 96 L 16.5 116 C 16.5 124 8.5 120 8.5 128 L 8.5 148 C 8.5 156 8.5 152 8.5 160 L 8.5 180 C 8.5 188 16.5 184 16.5 192 L 16.5 212 C 16.5 220 16.5 216 16.5 224 L 16.5 244\")",
+     "opacity": "1"
+    },
+    "stroke": "rgb(23, 23, 23)",
+    "totalLength": 261.58,
+    "itemLineLengths": [
+     [
+      0,
+      20
+     ],
+     [
+      36,
+      56
+     ],
+     [
+      72,
+      92
+     ],
+     [
+      107,
+      127
+     ],
+     [
+      143,
+      163
+     ],
+     [
+      175,
+      195
+     ],
+     [
+      210,
+      230
+     ],
+     [
+      242,
+      262
+     ]
+    ],
+    "dotSize": 4
+   }
+  }
+ },
+ "url": "/themes/neutral/x/notebook/getting-started/quick-start",
+ "theme": "neutral",
+ "mode": "light",
+ "layout": "notebook"
+}

@@ -1,0 +1,40 @@
+/* customisation demos for the CLI scene, enabled with ?v=... (see components/variant.tsx) */
+html[data-v~='sidebar'] #nd-sidebar,
+html[data-v~='sidebar'] #nd-notebook-layout #nd-sidebar {
+  background-color: color-mix(in oklab, var(--color-fd-primary) 10%, var(--color-fd-card));
+  border-color: color-mix(in oklab, var(--color-fd-primary) 35%, transparent);
+}
+
+html[data-v~='sidebar'] #nd-sidebar :is(a[data-active], button[data-panel-open], div[data-closed] > button, div[data-open] > button) {
+  border-radius: 9999px;
+  padding-block: 0.625rem;
+  padding-inline: 0.875rem;
+  font-weight: 500;
+}
+
+html[data-v~='sidebar'] #nd-sidebar a[data-active='true'] {
+  background-color: var(--color-fd-primary);
+  color: var(--color-fd-primary-foreground);
+}
+
+html[data-v~='sidebar'] #nd-sidebar a[data-active='true']::before {
+  display: none;
+}
+
+html[data-v~='sidebar'] #nd-sidebar button[data-search-full] {
+  border-radius: 9999px;
+  border-color: color-mix(in oklab, var(--color-fd-primary) 40%, transparent);
+}
+
+html[data-v~='serif'] body {
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+}
+
+html[data-v~='serif'] :is(h1, h2, h3, h4) {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+html[data-v~='mono'] body {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Fumadocs MDX",
+  "icon": "Pencil",
+  "pages": [
+    "collections",
+    "async",
+    "plugins"
+  ]
+}

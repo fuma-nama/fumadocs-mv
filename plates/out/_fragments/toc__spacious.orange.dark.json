@@ -1,0 +1,293 @@
+{
+ "group": "toc",
+ "id": "spacious.orange.dark",
+ "entry": {
+  "kind": "geometry+stills+sequences",
+  "layout": "spacious",
+  "theme": "neutral (+ primary #FA8023)",
+  "mode": "dark",
+  "url": "/themes/orange/x/spacious/getting-started/introduction",
+  "dpr": 2,
+  "viewport": [
+   1280,
+   800
+  ],
+  "trigger": {
+   "still": "toc/spacious-orange-dark/trigger.png",
+   "frame": "toc/spacious-orange-dark/frame.png",
+   "geometry": "toc/spacious-orange-dark/trigger.json",
+   "clip": [
+    269,
+    9,
+    1002,
+    56
+   ]
+  },
+  "sequences": [
+   {
+    "from": "layouts",
+    "to": "docs",
+    "pattern": "toc/spacious-orange-dark/roll-layouts__docs/%04d.png",
+    "count": 48,
+    "fps": 60,
+    "durationMs": 320,
+    "stretch": 2.5,
+    "animations": [
+     {
+      "type": "CSSTransition",
+      "name": "stroke-dashoffset",
+      "target": "circle",
+      "duration": 300,
+      "delay": 0,
+      "endTime": 300,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "clip-path",
+      "target": "div",
+      "duration": 300,
+      "delay": 0,
+      "endTime": 300,
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "fd-roll-in",
+      "target": "span",
+      "duration": 320,
+      "delay": 0,
+      "endTime": 320,
+      "easing": "linear",
+      "currentTime": 0
+     }
+    ]
+   },
+   {
+    "from": "docs",
+    "to": "notebook",
+    "pattern": "toc/spacious-orange-dark/roll-docs__notebook/%04d.png",
+    "count": 48,
+    "fps": 60,
+    "durationMs": 320,
+    "stretch": 2.5,
+    "animations": [
+     {
+      "type": "CSSTransition",
+      "name": "stroke-dashoffset",
+      "target": "circle",
+      "duration": 300,
+      "delay": 0,
+      "endTime": 300,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "clip-path",
+      "target": "div",
+      "duration": 300,
+      "delay": 0,
+      "endTime": 300,
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "fd-roll-in",
+      "target": "span",
+      "duration": 320,
+      "delay": 0,
+      "endTime": 320,
+      "easing": "linear",
+      "currentTime": 0
+     }
+    ]
+   },
+   {
+    "from": "notebook",
+    "to": "layouts",
+    "pattern": "toc/spacious-orange-dark/roll-notebook__layouts/%04d.png",
+    "count": 48,
+    "fps": 60,
+    "durationMs": 320,
+    "stretch": 2.5,
+    "animations": [
+     {
+      "type": "CSSTransition",
+      "name": "stroke-dashoffset",
+      "target": "circle",
+      "duration": 300,
+      "delay": 0,
+      "endTime": 300,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "clip-path",
+      "target": "div",
+      "duration": 300,
+      "delay": 0,
+      "endTime": 300,
+      "easing": "cubic-bezier(0, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "a",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "fd-roll-in",
+      "target": "span",
+      "duration": 320,
+      "delay": 0,
+      "endTime": 320,
+      "easing": "linear",
+      "currentTime": 0
+     }
+    ]
+   }
+  ],
+  "notes": "Spacious page-panel header at 1280x800: the TOC column is hidden (panel < 1024px), so the header shows the TOC dropdown trigger (progress circle + active heading that rolls in from the scroll direction, fd-roll-in 320ms). Sequences: crop of the header while the active heading changes (downwards then upwards), stretched to 48 frames."
+ }
+}

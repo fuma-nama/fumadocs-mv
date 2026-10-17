@@ -1,0 +1,11 @@
+{
+  "title": "Fumadocs Core",
+  "icon": "Cuboid",
+  "pages": [
+    "source-api",
+    "page-tree",
+    "breadcrumb",
+    "toc",
+    "headless-search"
+  ]
+}

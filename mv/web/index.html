@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>README · Fumadocs MV</title>
+    <meta name="description" content="「README」, a music video for Fumadocs, rendered live in your browser, with an explorer and inspector around it." />
+    <meta name="theme-color" content="#0A0A0B" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%23FA8023'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body data-state="loading" data-tab="explorer">
+    <header id="top">
+      <h1><span class="brand">README</span> · Fumadocs MV</h1>
+      <p id="status" role="status">Loading 0%</p>
+      <nav>
+        <a href="https://fumadocs.dev" target="_blank" rel="noopener">fumadocs.dev</a>
+        <a href="https://fumadocs.dev/docs" target="_blank" rel="noopener">Docs</a>
+        <button id="keys" type="button" aria-label="Keyboard shortcuts" aria-expanded="false" aria-controls="card" title="Keys (?)">?</button>
+      </nav>
+    </header>
+
+    <aside id="explorer" aria-label="Explorer">
+      <h2>Explorer</h2>
+      <ul class="tree">
+        <li>
+          <div class="row root"><span>Film</span><small id="film-meta"></small></div>
+          <ul id="film"></ul>
+        </li>
+      </ul>
+    </aside>
+
+    <section id="view" aria-label="Viewport">
+      <div id="toolbar" role="toolbar" aria-label="Viewport">
+        <div class="seg" role="group" aria-label="Camera">
+          <button id="cam-director" type="button" aria-pressed="true">Director</button>
+          <button id="cam-free" type="button" aria-pressed="false" title="Free camera (C)">Free</button>
+        </div>
+        <button id="xray" type="button" aria-pressed="false" title="X-ray (X)">X-ray</button>
+        <button id="reset" type="button" title="Reset view (0)">Reset</button>
+        <output id="stats"></output>
+        <button id="full" type="button" aria-label="Full screen" title="Full screen (F)">
+          <svg class="line" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5m6 0h5v5m0 6v5h-5m-6 0H4v-5" /></svg>
+        </button>
+      </div>
+      <div id="frame">
+        <div id="screen">
+          <canvas id="out"></canvas>
+          <canvas id="overlay" aria-hidden="true"></canvas>
+          <img id="poster" src="./poster.jpg" alt="「README」 Fumadocs MV" />
+          <div id="gate">
+            <button id="start" type="button" disabled>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
+              Play with sound
+            </button>
+            <p id="note">Loading</p>
+          </div>
+          <p id="hint" role="status"></p>
+        </div>
+      </div>
+    </section>
+
+    <aside id="inspector" aria-label="Inspector">
+      <section>
+        <h2>Selection</h2>
+        <p id="s-none" class="none">Click an object in the viewport, or a row in the Explorer.</p>
+        <dl id="s-info" hidden>
+          <dt>Type</dt>
+          <dd id="s-type"></dd>
+          <dt>Name</dt>
+          <dd id="s-name"></dd>
+          <dt>Geometry</dt>
+          <dd id="s-geo"></dd>
+          <dt>Triangles</dt>
+          <dd id="s-tris"></dd>
+          <dt>Material</dt>
+          <dd><i id="s-swatch"></i><span id="s-mat"></span></dd>
+          <dt>Position</dt>
+          <dd id="s-pos"></dd>
+          <dt>Size</dt>
+          <dd id="s-size"></dd>
+        </dl>
+      </section>
+      <section>
+        <h2>Frame</h2>
+        <dl>
+          <dt>Time</dt>
+          <dd id="f-time"></dd>
+          <dt>Frame</dt>
+          <dd id="f-frame"></dd>
+          <dt>Bar</dt>
+          <dd id="f-bar"></dd>
+          <dt>Scene</dt>
+          <dd id="f-scene"></dd>
+        </dl>
+      </section>
+      <section>
+        <h2>Feature</h2>
+        <a id="f-link" target="_blank" rel="noopener"></a>
+        <p id="f-about"></p>
+      </section>
+      <section>
+        <h2>Lyric</h2>
+        <p id="l-jp" lang="ja"><b></b><span></span></p>
+        <p id="l-en"></p>
+      </section>
+      <section>
+        <h2>Render</h2>
+        <dl>
+          <dt>CPU</dt>
+          <dd id="r-ms"></dd>
+          <dt>Draws</dt>
+          <dd id="r-draws"></dd>
+          <dt>Triangles</dt>
+          <dd id="r-tris"></dd>
+          <dt>Textures</dt>
+          <dd id="r-tex"></dd>
+          <dt>Programs</dt>
+          <dd id="r-prog"></dd>
+        </dl>
+      </section>
+    </aside>
+
+    <footer id="timeline" aria-label="Timeline">
+      <div id="transport">
+        <button id="prev-scene" type="button" aria-label="Previous scene" title="Previous scene"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h1.5v12H5zm1.5 6L13 7v10zm6 0L19 7v10z" /></svg></button>
+        <button id="prev-beat" type="button" aria-label="Back one beat" title="Back one beat ([)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 7-5v10zm7 0 7-5v10z" /></svg></button>
+        <button id="prev-frame" type="button" aria-label="Back one frame" title="Back one frame (,)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h1.5v12H6zm3 6 9-6v12z" /></svg></button>
+        <button id="toggle" type="button" aria-label="Play" title="Play / pause (Space)">
+          <svg class="play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
+          <svg class="pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zm6 0h4v14h-4z" /></svg>
+        </button>
+        <button id="next-frame" type="button" aria-label="Forward one frame" title="Forward one frame (.)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 6H18v12h-1.5zM15 12 6 6v12z" /></svg></button>
+        <button id="next-beat" type="button" aria-label="Forward one beat" title="Forward one beat (])"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m19 12-7-5v10zm-7 0L5 7v10z" /></svg></button>
+        <button id="next-scene" type="button" aria-label="Next scene" title="Next scene"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 6H19v12h-1.5zm0 6L11 7v10zm-6 0L5 7v10z" /></svg></button>
+        <output id="t-time">00:00:00</output>
+        <output id="t-frame">F 0</output>
+        <output id="t-bar">01 · 1</output>
+      </div>
+      <div id="tracks">
+        <span>Bars</span>
+        <span>Scenes</span>
+        <span>Lyrics</span>
+        <span>Audio</span>
+        <div id="lanes">
+          <canvas id="ruler"></canvas>
+          <div id="scene-clips" class="lane"></div>
+          <div id="lyric-clips" class="lane"></div>
+          <canvas id="wave"></canvas>
+          <i id="playhead"></i>
+        </div>
+      </div>
+    </footer>
+
+    <div id="tabs" role="tablist" aria-label="Panels">
+      <button id="tab-explorer" type="button" role="tab" aria-controls="explorer" aria-selected="true">Explorer</button>
+      <button id="tab-inspector" type="button" role="tab" aria-controls="inspector" aria-selected="false">Inspector</button>
+    </div>
+
+    <section id="card" aria-label="Keyboard shortcuts" hidden>
+      <h2>Keys</h2>
+      <dl>
+        <dt>Space / K</dt>
+        <dd>Play, pause</dd>
+        <dt>, / .</dt>
+        <dd>Frame back, forward</dd>
+        <dt>[ / ]</dt>
+        <dd>Beat back, forward</dd>
+        <dt>Left / Right</dt>
+        <dd>Seek 5 s</dd>
+        <dt>1-9</dt>
+        <dd>Scenes</dd>
+        <dt>C</dt>
+        <dd>Director or free camera</dd>
+        <dt>X</dt>
+        <dd>X-ray</dd>
+        <dt>I</dt>
+        <dd>Hide or show the panels</dd>
+        <dt>F</dt>
+        <dd>Full screen</dd>
+        <dt>Esc</dt>
+        <dd>Clear the selection</dd>
+      </dl>
+      <h2>Free camera</h2>
+      <dl>
+        <dt>Drag, Shift + arrows</dt>
+        <dd>Orbit</dd>
+        <dt>Wheel, + / -</dt>
+        <dd>Zoom</dd>
+        <dt>Right or Shift drag</dt>
+        <dd>Pan</dd>
+        <dt>Double-click, 0</dt>
+        <dd>Reset</dd>
+      </dl>
+    </section>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

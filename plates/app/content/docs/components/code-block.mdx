@@ -1,0 +1,45 @@
+---
+title: Code Block
+description: Displaying Shiki highlighted code blocks
+---
+
+This is a **MDX component** meant to be used with [Rehype Code](/docs/headless/mdx/rehype-code) to display highlighted codeblocks.
+You can refer to [Markdown](/docs/markdown#codeblock) for the syntax of writing codeblocks.
+
+Supported features:
+
+- Copy button
+- Custom titles and icons
+
+## Usage
+
+Wrap the pre element in `<CodeBlock />`, which acts as the wrapper of code block.
+
+```tsx title="components/mdx.tsx"
+import defaultComponents from 'fumadocs-ui/mdx';
+import type { MDXComponents } from 'mdx/types';
+import { CodeBlock, Pre } from 'fumadocs-ui/components/codeblock';
+
+export function getMDXComponents(components?: MDXComponents) {
+  return {
+    ...defaultComponents,
+    // HTML `ref` attribute conflicts with `forwardRef`
+    pre: ({ ref: _ref, ...props }) => (
+      <CodeBlock {...props}>
+        <Pre>{props.children}</Pre> {/* [!code highlight] */}
+      </CodeBlock>
+    ),
+    ...components,
+  } satisfies MDXComponents;
+}
+```
+
+### Icons
+
+Specify a custom icon by passing an `icon` prop to `CodeBlock` component.
+
+By default, the icon will be injected by the custom Shiki transformer.
+
+```js title="config.js"
+console.log('js');
+```

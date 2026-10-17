@@ -1,0 +1,625 @@
+{
+ "group": "read",
+ "id": "extras.orange.light",
+ "entry": {
+  "kind": "states+closeups",
+  "css": [
+   1440,
+   810
+  ],
+  "dpr": 2,
+  "closeupDpr": 4,
+  "theme": "orange",
+  "mode": "light",
+  "url": "/themes/orange/getting-started/introduction",
+  "tabs": {
+   "clip": [
+    294,
+    291.67,
+    852,
+    116
+   ],
+   "scrollY": 1682,
+   "states": {
+    "next-js": {
+     "still": "read/orange-light/extras/tabs-next-js.png",
+     "tabs": [
+      {
+       "css": [
+        319,
+        300.67,
+        45.95,
+        37
+       ],
+       "px": [
+        638,
+        601,
+        92,
+        74
+       ],
+       "doc": [
+        319,
+        1982.67,
+        45.95,
+        37
+       ],
+       "text": "Next.js",
+       "selected": true
+      },
+      {
+       "css": [
+        378.95,
+        300.67,
+        86.08,
+        37
+       ],
+       "px": [
+        758,
+        601,
+        172,
+        74
+       ],
+       "doc": [
+        378.95,
+        1982.67,
+        86.08,
+        37
+       ],
+       "text": "React Router",
+       "selected": false
+      },
+      {
+       "css": [
+        479.03,
+        300.67,
+        96.09,
+        37
+       ],
+       "px": [
+        958,
+        601,
+        192,
+        74
+       ],
+       "doc": [
+        479.03,
+        1982.67,
+        96.09,
+        37
+       ],
+       "text": "Tanstack Start",
+       "selected": false
+      }
+     ],
+     "panel": {
+      "css": [
+       303,
+       337.67,
+       834,
+       61
+      ],
+      "px": [
+       606,
+       675,
+       1668,
+       122
+      ],
+      "doc": [
+       303,
+       2019.67,
+       834,
+       61
+      ],
+      "r": 12
+     }
+    },
+    "react-router": {
+     "still": "read/orange-light/extras/tabs-react-router.png",
+     "tabs": [
+      {
+       "css": [
+        319,
+        300.67,
+        45.95,
+        37
+       ],
+       "px": [
+        638,
+        601,
+        92,
+        74
+       ],
+       "doc": [
+        319,
+        1982.67,
+        45.95,
+        37
+       ],
+       "text": "Next.js",
+       "selected": false
+      },
+      {
+       "css": [
+        378.95,
+        300.67,
+        86.08,
+        37
+       ],
+       "px": [
+        758,
+        601,
+        172,
+        74
+       ],
+       "doc": [
+        378.95,
+        1982.67,
+        86.08,
+        37
+       ],
+       "text": "React Router",
+       "selected": true
+      },
+      {
+       "css": [
+        479.03,
+        300.67,
+        96.09,
+        37
+       ],
+       "px": [
+        958,
+        601,
+        192,
+        74
+       ],
+       "doc": [
+        479.03,
+        1982.67,
+        96.09,
+        37
+       ],
+       "text": "Tanstack Start",
+       "selected": false
+      }
+     ],
+     "panel": {
+      "css": [
+       303,
+       337.67,
+       834,
+       61
+      ],
+      "px": [
+       606,
+       675,
+       1668,
+       122
+      ],
+      "doc": [
+       303,
+       2019.67,
+       834,
+       61
+      ],
+      "r": 12
+     }
+    },
+    "tanstack-start": {
+     "still": "read/orange-light/extras/tabs-tanstack-start.png",
+     "tabs": [
+      {
+       "css": [
+        319,
+        300.67,
+        45.95,
+        37
+       ],
+       "px": [
+        638,
+        601,
+        92,
+        74
+       ],
+       "doc": [
+        319,
+        1982.67,
+        45.95,
+        37
+       ],
+       "text": "Next.js",
+       "selected": false
+      },
+      {
+       "css": [
+        378.95,
+        300.67,
+        86.08,
+        37
+       ],
+       "px": [
+        758,
+        601,
+        172,
+        74
+       ],
+       "doc": [
+        378.95,
+        1982.67,
+        86.08,
+        37
+       ],
+       "text": "React Router",
+       "selected": false
+      },
+      {
+       "css": [
+        479.03,
+        300.67,
+        96.09,
+        37
+       ],
+       "px": [
+        958,
+        601,
+        192,
+        74
+       ],
+       "doc": [
+        479.03,
+        1982.67,
+        96.09,
+        37
+       ],
+       "text": "Tanstack Start",
+       "selected": true
+      }
+     ],
+     "panel": {
+      "css": [
+       303,
+       337.67,
+       834,
+       61
+      ],
+      "px": [
+       606,
+       675,
+       1668,
+       122
+      ],
+      "doc": [
+       303,
+       2019.67,
+       834,
+       61
+      ],
+      "r": 12
+     }
+    }
+   }
+  },
+  "copy": {
+   "clip": [
+    294,
+    191.8,
+    852,
+    343.88
+   ],
+   "button": {
+    "x": 1105,
+    "y": 206.796875,
+    "width": 24,
+    "height": 24
+   },
+   "states": {
+    "idle": "read/orange-light/extras/copy-idle.png",
+    "hover-block": "read/orange-light/extras/copy-hover-block.png",
+    "hover-button": "read/orange-light/extras/copy-hover-button.png",
+    "pressed": "read/orange-light/extras/copy-pressed.png",
+    "copied": "read/orange-light/extras/copy-copied.png",
+    "copied-mouse-away": "read/orange-light/extras/copy-copied-mouse-away.png"
+   },
+   "note": "Clicking swaps the Clipboard icon for a Check (no animation besides a 100 ms colour transition) for ~1.5 s, then it swaps back."
+  },
+  "closeups": {
+   "code-config": {
+    "box": {
+     "css": [
+      302,
+      199.8,
+      836,
+      327.88
+     ],
+     "px": [
+      1208,
+      799,
+      3344,
+      1312
+     ],
+     "doc": [
+      302,
+      1457.8,
+      836,
+      327.88
+     ],
+     "r": 12
+    },
+    "file": "read/orange-light/extras/closeups/code-config.png",
+    "opaque": "read/orange-light/extras/closeups/code-config.opaque.png"
+   },
+   "npm-tabs": {
+    "box": {
+     "css": [
+      347,
+      199.98,
+      791,
+      81.56
+     ],
+     "px": [
+      1388,
+      800,
+      3164,
+      326
+     ],
+     "doc": [
+      347,
+      605.98,
+      791,
+      81.56
+     ],
+     "r": 12
+    },
+    "file": "read/orange-light/extras/closeups/npm-tabs.png",
+    "opaque": "read/orange-light/extras/closeups/npm-tabs.opaque.png"
+   },
+   "callout-info": {
+    "box": {
+     "css": [
+      302,
+      299.55,
+      836,
+      74
+     ],
+     "px": [
+      1208,
+      1198,
+      3344,
+      296
+     ],
+     "doc": [
+      302,
+      917.55,
+      836,
+      74
+     ],
+     "r": 12
+    },
+    "file": "read/orange-light/extras/closeups/callout-info.png",
+    "opaque": "read/orange-light/extras/closeups/callout-info.opaque.png"
+   },
+   "callout-warn": {
+    "box": {
+     "css": [
+      302,
+      299.67,
+      836,
+      74
+     ],
+     "px": [
+      1208,
+      1199,
+      3344,
+      296
+     ],
+     "doc": [
+      302,
+      1891.67,
+      836,
+      74
+     ],
+     "r": 12
+    },
+    "file": "read/orange-light/extras/closeups/callout-warn.png",
+    "opaque": "read/orange-light/extras/closeups/callout-warn.opaque.png"
+   },
+   "cards-layouts": {
+    "box": {
+     "css": [
+      302,
+      119.89,
+      836,
+      372
+     ],
+     "px": [
+      1208,
+      480,
+      3344,
+      1488
+     ],
+     "doc": [
+      302,
+      3368.89,
+      836,
+      372
+     ]
+    },
+    "file": "read/orange-light/extras/closeups/cards-layouts.png",
+    "opaque": "read/orange-light/extras/closeups/cards-layouts.opaque.png"
+   },
+   "tabs": {
+    "box": {
+     "css": [
+      302,
+      299.67,
+      836,
+      100
+     ],
+     "px": [
+      1208,
+      1199,
+      3344,
+      400
+     ],
+     "doc": [
+      302,
+      1981.67,
+      836,
+      100
+     ],
+     "r": 12
+    },
+    "file": "read/orange-light/extras/closeups/tabs.png",
+    "opaque": "read/orange-light/extras/closeups/tabs.opaque.png"
+   },
+   "steps": {
+    "box": {
+     "css": [
+      318,
+      59.98,
+      820,
+      383.56
+     ],
+     "px": [
+      1272,
+      240,
+      3280,
+      1534
+     ],
+     "doc": [
+      318,
+      513.98,
+      820,
+      383.56
+     ]
+    },
+    "file": "read/orange-light/extras/closeups/steps.png",
+    "opaque": "read/orange-light/extras/closeups/steps.opaque.png"
+   },
+   "files": {
+    "box": {
+     "css": [
+      302,
+      119.73,
+      836,
+      274
+     ],
+     "px": [
+      1208,
+      479,
+      3344,
+      1096
+     ],
+     "doc": [
+      302,
+      5486.73,
+      836,
+      274
+     ],
+     "r": 6
+    },
+    "file": "read/orange-light/extras/closeups/files.png",
+    "opaque": "read/orange-light/extras/closeups/files.opaque.png"
+   },
+   "typetable": {
+    "box": {
+     "css": [
+      302,
+      200.03,
+      836,
+      152
+     ],
+     "px": [
+      1208,
+      800,
+      3344,
+      608
+     ],
+     "doc": [
+      302,
+      2543.03,
+      836,
+      152
+     ],
+     "r": 16
+    },
+    "file": "read/orange-light/extras/closeups/typetable.png",
+    "opaque": "read/orange-light/extras/closeups/typetable.opaque.png"
+   },
+   "toc": {
+    "box": {
+     "css": [
+      1172,
+      0,
+      268,
+      810
+     ],
+     "px": [
+      4688,
+      0,
+      1072,
+      3240
+     ]
+    },
+    "file": "read/orange-light/extras/closeups/toc.png",
+    "opaque": "read/orange-light/extras/closeups/toc.opaque.png"
+   },
+   "search-trigger": {
+    "box": {
+     "css": [
+      15,
+      58,
+      236,
+      36
+     ],
+     "px": [
+      60,
+      232,
+      944,
+      144
+     ],
+     "r": 8
+    },
+    "file": "read/orange-light/extras/closeups/search-trigger.png",
+    "opaque": "read/orange-light/extras/closeups/search-trigger.opaque.png"
+   },
+   "sidebar": {
+    "box": {
+     "css": [
+      0,
+      0,
+      268,
+      810
+     ],
+     "px": [
+      0,
+      0,
+      1072,
+      3240
+     ]
+    },
+    "file": "read/orange-light/extras/closeups/sidebar.png",
+    "opaque": "read/orange-light/extras/closeups/sidebar.opaque.png"
+   },
+   "logo": {
+    "box": {
+     "css": [
+      15,
+      16,
+      102.73,
+      30
+     ],
+     "px": [
+      60,
+      64,
+      411,
+      120
+     ]
+    },
+    "file": "read/orange-light/extras/closeups/logo.png",
+    "opaque": "read/orange-light/extras/closeups/logo.opaque.png"
+   }
+  },
+  "notes": "tabs: the [Next.js, React Router, Tanstack Start] Tabs block in 3 states (same clip). copy: the source.config.ts code block idle / hover-block / hover-button / copied (+ copy-click/ 60 fps from the click, real transition length), same clip. closeups: DPR 4 crops (alpha via layer isolation, and .opaque.png with the page background), clip = element rect + 4px; clips are in CSS px at the scroll used for that crop."
+ }
+}

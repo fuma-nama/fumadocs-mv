@@ -1,0 +1,38 @@
+---
+title: OpenAPI
+description: Generating docs for OpenAPI schema.
+---
+
+## Setup
+
+Install the required packages.
+
+```npm
+npm i fumadocs-openapi shiki
+```
+
+### Generate Styles
+
+Add the following line:
+
+```css title="Tailwind CSS"
+@import 'tailwindcss';
+@import 'fumadocs-ui/css/neutral.css';
+@import 'fumadocs-ui/css/preset.css';
+/* [!code ++] */
+@import 'fumadocs-openapi/css/preset.css';
+```
+
+## Features
+
+The official OpenAPI integration supports:
+
+- Basic API endpoint information
+- Interactive API playground
+- Example code to send request (in different programming languages)
+- Response samples and TypeScript definitions
+- Request parameters and body generated from schemas
+
+### Demo
+
+[View demo](/docs/openapi).

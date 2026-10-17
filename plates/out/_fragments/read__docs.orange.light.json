@@ -1,0 +1,202 @@
+{
+ "group": "read",
+ "id": "docs.orange.light",
+ "entry": {
+  "kind": "still+layers",
+  "path": "read/orange-light/frame.png",
+  "size": [
+   2880,
+   1620
+  ],
+  "css": [
+   1440,
+   810
+  ],
+  "dpr": 2,
+  "layout": "docs",
+  "theme": "neutral (+ --color-fd-primary #FA8023)",
+  "mode": "light",
+  "tocStyle": "normal",
+  "url": "/themes/orange/getting-started/introduction",
+  "scrollY": 0,
+  "activeToc": [
+   "#reading"
+  ],
+  "layers": {
+   "background": "read/orange-light/layers/background.png",
+   "sidebar": "read/orange-light/layers/sidebar.png",
+   "sidebar.bg": "read/orange-light/layers/sidebar.bg.png",
+   "sidebar.header": "read/orange-light/layers/sidebar.header.png",
+   "sidebar.search": "read/orange-light/layers/sidebar.search.png",
+   "sidebar.tree": "read/orange-light/layers/sidebar.tree.png",
+   "sidebar.footer": "read/orange-light/layers/sidebar.footer.png",
+   "breadcrumb": "read/orange-light/layers/breadcrumb.png",
+   "page.header": "read/orange-light/layers/page.header.png",
+   "article.body": "read/orange-light/layers/article.body.png",
+   "page.footer": "read/orange-light/layers/page.footer.png",
+   "toc": "read/orange-light/layers/toc.png",
+   "rest": "read/orange-light/layers/rest.png"
+  },
+  "boxes": "read/orange-light/boxes.json",
+  "keyBoxes": {
+   "sidebar": {
+    "css": [
+     0,
+     0,
+     268,
+     810
+    ],
+    "px": [
+     0,
+     0,
+     536,
+     1620
+    ]
+   },
+   "search": {
+    "css": [
+     15,
+     58,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     116,
+     472,
+     72
+    ],
+    "r": 8
+   },
+   "logo": {
+    "css": [
+     15,
+     16,
+     102.73,
+     30
+    ],
+    "px": [
+     30,
+     32,
+     205,
+     60
+    ],
+    "text": "Fumadocs"
+   },
+   "breadcrumb": {
+    "css": [
+     302,
+     56,
+     836,
+     20
+    ],
+    "px": [
+     604,
+     112,
+     1672,
+     40
+    ]
+   },
+   "h1": {
+    "css": [
+     302,
+     92,
+     836,
+     42
+    ],
+    "px": [
+     604,
+     184,
+     1672,
+     84
+    ],
+    "text": "Introduction",
+    "lines": [
+     [
+      302,
+      95,
+      164.2,
+      36
+     ]
+    ]
+   },
+   "article": {
+    "css": [
+     270,
+     0,
+     900,
+     7537.41
+    ],
+    "px": [
+     540,
+     0,
+     1800,
+     15075
+    ]
+   },
+   "toc": {
+    "css": [
+     1172,
+     0,
+     268,
+     810
+    ],
+    "px": [
+     2344,
+     0,
+     536,
+     1620
+    ]
+   },
+   "themeToggle": {
+    "css": [
+     189,
+     763,
+     61,
+     26
+    ],
+    "px": [
+     378,
+     1526,
+     122,
+     52
+    ],
+    "options": [
+     {
+      "css": [
+       194,
+       763,
+       26,
+       26
+      ],
+      "px": [
+       388,
+       1526,
+       52,
+       52
+      ],
+      "r": 6,
+      "active": true
+     },
+     {
+      "css": [
+       220,
+       763,
+       26,
+       26
+      ],
+      "px": [
+       440,
+       1526,
+       52,
+       52
+      ],
+      "r": 6,
+      "active": false
+     }
+    ]
+   }
+  },
+  "notes": "Hero page. layers/*.png stack over frame.png (background is opaque, all others alpha; rest.png must be empty). boxes.json: every sidebar item (depth/active/kind), search trigger + kbd, breadcrumb, h1/description/actions, article blocks with per-line rects, footer, TOC items + geometry, colours, computed styles, activeRanges (scrollY range where each heading is >=90% visible = active)."
+ }
+}

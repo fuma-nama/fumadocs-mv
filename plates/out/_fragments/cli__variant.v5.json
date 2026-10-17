@@ -1,0 +1,288 @@
+{
+ "group": "cli",
+ "id": "variant.v5",
+ "entry": {
+  "kind": "still+boxes",
+  "path": "cli/variants/variant.v5.png",
+  "size": [
+   3200,
+   1800
+  ],
+  "css": [
+   1600,
+   900
+  ],
+  "dpr": 2,
+  "layout": "docs",
+  "theme": "purple",
+  "mode": "dark",
+  "tocStyle": "normal",
+  "url": "/themes/purple/themes?v=sidebar,clerk,banner,serif",
+  "scrollY": 0,
+  "activeToc": [
+   "#setup",
+   "#lightdark-modes"
+  ],
+  "boxes": "cli/variants/variant.v5.boxes.json",
+  "colors": {
+   "background": "rgb(14, 12, 18)",
+   "foreground": "rgb(222, 214, 245)",
+   "muted": "rgb(23, 20, 31)",
+   "muted-foreground": "rgb(176, 159, 223)",
+   "popover": "rgb(14, 12, 19)",
+   "popover-foreground": "rgb(222, 214, 245)",
+   "card": "rgb(23, 20, 31)",
+   "card-foreground": "rgb(222, 214, 245)",
+   "border": "rgba(102, 51, 153, 0.3)",
+   "primary": "rgb(219, 184, 255)",
+   "primary-foreground": "rgb(11, 6, 24)",
+   "secondary": "rgb(51, 39, 63)",
+   "secondary-foreground": "rgb(222, 214, 245)",
+   "accent": "rgb(50, 43, 69)",
+   "accent-foreground": "rgb(219, 205, 234)",
+   "ring": "rgb(219, 184, 255)",
+   "bodyBackground": "rgb(14, 12, 18)"
+  },
+  "keyBoxes": {
+   "sidebar": {
+    "css": [
+     0,
+     48,
+     292,
+     852
+    ],
+    "px": [
+     0,
+     96,
+     584,
+     1704
+    ]
+   },
+   "sidebarActiveItem": {
+    "css": [
+     39,
+     468,
+     236,
+     40
+    ],
+    "px": [
+     78,
+     936,
+     472,
+     80
+    ],
+    "r": 9999,
+    "kind": "page",
+    "text": "Themes",
+    "depth": 0,
+    "active": true,
+    "icon": [
+     47,
+     480,
+     16,
+     16
+    ]
+   },
+   "search": {
+    "css": [
+     39,
+     106,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     212,
+     472,
+     72
+    ],
+    "r": 9999
+   },
+   "themeToggle": {
+    "css": [
+     213,
+     849,
+     61,
+     26
+    ],
+    "px": [
+     426,
+     1698,
+     122,
+     52
+    ],
+    "options": [
+     {
+      "css": [
+       218,
+       849,
+       26,
+       26
+      ],
+      "px": [
+       436,
+       1698,
+       52,
+       52
+      ],
+      "r": 6,
+      "active": false
+     },
+     {
+      "css": [
+       244,
+       849,
+       26,
+       26
+      ],
+      "px": [
+       488,
+       1698,
+       52,
+       52
+      ],
+      "r": 6,
+      "active": true
+     }
+    ]
+   },
+   "article": {
+    "css": [
+     350,
+     48,
+     900,
+     2262.67
+    ],
+    "px": [
+     700,
+     96,
+     1800,
+     4525
+    ]
+   },
+   "h1": {
+    "css": [
+     382,
+     140,
+     836,
+     42
+    ],
+    "px": [
+     764,
+     280,
+     1672,
+     84
+    ],
+    "text": "Themes",
+    "lines": [
+     [
+      382,
+      142,
+      105.2,
+      38
+     ]
+    ]
+   },
+   "toc": {
+    "css": [
+     1308,
+     48,
+     268,
+     852
+    ],
+    "px": [
+     2616,
+     96,
+     536,
+     1704
+    ]
+   },
+   "tocActiveItems": [
+    {
+     "css": [
+      1309,
+      128,
+      251,
+      26
+     ],
+     "px": [
+      2618,
+      256,
+      502,
+      52
+     ],
+     "text": "Setup",
+     "href": "#setup",
+     "active": true
+    },
+    {
+     "css": [
+      1309,
+      154,
+      251,
+      32
+     ],
+     "px": [
+      2618,
+      308,
+      502,
+      64
+     ],
+     "text": "Light/Dark Modes",
+     "href": "#lightdark-modes",
+     "active": true
+    }
+   ],
+   "tocThumb": {
+    "containerCss": [
+     1309,
+     128,
+     251,
+     244
+    ]
+   },
+   "importLine": {
+    "css": [
+     383,
+     596.55,
+     834,
+     18.56
+    ],
+    "px": [
+     766,
+     1193,
+     1668,
+     37
+    ],
+    "text": "@import 'fumadocs-ui/css/purple.css';"
+   },
+   "presetName": {
+    "css": [
+     594,
+     596.55,
+     46.81,
+     17
+    ],
+    "px": [
+     1188,
+     1193,
+     94,
+     34
+    ],
+    "text": "purple",
+    "color": "rgb(158, 203, 255)"
+   }
+  },
+  "notes": "Cumulative customisation v5: v4 in purple dark. Same page/viewport/scroll as themes/ocean-dark.png. The Banner (v3+) pushes the layout down by 48px (3rem).",
+  "variant": {
+   "id": "v5",
+   "v": [
+    "sidebar",
+    "clerk",
+    "banner",
+    "serif"
+   ],
+   "label": "v4 in purple dark"
+  }
+ }
+}

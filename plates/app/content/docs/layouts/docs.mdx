@@ -1,0 +1,36 @@
+---
+title: Docs Layout
+description: The layout of documentation
+---
+
+The layout of documentation pages, it includes a sidebar and **mobile-only** navbar/header.
+
+## Usage
+
+Pass your page tree to the component.
+
+```tsx title="layout.tsx"
+import { DocsLayout } from 'fumadocs-ui/layouts/docs';
+import { baseOptions } from '@/lib/layout.shared';
+import type { ReactNode } from 'react';
+
+export default function Layout({ children }: { children: ReactNode }) {
+  return (
+    <DocsLayout {...baseOptions()} tree={tree}>
+      {children}
+    </DocsLayout>
+  );
+}
+```
+
+See detailed docs for [`links`](/docs/ui/layouts/links) and [`nav`](/docs/ui/layouts/nav) options.
+
+## AI Chat
+
+Pass your chat panel to `aiChat` with its open state, the layout places it beside the page on wide screens, and floats it over the page on smaller ones.
+
+```tsx
+<DocsLayout aiChat={{ open, onOpenChange: setOpen, panel: <MyChat /> }} />
+```
+
+See [Ask AI](/docs/integrations/llms#ask-ai) for a pre-built chat.

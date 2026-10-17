@@ -1,0 +1,35 @@
+---
+title: Built-in Search
+description: Built-in document search of Fumadocs
+---
+
+Fumadocs supports document search with [ZBSearch](https://www.zbsearch.dev), It is the default but also the recommended option since it can be self-hosted and totally free.
+
+### Searching Documents
+
+You can search documents using:
+
+- **Fumadocs UI**: Supported out-of-the-box, see [Search UI](/docs/search/orama) for details.
+- **Search Client**:
+
+```ts
+import { useFetchSearch } from 'fumadocs-core/search/client';
+
+const { search, onSearchChange, isLoading, data } = useFetchSearch();
+```
+
+## Headless
+
+You can host the search server on other backend such as Express and Elysia.
+
+```ts
+import { initAdvancedSearch } from 'fumadocs-core/search/server';
+
+const server = initAdvancedSearch({
+  // you still have to pass indexes
+});
+
+server.search('query', {
+  // you can specify `locale` and `tag` here
+});
+```

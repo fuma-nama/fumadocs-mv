@@ -1,0 +1,416 @@
+{
+ "group": "read",
+ "id": "toc-states.orange.light",
+ "entry": {
+  "kind": "layers",
+  "css": [
+   1440,
+   810
+  ],
+  "dpr": 2,
+  "theme": "orange",
+  "mode": "light",
+  "url": "/themes/orange/getting-started/introduction",
+  "states": [
+   {
+    "heading": "reading",
+    "scrollY": 258,
+    "active": [
+     "#reading",
+     "#search"
+    ],
+    "thumb": {
+     "trackTop": "0px",
+     "trackBottom": "52px",
+     "offsetDistance": "56px",
+     "dot": [
+      14.5,
+      50.67,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/reading.png"
+   },
+   {
+    "heading": "search",
+    "scrollY": 912,
+    "active": [
+     "#search",
+     "#code-blocks"
+    ],
+    "thumb": {
+     "trackTop": "32px",
+     "trackBottom": "84px",
+     "offsetDistance": "88px",
+     "dot": [
+      14.36,
+      82.54,
+      4.24,
+      4.24
+     ]
+    },
+    "toc": "read/orange-light/toc-states/search.png"
+   },
+   {
+    "heading": "code-blocks",
+    "scrollY": 1254,
+    "active": [
+     "#code-blocks"
+    ],
+    "thumb": {
+     "trackTop": "64px",
+     "trackBottom": "84px",
+     "offsetDistance": "88px",
+     "dot": [
+      14.36,
+      82.54,
+      4.24,
+      4.24
+     ]
+    },
+    "toc": "read/orange-light/toc-states/code-blocks.png"
+   },
+   {
+    "heading": "table-of-contents",
+    "scrollY": 2018,
+    "active": [
+     "#table-of-contents"
+    ],
+    "thumb": {
+     "trackTop": "96px",
+     "trackBottom": "116px",
+     "offsetDistance": "124px",
+     "dot": [
+      6.5,
+      115.28,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/table-of-contents.png"
+   },
+   {
+    "heading": "layouts",
+    "scrollY": 3125,
+    "active": [
+     "#layouts",
+     "#docs"
+    ],
+    "thumb": {
+     "trackTop": "128px",
+     "trackBottom": "180px",
+     "offsetDistance": "191px",
+     "dot": [
+      14.5,
+      178.84,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/layouts.png"
+   },
+   {
+    "heading": "docs",
+    "scrollY": 3661,
+    "active": [
+     "#docs",
+     "#notebook",
+     "#flux",
+     "#glass"
+    ],
+    "thumb": {
+     "trackTop": "160px",
+     "trackBottom": "276px",
+     "offsetDistance": "287px",
+     "dot": [
+      14.38,
+      274.68,
+      4.3,
+      4.3
+     ]
+    },
+    "toc": "read/orange-light/toc-states/docs.png"
+   },
+   {
+    "heading": "notebook",
+    "scrollY": 4020,
+    "active": [
+     "#notebook",
+     "#flux",
+     "#glass",
+     "#minimap",
+     "#spacious"
+    ],
+    "thumb": {
+     "trackTop": "192px",
+     "trackBottom": "340px",
+     "offsetDistance": "358px",
+     "dot": [
+      14.27,
+      338.81,
+      4.37,
+      4.37
+     ]
+    },
+    "toc": "read/orange-light/toc-states/notebook.png"
+   },
+   {
+    "heading": "flux",
+    "scrollY": 4153,
+    "active": [
+     "#flux",
+     "#glass",
+     "#minimap",
+     "#spacious",
+     "#themes"
+    ],
+    "thumb": {
+     "trackTop": "224px",
+     "trackBottom": "372px",
+     "offsetDistance": "394px",
+     "dot": [
+      6.5,
+      371.59,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/flux.png"
+   },
+   {
+    "heading": "glass",
+    "scrollY": 4257,
+    "active": [
+     "#flux",
+     "#glass",
+     "#minimap",
+     "#spacious",
+     "#themes"
+    ],
+    "thumb": {
+     "trackTop": "224px",
+     "trackBottom": "372px",
+     "offsetDistance": "394px",
+     "dot": [
+      6.5,
+      371.59,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/glass.png"
+   },
+   {
+    "heading": "minimap",
+    "scrollY": 4460,
+    "active": [
+     "#minimap",
+     "#spacious",
+     "#themes"
+    ],
+    "thumb": {
+     "trackTop": "288px",
+     "trackBottom": "372px",
+     "offsetDistance": "394px",
+     "dot": [
+      6.5,
+      371.59,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/minimap.png"
+   },
+   {
+    "heading": "spacious",
+    "scrollY": 4580,
+    "active": [
+     "#spacious",
+     "#themes",
+     "#make-it-yours"
+    ],
+    "thumb": {
+     "trackTop": "320px",
+     "trackBottom": "404px",
+     "offsetDistance": "426px",
+     "dot": [
+      6.5,
+      403.59,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/spacious.png"
+   },
+   {
+    "heading": "themes",
+    "scrollY": 4794,
+    "active": [
+     "#themes",
+     "#make-it-yours"
+    ],
+    "thumb": {
+     "trackTop": "352px",
+     "trackBottom": "404px",
+     "offsetDistance": "426px",
+     "dot": [
+      6.5,
+      403.59,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/themes.png"
+   },
+   {
+    "heading": "make-it-yours",
+    "scrollY": 5145,
+    "active": [
+     "#make-it-yours",
+     "#integrations"
+    ],
+    "thumb": {
+     "trackTop": "384px",
+     "trackBottom": "436px",
+     "offsetDistance": "458px",
+     "dot": [
+      6.31,
+      435.27,
+      4.62,
+      4.62
+     ]
+    },
+    "toc": "read/orange-light/toc-states/make-it-yours.png"
+   },
+   {
+    "heading": "integrations",
+    "scrollY": 5787,
+    "active": [
+     "#integrations",
+     "#openapi",
+     "#obsidian",
+     "#sanity"
+    ],
+    "thumb": {
+     "trackTop": "416px",
+     "trackBottom": "532px",
+     "offsetDistance": "557px",
+     "dot": [
+      14.5,
+      531.17,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/integrations.png"
+   },
+   {
+    "heading": "openapi",
+    "scrollY": 5931,
+    "active": [
+     "#openapi",
+     "#obsidian",
+     "#sanity",
+     "#story"
+    ],
+    "thumb": {
+     "trackTop": "448px",
+     "trackBottom": "564px",
+     "offsetDistance": "589px",
+     "dot": [
+      14.22,
+      562.94,
+      4.44,
+      4.44
+     ]
+    },
+    "toc": "read/orange-light/toc-states/openapi.png"
+   },
+   {
+    "heading": "obsidian",
+    "scrollY": 6216,
+    "active": [
+     "#obsidian",
+     "#sanity",
+     "#story",
+     "#showcase"
+    ],
+    "thumb": {
+     "trackTop": "480px",
+     "trackBottom": "596px",
+     "offsetDistance": "625px",
+     "dot": [
+      6.5,
+      594,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/obsidian.png"
+   },
+   {
+    "heading": "sanity",
+    "scrollY": 6414,
+    "active": [
+     "#sanity",
+     "#story",
+     "#showcase"
+    ],
+    "thumb": {
+     "trackTop": "512px",
+     "trackBottom": "596px",
+     "offsetDistance": "625px",
+     "dot": [
+      6.5,
+      594,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/sanity.png"
+   },
+   {
+    "heading": "story",
+    "scrollY": 6518,
+    "active": [
+     "#sanity",
+     "#story",
+     "#showcase"
+    ],
+    "thumb": {
+     "trackTop": "512px",
+     "trackBottom": "596px",
+     "offsetDistance": "625px",
+     "dot": [
+      6.5,
+      594,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/story.png"
+   },
+   {
+    "heading": "showcase",
+    "scrollY": 6639,
+    "active": [
+     "#showcase"
+    ],
+    "thumb": {
+     "trackTop": "576px",
+     "trackBottom": "596px",
+     "offsetDistance": "625px",
+     "dot": [
+      6.5,
+      594,
+      4,
+      4
+     ]
+    },
+    "toc": "read/orange-light/toc-states/showcase.png"
+   }
+  ],
+  "notes": "For every heading: the TOC layer (alpha, full frame) after jumping to it (scrollY = heading top - 112 = scroll-margin, as a hash link / search result does), with the real active set and thumb variables. Default (range) mode: several headings can be active when they are all on screen."
+ }
+}

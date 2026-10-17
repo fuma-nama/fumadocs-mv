@@ -1,0 +1,5 @@
+/* READ scene: neutral preset, primary = film ORANGE (a real Fumadocs customisation) */
+:root,
+.dark {
+  --color-fd-primary: #fa8023;
+}

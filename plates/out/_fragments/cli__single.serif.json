@@ -1,0 +1,293 @@
+{
+ "group": "cli",
+ "id": "single.serif",
+ "entry": {
+  "kind": "still+boxes",
+  "path": "cli/variants/single.serif.png",
+  "size": [
+   3200,
+   1800
+  ],
+  "css": [
+   1600,
+   900
+  ],
+  "dpr": 2,
+  "layout": "docs",
+  "theme": "ocean",
+  "mode": "dark",
+  "tocStyle": "normal",
+  "url": "/themes/ocean/themes?v=serif",
+  "scrollY": 0,
+  "activeToc": [
+   "#setup",
+   "#lightdark-modes"
+  ],
+  "boxes": "cli/variants/single.serif.boxes.json",
+  "colors": {
+   "background": "rgb(8, 16, 33)",
+   "foreground": "rgb(233, 238, 249)",
+   "muted": "rgb(13, 21, 38)",
+   "muted-foreground": "rgb(139, 157, 193)",
+   "popover": "rgb(13, 21, 38)",
+   "popover-foreground": "rgb(233, 238, 249)",
+   "card": "rgba(17, 31, 60, 0.4)",
+   "card-foreground": "rgb(233, 238, 249)",
+   "border": "rgba(64, 106, 191, 0.2)",
+   "primary": "rgb(179, 223, 255)",
+   "primary-foreground": "rgb(23, 23, 23)",
+   "secondary": "rgb(25, 43, 77)",
+   "secondary-foreground": "rgb(209, 223, 250)",
+   "accent": "rgb(31, 44, 71)",
+   "accent-foreground": "rgb(209, 223, 250)",
+   "ring": "rgb(179, 223, 255)",
+   "bodyBackground": "rgb(8, 16, 33)"
+  },
+  "keyBoxes": {
+   "sidebar": {
+    "css": [
+     0,
+     0,
+     292,
+     900
+    ],
+    "px": [
+     0,
+     0,
+     584,
+     1800
+    ]
+   },
+   "sidebarActiveItem": {
+    "css": [
+     39,
+     396,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     792,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Themes",
+    "depth": 0,
+    "active": true,
+    "icon": [
+     47,
+     406,
+     16,
+     16
+    ]
+   },
+   "search": {
+    "css": [
+     39,
+     58,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     116,
+     472,
+     72
+    ],
+    "r": 8
+   },
+   "themeToggle": {
+    "css": [
+     213,
+     853,
+     61,
+     26
+    ],
+    "px": [
+     426,
+     1706,
+     122,
+     52
+    ],
+    "options": [
+     {
+      "css": [
+       218,
+       853,
+       26,
+       26
+      ],
+      "px": [
+       436,
+       1706,
+       52,
+       52
+      ],
+      "r": 6,
+      "active": false
+     },
+     {
+      "css": [
+       244,
+       853,
+       26,
+       26
+      ],
+      "px": [
+       488,
+       1706,
+       52,
+       52
+      ],
+      "r": 6,
+      "active": true
+     }
+    ]
+   },
+   "article": {
+    "css": [
+     350,
+     0,
+     900,
+     2262.67
+    ],
+    "px": [
+     700,
+     0,
+     1800,
+     4525
+    ]
+   },
+   "h1": {
+    "css": [
+     382,
+     92,
+     836,
+     42
+    ],
+    "px": [
+     764,
+     184,
+     1672,
+     84
+    ],
+    "text": "Themes",
+    "lines": [
+     [
+      382,
+      94,
+      105.2,
+      38
+     ]
+    ]
+   },
+   "toc": {
+    "css": [
+     1308,
+     0,
+     268,
+     900
+    ],
+    "px": [
+     2616,
+     0,
+     536,
+     1800
+    ]
+   },
+   "tocActiveItems": [
+    {
+     "css": [
+      1309,
+      80,
+      251,
+      26
+     ],
+     "px": [
+      2618,
+      160,
+      502,
+      52
+     ],
+     "text": "Setup",
+     "href": "#setup",
+     "active": true
+    },
+    {
+     "css": [
+      1309,
+      106,
+      251,
+      32
+     ],
+     "px": [
+      2618,
+      212,
+      502,
+      64
+     ],
+     "text": "Light/Dark Modes",
+     "href": "#lightdark-modes",
+     "active": true
+    }
+   ],
+   "tocThumb": {
+    "rect": [
+     14.36,
+     50.54,
+     4.24,
+     4.24
+    ],
+    "offsetPath": "path(\"M 8.5 0 L 8.5 20 C 8.5 28 16.5 24 16.5 32 L 16.5 52 C 16.5 60 8.5 56 8.5 64 L 8.5 84 C 8.5 92 16.5 88 16.5 96 L 16.5 116 C 16.5 124 16.5 120 16.5 128 L 16.5 148 C 16.5 156 8.5 152 8.5 160 L 8.5 180 C 8.5 188 8.5 184 8.5 192 L 8.5 212 C 8.5 220 8.5 216 8.5 224 L 8.5 244\")",
+    "opacity": "1",
+    "containerCss": [
+     1309,
+     80,
+     251,
+     244
+    ]
+   },
+   "importLine": {
+    "css": [
+     383,
+     548.55,
+     834,
+     18.56
+    ],
+    "px": [
+     766,
+     1097,
+     1668,
+     37
+    ],
+    "text": "@import 'fumadocs-ui/css/ocean.css';"
+   },
+   "presetName": {
+    "css": [
+     594,
+     548.55,
+     39.02,
+     17
+    ],
+    "px": [
+     1188,
+     1097,
+     78,
+     34
+    ],
+    "text": "ocean",
+    "color": "rgb(158, 203, 255)"
+   }
+  },
+  "notes": "One-change variant: serif font only.",
+  "variant": {
+   "id": "serif",
+   "v": [
+    "serif"
+   ],
+   "label": "serif font only"
+  }
+ }
+}

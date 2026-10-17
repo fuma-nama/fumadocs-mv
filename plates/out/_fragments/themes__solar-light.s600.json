@@ -1,0 +1,412 @@
+{
+ "group": "themes",
+ "id": "solar-light.s600",
+ "entry": {
+  "kind": "still+boxes",
+  "path": "themes/solar-light.s600.png",
+  "size": [
+   3200,
+   1800
+  ],
+  "css": [
+   1600,
+   900
+  ],
+  "dpr": 2,
+  "layout": "docs",
+  "theme": "solar",
+  "mode": "light",
+  "tocStyle": "normal",
+  "url": "/themes/solar/themes",
+  "scrollY": 600,
+  "activeToc": [
+   "#lightdark-modes",
+   "#colors",
+   "#presets",
+   "#custom-colors"
+  ],
+  "boxes": "themes/solar-light.s600.boxes.json",
+  "colors": {
+   "background": "rgb(245, 245, 245)",
+   "foreground": "rgb(10, 10, 10)",
+   "muted": "rgb(245, 245, 245)",
+   "muted-foreground": "rgb(115, 115, 115)",
+   "popover": "rgb(250, 250, 250)",
+   "popover-foreground": "rgb(39, 39, 39)",
+   "card": "rgb(241, 241, 241)",
+   "card-foreground": "rgb(10, 10, 10)",
+   "border": "rgba(204, 204, 204, 0.5)",
+   "primary": "lab(39.9292 1.29265 -29.756)",
+   "primary-foreground": "rgb(250, 250, 250)",
+   "secondary": "rgb(237, 237, 237)",
+   "secondary-foreground": "rgb(23, 23, 23)",
+   "accent": "rgba(209, 209, 209, 0.5)",
+   "accent-foreground": "rgb(23, 23, 23)",
+   "ring": "rgb(163, 163, 163)",
+   "bodyBackground": "rgb(245, 245, 245)"
+  },
+  "keyBoxes": {
+   "sidebar": {
+    "css": [
+     0,
+     0,
+     292,
+     900
+    ],
+    "px": [
+     0,
+     0,
+     584,
+     1800
+    ],
+    "doc": [
+     0,
+     600,
+     292,
+     900
+    ]
+   },
+   "sidebarActiveItem": {
+    "css": [
+     40,
+     396,
+     236,
+     36
+    ],
+    "px": [
+     80,
+     792,
+     472,
+     72
+    ],
+    "doc": [
+     40,
+     996,
+     236,
+     36
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Themes",
+    "depth": 0,
+    "active": true,
+    "icon": [
+     48,
+     406,
+     16,
+     16
+    ]
+   },
+   "search": {
+    "css": [
+     40,
+     58,
+     236,
+     36
+    ],
+    "px": [
+     80,
+     116,
+     472,
+     72
+    ],
+    "doc": [
+     40,
+     658,
+     236,
+     36
+    ],
+    "r": 8
+   },
+   "themeToggle": {
+    "css": [
+     214,
+     853,
+     61,
+     26
+    ],
+    "px": [
+     428,
+     1706,
+     122,
+     52
+    ],
+    "doc": [
+     214,
+     1453,
+     61,
+     26
+    ],
+    "options": [
+     {
+      "css": [
+       219,
+       853,
+       26,
+       26
+      ],
+      "px": [
+       438,
+       1706,
+       52,
+       52
+      ],
+      "doc": [
+       219,
+       1453,
+       26,
+       26
+      ],
+      "r": 6,
+      "active": true
+     },
+     {
+      "css": [
+       245,
+       853,
+       26,
+       26
+      ],
+      "px": [
+       490,
+       1706,
+       52,
+       52
+      ],
+      "doc": [
+       245,
+       1453,
+       26,
+       26
+      ],
+      "r": 6,
+      "active": false
+     }
+    ]
+   },
+   "article": {
+    "css": [
+     350,
+     -584,
+     900,
+     2223.67
+    ],
+    "px": [
+     700,
+     -1168,
+     1800,
+     4447
+    ],
+    "doc": [
+     350,
+     16,
+     900,
+     2223.67
+    ]
+   },
+   "h1": {
+    "css": [
+     382,
+     -492,
+     836,
+     42
+    ],
+    "px": [
+     764,
+     -984,
+     1672,
+     84
+    ],
+    "doc": [
+     382,
+     108,
+     836,
+     42
+    ],
+    "text": "Themes",
+    "lines": [
+     [
+      382,
+      -489,
+      103.33,
+      36
+     ]
+    ]
+   },
+   "toc": {
+    "css": [
+     1308,
+     0,
+     268,
+     900
+    ],
+    "px": [
+     2616,
+     0,
+     536,
+     1800
+    ],
+    "doc": [
+     1308,
+     600,
+     268,
+     900
+    ]
+   },
+   "tocActiveItems": [
+    {
+     "css": [
+      1309,
+      106,
+      251,
+      32
+     ],
+     "px": [
+      2618,
+      212,
+      502,
+      64
+     ],
+     "doc": [
+      1309,
+      706,
+      251,
+      32
+     ],
+     "text": "Light/Dark Modes",
+     "href": "#lightdark-modes",
+     "active": true
+    },
+    {
+     "css": [
+      1309,
+      138,
+      251,
+      32
+     ],
+     "px": [
+      2618,
+      276,
+      502,
+      64
+     ],
+     "doc": [
+      1309,
+      738,
+      251,
+      32
+     ],
+     "text": "Colors",
+     "href": "#colors",
+     "active": true
+    },
+    {
+     "css": [
+      1309,
+      170,
+      251,
+      32
+     ],
+     "px": [
+      2618,
+      340,
+      502,
+      64
+     ],
+     "doc": [
+      1309,
+      770,
+      251,
+      32
+     ],
+     "text": "Presets",
+     "href": "#presets",
+     "active": true
+    },
+    {
+     "css": [
+      1309,
+      202,
+      251,
+      32
+     ],
+     "px": [
+      2618,
+      404,
+      502,
+      64
+     ],
+     "doc": [
+      1309,
+      802,
+      251,
+      32
+     ],
+     "text": "Custom Colors",
+     "href": "#custom-colors",
+     "active": true
+    }
+   ],
+   "tocThumb": {
+    "rect": [
+     14.32,
+     146.68,
+     4.3,
+     4.3
+    ],
+    "offsetPath": "path(\"M 8.5 0 L 8.5 20 C 8.5 28 16.5 24 16.5 32 L 16.5 52 C 16.5 60 8.5 56 8.5 64 L 8.5 84 C 8.5 92 16.5 88 16.5 96 L 16.5 116 C 16.5 124 16.5 120 16.5 128 L 16.5 148 C 16.5 156 8.5 152 8.5 160 L 8.5 180 C 8.5 188 8.5 184 8.5 192 L 8.5 212 C 8.5 220 8.5 216 8.5 224 L 8.5 244\")",
+    "opacity": "1",
+    "containerCss": [
+     1309,
+     80,
+     251,
+     244
+    ]
+   },
+   "importLine": {
+    "css": [
+     383,
+     -37.45,
+     834,
+     18.56
+    ],
+    "px": [
+     766,
+     -75,
+     1668,
+     37
+    ],
+    "doc": [
+     383,
+     562.55,
+     834,
+     18.56
+    ],
+    "text": "@import 'fumadocs-ui/css/solar.css';"
+   },
+   "presetName": {
+    "css": [
+     587.75,
+     -37.45,
+     37.77,
+     17
+    ],
+    "px": [
+     1176,
+     -75,
+     76,
+     34
+    ],
+    "doc": [
+     587.75,
+     562.55,
+     37.77,
+     17
+    ],
+    "text": "solar",
+    "color": "rgb(3, 47, 98)"
+   }
+  },
+  "notes": "Solar is the only preset that changes layout: an inset article card (md: p-4 around the main column, rounded border + shadow) shifts the article ~16px right/down, and :root letter-spacing -0.25px. Boxes are measured per capture."
+ }
+}

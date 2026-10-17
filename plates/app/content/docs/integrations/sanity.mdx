@@ -1,0 +1,146 @@
+---
+title: Sanity
+description: Official integration for Sanity.
+---
+
+## Overview
+
+Fumadocs provide an official integration to simplify setup for Sanity CMS, it brings native live preview experience without compromise on performance.
+
+<Callout>
+
+You can see our [Sanity Example](https://github.com/fuma-nama/fumadocs-sanity) on GitHub.
+
+</Callout>
+
+## Setup
+
+Assume you already have [Sanity](https://sanity.io/docs/getting-started) configured according to their docs.
+
+<Steps>
+
+<Step>
+
+### Data Types
+
+Run the following command to initialize content types.
+
+```npm
+npx @fumadocs/cli add sanity/base
+```
+
+<Callout>
+
+Or you can run `npx @fumadocs/cli add` and browse additional Sanity presets to install.
+
+</Callout>
+
+Register the installed types:
+
+```ts tab="schemaTypes/index.ts"
+import { docsType, blockContent, callout, card, cards } from '@/lib/sanity/base';
+
+// [!code ++]
+export const schemaTypes = [blockContent, callout, card, cards, docsType];
+```
+
+```tsx tab="components/sanity.ts"
+import {
+  PortableText,
+  type PortableTextProps,
+  type PortableTextReactComponents,
+} from '@portabletext/react';
+// the installed components
+import { baseBlocks, baseComponents, baseMarks } from './base';
+
+const components: Partial<PortableTextReactComponents> = {
+  block: {
+    // [!code ++]
+    ...baseBlocks,
+  },
+  marks: {
+    // [!code ++]
+    ...baseMarks,
+  },
+  types: {
+    // [!code ++]
+    ...baseComponents,
+  },
+};
+
+export function CustomPortableText(props: PortableTextProps) {
+  return <PortableText {...props} components={{ ...components, ...props.components }} />;
+}
+```
+
+</Step>
+
+<Step>
+
+### Content Loader
+
+Install the integration:
+
+```npm
+npm i @fumadocs/sanity
+```
+
+```ts title="lib/source.ts" tab="Next.js (live preview)"
+import { dynamicLoader } from 'fumadocs-core/source';
+import { createSanitySource } from '@fumadocs/sanity';
+// the live preview client
+import { sanityFetch } from '@/sanity/lib/live';
+// the generated types
+import type { Docs } from '@/sanity/types';
+
+const source = dynamicLoader(
+  createSanitySource<Docs>({
+    sanityFetch,
+    docType: 'docs',
+  }),
+  {
+    baseUrl: '/docs',
+  },
+);
+
+export async function getSource() {
+  return source.get();
+}
+```
+
+```ts title="lib/source.ts" tab="Others"
+import { dynamicLoader } from 'fumadocs-core/source';
+import { createSanitySource } from '@fumadocs/sanity';
+// the Sanity client
+import { client } from '@/sanity/lib/client';
+// the generated types
+import type { Docs } from '@/sanity/types';
+
+const source = dynamicLoader(
+  createSanitySource<Docs>({
+    client,
+    docType: 'docs',
+  }),
+  {
+    baseUrl: '/docs',
+  },
+);
+
+export async function getSource() {
+  return source.get();
+}
+```
+
+With `sanityFetch`, queries are cached by Next.js and revalidated by `<SanityLive />` when content changes. The loader re-reads them on every render, so live updates and draft mode work without calling `invalidate()`.
+
+</Step>
+
+<Step>
+
+### Done
+
+Create documents under the `docs` type in your studio editor, new content will be displayed in the docs route.
+
+</Step>
+
+</Steps>

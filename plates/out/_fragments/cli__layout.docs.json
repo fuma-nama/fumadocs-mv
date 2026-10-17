@@ -1,0 +1,228 @@
+{
+ "group": "cli",
+ "id": "layout.docs",
+ "entry": {
+  "kind": "still+boxes",
+  "path": "cli/layouts/docs.png",
+  "size": [
+   3200,
+   1800
+  ],
+  "css": [
+   1600,
+   900
+  ],
+  "dpr": 2,
+  "layout": "docs",
+  "theme": "ocean",
+  "mode": "dark",
+  "url": "/themes/ocean/themes",
+  "scrollY": 0,
+  "boxes": "cli/layouts/docs.boxes.json",
+  "keyBoxes": {
+   "header": null,
+   "tabs": null,
+   "sidebar": {
+    "css": [
+     0,
+     0,
+     292,
+     900
+    ],
+    "px": [
+     0,
+     0,
+     584,
+     1800
+    ]
+   },
+   "logo": {
+    "css": [
+     39,
+     16,
+     102.73,
+     30
+    ],
+    "px": [
+     78,
+     32,
+     205,
+     60
+    ],
+    "text": "Fumadocs"
+   },
+   "search": {
+    "css": [
+     39,
+     58,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     116,
+     472,
+     72
+    ],
+    "r": 8,
+    "kbd": [
+     {
+      "css": [
+       221.19,
+       65,
+       22.41,
+       22
+      ],
+      "px": [
+       442,
+       130,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "⌘"
+     },
+     {
+      "css": [
+       245.59,
+       65,
+       22.41,
+       22
+      ],
+      "px": [
+       491,
+       130,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "K"
+     }
+    ]
+   },
+   "tabDropdown": null,
+   "article": {
+    "css": [
+     350,
+     0,
+     900,
+     2252.67
+    ],
+    "px": [
+     700,
+     0,
+     1800,
+     4505
+    ]
+   },
+   "h1": {
+    "css": [
+     382,
+     92,
+     836,
+     42
+    ],
+    "px": [
+     764,
+     184,
+     1672,
+     84
+    ],
+    "text": "Themes"
+   },
+   "description": {
+    "css": [
+     382,
+     150,
+     836,
+     28
+    ],
+    "px": [
+     764,
+     300,
+     1672,
+     56
+    ],
+    "text": "Add Theme to Fumadocs UI"
+   },
+   "actions": {
+    "css": [
+     382,
+     194,
+     836,
+     55
+    ],
+    "px": [
+     764,
+     388,
+     1672,
+     110
+    ],
+    "buttons": [
+     {
+      "css": [
+       382,
+       194,
+       130.94,
+       30
+      ],
+      "px": [
+       764,
+       388,
+       262,
+       60
+      ],
+      "r": 6,
+      "text": "Copy Markdown"
+     },
+     {
+      "css": [
+       520.94,
+       194,
+       70.08,
+       30
+      ],
+      "px": [
+       1042,
+       388,
+       140,
+       60
+      ],
+      "r": 6,
+      "text": "Open"
+     }
+    ]
+   },
+   "toc": {
+    "css": [
+     1308,
+     0,
+     268,
+     900
+    ],
+    "px": [
+     2616,
+     0,
+     536,
+     1800
+    ]
+   },
+   "tocTitle": {
+    "css": [
+     1308,
+     48,
+     252,
+     20
+    ],
+    "px": [
+     2616,
+     96,
+     504,
+     40
+    ],
+    "text": "On this page"
+   }
+  },
+  "notes": "CLI scene: the \"Themes\" page (same as themes/ocean-dark.png) in this layout, ocean dark, 1600x900. Scroll 0. Full boxes (sidebar items, article blocks, TOC items + geometry, tabs, controls) in the .boxes.json. Layers: alpha, full frame, stack over the opaque background layer."
+ }
+}

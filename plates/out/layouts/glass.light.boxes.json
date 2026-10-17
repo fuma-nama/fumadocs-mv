@@ -1,0 +1,1646 @@
+{
+ "viewport": [
+  1440,
+  900
+ ],
+ "dpr": 2,
+ "scrollY": 0,
+ "root": {
+  "id": "fd-glass-layout",
+  "css": [
+   0,
+   0,
+   1440,
+   2581.88
+  ],
+  "px": [
+   0,
+   0,
+   2880,
+   5164
+  ]
+ },
+ "background": "rgb(245, 245, 245)",
+ "header": null,
+ "headerBody": null,
+ "tabs": null,
+ "logo": {
+  "css": [
+   27,
+   25,
+   95.88,
+   20
+  ],
+  "px": [
+   54,
+   50,
+   192,
+   40
+  ],
+  "text": "Fumadocs"
+ },
+ "logoMark": {
+  "css": [
+   27,
+   25,
+   20,
+   20
+  ],
+  "px": [
+   54,
+   50,
+   40,
+   40
+  ]
+ },
+ "search": {
+  "css": [
+   1158,
+   8,
+   200,
+   40
+  ],
+  "px": [
+   2316,
+   16,
+   400,
+   80
+  ],
+  "r": 33554400,
+  "kbd": [
+   {
+    "css": [
+     1304.19,
+     17,
+     22.41,
+     22
+    ],
+    "px": [
+     2608,
+     34,
+     45,
+     44
+    ],
+    "r": 6,
+    "text": "⌘"
+   },
+   {
+    "css": [
+     1328.59,
+     17,
+     22.41,
+     22
+    ],
+    "px": [
+     2657,
+     34,
+     45,
+     44
+    ],
+    "r": 6,
+    "text": "K"
+   }
+  ]
+ },
+ "searchIcons": [],
+ "themeToggles": [
+  {
+   "css": [
+    1366,
+    8,
+    66,
+    40
+   ],
+   "px": [
+    2732,
+    16,
+    132,
+    80
+   ],
+   "r": 33554400
+  }
+ ],
+ "github": [
+  {
+   "css": [
+    211,
+    19,
+    30,
+    30
+   ],
+   "px": [
+    422,
+    38,
+    60,
+    60
+   ],
+   "r": 6
+  }
+ ],
+ "tabDropdown": {
+  "css": [
+   17,
+   59,
+   254,
+   38
+  ],
+  "px": [
+   34,
+   118,
+   508,
+   76
+  ],
+  "r": 12,
+  "text": "Framework"
+ },
+ "sidebar": {
+  "box": {
+   "css": [
+    8,
+    8,
+    272,
+    884
+   ],
+   "px": [
+    16,
+    16,
+    544,
+    1768
+   ],
+   "r": 16
+  },
+  "background": "oklab(0.985098 0.0000447631 0.0000197291 / 0.8)",
+  "items": [
+   {
+    "css": [
+     17,
+     105,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     210,
+     508,
+     64
+    ],
+    "kind": "folder",
+    "text": "Getting Started",
+    "depth": 0,
+    "active": false,
+    "open": true,
+    "icon": [
+     27,
+     113,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     17,
+     137,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     274,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Introduction",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     169,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     338,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Quick Start",
+    "depth": 1,
+    "active": true,
+    "inPath": true
+   },
+   {
+    "css": [
+     17,
+     201,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     402,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "What is Fumadocs",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     233,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     466,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Comparisons",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     281,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     562,
+     508,
+     64
+    ],
+    "kind": "separator",
+    "text": "UI",
+    "depth": 0,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     329,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     658,
+     508,
+     64
+    ],
+    "kind": "folder",
+    "text": "Layouts",
+    "depth": 0,
+    "active": false,
+    "open": true,
+    "icon": [
+     27,
+     337,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     17,
+     361,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     722,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Docs Layout",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     393,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     786,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Notebook",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     425,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     850,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Flux",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     457,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     914,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Glass",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     489,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     978,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Spacious",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     521,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1042,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Home Layout",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     553,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1106,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Themes",
+    "depth": 0,
+    "active": false,
+    "icon": [
+     27,
+     561,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     17,
+     601,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1202,
+     508,
+     64
+    ],
+    "kind": "folder",
+    "text": "Components",
+    "depth": 0,
+    "active": false,
+    "open": true,
+    "icon": [
+     27,
+     609,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     17,
+     633,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1266,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Accordion",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     665,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1330,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Banner",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     697,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1394,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Code Block",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     729,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1458,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Files",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     761,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1522,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Steps",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     793,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1586,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Tabs",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     825,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1650,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Type Table",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     857,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1714,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Search",
+    "depth": 0,
+    "active": false,
+    "icon": [
+     27,
+     865,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     17,
+     905,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1810,
+     508,
+     64
+    ],
+    "kind": "separator",
+    "text": "Framework",
+    "depth": 0,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     953,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1906,
+     508,
+     64
+    ],
+    "kind": "folder",
+    "text": "Core",
+    "depth": 0,
+    "active": false,
+    "open": true,
+    "icon": [
+     27,
+     961,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     17,
+     985,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     1970,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Source API",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1017,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2034,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Page Tree",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1049,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2098,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Breadcrumb",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1081,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2162,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "TOC",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1113,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2226,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Headless Search",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1161,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2322,
+     508,
+     64
+    ],
+    "kind": "folder",
+    "text": "MDX",
+    "depth": 0,
+    "active": false,
+    "open": true,
+    "icon": [
+     27,
+     1169,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     17,
+     1193,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2386,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Collections",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1225,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2450,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Async Mode",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1257,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2514,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Plugins",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1305,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2610,
+     508,
+     64
+    ],
+    "kind": "folder",
+    "text": "CLI",
+    "depth": 0,
+    "active": false,
+    "open": true,
+    "icon": [
+     27,
+     1313,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     17,
+     1337,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2674,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Customize",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1369,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2738,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Add Components",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1401,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2802,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Tree",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1449,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2898,
+     508,
+     64
+    ],
+    "kind": "folder",
+    "text": "Integrations",
+    "depth": 0,
+    "active": false,
+    "open": true,
+    "icon": [
+     27,
+     1457,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     17,
+     1481,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     2962,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "OpenAPI",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1513,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     3026,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Obsidian",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1545,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     3090,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Sanity",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1577,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     3154,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Story",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1609,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     3218,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Python",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     17,
+     1641,
+     254,
+     32
+    ],
+    "px": [
+     34,
+     3282,
+     508,
+     64
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "TypeScript",
+    "depth": 1,
+    "active": false
+   }
+  ],
+  "footer": null
+ },
+ "main": null,
+ "article": null,
+ "toc": {
+  "box": {
+   "css": [
+    1200,
+    40,
+    240,
+    860
+   ],
+   "px": [
+    2400,
+    80,
+    480,
+    1720
+   ]
+  },
+  "title": null,
+  "items": [
+   {
+    "css": [
+     1292.66,
+     422,
+     131.34,
+     12
+    ],
+    "px": [
+     2585,
+     844,
+     263,
+     24
+    ],
+    "text": "Introduction",
+    "active": true,
+    "tick": [
+     1420,
+     426,
+     4,
+     4
+    ]
+   },
+   {
+    "css": [
+     1292.66,
+     434,
+     131.34,
+     12
+    ],
+    "px": [
+     2585,
+     868,
+     263,
+     24
+    ],
+    "text": "Terminology",
+    "active": true,
+    "tick": [
+     1420,
+     438,
+     4,
+     4
+    ]
+   },
+   {
+    "css": [
+     1292.66,
+     446,
+     131.34,
+     12
+    ],
+    "px": [
+     2585,
+     892,
+     263,
+     24
+    ],
+    "text": "Automatic Installation",
+    "active": false,
+    "tick": [
+     1420,
+     450,
+     4,
+     4
+    ]
+   },
+   {
+    "css": [
+     1292.66,
+     458,
+     131.34,
+     12
+    ],
+    "px": [
+     2585,
+     916,
+     263,
+     24
+    ],
+    "text": "Enjoy!",
+    "active": false,
+    "tick": [
+     1420,
+     462,
+     4,
+     4
+    ]
+   },
+   {
+    "css": [
+     1292.66,
+     470,
+     131.34,
+     12
+    ],
+    "px": [
+     2585,
+     940,
+     263,
+     24
+    ],
+    "text": "FAQ",
+    "active": false,
+    "tick": [
+     1420,
+     474,
+     4,
+     4
+    ]
+   },
+   {
+    "css": [
+     1292.66,
+     482,
+     131.34,
+     12
+    ],
+    "px": [
+     2585,
+     964,
+     263,
+     24
+    ],
+    "text": "Learn More",
+    "active": false,
+    "tick": [
+     1420,
+     486,
+     4,
+     4
+    ]
+   },
+   {
+    "css": [
+     1292.66,
+     494,
+     131.34,
+     12
+    ],
+    "px": [
+     2585,
+     988,
+     263,
+     24
+    ],
+    "text": "Writing Content",
+    "active": false,
+    "tick": [
+     1420,
+     498,
+     4,
+     4
+    ]
+   },
+   {
+    "css": [
+     1292.66,
+     506,
+     131.34,
+     12
+    ],
+    "px": [
+     2585,
+     1012,
+     263,
+     24
+    ],
+    "text": "Special Needs",
+    "active": false,
+    "tick": [
+     1420,
+     510,
+     4,
+     4
+    ]
+   }
+  ],
+  "geometry": {
+   "container": [
+    1292.66,
+    422,
+    131.34,
+    96
+   ],
+   "title": {
+    "rect": [
+     41.56,
+     0,
+     89.78,
+     0
+    ],
+    "text": "On this page",
+    "icon": [
+     41.56,
+     -7,
+     14,
+     14
+    ]
+   },
+   "scroller": [
+    -92.66,
+    0,
+    224,
+    96
+   ],
+   "items": [
+    {
+     "title": "Introduction",
+     "depth": 2,
+     "url": "#introduction",
+     "active": true,
+     "rect": [
+      0,
+      0,
+      131.34,
+      12
+     ],
+     "offset": [
+      93,
+      382,
+      131,
+      12
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "textBox": [
+      53.03,
+      -2,
+      78.31,
+      16
+     ],
+     "textTop": 382,
+     "textBottom": 394,
+     "color": "rgb(23, 23, 23)"
+    },
+    {
+     "title": "Terminology",
+     "depth": 3,
+     "url": "#terminology",
+     "active": true,
+     "rect": [
+      0,
+      12,
+      131.34,
+      12
+     ],
+     "offset": [
+      93,
+      394,
+      131,
+      12
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "textBox": [
+      52.67,
+      10,
+      78.67,
+      16
+     ],
+     "textTop": 394,
+     "textBottom": 406,
+     "color": "rgb(23, 23, 23)"
+    },
+    {
+     "title": "Automatic Installation",
+     "depth": 2,
+     "url": "#automatic-installation",
+     "active": false,
+     "rect": [
+      0,
+      24,
+      131.34,
+      12
+     ],
+     "offset": [
+      93,
+      406,
+      131,
+      12
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "textBox": [
+      0,
+      22,
+      131.34,
+      16
+     ],
+     "textTop": 406,
+     "textBottom": 418,
+     "color": "rgb(115, 115, 115)"
+    },
+    {
+     "title": "Enjoy!",
+     "depth": 3,
+     "url": "#enjoy",
+     "active": false,
+     "rect": [
+      0,
+      36,
+      131.34,
+      12
+     ],
+     "offset": [
+      93,
+      418,
+      131,
+      12
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "textBox": [
+      86.91,
+      34,
+      44.44,
+      16
+     ],
+     "textTop": 418,
+     "textBottom": 430,
+     "color": "rgb(115, 115, 115)"
+    },
+    {
+     "title": "FAQ",
+     "depth": 2,
+     "url": "#faq",
+     "active": false,
+     "rect": [
+      0,
+      48,
+      131.34,
+      12
+     ],
+     "offset": [
+      93,
+      430,
+      131,
+      12
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "textBox": [
+      96.77,
+      46,
+      34.58,
+      16
+     ],
+     "textTop": 430,
+     "textBottom": 442,
+     "color": "rgb(115, 115, 115)"
+    },
+    {
+     "title": "Learn More",
+     "depth": 2,
+     "url": "#learn-more",
+     "active": false,
+     "rect": [
+      0,
+      60,
+      131.34,
+      12
+     ],
+     "offset": [
+      93,
+      442,
+      131,
+      12
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "textBox": [
+      57.5,
+      58,
+      73.84,
+      16
+     ],
+     "textTop": 442,
+     "textBottom": 454,
+     "color": "rgb(115, 115, 115)"
+    },
+    {
+     "title": "Writing Content",
+     "depth": 3,
+     "url": "#writing-content",
+     "active": false,
+     "rect": [
+      0,
+      72,
+      131.34,
+      12
+     ],
+     "offset": [
+      93,
+      454,
+      131,
+      12
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "textBox": [
+      33.34,
+      70,
+      98,
+      16
+     ],
+     "textTop": 454,
+     "textBottom": 466,
+     "color": "rgb(115, 115, 115)"
+    },
+    {
+     "title": "Special Needs",
+     "depth": 3,
+     "url": "#special-needs",
+     "active": false,
+     "rect": [
+      0,
+      84,
+      131.34,
+      12
+     ],
+     "offset": [
+      93,
+      466,
+      131,
+      12
+     ],
+     "padding": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "textBox": [
+      40.81,
+      82,
+      90.53,
+      16
+     ],
+     "textTop": 466,
+     "textBottom": 478,
+     "color": "rgb(115, 115, 115)"
+    }
+   ],
+   "thumb": null
+  }
+ },
+ "glass": {
+  "sidebarCard": {
+   "css": [
+    8,
+    8,
+    272,
+    884
+   ],
+   "px": [
+    16,
+    16,
+    544,
+    1768
+   ],
+   "r": 16
+  },
+  "pillRow": {
+   "css": [
+    280,
+    0,
+    1160,
+    48
+   ],
+   "px": [
+    560,
+    0,
+    2320,
+    96
+   ]
+  },
+  "pills": [
+   {
+    "css": [
+     288,
+     8,
+     1070,
+     40
+    ],
+    "px": [
+     576,
+     16,
+     2140,
+     80
+    ],
+    "text": "Search⌘K"
+   },
+   {
+    "css": [
+     1366,
+     8,
+     66,
+     40
+    ],
+    "px": [
+     2732,
+     16,
+     132,
+     80
+    ],
+    "r": 33554400,
+    "text": ""
+   }
+  ]
+ },
+ "url": "/themes/neutral/x/glass/getting-started/quick-start",
+ "theme": "neutral",
+ "mode": "light",
+ "layout": "glass"
+}

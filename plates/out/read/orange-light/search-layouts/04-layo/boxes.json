@@ -1,0 +1,1669 @@
+{
+ "viewport": [
+  1440,
+  810
+ ],
+ "dpr": 2,
+ "overlay": {
+  "css": [
+   0,
+   0,
+   1440,
+   810
+  ],
+  "px": [
+   0,
+   0,
+   2880,
+   1620
+  ],
+  "background": "rgba(0, 0, 0, 0.2)",
+  "backdropFilter": "blur(4px)"
+ },
+ "dialog": {
+  "css": [
+   400,
+   155,
+   640,
+   517
+  ],
+  "px": [
+   800,
+   310,
+   1280,
+   1034
+  ],
+  "r": 12,
+  "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 25px 50px -12px"
+ },
+ "header": null,
+ "icon": {
+  "css": [
+   413,
+   173,
+   20,
+   20
+  ],
+  "px": [
+   826,
+   346,
+   40,
+   40
+  ]
+ },
+ "input": {
+  "css": [
+   441,
+   169,
+   538.39,
+   28
+  ],
+  "px": [
+   882,
+   338,
+   1077,
+   56
+  ],
+  "value": "layo",
+  "placeholder": "Search",
+  "font": "18px / 28px geist, \"geist Fallback\""
+ },
+ "caret": [
+  474.81,
+  171.75,
+  1,
+  22.5
+ ],
+ "close": {
+  "css": [
+   987.39,
+   168,
+   39.61,
+   30
+  ],
+  "px": [
+   1975,
+   336,
+   79,
+   60
+  ],
+  "r": 6,
+  "text": "ESC"
+ },
+ "list": {
+  "css": [
+   401,
+   211,
+   638,
+   460
+  ],
+  "px": [
+   802,
+   422,
+   1276,
+   920
+  ]
+ },
+ "rows": [
+  {
+   "css": [
+    405,
+    215,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    430,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Introduction",
+   "breadcrumbs": "FumadocsGetting Started",
+   "active": true,
+   "textBox": [
+    415,
+    243,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     243,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    271,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    542,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "heading",
+   "text": "Layouts",
+   "active": false,
+   "textBox": [
+    415,
+    279,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     447,
+     279,
+     578,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    307,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    614,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Every layout is built from slots. When a prop is not enough, the CLI copies the layout into your project so you own every line of it.",
+   "active": false,
+   "textBox": [
+    415,
+    315,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     315,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    363,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    726,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Fumadocs comes with a set of layouts. They share the same page tree and components, so switching between them is a one-line change.",
+   "active": false,
+   "textBox": [
+    415,
+    371,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     371,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    419,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    838,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "A minimal layout that keeps the article centered, with navigation in a floating panel at the bottom of the screen.",
+   "active": false,
+   "textBox": [
+    415,
+    427,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     427,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    475,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    950,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The default layout. A sidebar with your page tree, the article in the middle and the table of contents on the right.",
+   "active": false,
+   "textBox": [
+    415,
+    483,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     483,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    531,
+    630,
+    57
+   ],
+   "px": [
+    810,
+    1062,
+    1260,
+    114
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "A more compact version of the Docs layout: the navbar spans the full width, and the sidebar sits right below it. Tabs can move into the navbar with tabMode: 'navbar'.",
+   "active": false,
+   "textBox": [
+    415,
+    539,
+    610,
+    41
+   ],
+   "lines": [
+    [
+     431,
+     539,
+     594,
+     41
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    588,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    1176,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Docs Layout",
+   "breadcrumbs": "FumadocsUILayouts",
+   "active": false,
+   "textBox": [
+    415,
+    616,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     616,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    644,
+    630,
+    37
+   ],
+   "px": [
+    810,
+    1288,
+    1260,
+    74
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Import the layout from fumadocs-ui/layouts/docs, and pass your page tree.",
+   "active": false,
+   "textBox": [
+    415,
+    652,
+    610,
+    21
+   ],
+   "lines": [
+    [
+     431,
+     652,
+     594,
+     21
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    681,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    1362,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The Docs Layout layout is one of the layouts of Fumadocs UI. The default layout of Fumadocs: sidebar, article and table of contents.",
+   "active": false,
+   "textBox": [
+    415,
+    689,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     689,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    737,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    1474,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The default layout of Fumadocs: sidebar, article and table of contents.",
+   "active": false,
+   "textBox": [
+    415,
+    745,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     745,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    773,
+    630,
+    57
+   ],
+   "px": [
+    810,
+    1546,
+    1260,
+    114
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Every part of the layout is a slot, run npx @fumadocs/cli customize to copy it into your project.",
+   "active": false,
+   "textBox": [
+    415,
+    781,
+    610,
+    41
+   ],
+   "lines": [
+    [
+     431,
+     781,
+     594,
+     41
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    830,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    1660,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Flux",
+   "breadcrumbs": "FumadocsUILayouts",
+   "active": false,
+   "textBox": [
+    415,
+    858,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     858,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    886,
+    630,
+    37
+   ],
+   "px": [
+    810,
+    1772,
+    1260,
+    74
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Import the layout from fumadocs-ui/layouts/flux, and pass your page tree.",
+   "active": false,
+   "textBox": [
+    415,
+    894,
+    610,
+    21
+   ],
+   "lines": [
+    [
+     431,
+     894,
+     594,
+     21
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    923,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    1846,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The Flux layout is one of the layouts of Fumadocs UI. A minimal layout with a floating navigation panel.",
+   "active": false,
+   "textBox": [
+    415,
+    931,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     931,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    979,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    1958,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "A minimal layout with a floating navigation panel.",
+   "active": false,
+   "textBox": [
+    415,
+    987,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     987,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1015,
+    630,
+    57
+   ],
+   "px": [
+    810,
+    2030,
+    1260,
+    114
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Every part of the layout is a slot, run npx @fumadocs/cli customize to copy it into your project.",
+   "active": false,
+   "textBox": [
+    415,
+    1023,
+    610,
+    41
+   ],
+   "lines": [
+    [
+     431,
+     1023,
+     594,
+     41
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1072,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    2144,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Glass",
+   "breadcrumbs": "FumadocsUILayouts",
+   "active": false,
+   "textBox": [
+    415,
+    1100,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     1100,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1128,
+    630,
+    37
+   ],
+   "px": [
+    810,
+    2256,
+    1260,
+    74
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Import the layout from fumadocs-ui/layouts/glass, and pass your page tree.",
+   "active": false,
+   "textBox": [
+    415,
+    1136,
+    610,
+    21
+   ],
+   "lines": [
+    [
+     431,
+     1136,
+     594,
+     21
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1165,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    2330,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The Glass layout is one of the layouts of Fumadocs UI. A layout with translucent surfaces and a minimap table of contents.",
+   "active": false,
+   "textBox": [
+    415,
+    1173,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     1173,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1221,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    2442,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "A layout with translucent surfaces and a minimap table of contents.",
+   "active": false,
+   "textBox": [
+    415,
+    1229,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1229,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1257,
+    630,
+    57
+   ],
+   "px": [
+    810,
+    2514,
+    1260,
+    114
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Every part of the layout is a slot, run npx @fumadocs/cli customize to copy it into your project.",
+   "active": false,
+   "textBox": [
+    415,
+    1265,
+    610,
+    41
+   ],
+   "lines": [
+    [
+     431,
+     1265,
+     594,
+     41
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1314,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    2628,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Home Layout",
+   "breadcrumbs": "FumadocsUILayouts",
+   "active": false,
+   "textBox": [
+    415,
+    1342,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     1342,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1370,
+    630,
+    37
+   ],
+   "px": [
+    810,
+    2740,
+    1260,
+    74
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Import the layout from fumadocs-ui/layouts/home, and pass your page tree.",
+   "active": false,
+   "textBox": [
+    415,
+    1378,
+    610,
+    21
+   ],
+   "lines": [
+    [
+     431,
+     1378,
+     594,
+     21
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1407,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    2814,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The Home Layout layout is one of the layouts of Fumadocs UI. Shared layout for other pages, such as landing pages and blogs.",
+   "active": false,
+   "textBox": [
+    415,
+    1415,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     1415,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1463,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    2926,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Shared layout for other pages, such as landing pages and blogs.",
+   "active": false,
+   "textBox": [
+    415,
+    1471,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1471,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1499,
+    630,
+    57
+   ],
+   "px": [
+    810,
+    2998,
+    1260,
+    114
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Every part of the layout is a slot, run npx @fumadocs/cli customize to copy it into your project.",
+   "active": false,
+   "textBox": [
+    415,
+    1507,
+    610,
+    41
+   ],
+   "lines": [
+    [
+     431,
+     1507,
+     594,
+     41
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1556,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    3112,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Notebook",
+   "breadcrumbs": "FumadocsUILayouts",
+   "active": false,
+   "textBox": [
+    415,
+    1584,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     1584,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1612,
+    630,
+    37
+   ],
+   "px": [
+    810,
+    3224,
+    1260,
+    74
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Import the layout from fumadocs-ui/layouts/notebook, and pass your page tree.",
+   "active": false,
+   "textBox": [
+    415,
+    1620,
+    610,
+    21
+   ],
+   "lines": [
+    [
+     431,
+     1620,
+     594,
+     21
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1649,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    3298,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The Notebook layout is one of the layouts of Fumadocs UI. A more compact version of Docs Layout, with a full-width navbar.",
+   "active": false,
+   "textBox": [
+    415,
+    1657,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     1657,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1705,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    3410,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "A more compact version of Docs Layout, with a full-width navbar.",
+   "active": false,
+   "textBox": [
+    415,
+    1713,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1713,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1741,
+    630,
+    57
+   ],
+   "px": [
+    810,
+    3482,
+    1260,
+    114
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Every part of the layout is a slot, run npx @fumadocs/cli customize to copy it into your project.",
+   "active": false,
+   "textBox": [
+    415,
+    1749,
+    610,
+    41
+   ],
+   "lines": [
+    [
+     431,
+     1749,
+     594,
+     41
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1798,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    3596,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Spacious",
+   "breadcrumbs": "FumadocsUILayouts",
+   "active": false,
+   "textBox": [
+    415,
+    1826,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     1826,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1854,
+    630,
+    37
+   ],
+   "px": [
+    810,
+    3708,
+    1260,
+    74
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Import the layout from fumadocs-ui/layouts/spacious, and pass your page tree.",
+   "active": false,
+   "textBox": [
+    415,
+    1862,
+    610,
+    21
+   ],
+   "lines": [
+    [
+     431,
+     1862,
+     594,
+     21
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1891,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    3782,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "The Spacious layout is one of the layouts of Fumadocs UI. A layout with an inset page panel on a card surface.",
+   "active": false,
+   "textBox": [
+    415,
+    1899,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     1899,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1947,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    3894,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "A layout with an inset page panel on a card surface.",
+   "active": false,
+   "textBox": [
+    415,
+    1955,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     1955,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    1983,
+    630,
+    57
+   ],
+   "px": [
+    810,
+    3966,
+    1260,
+    114
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Every part of the layout is a slot, run npx @fumadocs/cli customize to copy it into your project.",
+   "active": false,
+   "textBox": [
+    415,
+    1991,
+    610,
+    41
+   ],
+   "lines": [
+    [
+     431,
+     1991,
+     594,
+     41
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2040,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    4080,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Customize",
+   "breadcrumbs": "FumadocsFrameworkCLI",
+   "active": false,
+   "textBox": [
+    415,
+    2068,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     2068,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2096,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    4192,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Eject layouts and parts of layouts into your project",
+   "active": false,
+   "textBox": [
+    415,
+    2104,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     2104,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2132,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    4264,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Eject layouts and parts of layouts into your project, with the Fumadocs CLI.",
+   "active": false,
+   "textBox": [
+    415,
+    2140,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     2140,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2168,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    4336,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Themes",
+   "breadcrumbs": "FumadocsUI",
+   "active": false,
+   "textBox": [
+    415,
+    2196,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     2196,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2224,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    4448,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "heading",
+   "text": "Layout Width",
+   "active": false,
+   "textBox": [
+    415,
+    2232,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     447,
+     2232,
+     578,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2260,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    4520,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "heading",
+   "text": "RTL Layout",
+   "active": false,
+   "textBox": [
+    415,
+    2268,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     447,
+     2268,
+     578,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2296,
+    630,
+    36
+   ],
+   "px": [
+    810,
+    4592,
+    1260,
+    72
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Customize the max width of docs layout with CSS Variables.",
+   "active": false,
+   "textBox": [
+    415,
+    2304,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     431,
+     2304,
+     594,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2332,
+    630,
+    57
+   ],
+   "px": [
+    810,
+    4664,
+    1260,
+    114
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "RTL (Right-to-left) layout is supported. To enable RTL, set the dir prop to rtl in body and root provider.",
+   "active": false,
+   "textBox": [
+    415,
+    2340,
+    610,
+    41
+   ],
+   "lines": [
+    [
+     431,
+     2340,
+     594,
+     41
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2389,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    4778,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "page",
+   "text": "Quick Start",
+   "breadcrumbs": "FumadocsGetting Started",
+   "active": false,
+   "textBox": [
+    415,
+    2417,
+    610,
+    20
+   ],
+   "lines": [
+    [
+     415,
+     2417,
+     610,
+     20
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2445,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    4890,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "A command line tool to install UI components and automate things, useful for customizing layouts.",
+   "active": false,
+   "textBox": [
+    415,
+    2453,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     2453,
+     594,
+     40
+    ]
+   ]
+  },
+  {
+   "css": [
+    405,
+    2501,
+    630,
+    56
+   ],
+   "px": [
+    810,
+    5002,
+    1260,
+    112
+   ],
+   "r": 8,
+   "kind": "text",
+   "text": "Fumadocs is built from layers, you can replace any of them, from the content source to the layout.",
+   "active": false,
+   "textBox": [
+    415,
+    2509,
+    610,
+    40
+   ],
+   "lines": [
+    [
+     431,
+     2509,
+     594,
+     40
+    ]
+   ]
+  }
+ ],
+ "footer": {
+  "css": [
+   401,
+   211,
+   638,
+   460
+  ],
+  "px": [
+   802,
+   422,
+   1276,
+   920
+  ]
+ }
+}

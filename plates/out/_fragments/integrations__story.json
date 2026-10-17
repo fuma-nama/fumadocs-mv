@@ -1,0 +1,206 @@
+{
+ "group": "integrations",
+ "id": "story",
+ "entry": {
+  "kind": "states",
+  "css": [
+   1920,
+   1080
+  ],
+  "dpr": 2,
+  "theme": "neutral",
+  "mode": "dark",
+  "url": "/themes/neutral/integrations/story",
+  "cards": {
+   "callout": {
+    "clip": [
+     530,
+     190,
+     860,
+     472
+    ],
+    "scrollY": 145,
+    "states": {
+     "01-default": {
+      "label": "Default variant, title \"This is a Callout\", type unset (renders info)",
+      "still": "integrations/story/callout/01-default.png",
+      "boxes": "integrations/story/callout/01-default.boxes.json",
+      "values": {
+       "children": "",
+       "title": "This is a Callout",
+       "type": ""
+      },
+      "variant": "Default"
+     },
+     "02-type-info": {
+      "label": "type = info",
+      "still": "integrations/story/callout/02-type-info.png",
+      "boxes": "integrations/story/callout/02-type-info.boxes.json",
+      "values": {
+       "children": "",
+       "title": "This is a Callout",
+       "type": ""
+      },
+      "variant": "Default"
+     },
+     "02-type-warning": {
+      "label": "type = warning",
+      "still": "integrations/story/callout/02-type-warning.png",
+      "boxes": "integrations/story/callout/02-type-warning.boxes.json",
+      "values": {
+       "children": "",
+       "title": "This is a Callout",
+       "type": ""
+      },
+      "variant": "Default"
+     },
+     "02-type-error": {
+      "label": "type = error",
+      "still": "integrations/story/callout/02-type-error.png",
+      "boxes": "integrations/story/callout/02-type-error.boxes.json",
+      "values": {
+       "children": "",
+       "title": "This is a Callout",
+       "type": ""
+      },
+      "variant": "Default"
+     },
+     "02-type-success": {
+      "label": "type = success",
+      "still": "integrations/story/callout/02-type-success.png",
+      "boxes": "integrations/story/callout/02-type-success.boxes.json",
+      "values": {
+       "children": "",
+       "title": "This is a Callout",
+       "type": ""
+      },
+      "variant": "Default"
+     },
+     "03-title-make-it-yours": {
+      "label": "type = success, title \"Make it yours\"",
+      "still": "integrations/story/callout/03-title-make-it-yours.png",
+      "boxes": "integrations/story/callout/03-title-make-it-yours.boxes.json",
+      "values": {
+       "children": "",
+       "title": "Make it yours",
+       "type": ""
+      },
+      "variant": "Default"
+     },
+     "04-variant-warning": {
+      "label": "variant select = Warning (type fixed to warning)",
+      "still": "integrations/story/callout/04-variant-warning.png",
+      "boxes": "integrations/story/callout/04-variant-warning.boxes.json",
+      "values": {
+       "children": "",
+       "title": "This is a Callout",
+       "type": ""
+      },
+      "variant": "Warning"
+     },
+     "05-variant-default": {
+      "label": "variant select back to Default",
+      "still": "integrations/story/callout/05-variant-default.png",
+      "boxes": "integrations/story/callout/05-variant-default.boxes.json",
+      "values": {
+       "children": "",
+       "title": "This is a Callout",
+       "type": ""
+      },
+      "variant": "Default"
+     }
+    }
+   },
+   "button": {
+    "clip": [
+     530,
+     621.97,
+     860,
+     468
+    ],
+    "scrollY": 737,
+    "states": {
+     "01-default": {
+      "label": "primary, md, enabled, \"Get Started\"",
+      "still": "integrations/story/button/01-default.png",
+      "boxes": "integrations/story/button/01-default.boxes.json",
+      "values": {
+       "children": "Get Started",
+       "variant": "",
+       "size": "",
+       "disabled": ""
+      }
+     },
+     "02-variant-secondary": {
+      "label": "variant = secondary",
+      "still": "integrations/story/button/02-variant-secondary.png",
+      "boxes": "integrations/story/button/02-variant-secondary.boxes.json",
+      "values": {
+       "children": "Get Started",
+       "variant": "",
+       "size": "",
+       "disabled": ""
+      }
+     },
+     "02-variant-outline": {
+      "label": "variant = outline",
+      "still": "integrations/story/button/02-variant-outline.png",
+      "boxes": "integrations/story/button/02-variant-outline.boxes.json",
+      "values": {
+       "children": "Get Started",
+       "variant": "",
+       "size": "",
+       "disabled": ""
+      }
+     },
+     "02-variant-primary": {
+      "label": "variant = primary",
+      "still": "integrations/story/button/02-variant-primary.png",
+      "boxes": "integrations/story/button/02-variant-primary.boxes.json",
+      "values": {
+       "children": "Get Started",
+       "variant": "",
+       "size": "",
+       "disabled": ""
+      }
+     },
+     "03-size-sm": {
+      "label": "size = sm",
+      "still": "integrations/story/button/03-size-sm.png",
+      "boxes": "integrations/story/button/03-size-sm.boxes.json",
+      "values": {
+       "children": "Get Started",
+       "variant": "",
+       "size": "",
+       "disabled": ""
+      }
+     },
+     "04-disabled": {
+      "label": "disabled = true",
+      "still": "integrations/story/button/04-disabled.png",
+      "boxes": "integrations/story/button/04-disabled.boxes.json",
+      "values": {
+       "children": "Get Started",
+       "variant": "",
+       "size": "",
+       "disabled": ""
+      }
+     },
+     "05-children": {
+      "label": "children = \"Make it yours\"",
+      "still": "integrations/story/button/05-children.png",
+      "boxes": "integrations/story/button/05-children.boxes.json",
+      "values": {
+       "children": "Make it yours",
+       "variant": "",
+       "size": "",
+       "disabled": ""
+      }
+     }
+    }
+   }
+  },
+  "frame": "integrations/story/frame.png",
+  "notes": "@fumadocs/story WithControl cards (the Callout story from fumadocs.dev + a Button story built on fumadocs-ui buttonVariants), Props fieldset expanded. Every state of one card uses the same clip (card + 12px margin, +120px below for taller states). boxes: card, header, variantSelect, preview, component, fields (name/type/label/control/value)."
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "group": "cli",
+ "id": "layout.glass",
+ "entry": {
+  "kind": "still+boxes",
+  "path": "cli/layouts/glass.png",
+  "size": [
+   3200,
+   1800
+  ],
+  "css": [
+   1600,
+   900
+  ],
+  "dpr": 2,
+  "layout": "glass",
+  "theme": "ocean",
+  "mode": "dark",
+  "url": "/themes/ocean/x/glass/themes",
+  "scrollY": 0,
+  "boxes": "cli/layouts/glass.boxes.json",
+  "keyBoxes": {
+   "header": null,
+   "tabs": null,
+   "sidebar": {
+    "css": [
+     8,
+     8,
+     272,
+     884
+    ],
+    "px": [
+     16,
+     16,
+     544,
+     1768
+    ],
+    "r": 16
+   },
+   "logo": {
+    "css": [
+     27,
+     25,
+     95.88,
+     20
+    ],
+    "px": [
+     54,
+     50,
+     192,
+     40
+    ],
+    "text": "Fumadocs"
+   },
+   "search": {
+    "css": [
+     1318,
+     8,
+     200,
+     40
+    ],
+    "px": [
+     2636,
+     16,
+     400,
+     80
+    ],
+    "r": 33554400,
+    "kbd": [
+     {
+      "css": [
+       1464.19,
+       17,
+       22.41,
+       22
+      ],
+      "px": [
+       2928,
+       34,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "⌘"
+     },
+     {
+      "css": [
+       1488.59,
+       17,
+       22.41,
+       22
+      ],
+      "px": [
+       2977,
+       34,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "K"
+     }
+    ]
+   },
+   "tabDropdown": {
+    "css": [
+     17,
+     59,
+     254,
+     38
+    ],
+    "px": [
+     34,
+     118,
+     508,
+     76
+    ],
+    "r": 12,
+    "text": "Framework"
+   },
+   "toc": {
+    "css": [
+     1360,
+     40,
+     240,
+     860
+    ],
+    "px": [
+     2720,
+     80,
+     480,
+     1720
+    ]
+   },
+   "tocTitle": null,
+   "glass": {
+    "sidebarCard": {
+     "css": [
+      8,
+      8,
+      272,
+      884
+     ],
+     "px": [
+      16,
+      16,
+      544,
+      1768
+     ],
+     "r": 16
+    },
+    "pillRow": {
+     "css": [
+      280,
+      0,
+      1320,
+      48
+     ],
+     "px": [
+      560,
+      0,
+      2640,
+      96
+     ]
+    },
+    "pills": [
+     {
+      "css": [
+       288,
+       8,
+       1230,
+       40
+      ],
+      "px": [
+       576,
+       16,
+       2460,
+       80
+      ],
+      "text": "Search⌘K"
+     },
+     {
+      "css": [
+       1526,
+       8,
+       66,
+       40
+      ],
+      "px": [
+       3052,
+       16,
+       132,
+       80
+      ],
+      "r": 33554400,
+      "text": ""
+     }
+    ]
+   }
+  },
+  "notes": "CLI scene: the \"Themes\" page (same as themes/ocean-dark.png) in this layout, ocean dark, 1600x900. Scroll 0. Full boxes (sidebar items, article blocks, TOC items + geometry, tabs, controls) in the .boxes.json. Layers: alpha, full frame, stack over the opaque background layer."
+ }
+}

@@ -1,0 +1,2520 @@
+{
+ "viewport": [
+  1600,
+  900
+ ],
+ "dpr": 2,
+ "scrollY": 0,
+ "preset": "ocean",
+ "mode": "light",
+ "sidebar": {
+  "box": {
+   "css": [
+    0,
+    0,
+    292,
+    900
+   ],
+   "px": [
+    0,
+    0,
+    584,
+    1800
+   ]
+  },
+  "header": {
+   "css": [
+    23,
+    0,
+    268,
+    102
+   ],
+   "px": [
+    46,
+    0,
+    536,
+    204
+   ]
+  },
+  "logo": {
+   "css": [
+    39,
+    16,
+    102.73,
+    30
+   ],
+   "px": [
+    78,
+    32,
+    205,
+    60
+   ],
+   "text": "Fumadocs"
+  },
+  "logoMark": {
+   "css": [
+    39,
+    21,
+    20,
+    20
+   ],
+   "px": [
+    78,
+    42,
+    40,
+    40
+   ]
+  },
+  "logoText": {
+   "css": [
+    69,
+    20.28,
+    72.73,
+    21.42
+   ],
+   "px": [
+    138,
+    41,
+    145,
+    43
+   ],
+   "text": "Fumadocs"
+  },
+  "collapseButton": {
+   "css": [
+    245,
+    16,
+    30,
+    30
+   ],
+   "px": [
+    490,
+    32,
+    60,
+    60
+   ],
+   "r": 6
+  },
+  "search": {
+   "box": {
+    "css": [
+     39,
+     58,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     116,
+     472,
+     72
+    ],
+    "r": 8
+   },
+   "icon": {
+    "css": [
+     48,
+     68,
+     16,
+     16
+    ],
+    "px": [
+     96,
+     136,
+     32,
+     32
+    ]
+   },
+   "label": null,
+   "kbd": [
+    {
+     "css": [
+      221.19,
+      65,
+      22.41,
+      22
+     ],
+     "px": [
+      442,
+      130,
+      45,
+      44
+     ],
+     "r": 6,
+     "text": "⌘"
+    },
+    {
+     "css": [
+      245.59,
+      65,
+      22.41,
+      22
+     ],
+     "px": [
+      491,
+      130,
+      45,
+      44
+     ],
+     "r": 6,
+     "text": "K"
+    }
+   ]
+  },
+  "tree": {
+   "css": [
+    23,
+    102,
+    268,
+    738
+   ],
+   "px": [
+    46,
+    204,
+    536,
+    1476
+   ]
+  },
+  "items": [
+   {
+    "css": [
+     39,
+     118,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     236,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Getting Started",
+    "depth": 0,
+    "active": false,
+    "open": true,
+    "icon": [
+     47,
+     128,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     39,
+     156,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     312,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Introduction",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     39,
+     194,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     388,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Quick Start",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     39,
+     232,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     464,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "What is Fumadocs",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     39,
+     270,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     540,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Comparisons",
+    "depth": 1,
+    "active": false
+   },
+   {
+    "css": [
+     39,
+     332,
+     236,
+     20
+    ],
+    "px": [
+     78,
+     664,
+     472,
+     40
+    ],
+    "kind": "separator",
+    "text": "UI",
+    "depth": 0,
+    "active": false
+   },
+   {
+    "css": [
+     39,
+     358,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     716,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Layouts",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     47,
+     368,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     39,
+     396,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     792,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Themes",
+    "depth": 0,
+    "active": true,
+    "icon": [
+     47,
+     406,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     39,
+     434,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     868,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Components",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     47,
+     444,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     39,
+     472,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     944,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "page",
+    "text": "Search",
+    "depth": 0,
+    "active": false,
+    "icon": [
+     47,
+     482,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     39,
+     534,
+     236,
+     20
+    ],
+    "px": [
+     78,
+     1068,
+     472,
+     40
+    ],
+    "kind": "separator",
+    "text": "Framework",
+    "depth": 0,
+    "active": false
+   },
+   {
+    "css": [
+     39,
+     560,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     1120,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Core",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     47,
+     570,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     39,
+     598,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     1196,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "MDX",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     47,
+     608,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     39,
+     636,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     1272,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "CLI",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     47,
+     646,
+     16,
+     16
+    ]
+   },
+   {
+    "css": [
+     39,
+     674,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     1348,
+     472,
+     72
+    ],
+    "r": 8,
+    "kind": "folder",
+    "text": "Integrations",
+    "depth": 0,
+    "active": false,
+    "open": false,
+    "icon": [
+     47,
+     684,
+     16,
+     16
+    ]
+   }
+  ],
+  "footer": {
+   "box": {
+    "css": [
+     23,
+     840,
+     268,
+     60
+    ],
+    "px": [
+     46,
+     1680,
+     536,
+     120
+    ]
+   },
+   "inner": {
+    "css": [
+     39,
+     848,
+     236,
+     36
+    ],
+    "px": [
+     78,
+     1696,
+     472,
+     72
+    ],
+    "r": 8
+   },
+   "github": {
+    "css": [
+     42,
+     851,
+     30,
+     30
+    ],
+    "px": [
+     84,
+     1702,
+     60,
+     60
+    ],
+    "r": 6
+   },
+   "themeToggle": {
+    "css": [
+     213,
+     853,
+     61,
+     26
+    ],
+    "px": [
+     426,
+     1706,
+     122,
+     52
+    ],
+    "options": [
+     {
+      "css": [
+       218,
+       853,
+       26,
+       26
+      ],
+      "px": [
+       436,
+       1706,
+       52,
+       52
+      ],
+      "r": 6,
+      "active": true
+     },
+     {
+      "css": [
+       244,
+       853,
+       26,
+       26
+      ],
+      "px": [
+       488,
+       1706,
+       52,
+       52
+      ],
+      "r": 6,
+      "active": false
+     }
+    ]
+   }
+  }
+ },
+ "breadcrumb": {
+  "box": {
+   "css": [
+    382,
+    56,
+    836,
+    20
+   ],
+   "px": [
+    764,
+    112,
+    1672,
+    40
+   ]
+  },
+  "items": [
+   {
+    "css": [
+     382,
+     56,
+     51.27,
+     20
+    ],
+    "px": [
+     764,
+     112,
+     103,
+     40
+    ],
+    "kind": "item",
+    "text": "Themes"
+   }
+  ]
+ },
+ "header": {
+  "h1": {
+   "css": [
+    382,
+    92,
+    836,
+    42
+   ],
+   "px": [
+    764,
+    184,
+    1672,
+    84
+   ],
+   "text": "Themes",
+   "lines": [
+    [
+     382,
+     95,
+     104.83,
+     36
+    ]
+   ]
+  },
+  "description": {
+   "css": [
+    382,
+    150,
+    836,
+    28
+   ],
+   "px": [
+    764,
+    300,
+    1672,
+    56
+   ],
+   "text": "Add Theme to Fumadocs UI",
+   "lines": [
+    [
+     382,
+     152,
+     226.3,
+     23
+    ]
+   ]
+  },
+  "actions": {
+   "box": {
+    "css": [
+     382,
+     194,
+     836,
+     55
+    ],
+    "px": [
+     764,
+     388,
+     1672,
+     110
+    ]
+   },
+   "buttons": [
+    {
+     "css": [
+      382,
+      194,
+      130.94,
+      30
+     ],
+     "px": [
+      764,
+      388,
+      262,
+      60
+     ],
+     "r": 6,
+     "text": "Copy Markdown"
+    },
+    {
+     "css": [
+      520.94,
+      194,
+      70.08,
+      30
+     ],
+     "px": [
+      1042,
+      388,
+      140,
+      60
+     ],
+     "r": 6,
+     "text": "Open"
+    }
+   ]
+  }
+ },
+ "article": {
+  "box": {
+   "css": [
+    350,
+    0,
+    900,
+    2252.67
+   ],
+   "px": [
+    700,
+    0,
+    1800,
+    4505
+   ]
+  },
+  "prose": {
+   "css": [
+    382,
+    265,
+    836,
+    1845.67
+   ],
+   "px": [
+    764,
+    530,
+    1672,
+    3691
+   ]
+  },
+  "blocks": [
+   {
+    "css": [
+     382,
+     265,
+     836,
+     57
+    ],
+    "px": [
+     764,
+     530,
+     1672,
+     114
+    ],
+    "kind": "p",
+    "text": "Fumadocs UI adds its own colors, animations and utilities with a Tailwind CSS preset. Import one in global.css, and every component, from the sidebar to the table of contents, follows it.",
+    "lines": [
+     [
+      382,
+      267,
+      812.73,
+      25
+     ],
+     [
+      382,
+      297,
+      542.55,
+      21
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     370,
+     836,
+     31.98
+    ],
+    "px": [
+     764,
+     740,
+     1672,
+     64
+    ],
+    "kind": "h2",
+    "id": "setup",
+    "text": "Setup",
+    "lines": [
+     [
+      382,
+      370,
+      200.19,
+      34.48
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     425.98,
+     836,
+     29
+    ],
+    "px": [
+     764,
+     852,
+     1672,
+     58
+    ],
+    "kind": "p",
+    "text": "Only Tailwind CSS v4 is supported, add the preset after tailwindcss:",
+    "lines": [
+     [
+      382,
+      427.98,
+      505.06,
+      25
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     474.98,
+     836,
+     123.69
+    ],
+    "px": [
+     764,
+     950,
+     1672,
+     247
+    ],
+    "r": 12,
+    "kind": "code",
+    "title": "app/global.css",
+    "titleBar": [
+     383,
+     475.98,
+     834,
+     38
+    ],
+    "copyButton": [
+     1185,
+     481.98,
+     24,
+     24
+    ],
+    "lines": [
+     [
+      383,
+      527.98,
+      834,
+      18.56
+     ],
+     [
+      383,
+      546.55,
+      834,
+      18.56
+     ],
+     [
+      383,
+      565.11,
+      834,
+      18.56
+     ]
+    ],
+    "code": [
+     "@import 'tailwindcss';",
+     "@import 'fumadocs-ui/css/ocean.css';",
+     "@import 'fumadocs-ui/css/preset.css';"
+    ]
+   },
+   {
+    "css": [
+     382,
+     630.67,
+     836,
+     32
+    ],
+    "px": [
+     764,
+     1261,
+     1672,
+     64
+    ],
+    "kind": "h3",
+    "id": "lightdark-modes",
+    "text": "Light/Dark Modes",
+    "lines": [
+     [
+      382,
+      630.67,
+      304.41,
+      34.5
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     674.67,
+     836,
+     29
+    ],
+    "px": [
+     764,
+     1349,
+     1672,
+     58
+    ],
+    "kind": "p",
+    "text": "Both modes are built in, powered by next-themes in the Root Provider.",
+    "lines": [
+     [
+      382,
+      677.67,
+      509.61,
+      21
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     723.67,
+     836,
+     99
+    ],
+    "px": [
+     764,
+     1447,
+     1672,
+     198
+    ],
+    "r": 12,
+    "kind": "tabs",
+    "list": [
+     383,
+     724.67,
+     834,
+     37
+    ],
+    "tabs": [
+     {
+      "css": [
+       399,
+       724.67,
+       85.27,
+       37
+      ],
+      "px": [
+       798,
+       1449,
+       171,
+       74
+      ],
+      "text": "Tailwind CSS",
+      "selected": true
+     },
+     {
+      "css": [
+       498.27,
+       724.67,
+       66.88,
+       37
+      ],
+      "px": [
+       997,
+       1449,
+       134,
+       74
+      ],
+      "text": "Shadcn UI",
+      "selected": false
+     }
+    ],
+    "panel": [
+     383,
+     761.67,
+     834,
+     60
+    ],
+    "text": "Pick any preset, the colors adapt to light and dark mode."
+   },
+   {
+    "css": [
+     382,
+     842.67,
+     836,
+     58
+    ],
+    "px": [
+     764,
+     1685,
+     1672,
+     116
+    ],
+    "kind": "p",
+    "text": "Switch between them with the toggle in the sidebar footer, or programmatically with setTheme() from next-themes.",
+    "lines": [
+     [
+      382,
+      844.67,
+      789.42,
+      25
+     ],
+     [
+      382,
+      873.67,
+      54.03,
+      25
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     948.67,
+     836,
+     31.98
+    ],
+    "px": [
+     764,
+     1897,
+     1672,
+     64
+    ],
+    "kind": "h2",
+    "id": "colors",
+    "text": "Colors",
+    "lines": [
+     [
+      382,
+      948.67,
+      205.84,
+      34.48
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     1004.66,
+     836,
+     58
+    ],
+    "px": [
+     764,
+     2009,
+     1672,
+     116
+    ],
+    "kind": "p",
+    "text": "It comes with many presets out-of-the-box: neutral, black, vitepress, dusk, catppuccin, ocean, purple, solar, emerald, ruby, aspen and shadcn.",
+    "lines": [
+     [
+      382,
+      1006.66,
+      783.45,
+      25
+     ],
+     [
+      382,
+      1035.66,
+      310.89,
+      25
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     1082.66,
+     836,
+     116
+    ],
+    "px": [
+     764,
+     2165,
+     1672,
+     232
+    ],
+    "kind": "cards",
+    "cards": [
+     {
+      "css": [
+       382,
+       1082.66,
+       412,
+       116
+      ],
+      "px": [
+       764,
+       2165,
+       824,
+       232
+      ],
+      "r": 12,
+      "title": "Presets",
+      "text": "PresetsTwelve colour presets, one import away."
+     },
+     {
+      "css": [
+       806,
+       1082.66,
+       412,
+       116
+      ],
+      "px": [
+       1612,
+       2165,
+       824,
+       232
+      ],
+      "r": 12,
+      "title": "Custom Colors",
+      "text": "Custom ColorsBring your own palette with CSS variables."
+     }
+    ]
+   },
+   {
+    "css": [
+     382,
+     1230.66,
+     836,
+     32
+    ],
+    "px": [
+     764,
+     2461,
+     1672,
+     64
+    ],
+    "kind": "h3",
+    "id": "presets",
+    "text": "Presets",
+    "lines": [
+     [
+      382,
+      1230.66,
+      204.61,
+      34.5
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     1274.66,
+     836,
+     29
+    ],
+    "px": [
+     764,
+     2549,
+     1672,
+     58
+    ],
+    "kind": "p",
+    "text": "Each preset sets the --color-fd-* variables for both modes, some also restyle the sidebar or the article.",
+    "lines": [
+     [
+      382,
+      1276.66,
+      762.17,
+      25
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     1335.66,
+     836,
+     32
+    ],
+    "px": [
+     764,
+     2671,
+     1672,
+     64
+    ],
+    "kind": "h3",
+    "id": "custom-colors",
+    "text": "Custom Colors",
+    "lines": [
+     [
+      382,
+      1335.66,
+      272.48,
+      34.5
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     1379.66,
+     836,
+     28
+    ],
+    "px": [
+     764,
+     2759,
+     1672,
+     56
+    ],
+    "kind": "p",
+    "text": "The design system was inspired by Shadcn UI, you can also customize the colors using CSS variables.",
+    "lines": [
+     [
+      382,
+      1382.66,
+      741.47,
+      21
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     1427.66,
+     836,
+     179.38
+    ],
+    "px": [
+     764,
+     2855,
+     1672,
+     359
+    ],
+    "r": 12,
+    "kind": "code",
+    "title": "app/global.css",
+    "titleBar": [
+     383,
+     1428.66,
+     834,
+     38
+    ],
+    "copyButton": [
+     1185,
+     1434.66,
+     24,
+     24
+    ],
+    "lines": [
+     [
+      383,
+      1480.66,
+      834,
+      18.56
+     ],
+     [
+      383,
+      1499.22,
+      834,
+      18.56
+     ],
+     [
+      383,
+      1517.78,
+      834,
+      18.56
+     ],
+     [
+      383,
+      1536.34,
+      834,
+      18.56
+     ],
+     [
+      383,
+      1554.91,
+      834,
+      18.56
+     ],
+     [
+      383,
+      1573.47,
+      834,
+      18.56
+     ]
+    ],
+    "code": [
+     "@theme {",
+     "  --color-fd-background: hsl(0, 0%, 96%);",
+     "  --color-fd-foreground: hsl(0, 0%, 3.9%);",
+     "  --color-fd-primary: hsl(0, 0%, 9%);",
+     "  --color-fd-primary-foreground: hsl(0, 0%, 98%);",
+     "}"
+    ]
+   },
+   {
+    "css": [
+     382,
+     1655.03,
+     836,
+     31.98
+    ],
+    "px": [
+     764,
+     3310,
+     1672,
+     64
+    ],
+    "kind": "h2",
+    "id": "typography",
+    "text": "Typography",
+    "lines": [
+     [
+      382,
+      1655.03,
+      265.86,
+      34.48
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     1711.02,
+     836,
+     29
+    ],
+    "px": [
+     764,
+     3422,
+     1672,
+     58
+    ],
+    "kind": "p",
+    "text": "We have a built-in plugin forked from Tailwind CSS Typography, it adds the prose class and variants.",
+    "lines": [
+     [
+      382,
+      1713.02,
+      736.13,
+      25
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     1788.02,
+     836,
+     31.98
+    ],
+    "px": [
+     764,
+     3576,
+     1672,
+     64
+    ],
+    "kind": "h2",
+    "id": "layout-width",
+    "text": "Layout Width",
+    "lines": [
+     [
+      382,
+      1788.02,
+      283.08,
+      34.48
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     1844,
+     836,
+     28
+    ],
+    "px": [
+     764,
+     3688,
+     1672,
+     56
+    ],
+    "kind": "p",
+    "text": "Customize the max width of docs layout with CSS Variables.",
+    "lines": [
+     [
+      382,
+      1847,
+      439.52,
+      21
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     1892,
+     836,
+     85.69
+    ],
+    "px": [
+     764,
+     3784,
+     1672,
+     171
+    ],
+    "r": 12,
+    "kind": "code",
+    "copyButton": [
+     1185,
+     1901,
+     24,
+     24
+    ],
+    "lines": [
+     [
+      383,
+      1907,
+      834,
+      18.56
+     ],
+     [
+      383,
+      1925.56,
+      834,
+      18.56
+     ],
+     [
+      383,
+      1944.13,
+      834,
+      18.56
+     ]
+    ],
+    "code": [
+     ":root {",
+     "  --fd-layout-width: 1400px;",
+     "}"
+    ]
+   },
+   {
+    "css": [
+     382,
+     2025.69,
+     836,
+     31.98
+    ],
+    "px": [
+     764,
+     4051,
+     1672,
+     64
+    ],
+    "kind": "h2",
+    "id": "rtl-layout",
+    "text": "RTL Layout",
+    "lines": [
+     [
+      382,
+      2025.69,
+      258.58,
+      34.48
+     ]
+    ]
+   },
+   {
+    "css": [
+     382,
+     2081.67,
+     836,
+     29
+    ],
+    "px": [
+     764,
+     4163,
+     1672,
+     58
+    ],
+    "kind": "p",
+    "text": "RTL (Right-to-left) layout is supported. To enable RTL, set the dir prop to rtl in body and root provider.",
+    "lines": [
+     [
+      382,
+      2083.67,
+      758.84,
+      25
+     ]
+    ]
+   }
+  ]
+ },
+ "footer": [
+  {
+   "css": [
+    382,
+    2126.67,
+    836,
+    102
+   ],
+   "px": [
+    764,
+    4253,
+    1672,
+    204
+   ],
+   "text": "Home LayoutShared layout for other pages, such as landing pages and blogs.AccordionAdd Accordions to your documentation",
+   "links": [
+    {
+     "css": [
+      382,
+      2126.67,
+      410,
+      102
+     ],
+     "px": [
+      764,
+      4253,
+      820,
+      204
+     ],
+     "r": 8,
+     "text": "Home LayoutShared layout for other pages, such as landing pages and blogs."
+    },
+    {
+     "css": [
+      808,
+      2126.67,
+      410,
+      102
+     ],
+     "px": [
+      1616,
+      4253,
+      820,
+      204
+     ],
+     "r": 8,
+     "text": "AccordionAdd Accordions to your documentation"
+    }
+   ]
+  }
+ ],
+ "toc": {
+  "box": {
+   "css": [
+    1308,
+    0,
+    268,
+    900
+   ],
+   "px": [
+    2616,
+    0,
+    536,
+    1800
+   ]
+  },
+  "title": {
+   "css": [
+    1308,
+    48,
+    252,
+    20
+   ],
+   "px": [
+    2616,
+    96,
+    504,
+    40
+   ],
+   "text": "On this page"
+  },
+  "titleIcon": {
+   "css": [
+    1308,
+    50,
+    16,
+    16
+   ],
+   "px": [
+    2616,
+    100,
+    32,
+    32
+   ]
+  },
+  "items": [
+   {
+    "css": [
+     1309,
+     80,
+     251,
+     26
+    ],
+    "px": [
+     2618,
+     160,
+     502,
+     52
+    ],
+    "text": "Setup",
+    "href": "#setup",
+    "active": true
+   },
+   {
+    "css": [
+     1309,
+     106,
+     251,
+     32
+    ],
+    "px": [
+     2618,
+     212,
+     502,
+     64
+    ],
+    "text": "Light/Dark Modes",
+    "href": "#lightdark-modes",
+    "active": true
+   },
+   {
+    "css": [
+     1309,
+     138,
+     251,
+     32
+    ],
+    "px": [
+     2618,
+     276,
+     502,
+     64
+    ],
+    "text": "Colors",
+    "href": "#colors",
+    "active": false
+   },
+   {
+    "css": [
+     1309,
+     170,
+     251,
+     32
+    ],
+    "px": [
+     2618,
+     340,
+     502,
+     64
+    ],
+    "text": "Presets",
+    "href": "#presets",
+    "active": false
+   },
+   {
+    "css": [
+     1309,
+     202,
+     251,
+     32
+    ],
+    "px": [
+     2618,
+     404,
+     502,
+     64
+    ],
+    "text": "Custom Colors",
+    "href": "#custom-colors",
+    "active": false
+   },
+   {
+    "css": [
+     1309,
+     234,
+     251,
+     32
+    ],
+    "px": [
+     2618,
+     468,
+     502,
+     64
+    ],
+    "text": "Typography",
+    "href": "#typography",
+    "active": false
+   },
+   {
+    "css": [
+     1309,
+     266,
+     251,
+     32
+    ],
+    "px": [
+     2618,
+     532,
+     502,
+     64
+    ],
+    "text": "Layout Width",
+    "href": "#layout-width",
+    "active": false
+   },
+   {
+    "css": [
+     1309,
+     298,
+     251,
+     26
+    ],
+    "px": [
+     2618,
+     596,
+     502,
+     52
+    ],
+    "text": "RTL Layout",
+    "href": "#rtl-layout",
+    "active": false
+   }
+  ],
+  "geometry": {
+   "container": [
+    1309,
+    80,
+    251,
+    244
+   ],
+   "title": {
+    "rect": [
+     -1,
+     -32,
+     252,
+     20
+    ],
+    "text": "On this page",
+    "icon": [
+     -1,
+     -30,
+     16,
+     16
+    ]
+   },
+   "scroller": [
+    0,
+    -12,
+    251,
+    268
+   ],
+   "items": [
+    {
+     "title": "Setup",
+     "depth": 2,
+     "baseline": 15,
+     "url": "#setup",
+     "active": true,
+     "rect": [
+      0,
+      0,
+      251,
+      26
+     ],
+     "offset": [
+      0,
+      0,
+      251,
+      26
+     ],
+     "padding": [
+      0,
+      0,
+      6,
+      20
+     ],
+     "textBox": [
+      20,
+      1,
+      38.38,
+      18
+     ],
+     "textTop": 0,
+     "textBottom": 20,
+     "color": "rgb(10, 52, 93)",
+     "rail": {
+      "rect": [
+       0,
+       -6,
+       17,
+       26
+      ],
+      "paths": [
+       {
+        "line": [
+         "8.5",
+         "6",
+         "8.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Light/Dark Modes",
+     "depth": 3,
+     "baseline": 47,
+     "url": "#lightdark-modes",
+     "active": true,
+     "rect": [
+      0,
+      26,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      26,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      32
+     ],
+     "textBox": [
+      32,
+      33,
+      115.78,
+      18
+     ],
+     "textTop": 32,
+     "textBottom": 52,
+     "color": "rgb(10, 52, 93)",
+     "rail": {
+      "rect": [
+       0,
+       20,
+       25,
+       32
+      ],
+      "paths": [
+       {
+        "d": "M 8.5 0 C 8.5 8 16.5 4 16.5 12"
+       },
+       {
+        "line": [
+         "16.5",
+         "12",
+         "16.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Colors",
+     "depth": 2,
+     "baseline": 79,
+     "url": "#colors",
+     "active": false,
+     "rect": [
+      0,
+      58,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      58,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      20
+     ],
+     "textBox": [
+      20,
+      65,
+      41.25,
+      18
+     ],
+     "textTop": 64,
+     "textBottom": 84,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       52,
+       25,
+       32
+      ],
+      "paths": [
+       {
+        "d": "M 16.5 0 C 16.5 8 8.5 4 8.5 12"
+       },
+       {
+        "line": [
+         "8.5",
+         "12",
+         "8.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Presets",
+     "depth": 3,
+     "baseline": 111,
+     "url": "#presets",
+     "active": false,
+     "rect": [
+      0,
+      90,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      90,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      32
+     ],
+     "textBox": [
+      32,
+      97,
+      48.55,
+      18
+     ],
+     "textTop": 96,
+     "textBottom": 116,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       84,
+       25,
+       38
+      ],
+      "paths": [
+       {
+        "d": "M 8.5 0 C 8.5 8 16.5 4 16.5 12"
+       },
+       {
+        "line": [
+         "16.5",
+         "12",
+         "16.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Custom Colors",
+     "depth": 3,
+     "baseline": 143,
+     "url": "#custom-colors",
+     "active": false,
+     "rect": [
+      0,
+      122,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      122,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      32
+     ],
+     "textBox": [
+      32,
+      129,
+      94.64,
+      18
+     ],
+     "textTop": 128,
+     "textBottom": 148,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       116,
+       25,
+       32
+      ],
+      "paths": [
+       {
+        "line": [
+         "16.5",
+         "6",
+         "16.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Typography",
+     "depth": 2,
+     "baseline": 175,
+     "url": "#typography",
+     "active": false,
+     "rect": [
+      0,
+      154,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      154,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      20
+     ],
+     "textBox": [
+      20,
+      161,
+      74.38,
+      18
+     ],
+     "textTop": 160,
+     "textBottom": 180,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       148,
+       25,
+       38
+      ],
+      "paths": [
+       {
+        "d": "M 16.5 0 C 16.5 8 8.5 4 8.5 12"
+       },
+       {
+        "line": [
+         "8.5",
+         "12",
+         "8.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Layout Width",
+     "depth": 2,
+     "baseline": 207,
+     "url": "#layout-width",
+     "active": false,
+     "rect": [
+      0,
+      186,
+      251,
+      32
+     ],
+     "offset": [
+      0,
+      186,
+      251,
+      32
+     ],
+     "padding": [
+      6,
+      0,
+      6,
+      20
+     ],
+     "textBox": [
+      20,
+      193,
+      84.55,
+      18
+     ],
+     "textTop": 192,
+     "textBottom": 212,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       180,
+       17,
+       38
+      ],
+      "paths": [
+       {
+        "line": [
+         "8.5",
+         "6",
+         "8.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "RTL Layout",
+     "depth": 2,
+     "baseline": 239,
+     "url": "#rtl-layout",
+     "active": false,
+     "rect": [
+      0,
+      218,
+      251,
+      26
+     ],
+     "offset": [
+      0,
+      218,
+      251,
+      26
+     ],
+     "padding": [
+      6,
+      0,
+      0,
+      20
+     ],
+     "textBox": [
+      20,
+      225,
+      71.61,
+      18
+     ],
+     "textTop": 224,
+     "textBottom": 244,
+     "color": "rgb(115, 115, 115)",
+     "rail": {
+      "rect": [
+       0,
+       212,
+       17,
+       32
+      ],
+      "paths": [
+       {
+        "line": [
+         "8.5",
+         "6",
+         "8.5",
+         "100%"
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "thumb": {
+    "rect": [
+     0,
+     0,
+     24.5,
+     244
+    ],
+    "d": " M8.5 0 L8.5 20 C 8.5 28 16.5 24 16.5 32 L16.5 52 C 16.5 60 8.5 56 8.5 64 L8.5 84 C 8.5 92 16.5 88 16.5 96 L16.5 116 C 16.5 124 16.5 120 16.5 128 L16.5 148 C 16.5 156 8.5 152 8.5 160 L8.5 180 C 8.5 188 8.5 184 8.5 192 L8.5 212 C 8.5 220 8.5 216 8.5 224 L8.5 244",
+    "svgClip": "polygon(0px 0px, 100% 0px, 100% 52px, 0px 52px)",
+    "trackTop": "0px",
+    "trackBottom": "52px",
+    "offsetDistance": "56px",
+    "dot": {
+     "rect": [
+      14.36,
+      50.54,
+      4.24,
+      4.24
+     ],
+     "offsetPath": "path(\"M 8.5 0 L 8.5 20 C 8.5 28 16.5 24 16.5 32 L 16.5 52 C 16.5 60 8.5 56 8.5 64 L 8.5 84 C 8.5 92 16.5 88 16.5 96 L 16.5 116 C 16.5 124 16.5 120 16.5 128 L 16.5 148 C 16.5 156 8.5 152 8.5 160 L 8.5 180 C 8.5 188 8.5 184 8.5 192 L 8.5 212 C 8.5 220 8.5 216 8.5 224 L 8.5 244\")",
+     "opacity": "1"
+    },
+    "stroke": "rgb(10, 52, 93)",
+    "totalLength": 258.06,
+    "itemLineLengths": [
+     [
+      0,
+      20
+     ],
+     [
+      36,
+      56
+     ],
+     [
+      72,
+      92
+     ],
+     [
+      107,
+      127
+     ],
+     [
+      139,
+      159
+     ],
+     [
+      175,
+      195
+     ],
+     [
+      207,
+      227
+     ],
+     [
+      239,
+      259
+     ]
+    ],
+    "dotSize": 4
+   }
+  }
+ },
+ "colors": {
+  "background": "rgb(250, 250, 250)",
+  "foreground": "rgb(10, 10, 10)",
+  "muted": "rgb(236, 242, 254)",
+  "muted-foreground": "rgb(115, 115, 115)",
+  "popover": "rgb(250, 250, 250)",
+  "popover-foreground": "rgb(39, 39, 39)",
+  "card": "rgb(247, 249, 252)",
+  "card-foreground": "rgb(10, 10, 10)",
+  "border": "rgb(216, 225, 242)",
+  "primary": "rgb(10, 52, 93)",
+  "primary-foreground": "rgb(250, 250, 250)",
+  "secondary": "rgb(236, 242, 254)",
+  "secondary-foreground": "rgb(23, 23, 23)",
+  "accent": "rgb(232, 237, 247)",
+  "accent-foreground": "rgb(23, 23, 23)",
+  "ring": "rgb(71, 132, 255)",
+  "bodyBackground": "rgb(250, 250, 250)"
+ },
+ "styles": {
+  "body": {
+   "fontFamily": "geist, \"geist Fallback\"",
+   "fontWeight": "400",
+   "fontSize": "16px",
+   "lineHeight": "24px",
+   "letterSpacing": "normal",
+   "color": "rgb(10, 10, 10)"
+  },
+  "h1": {
+   "fontFamily": "geist, \"geist Fallback\"",
+   "fontWeight": "600",
+   "fontSize": "28px",
+   "lineHeight": "42px",
+   "letterSpacing": "normal",
+   "color": "rgb(10, 10, 10)"
+  },
+  "p": {
+   "fontFamily": "geist, \"geist Fallback\"",
+   "fontWeight": "400",
+   "fontSize": "16px",
+   "lineHeight": "28px",
+   "letterSpacing": "normal",
+   "color": "oklab(0.144787 0.00000661612 0.00000289828 / 0.9)"
+  },
+  "sidebarItem": {
+   "fontFamily": "geist, \"geist Fallback\"",
+   "fontWeight": "400",
+   "fontSize": "14px",
+   "lineHeight": "20px",
+   "letterSpacing": "normal",
+   "color": "rgb(115, 115, 115)"
+  },
+  "sidebarActive": {
+   "color": "rgb(10, 52, 93)",
+   "backgroundColor": "oklab(0.321526 -0.0262736 -0.081309 / 0.1)",
+   "fontWeight": "400"
+  },
+  "tocItem": {
+   "fontFamily": "geist, \"geist Fallback\"",
+   "fontWeight": "400",
+   "fontSize": "14px",
+   "lineHeight": "20px",
+   "letterSpacing": "normal",
+   "color": "rgb(10, 52, 93)"
+  },
+  "tocTitle": {
+   "fontFamily": "geist, \"geist Fallback\"",
+   "fontWeight": "400",
+   "fontSize": "14px",
+   "lineHeight": "20px",
+   "letterSpacing": "normal",
+   "color": "rgb(115, 115, 115)"
+  },
+  "code": {
+   "fontFamily": "mono, \"mono Fallback\"",
+   "fontWeight": "400",
+   "fontSize": "13px",
+   "lineHeight": "18.5714px",
+   "letterSpacing": "normal",
+   "color": "oklab(0.144787 0.00000661612 0.00000289828 / 0.9)"
+  }
+ },
+ "presetImport": {
+  "line": {
+   "css": [
+    383,
+    546.55,
+    834,
+    18.56
+   ],
+   "px": [
+    766,
+    1093,
+    1668,
+    37
+   ],
+   "text": "@import 'fumadocs-ui/css/ocean.css';"
+  },
+  "stringToken": {
+   "css": [
+    453.61,
+    546.55,
+    218.41,
+    17
+   ],
+   "px": [
+    907,
+    1093,
+    437,
+    34
+   ],
+   "text": " 'fumadocs-ui/css/ocean.css'",
+   "color": "rgb(3, 47, 98)"
+  },
+  "presetName": {
+   "css": [
+    594,
+    546.55,
+    39.02,
+    17
+   ],
+   "px": [
+    1188,
+    1093,
+    78,
+    34
+   ],
+   "text": "ocean",
+   "color": "rgb(3, 47, 98)"
+  },
+  "codeBlock": {
+   "css": [
+    382,
+    474.98,
+    836,
+    123.69
+   ],
+   "px": [
+    764,
+    950,
+    1672,
+    247
+   ],
+   "r": 12
+  }
+ },
+ "activeRanges": [
+  {
+   "id": "setup",
+   "text": "Setup",
+   "depth": 2,
+   "top": 370,
+   "height": 31.98,
+   "visibleScrollRange": [
+    0,
+    373.2
+   ]
+  },
+  {
+   "id": "lightdark-modes",
+   "text": "Light/Dark Modes",
+   "depth": 3,
+   "top": 630.67,
+   "height": 32,
+   "visibleScrollRange": [
+    0,
+    633.87
+   ]
+  },
+  {
+   "id": "colors",
+   "text": "Colors",
+   "depth": 2,
+   "top": 948.67,
+   "height": 31.98,
+   "visibleScrollRange": [
+    77.45,
+    951.87
+   ]
+  },
+  {
+   "id": "presets",
+   "text": "Presets",
+   "depth": 3,
+   "top": 1230.66,
+   "height": 32,
+   "visibleScrollRange": [
+    359.46,
+    1233.86
+   ]
+  },
+  {
+   "id": "custom-colors",
+   "text": "Custom Colors",
+   "depth": 3,
+   "top": 1335.66,
+   "height": 32,
+   "visibleScrollRange": [
+    464.46,
+    1338.86
+   ]
+  },
+  {
+   "id": "typography",
+   "text": "Typography",
+   "depth": 2,
+   "top": 1655.03,
+   "height": 31.98,
+   "visibleScrollRange": [
+    783.81,
+    1658.23
+   ]
+  },
+  {
+   "id": "layout-width",
+   "text": "Layout Width",
+   "depth": 2,
+   "top": 1788.02,
+   "height": 31.98,
+   "visibleScrollRange": [
+    916.8,
+    1791.22
+   ]
+  },
+  {
+   "id": "rtl-layout",
+   "text": "RTL Layout",
+   "depth": 2,
+   "top": 2025.69,
+   "height": 31.98,
+   "visibleScrollRange": [
+    1154.47,
+    2028.89
+   ]
+  }
+ ]
+}

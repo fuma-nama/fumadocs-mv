@@ -1,0 +1,44 @@
+---
+title: Typescript
+description: Generate docs from Typescript definitions
+---
+
+## Usage
+
+```package-install
+fumadocs-typescript
+```
+
+### UI Integration
+
+It comes with the `AutoTypeTable` component. Learn more about [Auto Type Table](/docs/ui/components/auto-type-table).
+
+## Annotations
+
+### Hide
+
+Hide a field by adding `@internal` tsdoc tag.
+
+```ts
+interface MyInterface {
+  /**
+   * @internal
+   */
+  cache: number;
+}
+```
+
+### Simplified Type
+
+You can specify the simplified name of a type with the `@remarks` tsdoc tag.
+
+```ts
+interface MyInterface {
+  /**
+   * @remarks `timestamp` Returned by API. // [!code highlight]
+   */
+  time: number;
+}
+```
+
+This will make the type of `time` property to be shown as `timestamp`.

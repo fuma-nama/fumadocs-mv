@@ -1,0 +1,228 @@
+{
+ "group": "layouts",
+ "id": "docs.light",
+ "entry": {
+  "kind": "still+boxes",
+  "path": "layouts/docs.light.png",
+  "size": [
+   2880,
+   1800
+  ],
+  "css": [
+   1440,
+   900
+  ],
+  "dpr": 2,
+  "layout": "docs",
+  "theme": "neutral",
+  "mode": "light",
+  "url": "/themes/neutral/getting-started/quick-start",
+  "scrollY": 0,
+  "boxes": "layouts/docs.light.boxes.json",
+  "keyBoxes": {
+   "header": null,
+   "tabs": null,
+   "sidebar": {
+    "css": [
+     0,
+     0,
+     268,
+     900
+    ],
+    "px": [
+     0,
+     0,
+     536,
+     1800
+    ]
+   },
+   "logo": {
+    "css": [
+     15,
+     16,
+     102.73,
+     30
+    ],
+    "px": [
+     30,
+     32,
+     205,
+     60
+    ],
+    "text": "Fumadocs"
+   },
+   "search": {
+    "css": [
+     15,
+     58,
+     236,
+     36
+    ],
+    "px": [
+     30,
+     116,
+     472,
+     72
+    ],
+    "r": 8,
+    "kbd": [
+     {
+      "css": [
+       197.19,
+       65,
+       22.41,
+       22
+      ],
+      "px": [
+       394,
+       130,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "⌘"
+     },
+     {
+      "css": [
+       221.59,
+       65,
+       22.41,
+       22
+      ],
+      "px": [
+       443,
+       130,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "K"
+     }
+    ]
+   },
+   "tabDropdown": null,
+   "article": {
+    "css": [
+     270,
+     0,
+     900,
+     2625.88
+    ],
+    "px": [
+     540,
+     0,
+     1800,
+     5252
+    ]
+   },
+   "h1": {
+    "css": [
+     302,
+     92,
+     836,
+     42
+    ],
+    "px": [
+     604,
+     184,
+     1672,
+     84
+    ],
+    "text": "Quick Start"
+   },
+   "description": {
+    "css": [
+     302,
+     150,
+     836,
+     28
+    ],
+    "px": [
+     604,
+     300,
+     1672,
+     56
+    ],
+    "text": "Getting Started with Fumadocs"
+   },
+   "actions": {
+    "css": [
+     302,
+     194,
+     836,
+     55
+    ],
+    "px": [
+     604,
+     388,
+     1672,
+     110
+    ],
+    "buttons": [
+     {
+      "css": [
+       302,
+       194,
+       130.94,
+       30
+      ],
+      "px": [
+       604,
+       388,
+       262,
+       60
+      ],
+      "r": 6,
+      "text": "Copy Markdown"
+     },
+     {
+      "css": [
+       440.94,
+       194,
+       70.08,
+       30
+      ],
+      "px": [
+       882,
+       388,
+       140,
+       60
+      ],
+      "r": 6,
+      "text": "Open"
+     }
+    ]
+   },
+   "toc": {
+    "css": [
+     1172,
+     0,
+     268,
+     900
+    ],
+    "px": [
+     2344,
+     0,
+     536,
+     1800
+    ]
+   },
+   "tocTitle": {
+    "css": [
+     1172,
+     48,
+     252,
+     20
+    ],
+    "px": [
+     2344,
+     96,
+     504,
+     40
+    ],
+    "text": "On this page"
+   }
+  },
+  "notes": "Quick Start page, scroll 0. Full boxes (sidebar items, article blocks, TOC items + geometry, tabs, controls) in the .boxes.json. Layers: alpha, full frame, stack over the opaque background layer."
+ }
+}

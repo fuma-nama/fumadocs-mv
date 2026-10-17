@@ -1,0 +1,41 @@
+---
+title: Accordion
+description: Add Accordions to your documentation
+---
+
+## Usage
+
+Based on
+[Base UI Accordion](https://base-ui.com/react/components/accordion), useful for FAQ sections.
+
+<Callout>
+
+For the Radix UI package, this is based on [Radix UI Accordion](https://www.radix-ui.com/primitives/docs/components/accordion) instead.
+
+</Callout>
+
+Use it in MDX files or as a normal React component.
+
+```mdx tab="MDX"
+---
+title: Hello World
+---
+
+import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
+
+<Accordions type="single">
+  <Accordion title="My Title">My Content</Accordion>
+</Accordions>
+```
+
+```tsx tab="React.js"
+import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
+
+export default function Page() {
+  return (
+    <Accordions type="single">
+      <Accordion title="My Title">My Content</Accordion>
+    </Accordions>
+  );
+}
+```

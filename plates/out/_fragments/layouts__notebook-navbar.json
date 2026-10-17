@@ -1,0 +1,346 @@
+{
+ "group": "layouts",
+ "id": "notebook-navbar",
+ "entry": {
+  "kind": "still+boxes+layers",
+  "path": "layouts/notebook-navbar.png",
+  "size": [
+   2880,
+   1800
+  ],
+  "css": [
+   1440,
+   900
+  ],
+  "dpr": 2,
+  "layout": "notebook-navbar",
+  "theme": "neutral",
+  "mode": "dark",
+  "url": "/themes/neutral/x/notebook-navbar/getting-started/quick-start",
+  "scrollY": 0,
+  "boxes": "layouts/notebook-navbar.boxes.json",
+  "layers": {
+   "background": "layouts/notebook-navbar/layers/background.png",
+   "sidebar": "layouts/notebook-navbar/layers/sidebar.png",
+   "article": "layouts/notebook-navbar/layers/article.png",
+   "toc": "layouts/notebook-navbar/layers/toc.png",
+   "header": "layouts/notebook-navbar/layers/header.png"
+  },
+  "keyBoxes": {
+   "header": {
+    "css": [
+     268,
+     0,
+     1172,
+     96
+    ],
+    "px": [
+     536,
+     0,
+     2344,
+     192
+    ],
+    "id": "nd-subnav"
+   },
+   "tabs": {
+    "box": {
+     "css": [
+      268,
+      56,
+      1172,
+      40
+     ],
+     "px": [
+      536,
+      112,
+      2344,
+      80
+     ]
+    },
+    "items": [
+     {
+      "css": [
+       292,
+       67,
+       73.69,
+       28
+      ],
+      "px": [
+       584,
+       134,
+       147,
+       56
+      ],
+      "text": "Framework",
+      "active": true
+     },
+     {
+      "css": [
+       389.69,
+       67,
+       30.98,
+       28
+      ],
+      "px": [
+       779,
+       134,
+       62,
+       56
+      ],
+      "text": "Core",
+      "active": false
+     },
+     {
+      "css": [
+       444.67,
+       67,
+       30.44,
+       28
+      ],
+      "px": [
+       889,
+       134,
+       61,
+       56
+      ],
+      "text": "MDX",
+      "active": false
+     },
+     {
+      "css": [
+       499.11,
+       67,
+       21.34,
+       28
+      ],
+      "px": [
+       998,
+       134,
+       43,
+       56
+      ],
+      "text": "CLI",
+      "active": false
+     },
+     {
+      "css": [
+       544.45,
+       67,
+       78.61,
+       28
+      ],
+      "px": [
+       1089,
+       134,
+       157,
+       56
+      ],
+      "text": "Integrations",
+      "active": false
+     }
+    ]
+   },
+   "sidebar": {
+    "css": [
+     0,
+     0,
+     268,
+     900
+    ],
+    "px": [
+     0,
+     0,
+     536,
+     1800
+    ]
+   },
+   "logo": {
+    "css": [
+     15,
+     16,
+     97.88,
+     31
+    ],
+    "px": [
+     30,
+     32,
+     196,
+     62
+    ],
+    "text": "Fumadocs"
+   },
+   "search": {
+    "css": [
+     284,
+     9.5,
+     240,
+     36
+    ],
+    "px": [
+     568,
+     19,
+     480,
+     72
+    ],
+    "r": 8,
+    "kbd": [
+     {
+      "css": [
+       470.19,
+       16.5,
+       22.41,
+       22
+      ],
+      "px": [
+       940,
+       33,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "⌘"
+     },
+     {
+      "css": [
+       494.59,
+       16.5,
+       22.41,
+       22
+      ],
+      "px": [
+       989,
+       33,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "K"
+     }
+    ]
+   },
+   "tabDropdown": null,
+   "article": {
+    "css": [
+     268,
+     96,
+     904,
+     2605.88
+    ],
+    "px": [
+     536,
+     192,
+     1808,
+     5212
+    ]
+   },
+   "h1": {
+    "css": [
+     300,
+     188,
+     840,
+     42
+    ],
+    "px": [
+     600,
+     376,
+     1680,
+     84
+    ],
+    "text": "Quick Start"
+   },
+   "description": {
+    "css": [
+     300,
+     246,
+     840,
+     28
+    ],
+    "px": [
+     600,
+     492,
+     1680,
+     56
+    ],
+    "text": "Getting Started with Fumadocs"
+   },
+   "actions": {
+    "css": [
+     300,
+     290,
+     840,
+     55
+    ],
+    "px": [
+     600,
+     580,
+     1680,
+     110
+    ],
+    "buttons": [
+     {
+      "css": [
+       300,
+       290,
+       130.94,
+       30
+      ],
+      "px": [
+       600,
+       580,
+       262,
+       60
+      ],
+      "r": 6,
+      "text": "Copy Markdown"
+     },
+     {
+      "css": [
+       438.94,
+       290,
+       70.08,
+       30
+      ],
+      "px": [
+       878,
+       580,
+       140,
+       60
+      ],
+      "r": 6,
+      "text": "Open"
+     }
+    ]
+   },
+   "toc": {
+    "css": [
+     1172,
+     96,
+     268,
+     804
+    ],
+    "px": [
+     2344,
+     192,
+     536,
+     1608
+    ]
+   },
+   "tocTitle": {
+    "css": [
+     1172,
+     144,
+     252,
+     20
+    ],
+    "px": [
+     2344,
+     288,
+     504,
+     40
+    ],
+    "text": "On this page"
+   }
+  },
+  "notes": "Quick Start page, scroll 0. Full boxes (sidebar items, article blocks, TOC items + geometry, tabs, controls) in the .boxes.json. Layers: alpha, full frame, stack over the opaque background layer."
+ }
+}

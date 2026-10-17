@@ -1,0 +1,35 @@
+{
+ "about": "Real Fumadocs UI plates captured with Playwright (headless Chromium) from plates/app, a Next.js app on the published packages. Paths are relative to /plates/ (this folder).",
+ "versions": {
+  "fumadocs-core": "16.17.1",
+  "fumadocs-ui": "@fumadocs/base-ui 16.17.1 (aliased as fumadocs-ui)",
+  "fumadocs-mdx": "15.4.7",
+  "fumadocs-openapi": "12.4.1",
+  "@fumadocs/story": "1.4.0",
+  "fumadocs-obsidian": "1.0.6",
+  "next": "16.3.8",
+  "react": "19.3.0"
+ },
+ "conventions": {
+  "boxes": "css = [x, y, w, h] in CSS px relative to the viewport at capture time; px = same rect in device px (css * dpr, rounded) = PNG pixel coordinates; doc = [x, y, w, h] in document coordinates (only when the page was scrolled); r = border radius in CSS px.",
+  "layers": "Layer PNGs have the full frame size, transparent background, and stack pixel-aligned over the matching full frame. Each layer keeps its own background (e.g. the sidebar card) unless noted.",
+  "sequences": "Sequences are numbered PNGs (pattern with %04d). CSS transitions are captured by freezing the document timeline (CDP Animation.setPlaybackRate 0) and seeking every new animation to t = frame/(count-1) * durationMs, so frames are exact samples of the real easing. 'stretch' says how much the real transition was slowed down to fill the sequence.",
+  "fonts": "Geist (sans, --font-sans) and JetBrains Mono (--font-mono), as on fumadocs.dev. Loaded locally, waited for before every capture.",
+  "colors": "sRGB (Chromium --force-color-profile=srgb)."
+ },
+ "viewports": {
+  "read": "1440x810 @2x (2880x1620)",
+  "layouts": "1440x900 @2x (2880x1800)",
+  "themes": "1600x900 @2x (3200x1800)",
+  "integrations": "1920x1080 @2x (3840x2160)"
+ },
+ "groups": {
+  "read": "READ scene: Docs layout hero page \"Getting Started > Introduction\" (film chapters as headings), 1440x810 @2x. Orange primary variant + plain neutral light/dark. Frames, stacking layers, full boxes, tall article tiles, ⌘K search states for \"contents\", TOC states per heading, close-ups at DPR 4, tabs/copy states.",
+  "toc": "TOC variants: normal/clerk/block geometry JSON + validation stills (light/dark), heading-to-heading 60 fps sequences, Glass minimap collapsed/expanded + expand sequence, mobile popover bar (progress circle) + sequences + tall phone page, Spacious TOC dropdown roll-in sequences.",
+  "layouts": "LAYOUT scene: Quick Start page in docs / notebook / notebook-top / notebook-navbar / flux / flux-open / glass / spacious / home, 1440x900 @2x, neutral dark (+ .light). Region layers + boxes for wireframes.",
+  "themes": "THEME scene: \"Themes\" page in the Docs layout, 12 presets x light/dark at 1600x900 @2x, identical state; .s600 = scrolled 600px. The code block names each capture's own preset.",
+  "cli": "CLI scene: ocean dark at 1600x900 @2x: the Themes page in each layout, cumulative customisation variants v1-v8 + one-change variants, the Files tree crop, and the real CLI transcript (create-app, customize, add).",
+  "integrations": "INTEGRATIONS scene (dark, 1920x1080 @2x): OpenAPI operation (Scalar Galaxy, POST /planets) + code-sample tabs + playground states with a mocked 201, method labels; Story cards (Callout, Button) with controls; Obsidian vault pages + callout crops; Sanity-like block layers.",
+  "interactions": "Interaction sequences on the hero page: light->dark toggle (View Transition), sidebar folder expand/collapse. (Search: read.search.*, copy button: read.extras.*.)"
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "group": "toc",
+ "id": "seq.block.orange.light",
+ "entry": {
+  "kind": "sequences",
+  "tocStyle": "block",
+  "theme": "neutral (+ primary #FA8023)",
+  "mode": "light",
+  "dpr": 2,
+  "viewport": [
+   1440,
+   810
+  ],
+  "clip": [
+   1172,
+   0,
+   268,
+   810
+  ],
+  "sequences": [
+   {
+    "from": "reading",
+    "to": "table-of-contents",
+    "activeFrom": [
+     "#reading",
+     "#search"
+    ],
+    "activeTo": [
+     "#table-of-contents"
+    ],
+    "pattern": "toc/seq/block-orange-light/reading__table-of-contents/%04d.png",
+    "count": 72,
+    "fps": 60,
+    "durationMs": 300,
+    "stretch": 4,
+    "animations": [
+     "clip-path:300",
+     "color:150",
+     "color:150",
+     "color:150"
+    ]
+   },
+   {
+    "from": "table-of-contents",
+    "to": "layouts",
+    "activeFrom": [
+     "#table-of-contents"
+    ],
+    "activeTo": [
+     "#layouts",
+     "#docs"
+    ],
+    "pattern": "toc/seq/block-orange-light/table-of-contents__layouts/%04d.png",
+    "count": 72,
+    "fps": 60,
+    "durationMs": 300,
+    "stretch": 4,
+    "animations": [
+     "clip-path:300",
+     "color:150",
+     "color:150",
+     "color:150"
+    ]
+   },
+   {
+    "from": "layouts",
+    "to": "glass",
+    "activeFrom": [
+     "#layouts",
+     "#docs"
+    ],
+    "activeTo": [
+     "#flux",
+     "#glass",
+     "#minimap",
+     "#spacious",
+     "#themes"
+    ],
+    "pattern": "toc/seq/block-orange-light/layouts__glass/%04d.png",
+    "count": 72,
+    "fps": 60,
+    "durationMs": 300,
+    "stretch": 4,
+    "animations": [
+     "clip-path:300",
+     "color:150",
+     "color:150",
+     "color:150",
+     "color:150",
+     "color:150",
+     "color:150",
+     "color:150"
+    ]
+   },
+   {
+    "from": "glass",
+    "to": "themes",
+    "activeFrom": [
+     "#flux",
+     "#glass",
+     "#minimap",
+     "#spacious",
+     "#themes"
+    ],
+    "activeTo": [
+     "#themes",
+     "#make-it-yours"
+    ],
+    "pattern": "toc/seq/block-orange-light/glass__themes/%04d.png",
+    "count": 72,
+    "fps": 60,
+    "durationMs": 300,
+    "stretch": 4,
+    "animations": [
+     "clip-path:300",
+     "color:150",
+     "color:150",
+     "color:150",
+     "color:150",
+     "color:150"
+    ]
+   },
+   {
+    "from": "themes",
+    "to": "integrations",
+    "activeFrom": [
+     "#themes",
+     "#make-it-yours"
+    ],
+    "activeTo": [
+     "#integrations",
+     "#openapi",
+     "#obsidian",
+     "#sanity"
+    ],
+    "pattern": "toc/seq/block-orange-light/themes__integrations/%04d.png",
+    "count": 72,
+    "fps": 60,
+    "durationMs": 300,
+    "stretch": 4,
+    "animations": [
+     "clip-path:300",
+     "color:150",
+     "color:150",
+     "color:150",
+     "color:150",
+     "color:150",
+     "color:150"
+    ]
+   },
+   {
+    "from": "integrations",
+    "to": "showcase",
+    "activeFrom": [
+     "#integrations",
+     "#openapi",
+     "#obsidian",
+     "#sanity"
+    ],
+    "activeTo": [
+     "#showcase"
+    ],
+    "pattern": "toc/seq/block-orange-light/integrations__showcase/%04d.png",
+    "count": 72,
+    "fps": 60,
+    "durationMs": 300,
+    "stretch": 4,
+    "animations": [
+     "clip-path:300",
+     "color:150",
+     "color:150",
+     "color:150",
+     "color:150",
+     "color:150"
+    ]
+   }
+  ],
+  "notes": "TOC column crop (#nd-toc) while jumping from heading A to heading B (scroll = heading - 112). The real transition (normal/clerk 150 ms, block 300 ms) is sampled uniformly over 72 frames (= 1.2 s at 60 fps). The article jumps instantly (not visible in the crop)."
+ }
+}

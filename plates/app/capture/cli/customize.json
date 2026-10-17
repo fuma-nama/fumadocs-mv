@@ -1,0 +1,141 @@
+{
+ "cmd": [
+  "npx",
+  "--yes",
+  "@fumadocs/cli@1.7.5",
+  "customize"
+ ],
+ "cwd": "$WORKDIR/my-docs",
+ "cols": 100,
+ "rows": 34,
+ "tail": 5,
+ "steps": [
+  {
+   "label": "start",
+   "settle": 0.2
+  },
+  {
+   "wait": "What do you want to customize",
+   "label": "prompt: what (Docs Layout focused)",
+   "settle": 1.0,
+   "send": "\u001b[B"
+  },
+  {
+   "label": "down: Notebook Layout",
+   "settle": 0.4,
+   "send": "\u001b[B"
+  },
+  {
+   "label": "down: Flux Layout",
+   "settle": 0.4,
+   "send": "\u001b[B"
+  },
+  {
+   "label": "down: Glass Layout",
+   "settle": 0.4,
+   "send": "\u001b[B"
+  },
+  {
+   "label": "down: Spacious Layout",
+   "settle": 0.4,
+   "send": "\u001b[A"
+  },
+  {
+   "label": "up: Glass Layout",
+   "settle": 0.4,
+   "send": "\u001b[A"
+  },
+  {
+   "label": "up: Flux Layout",
+   "settle": 0.4,
+   "send": "\u001b[A"
+  },
+  {
+   "label": "up: Notebook Layout",
+   "settle": 0.4,
+   "send": "\u001b[A"
+  },
+  {
+   "label": "up: Docs Layout",
+   "settle": 0.4,
+   "send": "\r"
+  },
+  {
+   "wait": "Which part do you want to customize",
+   "label": "prompt: which part (All focused)",
+   "settle": 1.0,
+   "send": "\u001b[B"
+  },
+  {
+   "label": "down 1",
+   "settle": 0.4,
+   "send": "\u001b[B"
+  },
+  {
+   "label": "down 2",
+   "settle": 0.4,
+   "send": "\u001b[B"
+  },
+  {
+   "label": "down 3",
+   "settle": 0.4,
+   "send": "\u001b[B"
+  },
+  {
+   "label": "down 4",
+   "settle": 0.4,
+   "send": "\u001b[B"
+  },
+  {
+   "label": "down 5",
+   "settle": 0.4,
+   "send": "\u001b[B"
+  },
+  {
+   "label": "down 6",
+   "settle": 0.4,
+   "send": "\u001b[A"
+  },
+  {
+   "label": "up 5",
+   "settle": 0.3,
+   "send": "\u001b[A"
+  },
+  {
+   "label": "up 4",
+   "settle": 0.3,
+   "send": "\u001b[A"
+  },
+  {
+   "label": "up 3",
+   "settle": 0.3,
+   "send": "\u001b[A"
+  },
+  {
+   "label": "up 2",
+   "settle": 0.3,
+   "send": "\u001b[A"
+  },
+  {
+   "label": "up 1",
+   "settle": 0.3,
+   "send": "\u001b[A"
+  },
+  {
+   "label": "up 0: All",
+   "settle": 0.4,
+   "send": "\r"
+  },
+  {
+   "wait": "Do you want to install with",
+   "label": "prompt: install deps",
+   "settle": 0.6,
+   "send": "\r"
+  },
+  {
+   "wait": "Have fun",
+   "label": "done",
+   "settle": 1.0
+  }
+ ]
+}

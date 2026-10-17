@@ -1,0 +1,12 @@
+{
+  "title": "Integrations",
+  "icon": "Blocks",
+  "pages": [
+    "openapi",
+    "obsidian",
+    "sanity",
+    "story",
+    "python",
+    "typescript"
+  ]
+}

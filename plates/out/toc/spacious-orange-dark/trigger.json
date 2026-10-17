@@ -1,0 +1,171 @@
+{
+ "panel": {
+  "css": [
+   268,
+   8,
+   1004,
+   784
+  ],
+  "px": [
+   536,
+   16,
+   2008,
+   1568
+  ],
+  "r": 16
+ },
+ "header": {
+  "css": [
+   269,
+   9,
+   1002,
+   56
+  ],
+  "px": [
+   538,
+   18,
+   2004,
+   112
+  ]
+ },
+ "trigger": {
+  "css": [
+   499.53,
+   21,
+   108.75,
+   32
+  ],
+  "px": [
+   999,
+   42,
+   218,
+   64
+  ],
+  "r": 8,
+  "text": "Layouts"
+ },
+ "progress": {
+  "css": [
+   505.53,
+   29,
+   16,
+   16
+  ],
+  "px": [
+   1011,
+   58,
+   32,
+   32
+  ],
+  "value": "0.3157894736842105"
+ },
+ "heading": {
+  "css": [
+   529.53,
+   27,
+   50.75,
+   20
+  ],
+  "px": [
+   1059,
+   54,
+   102,
+   40
+  ],
+  "text": "Layouts"
+ },
+ "chevron": {
+  "css": [
+   588.28,
+   30,
+   14,
+   14
+  ],
+  "px": [
+   1177,
+   60,
+   28,
+   28
+  ]
+ },
+ "scrollTop": 2969,
+ "tocVisible": false,
+ "headings": [
+  {
+   "id": "reading",
+   "top": 358
+  },
+  {
+   "id": "search",
+   "top": 1012
+  },
+  {
+   "id": "code-blocks",
+   "top": 1382
+  },
+  {
+   "id": "table-of-contents",
+   "top": 2072
+  },
+  {
+   "id": "layouts",
+   "top": 3049
+  },
+  {
+   "id": "docs",
+   "top": 3577
+  },
+  {
+   "id": "notebook",
+   "top": 3973
+  },
+  {
+   "id": "flux",
+   "top": 4078
+  },
+  {
+   "id": "glass",
+   "top": 4182
+  },
+  {
+   "id": "styles",
+   "top": 4334
+  },
+  {
+   "id": "spacious",
+   "top": 4616
+  },
+  {
+   "id": "themes",
+   "top": 4861
+  },
+  {
+   "id": "make-it-yours",
+   "top": 5212
+  },
+  {
+   "id": "integrations",
+   "top": 5943
+  },
+  {
+   "id": "openapi",
+   "top": 6087
+  },
+  {
+   "id": "obsidian",
+   "top": 6409
+  },
+  {
+   "id": "sanity",
+   "top": 6607
+  },
+  {
+   "id": "story",
+   "top": 6711
+  },
+  {
+   "id": "showcase",
+   "top": 6832
+  }
+ ]
+}

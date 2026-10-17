@@ -1,0 +1,354 @@
+{
+ "group": "cli",
+ "id": "layout.spacious",
+ "entry": {
+  "kind": "still+boxes",
+  "path": "cli/layouts/spacious.png",
+  "size": [
+   3200,
+   1800
+  ],
+  "css": [
+   1600,
+   900
+  ],
+  "dpr": 2,
+  "layout": "spacious",
+  "theme": "ocean",
+  "mode": "dark",
+  "url": "/themes/ocean/x/spacious/themes",
+  "scrollY": 0,
+  "boxes": "cli/layouts/spacious.boxes.json",
+  "keyBoxes": {
+   "header": null,
+   "tabs": null,
+   "sidebar": {
+    "css": [
+     0,
+     0,
+     268,
+     900
+    ],
+    "px": [
+     0,
+     0,
+     536,
+     1800
+    ]
+   },
+   "logo": {
+    "css": [
+     22,
+     25.28,
+     100.73,
+     21.42
+    ],
+    "px": [
+     44,
+     51,
+     201,
+     43
+    ],
+    "text": "Fumadocs"
+   },
+   "search": {
+    "css": [
+     12,
+     120,
+     244,
+     40
+    ],
+    "px": [
+     24,
+     240,
+     488,
+     80
+    ],
+    "r": 12,
+    "kbd": [
+     {
+      "css": [
+       200.19,
+       129,
+       22.41,
+       22
+      ],
+      "px": [
+       400,
+       258,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "⌘"
+     },
+     {
+      "css": [
+       224.59,
+       129,
+       22.41,
+       22
+      ],
+      "px": [
+       449,
+       258,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "K"
+     }
+    ]
+   },
+   "tabDropdown": {
+    "css": [
+     12,
+     72,
+     244,
+     40
+    ],
+    "px": [
+     24,
+     144,
+     488,
+     80
+    ],
+    "r": 12,
+    "text": "Framework"
+   },
+   "article": {
+    "css": [
+     398,
+     65,
+     760,
+     2228.67
+    ],
+    "px": [
+     796,
+     130,
+     1520,
+     4457
+    ]
+   },
+   "h1": {
+    "css": [
+     398,
+     89,
+     760,
+     42
+    ],
+    "px": [
+     796,
+     178,
+     1520,
+     84
+    ],
+    "text": "Themes"
+   },
+   "description": {
+    "css": [
+     398,
+     147,
+     760,
+     28
+    ],
+    "px": [
+     796,
+     294,
+     1520,
+     56
+    ],
+    "text": "Add Theme to Fumadocs UI"
+   },
+   "actions": {
+    "css": [
+     398,
+     191,
+     760,
+     55
+    ],
+    "px": [
+     796,
+     382,
+     1520,
+     110
+    ],
+    "buttons": [
+     {
+      "css": [
+       398,
+       191,
+       130.94,
+       30
+      ],
+      "px": [
+       796,
+       382,
+       262,
+       60
+      ],
+      "r": 6,
+      "text": "Copy Markdown"
+     },
+     {
+      "css": [
+       536.94,
+       191,
+       70.08,
+       30
+      ],
+      "px": [
+       1074,
+       382,
+       140,
+       60
+      ],
+      "r": 6,
+      "text": "Open"
+     }
+    ]
+   },
+   "toc": {
+    "css": [
+     1158,
+     65,
+     304,
+     826
+    ],
+    "px": [
+     2316,
+     130,
+     608,
+     1652
+    ]
+   },
+   "tocTitle": {
+    "css": [
+     1222,
+     97,
+     240,
+     20
+    ],
+    "px": [
+     2444,
+     194,
+     480,
+     40
+    ],
+    "text": "On this page"
+   },
+   "spacious": {
+    "surface": {
+     "css": [
+      0,
+      0,
+      1600,
+      900
+     ],
+     "px": [
+      0,
+      0,
+      3200,
+      1800
+     ],
+     "background": "rgba(17, 31, 60, 0.4)"
+    },
+    "panel": {
+     "css": [
+      268,
+      8,
+      1324,
+      884
+     ],
+     "px": [
+      536,
+      16,
+      2648,
+      1768
+     ],
+     "r": 16,
+     "background": "rgb(8, 16, 33)"
+    },
+    "panelHeader": {
+     "css": [
+      269,
+      9,
+      1322,
+      56
+     ],
+     "px": [
+      538,
+      18,
+      2644,
+      112
+     ]
+    },
+    "breadcrumb": {
+     "css": [
+      293,
+      27,
+      50.09,
+      20
+     ],
+     "px": [
+      586,
+      54,
+      100,
+      40
+     ],
+     "text": "Themes"
+    },
+    "actions": {
+     "css": [
+      1513,
+      22,
+      62,
+      30
+     ],
+     "px": [
+      3026,
+      44,
+      124,
+      60
+     ],
+     "r": 8,
+     "items": [
+      {
+       "css": [
+        1513,
+        22,
+        30,
+        30
+       ],
+       "px": [
+        3026,
+        44,
+        60,
+        60
+       ],
+       "r": 6,
+       "label": "GitHub"
+      },
+      {
+       "css": [
+        1545,
+        22,
+        30,
+        30
+       ],
+       "px": [
+        3090,
+        44,
+        60,
+        60
+       ],
+       "r": 6,
+       "label": "Options"
+      }
+     ]
+    }
+   }
+  },
+  "notes": "CLI scene: the \"Themes\" page (same as themes/ocean-dark.png) in this layout, ocean dark, 1600x900. Scroll 0. Full boxes (sidebar items, article blocks, TOC items + geometry, tabs, controls) in the .boxes.json. Layers: alpha, full frame, stack over the opaque background layer."
+ }
+}

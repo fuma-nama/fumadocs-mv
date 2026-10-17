@@ -1,0 +1,650 @@
+{
+ "group": "integrations",
+ "id": "obsidian",
+ "entry": {
+  "kind": "stills+boxes+alpha callouts",
+  "css": [
+   1920,
+   1080
+  ],
+  "dpr": 2,
+  "theme": "neutral",
+  "mode": "dark",
+  "pages": {
+   "welcome": {
+    "path": "integrations/obsidian/welcome.png",
+    "url": "/obsidian/Welcome",
+    "boxes": "integrations/obsidian/welcome.boxes.json",
+    "callouts": [
+     {
+      "css": [
+       542,
+       326,
+       836,
+       46
+      ],
+      "px": [
+       1084,
+       652,
+       1672,
+       92
+      ],
+      "r": 12,
+      "text": "Hello World Welcome fssdf",
+      "color": "lab(72.7183% 31.8672 97.9407)",
+      "crop": "integrations/obsidian/welcome-callout-0.png"
+     }
+    ],
+    "scrolled": {
+     "frame": "integrations/obsidian/welcome.scrolled.png",
+     "scrollY": 214
+    },
+    "keyBoxes": {
+     "title": {
+      "css": [
+       542,
+       56,
+       836,
+       42
+      ],
+      "px": [
+       1084,
+       112,
+       1672,
+       84
+      ],
+      "text": "Welcome"
+     },
+     "callouts": [
+      {
+       "css": [
+        542,
+        326,
+        836,
+        46
+       ],
+       "px": [
+        1084,
+        652,
+        1672,
+        92
+       ],
+       "r": 12,
+       "text": "Hello World Welcome fssdf",
+       "color": "lab(72.7183% 31.8672 97.9407)"
+      }
+     ],
+     "links": [
+      {
+       "css": [
+        739.33,
+        185,
+        92.06,
+        21
+       ],
+       "px": [
+        1479,
+        370,
+        184,
+        42
+       ],
+       "text": "create a link",
+       "href": "/obsidian/create%20a%20link"
+      },
+      {
+       "css": [
+        882.3,
+        185,
+        93.22,
+        21
+       ],
+       "px": [
+        1765,
+        370,
+        186,
+        42
+       ],
+       "text": "the Importer",
+       "href": "https://help.obsidian.md/Plugins/Importer"
+      },
+      {
+       "css": [
+        542,
+        233,
+        120.53,
+        21
+       ],
+       "px": [
+        1084,
+        466,
+        241,
+        42
+       ],
+       "text": "./hello world.md",
+       "href": "/obsidian/hello%20world"
+      },
+      {
+       "css": [
+        662.09,
+        340,
+        60.89,
+        18
+       ],
+       "px": [
+        1324,
+        680,
+        122,
+        36
+       ],
+       "text": "Welcome",
+       "href": "/obsidian/Welcome"
+      },
+      {
+       "css": [
+        609.59,
+        443,
+        63.92,
+        21
+       ],
+       "px": [
+        1219,
+        886,
+        128,
+        42
+       ],
+       "text": "Test.png",
+       "href": "/vault/Folder/Resource/Test.png"
+      },
+      {
+       "css": [
+        1018.92,
+        491,
+        143.7,
+        21
+       ],
+       "px": [
+        2038,
+        982,
+        287,
+        42
+       ],
+       "text": "Welcome#^3b02ea",
+       "href": "/obsidian/Welcome#%5E3b02ea"
+      },
+      {
+       "css": [
+        542,
+        1088.02,
+        152.39,
+        31.98
+       ],
+       "px": [
+        1084,
+        2176,
+        305,
+        64
+       ],
+       "text": "Introduction!!",
+       "href": "#introduction"
+      }
+     ],
+     "headings": [
+      {
+       "css": [
+        542,
+        1088.02,
+        836,
+        31.98
+       ],
+       "px": [
+        1084,
+        2176,
+        1672,
+        64
+       ],
+       "text": "Introduction!!",
+       "id": "introduction"
+      }
+     ],
+     "images": [
+      {
+       "css": [
+        542,
+        548,
+        836,
+        492.02
+       ],
+       "px": [
+        1084,
+        1096,
+        1672,
+        984
+       ],
+       "r": 8,
+       "alt": "Xmas.png",
+       "src": "http://localhost:5310/_next/image?url=%2Fvault%2FXmas.png&w=1920&q=75"
+      }
+     ]
+    }
+   },
+   "fumadocs-vault": {
+    "path": "integrations/obsidian/fumadocs-vault.png",
+    "url": "/obsidian/Fumadocs%20Vault",
+    "boxes": "integrations/obsidian/fumadocs-vault.boxes.json",
+    "callouts": [
+     {
+      "css": [
+       542,
+       190,
+       836,
+       74
+      ],
+      "px": [
+       1084,
+       380,
+       1672,
+       148
+      ],
+      "r": 12,
+      "text": "Write in ObsidianKeep your notes where you write them. Fumadocs reads the vault, links included: hello world, create a link and nested pages.",
+      "color": "#212121",
+      "crop": "integrations/obsidian/fumadocs-vault-callout-0.png"
+     },
+     {
+      "css": [
+       542,
+       415.98,
+       836,
+       74.56
+      ],
+      "px": [
+       1084,
+       832,
+       1672,
+       149
+      ],
+      "r": 12,
+      "text": "TipUse [[Page#Heading]] to link to a heading, like Welcome#Introduction!!.",
+      "color": "lab(54.1736% 13.3369 -74.6839)",
+      "crop": "integrations/obsidian/fumadocs-vault-callout-1.png"
+     },
+     {
+      "css": [
+       542,
+       506.55,
+       836,
+       74.56
+      ],
+      "px": [
+       1084,
+       1013,
+       1672,
+       149
+      ],
+      "r": 12,
+      "text": "Heads upEmbeds like ![[Xmas.png]] are resolved from the vault.",
+      "color": "lab(72.7183% 31.8672 97.9407)",
+      "crop": "integrations/obsidian/fumadocs-vault-callout-2.png"
+     },
+     {
+      "css": [
+       542,
+       597.11,
+       836,
+       74
+      ],
+      "px": [
+       1084,
+       1194,
+       1672,
+       148
+      ],
+      "r": 12,
+      "text": "PublishedThe vault is now a docs site.",
+      "color": "lab(70.5521% -66.5147 45.8073)",
+      "crop": "integrations/obsidian/fumadocs-vault-callout-3.png"
+     }
+    ],
+    "scrolled": {
+     "frame": "integrations/obsidian/fumadocs-vault.scrolled.png",
+     "scrollY": 449
+    },
+    "keyBoxes": {
+     "title": {
+      "css": [
+       542,
+       56,
+       836,
+       42
+      ],
+      "px": [
+       1084,
+       112,
+       1672,
+       84
+      ],
+      "text": "Fumadocs Vault"
+     },
+     "callouts": [
+      {
+       "css": [
+        542,
+        190,
+        836,
+        74
+       ],
+       "px": [
+        1084,
+        380,
+        1672,
+        148
+       ],
+       "r": 12,
+       "text": "Write in ObsidianKeep your notes where you write them. Fumadocs reads the vault, links included: hello world, create a link and nested pages.",
+       "color": "#212121"
+      },
+      {
+       "css": [
+        542,
+        415.98,
+        836,
+        74.56
+       ],
+       "px": [
+        1084,
+        832,
+        1672,
+        149
+       ],
+       "r": 12,
+       "text": "TipUse [[Page#Heading]] to link to a heading, like Welcome#Introduction!!.",
+       "color": "lab(54.1736% 13.3369 -74.6839)"
+      },
+      {
+       "css": [
+        542,
+        506.55,
+        836,
+        74.56
+       ],
+       "px": [
+        1084,
+        1013,
+        1672,
+        149
+       ],
+       "r": 12,
+       "text": "Heads upEmbeds like ![[Xmas.png]] are resolved from the vault.",
+       "color": "lab(72.7183% 31.8672 97.9407)"
+      },
+      {
+       "css": [
+        542,
+        597.11,
+        836,
+        74
+       ],
+       "px": [
+        1084,
+        1194,
+        1672,
+        148
+       ],
+       "r": 12,
+       "text": "PublishedThe vault is now a docs site.",
+       "color": "lab(70.5521% -66.5147 45.8073)"
+      }
+     ],
+     "links": [
+      {
+       "css": [
+        1278.52,
+        117,
+        65.2,
+        21
+       ],
+       "px": [
+        2557,
+        234,
+        130,
+        42
+       ],
+       "text": "wikilinks",
+       "href": "/obsidian/Welcome"
+      },
+      {
+       "css": [
+        1076.34,
+        232,
+        72.2,
+        18
+       ],
+       "px": [
+        2153,
+        464,
+        144,
+        36
+       ],
+       "text": "hello world",
+       "href": "/obsidian/hello%20world"
+      },
+      {
+       "css": [
+        1154.88,
+        232,
+        80.56,
+        18
+       ],
+       "px": [
+        2310,
+        464,
+        161,
+        36
+       ],
+       "text": "create a link",
+       "href": "/obsidian/create%20a%20link"
+      },
+      {
+       "css": [
+        1266.41,
+        232,
+        88.63,
+        18
+       ],
+       "px": [
+        2533,
+        464,
+        177,
+        36
+       ],
+       "text": "nested pages",
+       "href": "/obsidian/Folder/Nested%20Page"
+      },
+      {
+       "css": [
+        542,
+        312,
+        95.89,
+        31.98
+       ],
+       "px": [
+        1084,
+        624,
+        192,
+        64
+       ],
+       "text": "Callouts",
+       "href": "#callouts"
+      },
+      {
+       "css": [
+        902.44,
+        457.98,
+        154.22,
+        18
+       ],
+       "px": [
+        1805,
+        916,
+        308,
+        36
+       ],
+       "text": "Welcome#Introduction!!",
+       "href": "/obsidian/Welcome#introduction"
+      },
+      {
+       "css": [
+        542,
+        719.11,
+        92.58,
+        31.98
+       ],
+       "px": [
+        1084,
+        1438,
+        185,
+        64
+       ],
+       "text": "Embeds",
+       "href": "#embeds"
+      },
+      {
+       "css": [
+        542,
+        1323.11,
+        69.34,
+        31.98
+       ],
+       "px": [
+        1084,
+        2646,
+        139,
+        64
+       ],
+       "text": "Graph",
+       "href": "#graph"
+      },
+      {
+       "css": [
+        799.16,
+        1382.09,
+        69.59,
+        21
+       ],
+       "px": [
+        1598,
+        2764,
+        139,
+        42
+       ],
+       "text": "Welcome",
+       "href": "/obsidian/Welcome"
+      },
+      {
+       "css": [
+        889.56,
+        1382.09,
+        82.52,
+        21
+       ],
+       "px": [
+        1779,
+        2764,
+        165,
+        42
+       ],
+       "text": "hello world",
+       "href": "/obsidian/hello%20world"
+      },
+      {
+       "css": [
+        992.89,
+        1382.09,
+        92.06,
+        21
+       ],
+       "px": [
+        1986,
+        2764,
+        184,
+        42
+       ],
+       "text": "create a link",
+       "href": "/obsidian/create%20a%20link"
+      }
+     ],
+     "headings": [
+      {
+       "css": [
+        542,
+        312,
+        836,
+        31.98
+       ],
+       "px": [
+        1084,
+        624,
+        1672,
+        64
+       ],
+       "text": "Callouts",
+       "id": "callouts"
+      },
+      {
+       "css": [
+        542,
+        719.11,
+        836,
+        31.98
+       ],
+       "px": [
+        1084,
+        1438,
+        1672,
+        64
+       ],
+       "text": "Embeds",
+       "id": "embeds"
+      },
+      {
+       "css": [
+        542,
+        1323.11,
+        836,
+        31.98
+       ],
+       "px": [
+        1084,
+        2646,
+        1672,
+        64
+       ],
+       "text": "Graph",
+       "id": "graph"
+      }
+     ],
+     "images": [
+      {
+       "css": [
+        542,
+        783.09,
+        836,
+        492.02
+       ],
+       "px": [
+        1084,
+        1566,
+        1672,
+        984
+       ],
+       "r": 8,
+       "alt": "Xmas.png",
+       "src": "http://localhost:5310/_next/image?url=%2Fvault%2FXmas.png&w=1920&q=75"
+      }
+     ]
+    }
+   }
+  },
+  "notes": "fumadocs-obsidian rendering the official example vault (examples/obsidian/public/vault: Welcome, hello world, create a link, Folder/Nested Page, Xmas.png) plus one extra note \"Fumadocs Vault\" with note/tip/warning/success callouts, wikilinks and an embed. Callout crops are alpha (2px margin). *.scrolled.png shows the last heading (e.g. \"Introduction!!\")."
+ }
+}

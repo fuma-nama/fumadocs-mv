@@ -1,0 +1,1201 @@
+{
+ "toc": {
+  "css": [
+   1172,
+   0,
+   268,
+   810
+  ],
+  "px": [
+   2344,
+   0,
+   536,
+   1620
+  ]
+ },
+ "geometry": {
+  "container": [
+   1173,
+   80,
+   251,
+   596
+  ],
+  "title": {
+   "rect": [
+    -1,
+    -32,
+    252,
+    20
+   ],
+   "text": "On this page",
+   "icon": [
+    -1,
+    -30,
+    16,
+    16
+   ]
+  },
+  "scroller": [
+   0,
+   -12,
+   251,
+   620
+  ],
+  "items": [
+   {
+    "title": "Reading",
+    "depth": 2,
+    "baseline": 15,
+    "url": "#reading",
+    "active": true,
+    "rect": [
+     0,
+     0,
+     251,
+     26
+    ],
+    "offset": [
+     0,
+     0,
+     251,
+     26
+    ],
+    "padding": [
+     0,
+     0,
+     6,
+     20
+    ],
+    "textBox": [
+     20,
+     1,
+     52.63,
+     18
+    ],
+    "textTop": 0,
+    "textBottom": 20,
+    "color": "rgb(250, 128, 35)",
+    "rail": {
+     "rect": [
+      0,
+      -6,
+      17,
+      26
+     ],
+     "paths": [
+      {
+       "line": [
+        "8.5",
+        "6",
+        "8.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Search",
+    "depth": 3,
+    "baseline": 47,
+    "url": "#search",
+    "active": false,
+    "rect": [
+     0,
+     26,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     26,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     32
+    ],
+    "textBox": [
+     32,
+     33,
+     45.11,
+     18
+    ],
+    "textTop": 32,
+    "textBottom": 52,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      20,
+      29,
+      38
+     ],
+     "paths": [
+      {
+       "d": "M 8.5 0 L 8.5 0 20.5 12"
+      },
+      {
+       "line": [
+        "20.5",
+        "12",
+        "20.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Code Blocks",
+    "depth": 3,
+    "baseline": 79,
+    "url": "#code-blocks",
+    "active": false,
+    "rect": [
+     0,
+     58,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     58,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     32
+    ],
+    "textBox": [
+     32,
+     65,
+     80.42,
+     18
+    ],
+    "textTop": 64,
+    "textBottom": 84,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      52,
+      29,
+      32
+     ],
+     "paths": [
+      {
+       "line": [
+        "20.5",
+        "6",
+        "20.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Table of Contents",
+    "depth": 2,
+    "baseline": 111,
+    "url": "#table-of-contents",
+    "active": false,
+    "rect": [
+     0,
+     90,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     90,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     20
+    ],
+    "textBox": [
+     20,
+     97,
+     112.55,
+     18
+    ],
+    "textTop": 96,
+    "textBottom": 116,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      84,
+      29,
+      38
+     ],
+     "paths": [
+      {
+       "d": "M 20.5 0 L 20.5 0 8.5 12"
+      },
+      {
+       "line": [
+        "8.5",
+        "12",
+        "8.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Layouts",
+    "depth": 2,
+    "baseline": 143,
+    "url": "#layouts",
+    "active": false,
+    "rect": [
+     0,
+     122,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     122,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     20
+    ],
+    "textBox": [
+     20,
+     129,
+     50.75,
+     18
+    ],
+    "textTop": 128,
+    "textBottom": 148,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      116,
+      17,
+      32
+     ],
+     "paths": [
+      {
+       "line": [
+        "8.5",
+        "6",
+        "8.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Docs",
+    "depth": 3,
+    "baseline": 175,
+    "url": "#docs",
+    "active": false,
+    "rect": [
+     0,
+     154,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     154,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     32
+    ],
+    "textBox": [
+     32,
+     161,
+     32.58,
+     18
+    ],
+    "textTop": 160,
+    "textBottom": 180,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      148,
+      29,
+      38
+     ],
+     "paths": [
+      {
+       "d": "M 8.5 0 L 8.5 0 20.5 12"
+      },
+      {
+       "line": [
+        "20.5",
+        "12",
+        "20.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Notebook",
+    "depth": 3,
+    "baseline": 207,
+    "url": "#notebook",
+    "active": false,
+    "rect": [
+     0,
+     186,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     186,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     32
+    ],
+    "textBox": [
+     32,
+     193,
+     63.06,
+     18
+    ],
+    "textTop": 192,
+    "textBottom": 212,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      180,
+      29,
+      38
+     ],
+     "paths": [
+      {
+       "line": [
+        "20.5",
+        "6",
+        "20.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Flux",
+    "depth": 3,
+    "baseline": 239,
+    "url": "#flux",
+    "active": false,
+    "rect": [
+     0,
+     218,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     218,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     32
+    ],
+    "textBox": [
+     32,
+     225,
+     27.61,
+     18
+    ],
+    "textTop": 224,
+    "textBottom": 244,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      212,
+      29,
+      38
+     ],
+     "paths": [
+      {
+       "line": [
+        "20.5",
+        "6",
+        "20.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Glass",
+    "depth": 3,
+    "baseline": 271,
+    "url": "#glass",
+    "active": false,
+    "rect": [
+     0,
+     250,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     250,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     32
+    ],
+    "textBox": [
+     32,
+     257,
+     35.59,
+     18
+    ],
+    "textTop": 256,
+    "textBottom": 276,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      244,
+      29,
+      32
+     ],
+     "paths": [
+      {
+       "line": [
+        "20.5",
+        "6",
+        "20.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Styles",
+    "depth": 4,
+    "baseline": 303,
+    "url": "#styles",
+    "active": false,
+    "rect": [
+     0,
+     282,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     282,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     44
+    ],
+    "textBox": [
+     44,
+     289,
+     40,
+     18
+    ],
+    "textTop": 288,
+    "textBottom": 308,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      276,
+      41,
+      32
+     ],
+     "paths": [
+      {
+       "d": "M 20.5 0 L 20.5 0 32.5 12"
+      },
+      {
+       "line": [
+        "32.5",
+        "12",
+        "32.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Spacious",
+    "depth": 3,
+    "baseline": 335,
+    "url": "#spacious",
+    "active": false,
+    "rect": [
+     0,
+     314,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     314,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     32
+    ],
+    "textBox": [
+     32,
+     321,
+     58.83,
+     18
+    ],
+    "textTop": 320,
+    "textBottom": 340,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      308,
+      41,
+      32
+     ],
+     "paths": [
+      {
+       "d": "M 32.5 0 L 32.5 0 20.5 12"
+      },
+      {
+       "line": [
+        "20.5",
+        "12",
+        "20.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Themes",
+    "depth": 2,
+    "baseline": 367,
+    "url": "#themes",
+    "active": false,
+    "rect": [
+     0,
+     346,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     346,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     20
+    ],
+    "textBox": [
+     20,
+     353,
+     50.09,
+     18
+    ],
+    "textTop": 352,
+    "textBottom": 372,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      340,
+      29,
+      38
+     ],
+     "paths": [
+      {
+       "d": "M 20.5 0 L 20.5 0 8.5 12"
+      },
+      {
+       "line": [
+        "8.5",
+        "12",
+        "8.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Make it yours",
+    "depth": 2,
+    "baseline": 399,
+    "url": "#make-it-yours",
+    "active": false,
+    "rect": [
+     0,
+     378,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     378,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     20
+    ],
+    "textBox": [
+     20,
+     385,
+     85.63,
+     18
+    ],
+    "textTop": 384,
+    "textBottom": 404,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      372,
+      17,
+      38
+     ],
+     "paths": [
+      {
+       "line": [
+        "8.5",
+        "6",
+        "8.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Integrations",
+    "depth": 2,
+    "baseline": 431,
+    "url": "#integrations",
+    "active": false,
+    "rect": [
+     0,
+     410,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     410,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     20
+    ],
+    "textBox": [
+     20,
+     417,
+     76.17,
+     18
+    ],
+    "textTop": 416,
+    "textBottom": 436,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      404,
+      17,
+      32
+     ],
+     "paths": [
+      {
+       "line": [
+        "8.5",
+        "6",
+        "8.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "OpenAPI",
+    "depth": 3,
+    "baseline": 463,
+    "url": "#openapi",
+    "active": false,
+    "rect": [
+     0,
+     442,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     442,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     32
+    ],
+    "textBox": [
+     32,
+     449,
+     56.06,
+     18
+    ],
+    "textTop": 448,
+    "textBottom": 468,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      436,
+      29,
+      38
+     ],
+     "paths": [
+      {
+       "d": "M 8.5 0 L 8.5 0 20.5 12"
+      },
+      {
+       "line": [
+        "20.5",
+        "12",
+        "20.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Obsidian",
+    "depth": 3,
+    "baseline": 495,
+    "url": "#obsidian",
+    "active": false,
+    "rect": [
+     0,
+     474,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     474,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     32
+    ],
+    "textBox": [
+     32,
+     481,
+     56.25,
+     18
+    ],
+    "textTop": 480,
+    "textBottom": 500,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      468,
+      29,
+      38
+     ],
+     "paths": [
+      {
+       "line": [
+        "20.5",
+        "6",
+        "20.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Sanity",
+    "depth": 3,
+    "baseline": 527,
+    "url": "#sanity",
+    "active": false,
+    "rect": [
+     0,
+     506,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     506,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     32
+    ],
+    "textBox": [
+     32,
+     513,
+     40.53,
+     18
+    ],
+    "textTop": 512,
+    "textBottom": 532,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      500,
+      29,
+      38
+     ],
+     "paths": [
+      {
+       "line": [
+        "20.5",
+        "6",
+        "20.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Story",
+    "depth": 3,
+    "baseline": 559,
+    "url": "#story",
+    "active": false,
+    "rect": [
+     0,
+     538,
+     251,
+     32
+    ],
+    "offset": [
+     0,
+     538,
+     251,
+     32
+    ],
+    "padding": [
+     6,
+     0,
+     6,
+     32
+    ],
+    "textBox": [
+     32,
+     545,
+     34.25,
+     18
+    ],
+    "textTop": 544,
+    "textBottom": 564,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      532,
+      29,
+      32
+     ],
+     "paths": [
+      {
+       "line": [
+        "20.5",
+        "6",
+        "20.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "title": "Showcase",
+    "depth": 2,
+    "baseline": 591,
+    "url": "#showcase",
+    "active": false,
+    "rect": [
+     0,
+     570,
+     251,
+     26
+    ],
+    "offset": [
+     0,
+     570,
+     251,
+     26
+    ],
+    "padding": [
+     6,
+     0,
+     0,
+     20
+    ],
+    "textBox": [
+     20,
+     577,
+     66.2,
+     18
+    ],
+    "textTop": 576,
+    "textBottom": 596,
+    "color": "rgba(179, 179, 179, 0.8)",
+    "rail": {
+     "rect": [
+      0,
+      564,
+      29,
+      32
+     ],
+     "paths": [
+      {
+       "d": "M 20.5 0 L 20.5 0 8.5 12"
+      },
+      {
+       "line": [
+        "8.5",
+        "12",
+        "8.5",
+        "100%"
+       ]
+      }
+     ]
+    }
+   }
+  ],
+  "thumb": {
+   "rect": [
+    0,
+    0,
+    40.5,
+    596
+   ],
+   "d": " M8.5 0 L8.5 20 L 8.5 20 20.5 32 L20.5 52 L 20.5 52 20.5 64 L20.5 84 L 20.5 84 8.5 96 L8.5 116 L 8.5 116 8.5 128 L8.5 148 L 8.5 148 20.5 160 L20.5 180 L 20.5 180 20.5 192 L20.5 212 L 20.5 212 20.5 224 L20.5 244 L 20.5 244 20.5 256 L20.5 276 L 20.5 276 32.5 288 L32.5 308 L 32.5 308 20.5 320 L20.5 340 L 20.5 340 8.5 352 L8.5 372 L 8.5 372 8.5 384 L8.5 404 L 8.5 404 8.5 416 L8.5 436 L 8.5 436 20.5 448 L20.5 468 L 20.5 468 20.5 480 L20.5 500 L 20.5 500 20.5 512 L20.5 532 L 20.5 532 20.5 544 L20.5 564 L 20.5 564 8.5 576 L8.5 596",
+   "svgClip": "polygon(0px 0px, 100% 0px, 100% 20px, 0px 20px)",
+   "trackTop": "0px",
+   "trackBottom": "20px",
+   "stroke": "rgb(250, 128, 35)",
+   "totalLength": 635.76,
+   "itemLineLengths": [
+    [
+     0,
+     20
+    ],
+    [
+     37,
+     57
+    ],
+    [
+     69,
+     89
+    ],
+    [
+     106,
+     126
+    ],
+    [
+     138,
+     158
+    ],
+    [
+     175,
+     195
+    ],
+    [
+     207,
+     227
+    ],
+    [
+     239,
+     259
+    ],
+    [
+     271,
+     291
+    ],
+    [
+     308,
+     328
+    ],
+    [
+     345,
+     365
+    ],
+    [
+     382,
+     402
+    ],
+    [
+     414,
+     434
+    ],
+    [
+     446,
+     466
+    ],
+    [
+     483,
+     503
+    ],
+    [
+     515,
+     535
+    ],
+    [
+     547,
+     567
+    ],
+    [
+     579,
+     599
+    ],
+    [
+     616,
+     636
+    ]
+   ],
+   "dotSize": 4
+  }
+ },
+ "styles": {
+  "item": {
+   "fontFamily": "geist, \"geist Fallback\"",
+   "fontWeight": "400",
+   "fontSize": "14px",
+   "lineHeight": "20px",
+   "letterSpacing": "normal",
+   "color": "rgb(250, 128, 35)"
+  },
+  "activeItem": {
+   "fontFamily": "geist, \"geist Fallback\"",
+   "fontWeight": "400",
+   "fontSize": "14px",
+   "lineHeight": "20px",
+   "letterSpacing": "normal",
+   "color": "rgb(250, 128, 35)"
+  },
+  "title": {
+   "fontFamily": "geist, \"geist Fallback\"",
+   "fontWeight": "400",
+   "fontSize": "14px",
+   "lineHeight": "20px",
+   "letterSpacing": "normal",
+   "color": "rgba(179, 179, 179, 0.8)"
+  }
+ },
+ "colors": {
+  "background": "rgb(18, 18, 18)",
+  "foreground": "rgb(235, 235, 235)",
+  "muted": "rgb(33, 33, 33)",
+  "muted-foreground": "rgba(179, 179, 179, 0.8)",
+  "popover": "rgb(30, 30, 30)",
+  "popover-foreground": "rgb(222, 222, 222)",
+  "card": "rgb(25, 25, 25)",
+  "card-foreground": "rgb(250, 250, 250)",
+  "border": "rgba(102, 102, 102, 0.2)",
+  "primary": "rgb(250, 128, 35)",
+  "primary-foreground": "rgb(23, 23, 23)",
+  "secondary": "rgb(33, 33, 33)",
+  "secondary-foreground": "rgb(235, 235, 235)",
+  "accent": "rgba(104, 104, 104, 0.3)",
+  "accent-foreground": "rgb(230, 230, 230)",
+  "ring": "rgb(140, 140, 140)",
+  "bodyBackground": "rgb(18, 18, 18)"
+ },
+ "active": [
+  "#reading"
+ ],
+ "scrollY": 0
+}

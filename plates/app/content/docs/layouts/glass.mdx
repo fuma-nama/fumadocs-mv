@@ -1,0 +1,44 @@
+---
+title: Glass Layout
+description: A docs layout with a floating, translucent sidebar and header
+---
+
+A docs layout built around floating, translucent (glass-like) panels: the sidebar and header sit on top of the content as rounded, blurred surfaces rather than fixed columns.
+
+## Usage
+
+Enable the Glass layout with `fumadocs-ui/layouts/glass`.
+
+```tsx title="layout.tsx"
+import { DocsLayout } from 'fumadocs-ui/layouts/glass'; // [!code highlight]
+import { baseOptions } from '@/lib/layout.shared';
+import { source } from '@/lib/source';
+import type { ReactNode } from 'react';
+
+export default function Layout({ children }: { children: ReactNode }) {
+  return (
+    <DocsLayout {...baseOptions()} tree={source.getPageTree()}>
+      {children}
+    </DocsLayout>
+  );
+}
+```
+
+### Styles
+
+Unlike other layouts, Glass layout styles are **not** bundled into the CSS preset, so you don't pay for them unless you use the layout. Import them in your Tailwind CSS file:
+
+```css title="Tailwind CSS"
+@import 'tailwindcss';
+/* [!code ++] */
+@import 'fumadocs-ui/css/generated/glass.css';
+@import 'fumadocs-ui/css/neutral.css';
+@import 'fumadocs-ui/css/preset.css';
+```
+
+<Callout title="Important to know">
+
+- Glass layout is a **client component**, you cannot pass unserializable props from a server component.
+- It is opinionated: the sidebar and header are more fixed than the default layout, use Fumadocs CLI or the `slots` option for customization.
+
+</Callout>

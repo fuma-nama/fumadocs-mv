@@ -1,0 +1,264 @@
+{
+ "group": "layouts",
+ "id": "notebook",
+ "entry": {
+  "kind": "still+boxes+layers",
+  "path": "layouts/notebook.png",
+  "size": [
+   2880,
+   1800
+  ],
+  "css": [
+   1440,
+   900
+  ],
+  "dpr": 2,
+  "layout": "notebook",
+  "theme": "neutral",
+  "mode": "dark",
+  "url": "/themes/neutral/x/notebook/getting-started/quick-start",
+  "scrollY": 0,
+  "boxes": "layouts/notebook.boxes.json",
+  "layers": {
+   "background": "layouts/notebook/layers/background.png",
+   "sidebar": "layouts/notebook/layers/sidebar.png",
+   "article": "layouts/notebook/layers/article.png",
+   "toc": "layouts/notebook/layers/toc.png",
+   "header": "layouts/notebook/layers/header.png"
+  },
+  "keyBoxes": {
+   "header": {
+    "css": [
+     268,
+     0,
+     1172,
+     56
+    ],
+    "px": [
+     536,
+     0,
+     2344,
+     112
+    ],
+    "id": "nd-subnav"
+   },
+   "tabs": null,
+   "sidebar": {
+    "css": [
+     0,
+     0,
+     268,
+     900
+    ],
+    "px": [
+     0,
+     0,
+     536,
+     1800
+    ]
+   },
+   "logo": {
+    "css": [
+     15,
+     16,
+     97.88,
+     31
+    ],
+    "px": [
+     30,
+     32,
+     196,
+     62
+    ],
+    "text": "Fumadocs"
+   },
+   "search": {
+    "css": [
+     284,
+     9.5,
+     240,
+     36
+    ],
+    "px": [
+     568,
+     19,
+     480,
+     72
+    ],
+    "r": 8,
+    "kbd": [
+     {
+      "css": [
+       470.19,
+       16.5,
+       22.41,
+       22
+      ],
+      "px": [
+       940,
+       33,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "⌘"
+     },
+     {
+      "css": [
+       494.59,
+       16.5,
+       22.41,
+       22
+      ],
+      "px": [
+       989,
+       33,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "K"
+     }
+    ]
+   },
+   "tabDropdown": {
+    "css": [
+     15,
+     59,
+     236,
+     38
+    ],
+    "px": [
+     30,
+     118,
+     472,
+     76
+    ],
+    "r": 8,
+    "text": "FrameworkThe docs framework"
+   },
+   "article": {
+    "css": [
+     268,
+     56,
+     904,
+     2605.88
+    ],
+    "px": [
+     536,
+     112,
+     1808,
+     5212
+    ]
+   },
+   "h1": {
+    "css": [
+     300,
+     148,
+     840,
+     42
+    ],
+    "px": [
+     600,
+     296,
+     1680,
+     84
+    ],
+    "text": "Quick Start"
+   },
+   "description": {
+    "css": [
+     300,
+     206,
+     840,
+     28
+    ],
+    "px": [
+     600,
+     412,
+     1680,
+     56
+    ],
+    "text": "Getting Started with Fumadocs"
+   },
+   "actions": {
+    "css": [
+     300,
+     250,
+     840,
+     55
+    ],
+    "px": [
+     600,
+     500,
+     1680,
+     110
+    ],
+    "buttons": [
+     {
+      "css": [
+       300,
+       250,
+       130.94,
+       30
+      ],
+      "px": [
+       600,
+       500,
+       262,
+       60
+      ],
+      "r": 6,
+      "text": "Copy Markdown"
+     },
+     {
+      "css": [
+       438.94,
+       250,
+       70.08,
+       30
+      ],
+      "px": [
+       878,
+       500,
+       140,
+       60
+      ],
+      "r": 6,
+      "text": "Open"
+     }
+    ]
+   },
+   "toc": {
+    "css": [
+     1172,
+     56,
+     268,
+     844
+    ],
+    "px": [
+     2344,
+     112,
+     536,
+     1688
+    ]
+   },
+   "tocTitle": {
+    "css": [
+     1172,
+     104,
+     252,
+     20
+    ],
+    "px": [
+     2344,
+     208,
+     504,
+     40
+    ],
+    "text": "On this page"
+   }
+  },
+  "notes": "Quick Start page, scroll 0. Full boxes (sidebar items, article blocks, TOC items + geometry, tabs, controls) in the .boxes.json. Layers: alpha, full frame, stack over the opaque background layer."
+ }
+}

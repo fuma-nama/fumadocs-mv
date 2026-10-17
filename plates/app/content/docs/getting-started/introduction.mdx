@@ -1,0 +1,338 @@
+---
+title: Introduction
+description: Build excellent documentation, your style.
+---
+
+Fumadocs <span className='text-fd-muted-foreground text-sm'>(Foo-ma docs)</span> is a **documentation framework**, designed to be fast, flexible,
+and composes seamlessly into your React framework. Write in `content/docs`, and let the [page tree](/docs/core/page-tree) do the rest.
+
+## Reading
+
+A great docs site is, first of all, a place to read. Fumadocs gives every page beautiful typography, a page tree on the left and a table of contents on the right, so readers always know where they are.
+
+<Steps>
+
+<Step>
+
+<h3>Create an app</h3>
+
+Scaffold a new site with the interactive CLI:
+
+```npm
+npm create fumadocs-app
+```
+
+</Step>
+
+<Step>
+
+<h3>Write content</h3>
+
+Add Markdown or MDX files to `content/docs`, every file becomes a page.
+
+</Step>
+
+<Step>
+
+<h3>Start the dev server</h3>
+
+Run `npm run dev` and open `http://localhost:3000/docs`.
+
+</Step>
+
+</Steps>
+
+<Callout title="Requirements">
+  A minimum version of Node.js 22 required.
+</Callout>
+
+### Search
+
+Press <kbd>⌘</kbd> <kbd>K</kbd> anywhere to open the search dialog. Search is built in: it indexes every heading and paragraph of your docs, and runs on your own server with no third-party service.
+
+```ts title="app/api/search/route.ts"
+import { source } from '@/lib/source';
+import { createFromSource } from 'fumadocs-core/search/server';
+
+export const { GET } = createFromSource(source);
+```
+
+Prefer a hosted solution? Swap in Orama Cloud, Algolia, Meilisearch, Typesense or Mixedbread with a few lines.
+
+### Code Blocks
+
+Code blocks are highlighted by [Shiki](https://shiki.style) at build time, with titles, line highlights, diffs and a copy button.
+
+```js title="next.config.mjs"
+import { createMDX } from 'fumadocs-mdx/next';
+
+/** @type {import('next').NextConfig} */
+const config = {
+  reactStrictMode: true,
+};
+
+// [!code ++:4]
+const withMDX = createMDX();
+
+// [!code highlight]
+export default withMDX(config);
+```
+
+<Callout type="info" title="Twoslash">
+  Hover type information is available through the Twoslash integration.
+</Callout>
+
+<Callout title="ESM Only" type='warn'>
+
+Fumadocs MDX is ESM-only, it's recommended to use `next.config.mjs` for accurate ESM resolution.
+
+</Callout>
+
+<Tabs items={['Next.js', 'React Router', 'Tanstack Start']}>
+  <Tab value="Next.js">
+    Use `createMDX()` from `fumadocs-mdx/next` in your `next.config.mjs`.
+  </Tab>
+  <Tab value="React Router">
+    Add the `fumadocsMdx()` plugin from `fumadocs-mdx/vite` to your Vite config.
+  </Tab>
+  <Tab value="Tanstack Start">
+    Add the `fumadocsMdx()` plugin from `fumadocs-mdx/vite`, next to `tanstackStart()`.
+  </Tab>
+</Tabs>
+
+## Table of Contents
+
+Every page gets a table of contents generated from its headings, and the active headings follow your scroll position.
+
+```tsx
+import { DocsPage } from 'fumadocs-ui/layouts/<layout>/page';
+
+<DocsPage
+  tableOfContent={{
+    style: 'clerk',
+  }}
+>
+  ...
+</DocsPage>;
+```
+
+Three styles ship with Fumadocs UI:
+
+- `normal`: A track line with a thumb on active headings (default).
+- `clerk`: A track line following heading depth, inspired by [Clerk](https://clerk.com).
+- `block`: No track line, a block slides behind active headings.
+
+<TypeTable
+  type={{
+    style: {
+      type: "'normal' | 'clerk' | 'block'",
+      default: "'normal'",
+    },
+    single: {
+      description: 'Only accept one active item at most',
+      type: 'boolean',
+      default: 'false',
+    },
+    header: {
+      description: 'Custom content in TOC container, before the main TOC',
+      type: 'ReactNode',
+    },
+    footer: {
+      description: 'Custom content in TOC container, after the main TOC',
+      type: 'ReactNode',
+    },
+  }}
+/>
+
+<Callout title="On mobile">
+  On smaller screens, the table of contents collapses into a popover bar with a progress circle.
+</Callout>
+
+You can start from the default implementation with Fumadocs CLI:
+
+```bash
+npx @fumadocs/cli add slots/docs/page/toc
+```
+
+## Layouts
+
+Fumadocs comes with a set of layouts. They share the same page tree and components.
+
+<Cards>
+  <Card icon={<BookOpen />} title="Docs Layout" href="/docs/layouts/docs">
+    The layout of documentation
+  </Card>
+  <Card icon={<NotebookPen />} title="Notebook Layout" href="/docs/layouts/notebook">
+    A compact version of Docs Layout
+  </Card>
+  <Card icon={<PanelBottom />} title="Flux Layout" href="/docs/layouts/flux">
+    An aggressively minimal layout for docs
+  </Card>
+  <Card icon={<GlassWater />} title="Glass Layout" href="/docs/layouts/glass">
+    A docs layout with a floating, translucent sidebar and header
+  </Card>
+  <Card icon={<Maximize />} title="Spacious Layout" href="/docs/layouts/spacious">
+    A less compact version of Docs Layout
+  </Card>
+  <Card icon={<House />} title="Home Layout" href="/docs/layouts/home">
+    Shared layout for other pages
+  </Card>
+</Cards>
+
+### Docs
+
+The layout of documentation pages, it includes a sidebar and **mobile-only** navbar/header.
+
+```tsx title="layout.tsx"
+import { DocsLayout } from 'fumadocs-ui/layouts/docs';
+import { baseOptions } from '@/lib/layout.shared';
+import type { ReactNode } from 'react';
+
+export default function Layout({ children }: { children: ReactNode }) {
+  return (
+    <DocsLayout {...baseOptions()} tree={tree}>
+      {children}
+    </DocsLayout>
+  );
+}
+```
+
+### Notebook
+
+A compact version of [`<DocsLayout />`](/docs/ui/layouts/docs). Layout tabs can move into the navbar with `tabMode="navbar"`.
+
+### Flux
+
+A docs layout that impractically minimal & clean, originally made for experimental purpose.
+
+### Glass
+
+A docs layout built around floating, translucent (glass-like) panels: the sidebar and header sit on top of the content as rounded, blurred surfaces rather than fixed columns. Its table of contents stays collapsed and opens on hover.
+
+#### Styles
+
+Unlike other layouts, Glass layout styles are **not** bundled into the CSS preset, so you don't pay for them unless you use the layout. Import them in your Tailwind CSS file:
+
+```css title="Tailwind CSS"
+@import 'tailwindcss';
+/* [!code ++] */
+@import 'fumadocs-ui/css/generated/glass.css';
+@import 'fumadocs-ui/css/neutral.css';
+@import 'fumadocs-ui/css/preset.css';
+```
+
+### Spacious
+
+A less compact version of [`<DocsLayout />`](/docs/ui/layouts/docs), the page sits in an inset panel beside the sidebar, with page-level actions at the top of the panel. The table of contents uses the `block` style by default.
+
+<Callout title="Base UI only">
+
+Spacious layout is only available in the Base UI version of Fumadocs UI (`@fumadocs/base-ui`).
+
+</Callout>
+
+## Themes
+
+Pick a colour preset, or bring your own colours with CSS variables. Light and dark modes are built in.
+
+```css title="Tailwind CSS"
+@import 'tailwindcss';
+@import 'fumadocs-ui/css/neutral.css';
+@import 'fumadocs-ui/css/preset.css';
+```
+
+Twelve presets ship with Fumadocs UI: neutral, black, vitepress, dusk, catppuccin, ocean, purple, solar, emerald, ruby, aspen and shadcn.
+
+## Make it yours
+
+A simple way to customize Fumadocs layouts.
+
+```npm
+npx @fumadocs/cli customize
+```
+
+It installs the layout into `layouts` and points the imports of your route files at it.
+
+<Files>
+  <Folder name="layouts" defaultOpen>
+    <Folder name="docs" defaultOpen>
+      <File name="client.tsx" />
+      <File name="index.tsx" />
+      <Folder name="page">
+        <File name="index.tsx" />
+        <Folder name="slots">
+          <File name="breadcrumb.tsx" />
+          <File name="container.tsx" />
+          <File name="footer.tsx" />
+          <File name="toc.tsx" />
+        </Folder>
+      </Folder>
+      <Folder name="slots" defaultOpen>
+        <File name="container.tsx" />
+        <File name="header.tsx" />
+        <File name="sidebar.tsx" />
+      </Folder>
+    </Folder>
+    <Folder name="shared">
+      <File name="client.tsx" />
+      <Folder name="slots">
+        <File name="language-select.tsx" />
+        <File name="search-trigger.tsx" />
+        <File name="theme-switch.tsx" />
+      </Folder>
+    </Folder>
+  </Folder>
+</Files>
+
+<Callout type="success" title="Your code, your rules">
+  The installed layout is plain React. Restyle it, rearrange it, or replace it entirely.
+</Callout>
+
+## Integrations
+
+Fumadocs is a framework, not a closed box. Content can come from anywhere, and integrations turn other formats into pages.
+
+### OpenAPI
+
+Generate interactive API references from an OpenAPI schema, with a playground to send real requests.
+
+```ts title="lib/openapi.ts"
+import { createOpenAPI } from 'fumadocs-openapi/server';
+
+// note: this is a server-side API
+export const openapi = createOpenAPI({
+  // the OpenAPI schema, you can also give it an external URL.
+  input: ['./openapi.json'],
+});
+```
+
+### Obsidian
+
+Render an Obsidian vault directly with Fumadocs. Wikilinks, embeds and callouts work out of the box.
+
+<Callout type="idea" title="Tip">
+  Keep writing in Obsidian, and let Fumadocs render the vault.
+</Callout>
+
+### Sanity
+
+Use Sanity as a headless CMS, and render its structured content with Fumadocs components.
+
+### Story
+
+Document your components with live previews and a controls panel, powered by `@fumadocs/story`.
+
+## Showcase
+
+Fumadocs powers the docs of many open-source projects and companies.
+
+![Fumadocs](/banner.png)
+
+<Cards>
+  <Card title="Showcase" href="/showcase">
+    See what others built with Fumadocs.
+  </Card>
+  <Card title="Quick Start" href="/docs/getting-started/quick-start">
+    Getting Started with Fumadocs
+  </Card>
+</Cards>

@@ -1,0 +1,126 @@
+{
+ "group": "integrations",
+ "id": "openapi.labels",
+ "entry": {
+  "kind": "alpha crops",
+  "dpr": 4,
+  "items": {
+   "GET": {
+    "box": {
+     "css": [
+      128.16,
+      40,
+      21.61,
+      16
+     ],
+     "px": [
+      513,
+      160,
+      86,
+      64
+     ],
+     "color": "lab(78.503 -64.9265 39.7492)"
+    },
+    "file": "integrations/openapi/labels/GET.png"
+   },
+   "POST": {
+    "box": {
+     "css": [
+      269.92,
+      40,
+      28.81,
+      16
+     ],
+     "px": [
+      1080,
+      160,
+      115,
+      64
+     ],
+     "color": "lab(65.0361 -1.42065 -56.9802)"
+    },
+    "file": "integrations/openapi/labels/POST.png"
+   },
+   "PUT": {
+    "box": {
+     "css": [
+      418.88,
+      40,
+      21.61,
+      16
+     ],
+     "px": [
+      1676,
+      160,
+      86,
+      64
+     ],
+     "color": "lab(83.2664 8.65132 106.895)"
+    },
+    "file": "integrations/openapi/labels/PUT.png"
+   },
+   "PATCH": {
+    "box": {
+     "css": [
+      560.64,
+      40,
+      36,
+      16
+     ],
+     "px": [
+      2243,
+      160,
+      144,
+      64
+     ],
+     "color": "lab(70.0429 42.5156 75.8207)"
+    },
+    "file": "integrations/openapi/labels/PATCH.png"
+   },
+   "DELETE": {
+    "box": {
+     "css": [
+      716.8,
+      40,
+      43.2,
+      16
+     ],
+     "px": [
+      2867,
+      160,
+      173,
+      64
+     ],
+     "color": "lab(63.7053 60.745 31.3109)"
+    },
+    "file": "integrations/openapi/labels/DELETE.png"
+   },
+   "Webhook": {
+    "box": {
+     "css": [
+      699.59,
+      80,
+      60.41,
+      18
+     ],
+     "px": [
+      2798,
+      320,
+      242,
+      72
+     ],
+     "r": 8
+    },
+    "file": "integrations/openapi/labels/Webhook.png"
+   }
+  },
+  "light": {
+   "GET": "integrations/openapi/labels/GET.light.png",
+   "POST": "integrations/openapi/labels/POST.light.png",
+   "PUT": "integrations/openapi/labels/PUT.light.png",
+   "PATCH": "integrations/openapi/labels/PATCH.light.png",
+   "DELETE": "integrations/openapi/labels/DELETE.light.png"
+  },
+  "notes": "Method labels exactly as fumadocs-openapi renders them in the sidebar (MethodLabel/Badge: font-mono font-medium text-xs + method colour; dark: green/blue/yellow/orange/red-400), alpha, 4x, 2px margin. Playground URL-bar POST pill: see openapi.playground boxes (method)."
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Layouts",
+  "icon": "LayoutTemplate",
+  "pages": [
+    "docs",
+    "notebook",
+    "flux",
+    "glass",
+    "spacious",
+    "home"
+  ]
+}

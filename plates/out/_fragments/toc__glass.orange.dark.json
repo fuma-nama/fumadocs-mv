@@ -1,0 +1,645 @@
+{
+ "group": "toc",
+ "id": "glass.orange.dark",
+ "entry": {
+  "kind": "geometry+stills+sequence",
+  "layout": "glass",
+  "theme": "neutral (+ primary #FA8023)",
+  "mode": "dark",
+  "url": "/themes/orange/x/glass/getting-started/introduction",
+  "dpr": 2,
+  "viewport": [
+   1440,
+   810
+  ],
+  "scrollY": 2868.59375,
+  "clip": [
+   1140,
+   0,
+   300,
+   810
+  ],
+  "collapsed": {
+   "still": "toc/glass-orange-dark/collapsed.png",
+   "frame": "toc/glass-orange-dark/collapsed-frame.png",
+   "geometry": "toc/glass-orange-dark/collapsed.json",
+   "rowPitch": 12
+  },
+  "expanded": {
+   "still": "toc/glass-orange-dark/expanded.png",
+   "frame": "toc/glass-orange-dark/expanded-frame.png",
+   "geometry": "toc/glass-orange-dark/expanded.json",
+   "rowPitch": 24
+  },
+  "sequence": {
+   "pattern": "toc/glass-orange-dark/expand/%04d.png",
+   "count": 72,
+   "fps": 60,
+   "durationMs": 150,
+   "stretch": 8,
+   "animations": [
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "h3",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "h3",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "grid-template-rows",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "height",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "width",
+     "target": "div",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    },
+    {
+     "type": "CSSTransition",
+     "name": "opacity",
+     "target": "span",
+     "duration": 150,
+     "delay": 0,
+     "endTime": 150,
+     "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+     "currentTime": 0
+    }
+   ]
+  },
+  "notes": "Glass minimap: collapsed ticks (4px dots, 12px pitch) expand on hover into lines (w = depth^1.5 * 4px, 1px) + labels (24px pitch). Stills/sequence are crops of the right 300 CSS px of the viewport (clip); *-frame.png are full frames. Active heading: Layouts. The real expand takes durationMs; the 72 frames sample it uniformly (stretch x)."
+ }
+}

@@ -1,0 +1,111 @@
+{"t": 0.218, "type": "mark", "data": "start"}
+{"t": 0.254, "type": "out", "data": "\u2819"}
+{"t": 0.336, "type": "out", "data": "\u001b[1G"}
+{"t": 0.336, "type": "out", "data": "\u001b[0K\u2839"}
+{"t": 0.416, "type": "out", "data": "\u001b[1G\u001b[0K\u2838"}
+{"t": 0.497, "type": "out", "data": "\u001b[1G"}
+{"t": 0.498, "type": "out", "data": "\u001b[0K"}
+{"t": 0.498, "type": "out", "data": "\u283c"}
+{"t": 0.577, "type": "out", "data": "\u001b[1G\u001b[0K\u2834"}
+{"t": 0.604, "type": "out", "data": "\u001b[1G\u001b[0K\u001b[1mnpm\u001b[22m \u001b[96mnotice\u001b[39m \u001b[94mrun\u001b[39m my-docs@0.0.43 npx\r\n\u2834"}
+{"t": 0.604, "type": "out", "data": "\u001b[1G\u001b[0K\u001b[1mnpm\u001b[22m \u001b[96mnotice\u001b[39m \u001b[94mrun\u001b[39m 'cli' add\r\n\u2834"}
+{"t": 0.604, "type": "out", "data": "\u001b[1G\u001b[0K"}
+{"t": 0.674, "type": "out", "data": "\u001b[?25l"}
+{"t": 0.674, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n"}
+{"t": 0.756, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  fetching registry"}
+{"t": 0.835, "type": "out", "data": "\u001b[1G"}
+{"t": 0.835, "type": "out", "data": "\u001b[J"}
+{"t": 0.835, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  fetching registry"}
+{"t": 0.915, "type": "out", "data": "\u001b[1G"}
+{"t": 0.915, "type": "out", "data": "\u001b[J"}
+{"t": 0.915, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  fetching registry"}
+{"t": 0.996, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 0.996, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  fetching registry"}
+{"t": 1.076, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 1.076, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  fetching registry"}
+{"t": 1.158, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 1.158, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  fetching registry"}
+{"t": 1.239, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 1.239, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  fetching registry"}
+{"t": 1.293, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 1.294, "type": "out", "data": "\u001b[32m\u25c7\u001b[39m  \u001b[1m\u001b[92mregistry fetched\u001b[39m\u001b[22m\r\n\u001b[?25h"}
+{"t": 1.306, "type": "out", "data": "\u001b[?25l\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  Select components to install\r\n\u001b[36m\u2502\u001b[39m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2mSearch:\u001b[22m \u001b[7m\u001b[8m_\u001b[28m\u001b[27m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[1mapi-docs\u001b[22m - Schema UI\u001b[2m (The JSON Schema UI of API integrations)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - AI Chat (AI SDK)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - AI Chat (Inkeep AI)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - AI Chat (LLMGateway)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - Feedback\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - graph-view\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - og/mono\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mopenapi\u001b[22m\u001b[2m - API Playground\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mopenapi\u001b[22m\u001b[2m - OpenAPI Page\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mopenapi\u001b[22m\u001b[2m - Operation UI\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - accordion\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanit"}
+{"t": 1.306, "type": "out", "data": "y\u001b[22m\u001b[2m - all\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - base\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - files\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - steps\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - tabs\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - accordion\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - ai/page-actions\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - banner\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - callout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - card\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - codeblock\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - files\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - github-info\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - heading\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - image-zoom\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - inline-toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m"}
+{"t": 1.306, "type": "out", "data": "\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - steps\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - tabs\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - type-table\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mTab:\u001b[22m select \u2022 \u001b[2mEnter:\u001b[22m confirm \u2022 \u001b[2mType:\u001b[22m to search\r\n\u001b[36m\u2514\u001b[39m"}
+{"t": 2.593, "type": "mark", "data": "prompt: select components"}
+{"t": 2.593, "type": "in", "data": "b"}
+{"t": 2.596, "type": "out", "data": "\u001b[999D\u001b[35A\u001b[3B"}
+{"t": 2.596, "type": "out", "data": "\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  \u001b[2mSearch:\u001b[22m b\u2588\u001b[32B"}
+{"t": 3.182, "type": "mark", "data": "search: b"}
+{"t": 3.182, "type": "in", "data": "a"}
+{"t": 3.183, "type": "out", "data": "\u001b[999D\u001b[35A\u001b[3B"}
+{"t": 3.183, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2mSearch:\u001b[22m ba\u2588\u001b[2m (3 matches)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[1mcommon\u001b[22m - Feedback\u001b[2m (Component to send user feedbacks about the docs)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - base\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - banner\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mTab:\u001b[22m select \u2022 \u001b[2mEnter:\u001b[22m confirm \u2022 \u001b[2mType:\u001b[22m to search\r\n\u001b[36m\u2514\u001b[39m"}
+{"t": 3.78, "type": "mark", "data": "search: ba"}
+{"t": 3.78, "type": "in", "data": "n"}
+{"t": 3.781, "type": "out", "data": "\u001b[999D\u001b[8A"}
+{"t": 3.781, "type": "out", "data": "\u001b[3B\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2mSearch:\u001b[22m ban\u2588\u001b[2m (1 match)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[1mui\u001b[22m - banner\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mTab:\u001b[22m select \u2022 \u001b[2mEnter:\u001b[22m confirm \u2022 \u001b[2mType:\u001b[22m to search\r\n\u001b[36m\u2514\u001b[39m"}
+{"t": 4.479, "type": "mark", "data": "search: ban"}
+{"t": 4.479, "type": "in", "data": "\t"}
+{"t": 4.481, "type": "out", "data": "\u001b[999D\u001b[6A"}
+{"t": 4.481, "type": "out", "data": "\u001b[4B\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  \u001b[32m\u25fc\u001b[39m \u001b[1mui\u001b[22m - banner\u001b[2B"}
+{"t": 5.283, "type": "mark", "data": "selected ui - banner"}
+{"t": 5.284, "type": "in", "data": "\u007f"}
+{"t": 5.285, "type": "out", "data": "\u001b[999D\u001b[6A\u001b[3B"}
+{"t": 5.285, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2mSearch:\u001b[22m ba\u2588\u001b[2m (3 matches)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - Feedback\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - base\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25fc\u001b[39m \u001b[1mui\u001b[22m - banner\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mTab:\u001b[22m select \u2022 \u001b[2mEnter:\u001b[22m confirm \u2022 \u001b[2mType:\u001b[22m to search\r\n\u001b[36m\u2514\u001b[39m"}
+{"t": 5.5, "type": "in", "data": "\u007f"}
+{"t": 5.501, "type": "out", "data": "\u001b[999D\u001b[8A\u001b[3B\u001b[J"}
+{"t": 5.501, "type": "out", "data": "\u001b[36m\u2502\u001b[39m  \u001b[2mSearch:\u001b[22m b\u2588\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mapi-docs\u001b[22m\u001b[2m - Schema UI\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - AI Chat (AI SDK)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - AI Chat (Inkeep AI)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - AI Chat (LLMGateway)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - Feedback\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - graph-view\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mcommon\u001b[22m\u001b[2m - og/mono\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mopenapi\u001b[22m\u001b[2m - API Playground\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mopenapi\u001b[22m\u001b[2m - OpenAPI Page\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mopenapi\u001b[22m\u001b[2m - Operation UI\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - accordion\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - all\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - base\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[2"}
+{"t": 5.501, "type": "out", "data": "2m\u001b[2m - files\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - steps\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - tabs\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - accordion\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - ai/page-actions\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25fc\u001b[39m \u001b[1mui\u001b[22m - banner\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - callout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - card\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - codeblock\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - files\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - github-info\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - heading\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - image-zoom\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - inline-toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - steps\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - tabs\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[2"}
+{"t": 5.501, "type": "out", "data": "2m\u001b[2m - type-table\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mTab:\u001b[22m select \u2022 \u001b[2mEnter:\u001b[22m confirm \u2022 \u001b[2mType:\u001b[22m to search\r\n\u001b[36m\u2514\u001b[39m"}
+{"t": 5.72, "type": "in", "data": "\u007f"}
+{"t": 5.721, "type": "out", "data": "\u001b[999D\u001b[35A"}
+{"t": 5.721, "type": "out", "data": "\u001b[3B\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  \u001b[2mSearch:\u001b[22m \u001b[7m\u001b[8m_\u001b[28m\u001b[27m\u001b[32B"}
+{"t": 6.268, "type": "mark", "data": "search cleared"}
+{"t": 6.268, "type": "in", "data": "t"}
+{"t": 6.268, "type": "out", "data": "\u001b[999D\u001b[35A\u001b[3B\u001b[2K\u001b[G"}
+{"t": 6.268, "type": "out", "data": "\u001b[36m\u2502\u001b[39m  \u001b[2mSearch:\u001b[22m t\u2588\u001b[32B"}
+{"t": 6.868, "type": "mark", "data": "search: t"}
+{"t": 6.868, "type": "in", "data": "a"}
+{"t": 6.869, "type": "out", "data": "\u001b[999D\u001b[35A\u001b[3B\u001b[J"}
+{"t": 6.869, "type": "out", "data": "\u001b[36m\u2502\u001b[39m  \u001b[2mSearch:\u001b[22m ta\u2588\u001b[2m (3 matches)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[1msanity\u001b[22m - tabs\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - tabs\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - type-table\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mTab:\u001b[22m select \u2022 \u001b[2mEnter:\u001b[22m confirm \u2022 \u001b[2mType:\u001b[22m to search\r\n\u001b[36m\u2514\u001b[39m"}
+{"t": 7.467, "type": "mark", "data": "search: ta"}
+{"t": 7.467, "type": "in", "data": "b"}
+{"t": 7.467, "type": "out", "data": "\u001b[999D\u001b[8A\u001b[3B"}
+{"t": 7.467, "type": "out", "data": "\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  \u001b[2mSearch:\u001b[22m tab\u2588\u001b[2m (3 matches)\u001b[22m\u001b[5B"}
+{"t": 8.168, "type": "mark", "data": "search: tab"}
+{"t": 8.168, "type": "in", "data": "\u001b[B"}
+{"t": 8.168, "type": "out", "data": "\u001b[999D\u001b[8A\u001b[3B"}
+{"t": 8.168, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2mSearch:\u001b[22m \u001b[2mtab\u001b[22m\u001b[2m (3 matches)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1msanity\u001b[22m\u001b[2m - tabs\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[1mui\u001b[22m - tabs\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25fb\u001b[22m \u001b[2m\u001b[1mui\u001b[22m\u001b[2m - type-table\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mSpace/Tab:\u001b[22m select \u2022 \u001b[2mEnter:\u001b[22m confirm \u2022 \u001b[2mType:\u001b[22m to search\r\n\u001b[36m\u2514\u001b[39m"}
+{"t": 8.969, "type": "mark", "data": "down"}
+{"t": 8.969, "type": "in", "data": "\t"}
+{"t": 8.969, "type": "out", "data": "\u001b[999D\u001b[8A"}
+{"t": 8.969, "type": "out", "data": "\u001b[5B\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  \u001b[32m\u25fc\u001b[39m \u001b[1mui\u001b[22m - tabs\u001b[3B"}
+{"t": 9.78, "type": "mark", "data": "selected 2nd match"}
+{"t": 9.78, "type": "in", "data": "\r"}
+{"t": 9.781, "type": "out", "data": "\u001b[999D\u001b[8A\u001b[1B\u001b[J\u001b[32m\u25c7\u001b[39m  Select components to install\r\n\u001b[90m\u2502\u001b[39m  \u001b[2m2 items selected\u001b[22m"}
+{"t": 9.781, "type": "out", "data": "\r\n"}
+{"t": 9.781, "type": "out", "data": "\u001b[?25h"}
+{"t": 9.781, "type": "out", "data": "\u001b[?25l"}
+{"t": 9.781, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n"}
+{"t": 9.862, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  \u001b[1m\u001b[96mInstalling banner\u001b[39m\u001b[22m"}
+{"t": 9.944, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 9.944, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  \u001b[1m\u001b[96mInstalling banner\u001b[39m\u001b[22m"}
+{"t": 10.024, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 10.025, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  \u001b[1m\u001b[96mInstalling banner\u001b[39m\u001b[22m"}
+{"t": 10.098, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 10.098, "type": "out", "data": "\u001b[32m\u25c7\u001b[39m  \u001b[1m\u001b[92mbanner installed\u001b[39m\u001b[22m\r\n\u001b[?25h"}
+{"t": 10.098, "type": "out", "data": "\u001b[?25l"}
+{"t": 10.098, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n"}
+{"t": 10.179, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  \u001b[1m\u001b[96mInstalling tabs\u001b[39m\u001b[22m"}
+{"t": 10.259, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 10.259, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  \u001b[1m\u001b[96mInstalling tabs\u001b[39m\u001b[22m"}
+{"t": 10.34, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 10.34, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  \u001b[1m\u001b[96mInstalling tabs\u001b[39m\u001b[22m"}
+{"t": 10.391, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 10.391, "type": "out", "data": "\u001b[32m\u25c7\u001b[39m  \u001b[1m\u001b[92mtabs installed\u001b[39m\u001b[22m\r\n\u001b[?25h"}
+{"t": 10.391, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n\u001b[90m\u2514\u001b[39m  \u001b[1m\u001b[92mSuccessful\u001b[39m\u001b[22m\r\n\r\n"}
+{"t": 10.395, "type": "out", "data": "\u2819"}
+{"t": 10.396, "type": "out", "data": "\u001b[1G"}
+{"t": 10.396, "type": "out", "data": "\u001b[0K"}
+{"t": 10.4, "type": "mark", "data": "TIMEOUT waiting for (install with|Overwrite)"}
+{"t": 10.4, "type": "mark", "data": "END"}

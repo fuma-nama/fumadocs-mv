@@ -1,0 +1,591 @@
+{"t": 0.217, "type": "mark", "data": "start"}
+{"t": 0.254, "type": "out", "data": "\u2819"}
+{"t": 0.334, "type": "out", "data": "\u001b[1G\u001b[0K"}
+{"t": 0.334, "type": "out", "data": "\u2839"}
+{"t": 0.335, "type": "out", "data": "\u001b[1G\u001b[0K"}
+{"t": 0.335, "type": "out", "data": "\u001b[1G"}
+{"t": 0.335, "type": "out", "data": "\u001b[0J"}
+{"t": 0.335, "type": "out", "data": "Need to install the following packages:\r\ncreate-fumadocs-app@16.2.18\r\nOk to proceed? (y) "}
+{"t": 0.335, "type": "out", "data": "\u001b[20G"}
+{"t": 0.977, "type": "mark", "data": "npm: Ok to proceed? (y)"}
+{"t": 0.978, "type": "in", "data": "y"}
+{"t": 0.979, "type": "out", "data": "y"}
+{"t": 1.293, "type": "in", "data": "\r"}
+{"t": 1.294, "type": "out", "data": "\r\r\n"}
+{"t": 1.295, "type": "out", "data": "\u2819"}
+{"t": 1.377, "type": "out", "data": "\u001b[1G\u001b[0K\u2839"}
+{"t": 1.457, "type": "out", "data": "\u001b[1G\u001b[0K\u2838"}
+{"t": 1.539, "type": "out", "data": "\u001b[1G\u001b[0K\u283c"}
+{"t": 1.62, "type": "out", "data": "\u001b[1G\u001b[0K\u2834"}
+{"t": 1.7, "type": "out", "data": "\u001b[1G"}
+{"t": 1.7, "type": "out", "data": "\u001b[0K\u2826"}
+{"t": 1.782, "type": "out", "data": "\u001b[1G\u001b[0K"}
+{"t": 1.782, "type": "out", "data": "\u2827"}
+{"t": 1.862, "type": "out", "data": "\u001b[1G"}
+{"t": 1.862, "type": "out", "data": "\u001b[0K\u2807"}
+{"t": 1.943, "type": "out", "data": "\u001b[1G\u001b[0K"}
+{"t": 1.943, "type": "out", "data": "\u280f"}
+{"t": 2.023, "type": "out", "data": "\u001b[1G\u001b[0K\u280b"}
+{"t": 2.103, "type": "out", "data": "\u001b[1G\u001b[0K\u2819"}
+{"t": 2.186, "type": "out", "data": "\u001b[1G\u001b[0K\u2839"}
+{"t": 2.267, "type": "out", "data": "\u001b[1G\u001b[0K\u2838"}
+{"t": 2.348, "type": "out", "data": "\u001b[1G\u001b[0K\u283c"}
+{"t": 2.429, "type": "out", "data": "\u001b[1G\u001b[0K\u2834"}
+{"t": 2.511, "type": "out", "data": "\u001b[1G\u001b[0K\u2826"}
+{"t": 2.592, "type": "out", "data": "\u001b[1G\u001b[0K\u2827"}
+{"t": 2.673, "type": "out", "data": "\u001b[1G\u001b[0K"}
+{"t": 2.673, "type": "out", "data": "\u2807"}
+{"t": 2.753, "type": "out", "data": "\u001b[1G\u001b[0K\u280f"}
+{"t": 2.834, "type": "out", "data": "\u001b[1G\u001b[0K\u280b"}
+{"t": 2.914, "type": "out", "data": "\u001b[1G\u001b[0K\u2819"}
+{"t": 2.994, "type": "out", "data": "\u001b[1G\u001b[0K\u2839"}
+{"t": 3.076, "type": "out", "data": "\u001b[1G\u001b[0K\u2838"}
+{"t": 3.157, "type": "out", "data": "\u001b[1G\u001b[0K\u283c"}
+{"t": 3.237, "type": "out", "data": "\u001b[1G\u001b[0K\u2834"}
+{"t": 3.318, "type": "out", "data": "\u001b[1G\u001b[0K\u2826"}
+{"t": 3.399, "type": "out", "data": "\u001b[1G\u001b[0K\u2827"}
+{"t": 3.479, "type": "out", "data": "\u001b[1G\u001b[0K\u2807"}
+{"t": 3.56, "type": "out", "data": "\u001b[1G\u001b[0K\u280f"}
+{"t": 3.641, "type": "out", "data": "\u001b[1G\u001b[0K\u280b"}
+{"t": 3.723, "type": "out", "data": "\u001b[1G\u001b[0K\u2819"}
+{"t": 3.803, "type": "out", "data": "\u001b[1G\u001b[0K\u2839"}
+{"t": 3.884, "type": "out", "data": "\u001b[1G\u001b[0K\u2838"}
+{"t": 3.965, "type": "out", "data": "\u001b[1G\u001b[0K\u283c"}
+{"t": 4.046, "type": "out", "data": "\u001b[1G\u001b[0K\u2834"}
+{"t": 4.126, "type": "out", "data": "\u001b[1G\u001b[0K\u2826"}
+{"t": 4.206, "type": "out", "data": "\u001b[1G\u001b[0K\u2827"}
+{"t": 4.287, "type": "out", "data": "\u001b[1G\u001b[0K\u2807"}
+{"t": 4.369, "type": "out", "data": "\u001b[1G\u001b[0K\u280f"}
+{"t": 4.449, "type": "out", "data": "\u001b[1G\u001b[0K\u280b"}
+{"t": 4.53, "type": "out", "data": "\u001b[1G"}
+{"t": 4.53, "type": "out", "data": "\u001b[0K\u2819"}
+{"t": 4.611, "type": "out", "data": "\u001b[1G\u001b[0K\u2839"}
+{"t": 4.692, "type": "out", "data": "\u001b[1G\u001b[0K\u2838"}
+{"t": 4.773, "type": "out", "data": "\u001b[1G\u001b[0K\u283c"}
+{"t": 4.855, "type": "out", "data": "\u001b[1G\u001b[0K\u2834"}
+{"t": 4.934, "type": "out", "data": "\u001b[1G\u001b[0K\u2826"}
+{"t": 5.015, "type": "out", "data": "\u001b[1G\u001b[0K\u2827"}
+{"t": 5.096, "type": "out", "data": "\u001b[1G\u001b[0K\u2807"}
+{"t": 5.178, "type": "out", "data": "\u001b[1G\u001b[0K\u280f"}
+{"t": 5.257, "type": "out", "data": "\u001b[1G\u001b[0K\u280b"}
+{"t": 5.259, "type": "out", "data": "\u001b[1G\u001b[0K\u001b[1mnpm\u001b[22m \u001b[33mwarn\u001b[39m \u001b[94mdeprecated\u001b[39m @yuku-analyzer/binding-darwin-arm64@0.10.2: yuku-analyzer runs on yuku-core since 0.14\r\n"}
+{"t": 5.259, "type": "out", "data": "\u280b"}
+{"t": 5.339, "type": "out", "data": "\u001b[1G\u001b[0K\u2819"}
+{"t": 5.398, "type": "out", "data": "\u001b[1G\u001b[0K\u001b[1mnpm\u001b[22m \u001b[96mnotice\u001b[39m \u001b[94mrun\u001b[39m npx\r\n\u2819"}
+{"t": 5.398, "type": "out", "data": "\u001b[1G\u001b[0K\u001b[1mnpm\u001b[22m \u001b[96mnotice\u001b[39m \u001b[94mrun\u001b[39m 'create-fumadocs-app'\r\n\u2819\u001b[1G\u001b[0K"}
+{"t": 6.025, "type": "out", "data": "\u001b[90m\u250c\u001b[39m  \u001b[46m\u001b[1mCreate Fumadocs App\u001b[22m\u001b[49m\r\n"}
+{"t": 6.027, "type": "out", "data": "\u001b[?25l\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  Project name\r\n\u001b[36m\u2502\u001b[39m  \u001b[7mm\u001b[27m\u001b[2my-app\u001b[22m\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 6.784, "type": "mark", "data": "prompt: project name"}
+{"t": 6.785, "type": "in", "data": "m"}
+{"t": 6.788, "type": "out", "data": "\u001b[999D\u001b[4A"}
+{"t": 6.788, "type": "out", "data": "\u001b[2B"}
+{"t": 6.788, "type": "out", "data": "\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  m\u2588"}
+{"t": 6.788, "type": "out", "data": "\u001b[2B"}
+{"t": 6.95, "type": "in", "data": "y"}
+{"t": 6.951, "type": "out", "data": "\u001b[999D\u001b[4A"}
+{"t": 6.952, "type": "out", "data": "\u001b[2B"}
+{"t": 6.952, "type": "out", "data": "\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  my\u2588\u001b[2B"}
+{"t": 7.117, "type": "in", "data": "-"}
+{"t": 7.118, "type": "out", "data": "\u001b[999D\u001b[4A"}
+{"t": 7.118, "type": "out", "data": "\u001b[2B\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  my-\u2588"}
+{"t": 7.118, "type": "out", "data": "\u001b[2B"}
+{"t": 7.28, "type": "in", "data": "d"}
+{"t": 7.281, "type": "out", "data": "\u001b[999D\u001b[4A\u001b[2B"}
+{"t": 7.281, "type": "out", "data": "\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  my-d\u2588\u001b[2B"}
+{"t": 7.446, "type": "in", "data": "o"}
+{"t": 7.447, "type": "out", "data": "\u001b[999D\u001b[4A\u001b[2B"}
+{"t": 7.447, "type": "out", "data": "\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  my-do\u2588\u001b[2B"}
+{"t": 7.601, "type": "in", "data": "c"}
+{"t": 7.602, "type": "out", "data": "\u001b[999D\u001b[4A"}
+{"t": 7.602, "type": "out", "data": "\u001b[2B\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  my-doc\u2588\u001b[2B"}
+{"t": 7.765, "type": "in", "data": "s"}
+{"t": 7.765, "type": "out", "data": "\u001b[999D\u001b[4A"}
+{"t": 7.765, "type": "out", "data": "\u001b[2B\u001b[2K\u001b[G\u001b[36m\u2502\u001b[39m  my-docs\u2588\u001b[2B"}
+{"t": 8.248, "type": "mark", "data": "typed my-docs"}
+{"t": 8.248, "type": "in", "data": "\r"}
+{"t": 8.25, "type": "out", "data": "\u001b[999D\u001b[4A"}
+{"t": 8.25, "type": "out", "data": "\u001b[1B\u001b[J"}
+{"t": 8.25, "type": "out", "data": "\u001b[32m\u25c7\u001b[39m  Project name\r\n\u001b[90m\u2502\u001b[39m  \u001b[2mmy-docs\u001b[22m"}
+{"t": 8.25, "type": "out", "data": "\r\n"}
+{"t": 8.25, "type": "out", "data": "\u001b[?25h"}
+{"t": 8.252, "type": "out", "data": "\u001b[?25l\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  Choose a template\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Next.js: Fumadocs MDX \u001b[2m(recommended: powerful and mature)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mWaku: Fumadocs MDX\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mNext.js Static: Fumadocs MDX\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mReact Router: Fumadocs MDX (not RSC)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mReact Router SPA: Fumadocs MDX (not RSC)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mTanstack Start: Fumadocs MDX (not RSC)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mTanstack Start SPA: Fumadocs MDX (not RSC)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mAstro: React Islands\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 9.279, "type": "mark", "data": "prompt: template"}
+{"t": 9.279, "type": "in", "data": "\r"}
+{"t": 9.28, "type": "out", "data": "\u001b[999D\u001b[12A\u001b[1B\u001b[J\u001b[32m\u25c7\u001b[39m  Choose a template\r\n\u001b[90m\u2502\u001b[39m  \u001b[2mNext.js: Fumadocs MDX\u001b[22m"}
+{"t": 9.28, "type": "out", "data": "\r\n"}
+{"t": 9.28, "type": "out", "data": "\u001b[?25h"}
+{"t": 9.281, "type": "out", "data": "\u001b[?25l\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  Use `/src` directory?\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mYes\u001b[22m \u001b[2m/\u001b[22m \u001b[32m\u25cf\u001b[39m No\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 10.299, "type": "mark", "data": "prompt: src"}
+{"t": 10.299, "type": "in", "data": "\r"}
+{"t": 10.299, "type": "out", "data": "\u001b[999D\u001b[4A\u001b[1B"}
+{"t": 10.299, "type": "out", "data": "\u001b[J\u001b[32m\u25c7\u001b[39m  Use `/src` directory?\r\n\u001b[90m\u2502\u001b[39m  \u001b[2mNo\u001b[22m\r\n"}
+{"t": 10.299, "type": "out", "data": "\u001b[?25h"}
+{"t": 10.299, "type": "out", "data": "\u001b[?25l\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  Configure linter?\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Disabled\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mESLint\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mBiome\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mOxlint\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 11.324, "type": "mark", "data": "prompt: linter"}
+{"t": 11.324, "type": "in", "data": "\r"}
+{"t": 11.326, "type": "out", "data": "\u001b[999D\u001b[8A"}
+{"t": 11.326, "type": "out", "data": "\u001b[1B\u001b[J\u001b[32m\u25c7\u001b[39m  Configure linter?\r\n\u001b[90m\u2502\u001b[39m  \u001b[2mDisabled\u001b[22m"}
+{"t": 11.326, "type": "out", "data": "\r\n"}
+{"t": 11.326, "type": "out", "data": "\u001b[?25h"}
+{"t": 11.327, "type": "out", "data": "\u001b[?25l\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  Choose a search solution?\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Default \u001b[2m(local search powered by ZBSearch, recommended)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mOrama Cloud\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mAlgolia\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mMeilisearch\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mTypesense\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mMixedbread\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 12.352, "type": "mark", "data": "prompt: search"}
+{"t": 12.352, "type": "in", "data": "\r"}
+{"t": 12.353, "type": "out", "data": "\u001b[999D\u001b[10A"}
+{"t": 12.353, "type": "out", "data": "\u001b[1B\u001b[J\u001b[32m\u25c7\u001b[39m  Choose a search solution?\r\n\u001b[90m\u2502\u001b[39m  \u001b[2mDefault\u001b[22m"}
+{"t": 12.353, "type": "out", "data": "\r\n"}
+{"t": 12.353, "type": "out", "data": "\u001b[?25h"}
+{"t": 12.354, "type": "out", "data": "\u001b[?25l\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  Configure Open Graph Image generation?\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m next/og \u001b[2m(Next.js built-in solution)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mTakumi\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 13.373, "type": "mark", "data": "prompt: og image"}
+{"t": 13.373, "type": "in", "data": "\r"}
+{"t": 13.374, "type": "out", "data": "\u001b[999D\u001b[6A"}
+{"t": 13.374, "type": "out", "data": "\u001b[1B\u001b[J\u001b[32m\u25c7\u001b[39m  Configure Open Graph Image generation?\r\n\u001b[90m\u2502\u001b[39m  \u001b[2mnext/og\u001b[22m"}
+{"t": 13.374, "type": "out", "data": "\r\n"}
+{"t": 13.374, "type": "out", "data": "\u001b[?25h"}
+{"t": 13.374, "type": "out", "data": "\u001b[?25l\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  Configure AI Chat?\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m No\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mAI SDK\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLLMGateway\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mInkeep AI\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 14.387, "type": "mark", "data": "prompt: ai chat"}
+{"t": 14.387, "type": "in", "data": "\r"}
+{"t": 14.388, "type": "out", "data": "\u001b[999D\u001b[8A"}
+{"t": 14.388, "type": "out", "data": "\u001b[1B\u001b[J\u001b[32m\u25c7\u001b[39m  Configure AI Chat?\r\n\u001b[90m\u2502\u001b[39m  \u001b[2mNo\u001b[22m"}
+{"t": 14.388, "type": "out", "data": "\r\n"}
+{"t": 14.388, "type": "out", "data": "\u001b[?25h"}
+{"t": 14.389, "type": "out", "data": "\u001b[?25l\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  Do you want to install packages automatically? (detected as npm)\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Yes \u001b[2m/\u001b[22m \u001b[2m\u25cb\u001b[22m \u001b[2mNo\u001b[22m\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 15.411, "type": "mark", "data": "prompt: install"}
+{"t": 15.412, "type": "in", "data": "\r"}
+{"t": 15.413, "type": "out", "data": "\u001b[999D\u001b[4A"}
+{"t": 15.413, "type": "out", "data": "\u001b[1B\u001b[J\u001b[32m\u25c7\u001b[39m  Do you want to install packages automatically? (detected as npm)\r\n\u001b[90m\u2502\u001b[39m  \u001b[2mYes\u001b[22m"}
+{"t": 15.413, "type": "out", "data": "\r\n"}
+{"t": 15.413, "type": "out", "data": "\u001b[?25h"}
+{"t": 15.416, "type": "out", "data": "\u001b[?25l"}
+{"t": 15.416, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n"}
+{"t": 15.498, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 15.578, "type": "out", "data": "\u001b[1G"}
+{"t": 15.578, "type": "out", "data": "\u001b[J"}
+{"t": 15.578, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 15.659, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 15.659, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 15.74, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 15.74, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 15.822, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 15.822, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 15.902, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 15.902, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 15.983, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 15.983, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 16.065, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.065, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 16.146, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.146, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 16.227, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.227, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 16.308, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.308, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 16.388, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.388, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 16.47, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.47, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 16.551, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.551, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 16.631, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.631, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 16.711, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.711, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 16.792, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.792, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 16.873, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.873, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 16.954, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 16.955, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 17.035, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.035, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 17.116, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.116, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 17.196, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.196, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 17.277, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.277, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 17.359, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.359, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 17.439, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.439, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 17.52, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.52, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 17.602, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.602, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 17.682, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.682, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 17.763, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.763, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 17.844, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.844, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 17.926, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 17.926, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 18.007, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.007, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 18.087, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.087, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 18.168, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.168, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 18.249, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.249, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 18.33, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.33, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 18.411, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.411, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 18.492, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.492, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 18.572, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.572, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 18.653, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.653, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 18.734, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.734, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 18.815, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.815, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 18.896, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.896, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 18.976, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 18.977, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 19.058, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.058, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 19.138, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.138, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 19.219, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.219, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 19.3, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.3, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 19.381, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.381, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 19.462, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.462, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 19.543, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.543, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 19.625, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.625, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 19.705, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.705, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 19.786, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.786, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 19.867, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.867, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 19.947, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.947, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 20.027, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.028, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 20.108, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.108, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 20.189, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.189, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 20.27, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.27, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 20.35, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.35, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 20.431, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.431, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 20.512, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.513, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 20.594, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.594, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 20.673, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.673, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 20.755, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.755, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 20.835, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.835, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 20.916, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.916, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 20.997, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.997, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 21.078, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.078, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 21.16, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.16, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 21.24, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.24, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 21.321, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.321, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 21.402, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.402, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 21.483, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.483, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 21.564, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.564, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 21.645, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.645, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 21.726, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.726, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 21.807, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.807, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 21.888, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.888, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 21.97, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.97, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 22.05, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.05, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 22.131, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.131, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 22.212, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.212, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 22.294, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.294, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 22.375, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.375, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 22.454, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.454, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 22.535, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.535, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 22.615, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.615, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 22.696, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.696, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 22.778, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.778, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 22.858, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.858, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 22.938, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 22.939, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 23.02, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.02, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 23.1, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.1, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 23.181, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.181, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 23.262, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.262, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 23.343, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.343, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 23.424, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.424, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 23.505, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.505, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 23.586, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.586, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 23.667, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.667, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 23.747, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.747, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 23.828, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.828, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 23.909, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.909, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 23.991, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 23.991, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 24.071, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.071, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 24.152, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.152, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 24.232, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.233, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 24.314, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.314, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 24.394, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.394, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 24.476, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.476, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 24.556, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.556, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 24.637, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.637, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 24.718, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.719, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 24.8, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.8, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 24.88, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.88, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 24.961, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 24.962, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 25.043, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 25.043, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 25.124, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 25.124, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 25.204, "type": "out", "data": "\u001b[1G\u001b[J\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 25.284, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 25.284, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 25.365, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 25.365, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 25.446, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 25.446, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 25.527, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 25.527, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 25.609, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 25.609, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 25.689, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 25.689, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 25.77, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 25.77, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 25.851, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 25.851, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 25.932, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 25.933, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 26.013, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.014, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 26.094, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.094, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 26.174, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.174, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 26.255, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.256, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 26.335, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.335, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 26.416, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.416, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 26.497, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.497, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 26.578, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.578, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 26.66, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.66, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 26.741, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.741, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 26.821, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.821, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 26.901, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.901, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 26.982, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 26.982, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 27.063, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 27.064, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 27.145, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 27.145, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 27.225, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 27.225, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 27.307, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 27.307, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 27.387, "type": "out", "data": "\u001b[1G"}
+{"t": 27.387, "type": "out", "data": "\u001b[J\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 27.468, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 27.468, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 27.549, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 27.549, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 27.63, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 27.63, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 27.711, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 27.711, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 27.792, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 27.792, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 27.872, "type": "out", "data": "\u001b[1G"}
+{"t": 27.872, "type": "out", "data": "\u001b[J\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 27.952, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 27.952, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 28.032, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 28.032, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 28.113, "type": "out", "data": "\u001b[1G\u001b[J\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 28.194, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 28.194, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 28.273, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 28.273, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 28.354, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 28.354, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 28.435, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 28.435, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 28.515, "type": "out", "data": "\u001b[1G\u001b[J\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 28.596, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 28.596, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 28.677, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 28.677, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 28.758, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 28.758, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 28.839, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 28.839, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 28.918, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 28.918, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 28.999, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 28.999, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 29.08, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.08, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 29.16, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.16, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 29.241, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.241, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 29.322, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.322, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 29.403, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.403, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 29.483, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.483, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 29.564, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.564, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 29.644, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.644, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 29.723, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.723, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 29.804, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.804, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 29.885, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.885, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 29.966, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 29.966, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 30.047, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.047, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 30.128, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.128, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 30.209, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.209, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 30.289, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.289, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 30.37, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.37, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 30.451, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.451, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project.."}
+{"t": 30.532, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.532, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project.."}
+{"t": 30.613, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.614, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project.."}
+{"t": 30.695, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.695, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project.."}
+{"t": 30.776, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.776, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 30.857, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.857, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 30.938, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 30.938, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 31.018, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.018, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 31.099, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.099, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 31.18, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.18, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project..."}
+{"t": 31.261, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.261, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project..."}
+{"t": 31.342, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.342, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project..."}
+{"t": 31.423, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.423, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project..."}
+{"t": 31.504, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.504, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 31.584, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.584, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 31.665, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.665, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 31.746, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.746, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 31.826, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.826, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project"}
+{"t": 31.907, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.907, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project"}
+{"t": 31.988, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 31.988, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project"}
+{"t": 32.067, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 32.067, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project"}
+{"t": 32.149, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 32.149, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 32.228, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 32.228, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Generating Project."}
+{"t": 32.308, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 32.308, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Generating Project."}
+{"t": 32.389, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 32.389, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Generating Project."}
+{"t": 32.47, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 32.47, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Generating Project."}
+{"t": 32.55, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 32.55, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Installed dependencies."}
+{"t": 32.608, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 32.609, "type": "out", "data": "\u001b[32m\u25c7\u001b[39m  Project Generated\r\n"}
+{"t": 32.609, "type": "out", "data": "\u001b[?25h"}
+{"t": 32.609, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n\u001b[90m\u2514\u001b[39m  \u001b[42m\u001b[1mDone\u001b[22m\u001b[49m\r\n\r\n"}
+{"t": 32.609, "type": "out", "data": "\u001b[1m\r\nOpen the project\u001b[22m\r\n"}
+{"t": 32.609, "type": "out", "data": "\u001b[36mcd my-docs\u001b[39m\r\n"}
+{"t": 32.609, "type": "out", "data": "\u001b[1m\r\nRun Development Server\u001b[22m\r\n\u001b[36mnpm run dev\u001b[39m\r\n"}
+{"t": 32.609, "type": "out", "data": "\u001b[1m\r\nYou can now open the project and start writing documents\u001b[22m\r\n"}
+{"t": 32.61, "type": "out", "data": "\u2819"}
+{"t": 32.611, "type": "out", "data": "\u001b[1G\u001b[0K"}
+{"t": 32.613, "type": "mark", "data": "END"}

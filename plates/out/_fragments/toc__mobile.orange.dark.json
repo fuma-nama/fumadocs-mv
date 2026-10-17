@@ -1,0 +1,303 @@
+{
+ "group": "toc",
+ "id": "mobile.orange.dark",
+ "entry": {
+  "kind": "geometry+stills+sequences+tall",
+  "layout": "docs (mobile)",
+  "theme": "neutral (+ primary #FA8023)",
+  "mode": "dark",
+  "url": "/themes/orange/getting-started/introduction",
+  "dpr": 2,
+  "viewport": [
+   390,
+   844
+  ],
+  "states": {
+   "top": {
+    "label": "scroll 0",
+    "frame": "toc/mobile-orange-dark/top-frame.png",
+    "bar": "toc/mobile-orange-dark/top-bar.png",
+    "geometry": "toc/mobile-orange-dark/top.json",
+    "scrollY": 0,
+    "progress": "0.05263157894736842"
+   },
+   "layouts": {
+    "label": "Layouts active",
+    "frame": "toc/mobile-orange-dark/layouts-frame.png",
+    "bar": "toc/mobile-orange-dark/layouts-bar.png",
+    "geometry": "toc/mobile-orange-dark/layouts.json",
+    "scrollY": 3647,
+    "progress": "0.2631578947368421"
+   },
+   "layouts-open": {
+    "label": "popover open, Layouts active",
+    "frame": "toc/mobile-orange-dark/layouts-open-frame.png",
+    "bar": "toc/mobile-orange-dark/layouts-open-bar.png",
+    "geometry": "toc/mobile-orange-dark/layouts-open.json",
+    "scrollY": 3647,
+    "progress": "0.2631578947368421"
+   }
+  },
+  "sequences": [
+   {
+    "from": "table-of-contents",
+    "to": "layouts",
+    "pattern": "toc/mobile-orange-dark/seq-table-of-contents__layouts/%04d.png",
+    "count": 48,
+    "fps": 60,
+    "durationMs": 150,
+    "stretch": 5.333,
+    "animations": [
+     {
+      "type": "CSSTransition",
+      "name": "stroke-dashoffset",
+      "target": "circle",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     }
+    ]
+   },
+   {
+    "from": "layouts",
+    "to": "docs",
+    "pattern": "toc/mobile-orange-dark/seq-layouts__docs/%04d.png",
+    "count": 48,
+    "fps": 60,
+    "durationMs": 150,
+    "stretch": 5.333,
+    "animations": [
+     {
+      "type": "CSSTransition",
+      "name": "stroke-dashoffset",
+      "target": "circle",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     }
+    ]
+   },
+   {
+    "from": "integrations",
+    "to": "showcase",
+    "pattern": "toc/mobile-orange-dark/seq-integrations__showcase/%04d.png",
+    "count": 48,
+    "fps": 60,
+    "durationMs": 150,
+    "stretch": 5.333,
+    "animations": [
+     {
+      "type": "CSSTransition",
+      "name": "stroke-dashoffset",
+      "target": "circle",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     }
+    ]
+   }
+  ],
+  "tall": {
+   "tiles": [
+    {
+     "index": 0,
+     "docY": 0,
+     "cssHeight": 844,
+     "file": "toc/mobile-orange-dark/tall/00.png"
+    },
+    {
+     "index": 1,
+     "docY": 844,
+     "cssHeight": 844,
+     "file": "toc/mobile-orange-dark/tall/01.png"
+    },
+    {
+     "index": 2,
+     "docY": 1688,
+     "cssHeight": 844,
+     "file": "toc/mobile-orange-dark/tall/02.png"
+    },
+    {
+     "index": 3,
+     "docY": 2532,
+     "cssHeight": 844,
+     "file": "toc/mobile-orange-dark/tall/03.png"
+    },
+    {
+     "index": 4,
+     "docY": 3376,
+     "cssHeight": 844,
+     "file": "toc/mobile-orange-dark/tall/04.png"
+    },
+    {
+     "index": 5,
+     "docY": 4220,
+     "cssHeight": 844,
+     "file": "toc/mobile-orange-dark/tall/05.png"
+    },
+    {
+     "index": 6,
+     "docY": 5064,
+     "cssHeight": 844,
+     "file": "toc/mobile-orange-dark/tall/06.png"
+    },
+    {
+     "index": 7,
+     "docY": 5908,
+     "cssHeight": 844,
+     "file": "toc/mobile-orange-dark/tall/07.png"
+    },
+    {
+     "index": 8,
+     "docY": 6752,
+     "cssHeight": 844,
+     "file": "toc/mobile-orange-dark/tall/08.png"
+    },
+    {
+     "index": 9,
+     "docY": 7596,
+     "cssHeight": 844,
+     "file": "toc/mobile-orange-dark/tall/09.png"
+    },
+    {
+     "index": 10,
+     "docY": 8440,
+     "cssHeight": 844,
+     "file": "toc/mobile-orange-dark/tall/10.png"
+    },
+    {
+     "index": 11,
+     "docY": 9284,
+     "cssHeight": 49,
+     "file": "toc/mobile-orange-dark/tall/11.png"
+    }
+   ],
+   "tileCssHeight": 844,
+   "documentHeight": 9333,
+   "headings": [
+    {
+     "id": "reading",
+     "depth": 2,
+     "text": "Reading",
+     "docY": 518
+    },
+    {
+     "id": "search",
+     "depth": 3,
+     "text": "Search",
+     "docY": 1312.55
+    },
+    {
+     "id": "code-blocks",
+     "depth": 3,
+     "text": "Code Blocks",
+     "docY": 1766.8
+    },
+    {
+     "id": "table-of-contents",
+     "depth": 2,
+     "text": "Table of Contents",
+     "docY": 2601.98
+    },
+    {
+     "id": "layouts",
+     "depth": 2,
+     "text": "Layouts",
+     "docY": 3758.59
+    },
+    {
+     "id": "docs",
+     "depth": 3,
+     "text": "Docs",
+     "docY": 4698.58
+    },
+    {
+     "id": "notebook",
+     "depth": 3,
+     "text": "Notebook",
+     "docY": 5122.77
+    },
+    {
+     "id": "flux",
+     "depth": 3,
+     "text": "Flux",
+     "docY": 5284.77
+    },
+    {
+     "id": "glass",
+     "depth": 3,
+     "text": "Glass",
+     "docY": 5416.77
+    },
+    {
+     "id": "styles",
+     "depth": 4,
+     "text": "Styles",
+     "docY": 5624.77
+    },
+    {
+     "id": "spacious",
+     "depth": 3,
+     "text": "Spacious",
+     "docY": 5963.02
+    },
+    {
+     "id": "themes",
+     "depth": 2,
+     "text": "Themes",
+     "docY": 6332.14
+    },
+    {
+     "id": "make-it-yours",
+     "depth": 2,
+     "text": "Make it yours",
+     "docY": 6767.81
+    },
+    {
+     "id": "integrations",
+     "depth": 2,
+     "text": "Integrations",
+     "docY": 7546.36
+    },
+    {
+     "id": "openapi",
+     "depth": 3,
+     "text": "OpenAPI",
+     "docY": 7718.34
+    },
+    {
+     "id": "obsidian",
+     "depth": 3,
+     "text": "Obsidian",
+     "docY": 8096.28
+    },
+    {
+     "id": "sanity",
+     "depth": 3,
+     "text": "Sanity",
+     "docY": 8370.28
+    },
+    {
+     "id": "story",
+     "depth": 3,
+     "text": "Story",
+     "docY": 8502.28
+    },
+    {
+     "id": "showcase",
+     "depth": 2,
+     "text": "Showcase",
+     "docY": 8679.28
+    }
+   ],
+   "note": "Page with the TOC popover bar hidden and the navbar unstuck (it scrolls with the page); stack tile k at docY."
+  },
+  "notes": "Phone viewport 390x844 (isMobile). The popover bar sits under the navbar (#nd-subnav); progress = (last active index + 1) / items. *-bar.png crops the bar (clip in geometry.bar). Sequences crop the bar while scrolling heading to heading (progress circle transition-all 150ms + title roll), stretched to 48 frames."
+ }
+}

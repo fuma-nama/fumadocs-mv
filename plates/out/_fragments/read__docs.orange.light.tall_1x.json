@@ -1,0 +1,105 @@
+{
+ "group": "read",
+ "id": "docs.orange.light.tall@1x",
+ "entry": {
+  "kind": "tall-tiles",
+  "layout": "docs",
+  "theme": "orange",
+  "mode": "light",
+  "url": "/themes/orange/getting-started/introduction",
+  "dpr": 1,
+  "css": [
+   900,
+   7537
+  ],
+  "size": [
+   900,
+   7537
+  ],
+  "columnX": 270,
+  "tileCssHeight": 810,
+  "tiles": [
+   {
+    "index": 0,
+    "docY": 0,
+    "cssHeight": 810,
+    "pxHeight": 810,
+    "alpha": "read/orange-light/tall@1x/alpha-00.png",
+    "opaque": "read/orange-light/tall@1x/opaque-00.png"
+   },
+   {
+    "index": 1,
+    "docY": 810,
+    "cssHeight": 810,
+    "pxHeight": 810,
+    "alpha": "read/orange-light/tall@1x/alpha-01.png",
+    "opaque": "read/orange-light/tall@1x/opaque-01.png"
+   },
+   {
+    "index": 2,
+    "docY": 1620,
+    "cssHeight": 810,
+    "pxHeight": 810,
+    "alpha": "read/orange-light/tall@1x/alpha-02.png",
+    "opaque": "read/orange-light/tall@1x/opaque-02.png"
+   },
+   {
+    "index": 3,
+    "docY": 2430,
+    "cssHeight": 810,
+    "pxHeight": 810,
+    "alpha": "read/orange-light/tall@1x/alpha-03.png",
+    "opaque": "read/orange-light/tall@1x/opaque-03.png"
+   },
+   {
+    "index": 4,
+    "docY": 3240,
+    "cssHeight": 810,
+    "pxHeight": 810,
+    "alpha": "read/orange-light/tall@1x/alpha-04.png",
+    "opaque": "read/orange-light/tall@1x/opaque-04.png"
+   },
+   {
+    "index": 5,
+    "docY": 4050,
+    "cssHeight": 810,
+    "pxHeight": 810,
+    "alpha": "read/orange-light/tall@1x/alpha-05.png",
+    "opaque": "read/orange-light/tall@1x/opaque-05.png"
+   },
+   {
+    "index": 6,
+    "docY": 4860,
+    "cssHeight": 810,
+    "pxHeight": 810,
+    "alpha": "read/orange-light/tall@1x/alpha-06.png",
+    "opaque": "read/orange-light/tall@1x/opaque-06.png"
+   },
+   {
+    "index": 7,
+    "docY": 5670,
+    "cssHeight": 810,
+    "pxHeight": 810,
+    "alpha": "read/orange-light/tall@1x/alpha-07.png",
+    "opaque": "read/orange-light/tall@1x/opaque-07.png"
+   },
+   {
+    "index": 8,
+    "docY": 6480,
+    "cssHeight": 810,
+    "pxHeight": 810,
+    "alpha": "read/orange-light/tall@1x/alpha-08.png",
+    "opaque": "read/orange-light/tall@1x/opaque-08.png"
+   },
+   {
+    "index": 9,
+    "docY": 7290,
+    "cssHeight": 247,
+    "pxHeight": 247,
+    "alpha": "read/orange-light/tall@1x/alpha-09.png",
+    "opaque": "read/orange-light/tall@1x/opaque-09.png"
+   }
+  ],
+  "notes": "The whole article column (#nd-page: breadcrumb, header, prose, footer) from y=0 to the document end, cut into tiles of 810 CSS px. Stack tile k at docY. x = columnX in the 1440-wide frame. alpha-* is transparent, opaque-* has the page background. Heading doc positions: read/<variant>/boxes.json activeRanges[].top."
+ }
+}

@@ -1,0 +1,324 @@
+{
+ "group": "cli",
+ "id": "layout.home",
+ "entry": {
+  "kind": "still+boxes",
+  "path": "cli/layouts/home.png",
+  "size": [
+   3200,
+   1800
+  ],
+  "css": [
+   1600,
+   900
+  ],
+  "dpr": 2,
+  "layout": "home",
+  "theme": "ocean",
+  "mode": "dark",
+  "url": "/themes/ocean/x/home",
+  "scrollY": 0,
+  "boxes": "cli/layouts/home.boxes.json",
+  "keyBoxes": {
+   "header": {
+    "css": [
+     0,
+     0,
+     1600,
+     56
+    ],
+    "px": [
+     0,
+     0,
+     3200,
+     112
+    ],
+    "id": "nd-nav"
+   },
+   "tabs": null,
+   "logo": {
+    "css": [
+     116,
+     16,
+     107.58,
+     24
+    ],
+    "px": [
+     232,
+     32,
+     215,
+     48
+    ],
+    "text": "Fumadocs"
+   },
+   "search": {
+    "css": [
+     1138,
+     10,
+     240,
+     36
+    ],
+    "px": [
+     2276,
+     20,
+     480,
+     72
+    ],
+    "r": 33554400,
+    "kbd": [
+     {
+      "css": [
+       1324.19,
+       17,
+       22.41,
+       22
+      ],
+      "px": [
+       2648,
+       34,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "⌘"
+     },
+     {
+      "css": [
+       1348.59,
+       17,
+       22.41,
+       22
+      ],
+      "px": [
+       2697,
+       34,
+       45,
+       44
+      ],
+      "r": 6,
+      "text": "K"
+     }
+    ]
+   },
+   "tabDropdown": null,
+   "home": {
+    "nav": {
+     "css": [
+      0,
+      0,
+      1600,
+      56
+     ],
+     "px": [
+      0,
+      0,
+      3200,
+      112
+     ]
+    },
+    "navLinks": [
+     {
+      "css": [
+       116,
+       16,
+       107.58,
+       24
+      ],
+      "px": [
+       232,
+       32,
+       215,
+       48
+      ],
+      "text": "Fumadocs"
+     },
+     {
+      "css": [
+       247.58,
+       10,
+       48.58,
+       36
+      ],
+      "px": [
+       495,
+       20,
+       97,
+       72
+      ],
+      "text": "Docs"
+     },
+     {
+      "css": [
+       304.16,
+       10,
+       45.23,
+       36
+      ],
+      "px": [
+       608,
+       20,
+       90,
+       72
+      ],
+      "text": "Blog"
+     },
+     {
+      "css": [
+       357.39,
+       10,
+       82.2,
+       36
+      ],
+      "px": [
+       715,
+       20,
+       164,
+       72
+      ],
+      "text": "Showcase"
+     },
+     {
+      "css": [
+       1452,
+       11.5,
+       32,
+       32
+      ],
+      "px": [
+       2904,
+       23,
+       64,
+       64
+      ],
+      "r": 6,
+      "text": ""
+     }
+    ],
+    "hero": {
+     "css": [
+      0,
+      56,
+      1600,
+      1118.14
+     ],
+     "px": [
+      0,
+      112,
+      3200,
+      2236
+     ]
+    },
+    "badge": {
+     "css": [
+      705.53,
+      152,
+      188.92,
+      26
+     ],
+     "px": [
+      1411,
+      304,
+      378,
+      52
+     ],
+     "r": 33554400,
+     "text": "The React.js docs framework"
+    },
+    "title": {
+     "css": [
+      416,
+      194,
+      768,
+      120
+     ],
+     "px": [
+      832,
+      388,
+      1536,
+      240
+     ],
+     "text": "Build excellent documentation, your style.",
+     "lines": [
+      [
+       598.75,
+       185,
+       402.5,
+       78
+      ],
+      [
+       439.78,
+       245,
+       720.44,
+       78
+      ]
+     ]
+    },
+    "description": {
+     "css": [
+      512,
+      338,
+      576,
+      56
+     ],
+     "px": [
+      1024,
+      676,
+      1152,
+      112
+     ],
+     "text": "Fumadocs is a documentation framework that composes into your React app. Minimal aesthetics, maximum customizability."
+    },
+    "ctas": [
+     {
+      "css": [
+       656.81,
+       427,
+       155.06,
+       48
+      ],
+      "px": [
+       1314,
+       854,
+       310,
+       96
+      ],
+      "r": 33554400,
+      "text": "Getting Started"
+     },
+     {
+      "css": [
+       823.88,
+       426,
+       119.31,
+       50
+      ],
+      "px": [
+       1648,
+       852,
+       239,
+       100
+      ],
+      "r": 33554400,
+      "text": "Showcase"
+     }
+    ],
+    "image": {
+     "css": [
+      288,
+      532,
+      1024,
+      546.14
+     ],
+     "px": [
+      576,
+      1064,
+      2048,
+      1092
+     ],
+     "r": 16
+    }
+   }
+  },
+  "notes": "CLI scene: the \"Themes\" page (same as themes/ocean-dark.png) in this layout, ocean dark, 1600x900. Scroll 0. Full boxes (sidebar items, article blocks, TOC items + geometry, tabs, controls) in the .boxes.json. Layers: alpha, full frame, stack over the opaque background layer."
+ }
+}

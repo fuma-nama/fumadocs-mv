@@ -1,0 +1,19 @@
+{
+ "group": "cli",
+ "id": "transcript",
+ "entry": {
+  "kind": "terminal transcript",
+  "path": "cli/transcript.json",
+  "raw": [
+   "cli/raw/create-app.jsonl",
+   "cli/raw/customize.jsonl",
+   "cli/raw/add.jsonl"
+  ],
+  "sessions": [
+   "create-app (npm create fumadocs-app)",
+   "customize (npx @fumadocs/cli customize: Docs Layout -> All)",
+   "add (npx @fumadocs/cli add: ui - banner + ui - tabs via search)"
+  ],
+  "notes": "Real runs in a pty (100 cols), replayed through @xterm/headless: every step = exact screen text + styled spans (ANSI palette colour names, dim/bold/inverse). steps[].keysAfter = the keys pressed next. customize.ejectedFiles lists the files it wrote (layouts/docs/..., layouts/shared/...)."
+ }
+}

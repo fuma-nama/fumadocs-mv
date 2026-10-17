@@ -1,0 +1,47 @@
+---
+title: MDX Presets
+description: Customize the default configurations for MDX processor.
+---
+
+Fumadocs MDX provides MDX presets to simplify configurations of features like **syntax highlighting**.
+
+## Default Preset
+
+A preset designed for documentation sites, it is enabled by default for global MDX options.
+
+### Remark Plugins
+
+These plugins are applied by default:
+
+- [Remark Image](/docs/headless/mdx/remark-image) - Handle images.
+- [Remark Heading](/docs/headless/mdx/headings) - Extract table of contents.
+- [Remark Structure](/docs/headless/mdx/structure) - Generate search indexes.
+
+Add other remark plugins with:
+
+```ts tab="Global Config"
+import { defineConfig } from 'fumadocs-mdx/config';
+import { myPlugin } from './remark-plugin';
+
+export default defineConfig({
+  mdxOptions: {
+    remarkPlugins: [myPlugin],
+    // You can also pass a function to control the order of remark plugins.
+    remarkPlugins: (v) => [myPlugin, ...v],
+  },
+});
+```
+
+```ts tab="Collection Config"
+import { defineCollections, applyMdxPreset } from 'fumadocs-mdx/config';
+import { myPlugin } from './remark-plugin';
+
+export const blog = defineCollections({
+  type: 'doc',
+  mdxOptions: applyMdxPreset({
+    remarkPlugins: [myPlugin],
+    // You can also pass a function to control the order of remark plugins.
+    remarkPlugins: (v) => [myPlugin, ...v],
+  }),
+});
+```

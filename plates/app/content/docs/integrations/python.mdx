@@ -1,0 +1,40 @@
+---
+title: Python
+description: Generate API references from Python packages.
+---
+
+<Callout type="warn" title="Experimental">
+  Support for Python docgen is still experimental, please use it in caution.
+</Callout>
+
+## Introduction
+
+`fumadocs-python` documents a Python package from its source code and docstrings. A Python command collects the package into a JSON file, which you can serve directly as a runtime content source, or convert into MDX files.
+
+Every module and class becomes a page, with functions, attributes and parameters rendered by the included components.
+
+## Setup
+
+Install the package:
+
+```package-install
+fumadocs-python shiki
+```
+
+### Generate JSON
+
+Install the Python command, it collects docs from your Python package:
+
+```bash
+pip install ./node_modules/fumadocs-python
+```
+
+Generate the JSON file of a package:
+
+```bash
+fumapy-generate httpx
+```
+
+It writes `httpx.json` into the current directory, pass `--dir` to change it.
+
+Docstring sections like `Parameters:` and `Returns:` are parsed as Google style, pass `--docstring-style numpy` or `--docstring-style sphinx` for other styles. Docstrings outside these styles are rendered as Markdown.

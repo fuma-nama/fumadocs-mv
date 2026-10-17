@@ -1,0 +1,9 @@
+{
+  "title": "Fumadocs CLI",
+  "icon": "Terminal",
+  "pages": [
+    "customize",
+    "add",
+    "tree"
+  ]
+}

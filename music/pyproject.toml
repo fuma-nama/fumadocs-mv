@@ -1,0 +1,17 @@
+[project]
+name = "readme-mv-music"
+version = "1.0.0"
+description = "Original instrumental 「README」 for the Fumadocs MV, rendered from code"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numba>=0.68.0",
+    "numpy>=2.5.4",
+    "pedalboard>=0.9.26",
+    "pyloudnorm>=0.2.0",
+    "scipy>=1.18.1",
+    "soundfile>=0.14.0",
+]
+
+[tool.uv]
+package = false

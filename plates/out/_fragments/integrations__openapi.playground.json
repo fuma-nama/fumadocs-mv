@@ -1,0 +1,113 @@
+{
+ "group": "integrations",
+ "id": "openapi.playground",
+ "entry": {
+  "kind": "states",
+  "css": [
+   1920,
+   1080
+  ],
+  "dpr": 2,
+  "theme": "neutral",
+  "mode": "dark",
+  "url": "/openapi/planets/createPlanet",
+  "clip": [
+   296,
+   100,
+   1328,
+   880
+  ],
+  "states": {
+   "1-idle": {
+    "label": "idle, body filled (name Mars, description The red planet, type terrestrial)",
+    "still": "integrations/openapi/playground/1-idle.png",
+    "frame": "integrations/openapi/playground/1-idle-frame.png",
+    "boxes": "integrations/openapi/playground/1-idle.boxes.json"
+   },
+   "2-send-hover": {
+    "label": "Send hovered",
+    "still": "integrations/openapi/playground/2-send-hover.png",
+    "frame": "integrations/openapi/playground/2-send-hover-frame.png",
+    "boxes": "integrations/openapi/playground/2-send-hover.boxes.json"
+   },
+   "2b-send-pressed": {
+    "label": "Send pressed (mouse down)",
+    "still": "integrations/openapi/playground/2b-send-pressed.png",
+    "frame": "integrations/openapi/playground/2b-send-pressed-frame.png",
+    "boxes": "integrations/openapi/playground/2b-send-pressed.boxes.json"
+   },
+   "3-sending": {
+    "label": "request in flight (response held)",
+    "still": "integrations/openapi/playground/3-sending.png",
+    "frame": "integrations/openapi/playground/3-sending-frame.png",
+    "boxes": "integrations/openapi/playground/3-sending.boxes.json"
+   },
+   "4-response": {
+    "label": "response 201 Created (mocked, ~120 ms latency)",
+    "still": "integrations/openapi/playground/4-response.png",
+    "frame": "integrations/openapi/playground/4-response-frame.png",
+    "boxes": "integrations/openapi/playground/4-response.boxes.json"
+   }
+  },
+  "mockedResponse": {
+   "status": 201,
+   "body": {
+    "id": 42,
+    "name": "Mars",
+    "description": "The red planet",
+    "type": "terrestrial",
+    "habitabilityIndex": 0.68,
+    "physicalProperties": {
+     "mass": 0.107,
+     "radius": 0.532,
+     "gravity": 0.378,
+     "temperature": {
+      "min": 130,
+      "max": 308,
+      "average": 210
+     }
+    },
+    "atmosphere": [
+     {
+      "compound": "CO2",
+      "percentage": 95.3
+     },
+     {
+      "compound": "N2",
+      "percentage": 2.6
+     },
+     {
+      "compound": "Ar",
+      "percentage": 1.9
+     }
+    ],
+    "discoveredAt": "1610-01-07T00:00:00Z",
+    "image": "https://cdn.scalar.com/photos/mars.jpg",
+    "satellites": [
+     {
+      "name": "Phobos",
+      "diameter": 22.4
+     },
+     {
+      "name": "Deimos",
+      "diameter": 12.4
+     }
+    ],
+    "creator": {
+     "id": 1,
+     "name": "Marc",
+     "email": "marc@scalar.com"
+    },
+    "tags": [
+     "solar-system",
+     "rocky",
+     "explored"
+    ],
+    "lastUpdated": "2026-10-11T09:41:00Z",
+    "successCallbackUrl": "https://example.com/webhook",
+    "failureCallbackUrl": "https://example.com/webhook"
+   }
+  },
+  "notes": "Playground dialog (\"Try in Playground\"), same clip for every state; -frame.png = full viewport. The Galaxy API is mocked with Playwright (201 + JSON); state 3 holds the response so the in-flight UI is visible. Timing/size shown by the UI are whatever the real component displays for the mocked response."
+ }
+}

@@ -1,0 +1,311 @@
+{
+ "viewport": [
+  390,
+  844
+ ],
+ "scrollY": 0,
+ "navbar": {
+  "css": [
+   0,
+   0,
+   390,
+   56
+  ],
+  "px": [
+   0,
+   0,
+   780,
+   112
+  ]
+ },
+ "navTitle": {
+  "css": [
+   16,
+   15.5,
+   107.58,
+   24
+  ],
+  "px": [
+   32,
+   31,
+   215,
+   48
+  ],
+  "text": "Fumadocs"
+ },
+ "navButtons": [
+  {
+   "css": [
+    312,
+    10.5,
+    34,
+    34
+   ],
+   "px": [
+    624,
+    21,
+    68,
+    68
+   ],
+   "r": 6
+  },
+  {
+   "css": [
+    346,
+    10.5,
+    34,
+    34
+   ],
+   "px": [
+    692,
+    21,
+    68,
+    68
+   ],
+   "r": 6
+  }
+ ],
+ "bar": {
+  "css": [
+   0,
+   56,
+   390,
+   40
+  ],
+  "px": [
+   0,
+   112,
+   780,
+   80
+  ]
+ },
+ "header": {
+  "css": [
+   0,
+   56,
+   390,
+   41
+  ],
+  "px": [
+   0,
+   112,
+   780,
+   82
+  ],
+  "background": "oklab(0.182203 0.0000082776 0.00000365078 / 0.8)",
+  "backdropFilter": "blur(8px)"
+ },
+ "trigger": {
+  "css": [
+   0,
+   56,
+   390,
+   40
+  ],
+  "px": [
+   0,
+   112,
+   780,
+   80
+  ],
+  "padding": "10px 16px"
+ },
+ "progressCircle": {
+  "css": [
+   16,
+   67,
+   18,
+   18
+  ],
+  "px": [
+   32,
+   134,
+   36,
+   36
+  ],
+  "value": "0.05263157894736842",
+  "dasharray": "47.12388980384689",
+  "dashoffset": "44.643685077328634",
+  "strokeWidth": 1.5,
+  "r": "7.5",
+  "color": "rgba(179, 179, 179, 0.8)"
+ },
+ "titles": [
+  {
+   "css": [
+    44,
+    46,
+    300,
+    20
+   ],
+   "px": [
+    88,
+    92,
+    600,
+    40
+   ],
+   "text": "Introduction",
+   "opacity": "0",
+   "transform": "none"
+  },
+  {
+   "css": [
+    44,
+    66,
+    300,
+    20
+   ],
+   "px": [
+    88,
+    132,
+    600,
+    40
+   ],
+   "text": "Reading",
+   "opacity": "1",
+   "transform": "none"
+  }
+ ],
+ "chevron": {
+  "css": [
+   356,
+   68,
+   16,
+   16
+  ],
+  "px": [
+   712,
+   136,
+   32,
+   32
+  ]
+ },
+ "styles": {
+  "title": {
+   "fontFamily": "geist, \"geist Fallback\"",
+   "fontWeight": "400",
+   "fontSize": "14px",
+   "lineHeight": "20px",
+   "letterSpacing": "normal",
+   "color": "rgba(179, 179, 179, 0.8)"
+  }
+ },
+ "active": [],
+ "headings": [
+  {
+   "id": "reading",
+   "depth": 2,
+   "text": "Reading",
+   "docY": 518
+  },
+  {
+   "id": "search",
+   "depth": 3,
+   "text": "Search",
+   "docY": 1312.55
+  },
+  {
+   "id": "code-blocks",
+   "depth": 3,
+   "text": "Code Blocks",
+   "docY": 1766.8
+  },
+  {
+   "id": "table-of-contents",
+   "depth": 2,
+   "text": "Table of Contents",
+   "docY": 2601.98
+  },
+  {
+   "id": "layouts",
+   "depth": 2,
+   "text": "Layouts",
+   "docY": 3758.59
+  },
+  {
+   "id": "docs",
+   "depth": 3,
+   "text": "Docs",
+   "docY": 4698.58
+  },
+  {
+   "id": "notebook",
+   "depth": 3,
+   "text": "Notebook",
+   "docY": 5122.77
+  },
+  {
+   "id": "flux",
+   "depth": 3,
+   "text": "Flux",
+   "docY": 5284.77
+  },
+  {
+   "id": "glass",
+   "depth": 3,
+   "text": "Glass",
+   "docY": 5416.77
+  },
+  {
+   "id": "styles",
+   "depth": 4,
+   "text": "Styles",
+   "docY": 5624.77
+  },
+  {
+   "id": "spacious",
+   "depth": 3,
+   "text": "Spacious",
+   "docY": 5963.02
+  },
+  {
+   "id": "themes",
+   "depth": 2,
+   "text": "Themes",
+   "docY": 6332.14
+  },
+  {
+   "id": "make-it-yours",
+   "depth": 2,
+   "text": "Make it yours",
+   "docY": 6767.81
+  },
+  {
+   "id": "integrations",
+   "depth": 2,
+   "text": "Integrations",
+   "docY": 7546.36
+  },
+  {
+   "id": "openapi",
+   "depth": 3,
+   "text": "OpenAPI",
+   "docY": 7718.34
+  },
+  {
+   "id": "obsidian",
+   "depth": 3,
+   "text": "Obsidian",
+   "docY": 8096.28
+  },
+  {
+   "id": "sanity",
+   "depth": 3,
+   "text": "Sanity",
+   "docY": 8370.28
+  },
+  {
+   "id": "story",
+   "depth": 3,
+   "text": "Story",
+   "docY": 8502.28
+  },
+  {
+   "id": "showcase",
+   "depth": 2,
+   "text": "Showcase",
+   "docY": 8679.28
+  }
+ ],
+ "documentHeight": 9333
+}

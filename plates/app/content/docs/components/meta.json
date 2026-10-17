@@ -1,0 +1,13 @@
+{
+  "title": "Components",
+  "icon": "Component",
+  "pages": [
+    "accordion",
+    "banner",
+    "code-block",
+    "files",
+    "steps",
+    "tabs",
+    "type-table"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "fumadocs-mv-plates",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --port 5310",
+    "build": "next build",
+    "start": "next start --port 5310",
+    "gen": "node scripts/gen-routes.mjs"
+  },
+  "dependencies": {
+    "@fumadocs/story": "1.4.0",
+    "cn": "^0.4.0",
+    "fumadocs-core": "16.17.1",
+    "fumadocs-mdx": "15.4.7",
+    "fumadocs-obsidian": "1.0.6",
+    "fumadocs-openapi": "12.4.1",
+    "fumadocs-ui": "npm:@fumadocs/base-ui@16.17.1",
+    "lucide-react": "^1.50.0",
+    "next": "16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/mdx": "^2.0.14",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@xterm/headless": "6.0.0",
+    "playwright": "1.64.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
+  }
+}

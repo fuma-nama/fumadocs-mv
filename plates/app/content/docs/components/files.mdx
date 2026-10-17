@@ -1,0 +1,42 @@
+---
+title: Files
+description: Display file structure in your documentation
+---
+
+## Usage
+
+Wrap file components in `Files`, you can use it in your MDX content, or as a normal React.js component.
+
+```mdx title="content.mdx"
+import { File, Folder, Files } from 'fumadocs-ui/components/files';
+
+<Files>
+  <Folder name="app" defaultOpen>
+    <File name="layout.tsx" />
+    <File name="page.tsx" />
+    <File name="global.css" />
+  </Folder>
+  <Folder name="components">
+    <File name="button.tsx" />
+    <File name="tabs.tsx" />
+    <File name="dialog.tsx" />
+  </Folder>
+  <File name="package.json" />
+</Files>
+```
+
+## Remark Plugin
+
+You can enable [`remark-mdx-files`](/docs/headless/mdx/remark-mdx-files) for additional feature & syntax.
+
+```tsx title="source.config.ts (Fumadocs MDX)"
+import { remarkMdxFiles } from 'fumadocs-core/mdx-plugins/remark-mdx-files';
+import { defineConfig } from 'fumadocs-mdx/config';
+
+export default defineConfig({
+  mdxOptions: {
+    // [!code ++]
+    remarkPlugins: [remarkMdxFiles],
+  },
+});
+```

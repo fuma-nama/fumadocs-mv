@@ -1,0 +1,19 @@
+{
+ "group": "cli",
+ "id": "files",
+ "entry": {
+  "kind": "crop",
+  "path": "cli/files/files.png",
+  "frame": "cli/files/frame.png",
+  "url": "/themes/ocean/getting-started/introduction",
+  "dpr": 2,
+  "viewport": [
+   1600,
+   900
+  ],
+  "theme": "ocean",
+  "mode": "dark",
+  "boxes": "cli/files/boxes.json",
+  "notes": "The real Files component (components/layout/docs/{index.tsx,page.tsx,slots/{sidebar,header}.tsx}) from the hero page, crop with 8px margin; frame.png = full viewport at that scroll."
+ }
+}

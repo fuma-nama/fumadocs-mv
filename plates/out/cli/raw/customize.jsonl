@@ -1,0 +1,171 @@
+{"t": 0.215, "type": "mark", "data": "start"}
+{"t": 0.255, "type": "out", "data": "\u2819"}
+{"t": 0.336, "type": "out", "data": "\u001b[1G"}
+{"t": 0.336, "type": "out", "data": "\u001b[0K\u2839"}
+{"t": 0.417, "type": "out", "data": "\u001b[1G\u001b[0K\u2838"}
+{"t": 0.499, "type": "out", "data": "\u001b[1G"}
+{"t": 0.499, "type": "out", "data": "\u001b[0K"}
+{"t": 0.499, "type": "out", "data": "\u283c"}
+{"t": 0.579, "type": "out", "data": "\u001b[1G\u001b[0K"}
+{"t": 0.579, "type": "out", "data": "\u2834"}
+{"t": 0.661, "type": "out", "data": "\u001b[1G\u001b[0K\u2826"}
+{"t": 0.705, "type": "out", "data": "\u001b[1G\u001b[0K\u001b[1mnpm\u001b[22m \u001b[96mnotice\u001b[39m \u001b[94mrun\u001b[39m my-docs@0.0.43 npx\r\n"}
+{"t": 0.705, "type": "out", "data": "\u2826\u001b[1G\u001b[0K\u001b[1mnpm\u001b[22m \u001b[96mnotice\u001b[39m \u001b[94mrun\u001b[39m 'cli' customize\r\n\u2826"}
+{"t": 0.705, "type": "out", "data": "\u001b[1G\u001b[0K"}
+{"t": 0.795, "type": "out", "data": "\u001b[90m\u250c\u001b[39m  \u001b[40m\u001b[97mCustomize Fumadocs UI\u001b[39m\u001b[49m\r\n"}
+{"t": 1.265, "type": "out", "data": "\u001b[?25l"}
+{"t": 1.265, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  What do you want to customize?\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Docs Layout \u001b[2m(the default docs layout)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mNotebook Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mFlux Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mGlass Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mSpacious Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mHome Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 2.372, "type": "mark", "data": "prompt: what (Docs Layout focused)"}
+{"t": 2.372, "type": "in", "data": "\u001b[B"}
+{"t": 2.374, "type": "out", "data": "\u001b[999D\u001b[10A"}
+{"t": 2.375, "type": "out", "data": "\u001b[2B\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mDocs Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Notebook Layout \u001b[2m(a more compact version of docs layout)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mFlux Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mGlass Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mSpacious Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mHome Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 3.182, "type": "mark", "data": "down: Notebook Layout"}
+{"t": 3.182, "type": "in", "data": "\u001b[B"}
+{"t": 3.183, "type": "out", "data": "\u001b[999D\u001b[10A\u001b[3B"}
+{"t": 3.184, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mNotebook Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Flux Layout \u001b[2m(the experimental variant of docs layout)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mGlass Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mSpacious Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mHome Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 3.987, "type": "mark", "data": "down: Flux Layout"}
+{"t": 3.988, "type": "in", "data": "\u001b[B"}
+{"t": 3.989, "type": "out", "data": "\u001b[999D\u001b[10A"}
+{"t": 3.989, "type": "out", "data": "\u001b[4B\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mFlux Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Glass Layout \u001b[2m(a docs layout with floating, translucent panels)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mSpacious Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mHome Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 4.79, "type": "mark", "data": "down: Glass Layout"}
+{"t": 4.79, "type": "in", "data": "\u001b[B"}
+{"t": 4.792, "type": "out", "data": "\u001b[999D\u001b[10A"}
+{"t": 4.792, "type": "out", "data": "\u001b[5B\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mGlass Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Spacious Layout \u001b[2m(a docs layout with the page in an inset panel, Base UI only)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mHome Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 5.591, "type": "mark", "data": "down: Spacious Layout"}
+{"t": 5.591, "type": "in", "data": "\u001b[A"}
+{"t": 5.592, "type": "out", "data": "\u001b[999D\u001b[10A\u001b[5B"}
+{"t": 5.592, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Glass Layout \u001b[2m(a docs layout with floating, translucent panels)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mSpacious Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mHome Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 6.397, "type": "mark", "data": "up: Glass Layout"}
+{"t": 6.397, "type": "in", "data": "\u001b[A"}
+{"t": 6.397, "type": "out", "data": "\u001b[999D\u001b[10A\u001b[4B"}
+{"t": 6.397, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Flux Layout \u001b[2m(the experimental variant of docs layout)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mGlass Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mSpacious Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mHome Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 7.21, "type": "mark", "data": "up: Flux Layout"}
+{"t": 7.21, "type": "in", "data": "\u001b[A"}
+{"t": 7.212, "type": "out", "data": "\u001b[999D\u001b[10A\u001b[3B"}
+{"t": 7.212, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Notebook Layout \u001b[2m(a more compact version of docs layout)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mFlux Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mGlass Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mSpacious Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mHome Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 8.014, "type": "mark", "data": "up: Notebook Layout"}
+{"t": 8.014, "type": "in", "data": "\u001b[A"}
+{"t": 8.015, "type": "out", "data": "\u001b[999D\u001b[10A\u001b[2B"}
+{"t": 8.015, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Docs Layout \u001b[2m(the default docs layout)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mNotebook Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mFlux Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mGlass Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mSpacious Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mHome Layout\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 8.812, "type": "mark", "data": "up: Docs Layout"}
+{"t": 8.813, "type": "in", "data": "\r"}
+{"t": 8.815, "type": "out", "data": "\u001b[999D\u001b[10A"}
+{"t": 8.815, "type": "out", "data": "\u001b[1B\u001b[J\u001b[32m\u25c7\u001b[39m  What do you want to customize?\r\n\u001b[90m\u2502\u001b[39m  \u001b[2mDocs Layout\u001b[22m"}
+{"t": 8.815, "type": "out", "data": "\r\n"}
+{"t": 8.815, "type": "out", "data": "\u001b[?25h"}
+{"t": 8.817, "type": "out", "data": "\u001b[?25l\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  Which part do you want to customize?\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m All \u001b[2m(install the entire layout)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mReplace & rewrite from minimal styles\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: breadcrumb\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: footer\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 10.201, "type": "mark", "data": "prompt: which part (All focused)"}
+{"t": 10.201, "type": "in", "data": "\u001b[B"}
+{"t": 10.202, "type": "out", "data": "\u001b[999D\u001b[13A\u001b[2B\u001b[J"}
+{"t": 10.202, "type": "out", "data": "\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mAll\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Replace & rewrite from minimal styles \u001b[2m(for those who want to build their own UI from \u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2mground up)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: breadcrumb\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: footer\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 11.01, "type": "mark", "data": "down 1"}
+{"t": 11.01, "type": "in", "data": "\u001b[B"}
+{"t": 11.01, "type": "out", "data": "\u001b[999D\u001b[14A\u001b[3B\u001b[J"}
+{"t": 11.01, "type": "out", "data": "\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mReplace & rewrite from minimal styles\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Page: breadcrumb \u001b[2m(only replace a part of layout's page, useful for adjusting details)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: footer\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 11.81, "type": "mark", "data": "down 2"}
+{"t": 11.81, "type": "in", "data": "\u001b[B"}
+{"t": 11.812, "type": "out", "data": "\u001b[999D\u001b[13A"}
+{"t": 11.812, "type": "out", "data": "\u001b[4B\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: breadcrumb\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Page: container \u001b[2m(only replace a part of layout's page, useful for adjusting details)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: footer\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 12.613, "type": "mark", "data": "down 3"}
+{"t": 12.614, "type": "in", "data": "\u001b[B"}
+{"t": 12.615, "type": "out", "data": "\u001b[999D\u001b[13A\u001b[5B"}
+{"t": 12.615, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Page: footer \u001b[2m(only replace a part of layout's page, useful for adjusting details)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 13.417, "type": "mark", "data": "down 4"}
+{"t": 13.417, "type": "in", "data": "\u001b[B"}
+{"t": 13.418, "type": "out", "data": "\u001b[999D\u001b[13A"}
+{"t": 13.418, "type": "out", "data": "\u001b[6B\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: footer\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Page: toc \u001b[2m(only replace a part of layout's page, useful for adjusting details)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 14.218, "type": "mark", "data": "down 5"}
+{"t": 14.219, "type": "in", "data": "\u001b[B"}
+{"t": 14.219, "type": "out", "data": "\u001b[999D\u001b[13A"}
+{"t": 14.219, "type": "out", "data": "\u001b[7B\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Layout: container \u001b[2m(only replace a part of layout, useful for adjusting details)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 15.034, "type": "mark", "data": "down 6"}
+{"t": 15.034, "type": "in", "data": "\u001b[A"}
+{"t": 15.035, "type": "out", "data": "\u001b[999D\u001b[13A\u001b[7B"}
+{"t": 15.035, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Page: toc \u001b[2m(only replace a part of layout's page, useful for adjusting details)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 15.741, "type": "mark", "data": "up 5"}
+{"t": 15.741, "type": "in", "data": "\u001b[A"}
+{"t": 15.742, "type": "out", "data": "\u001b[999D\u001b[13A\u001b[6B\u001b[J"}
+{"t": 15.742, "type": "out", "data": "\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Page: footer \u001b[2m(only replace a part of layout's page, useful for adjusting details)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 16.45, "type": "mark", "data": "up 4"}
+{"t": 16.45, "type": "in", "data": "\u001b[A"}
+{"t": 16.451, "type": "out", "data": "\u001b[999D\u001b[13A\u001b[5B\u001b[J"}
+{"t": 16.451, "type": "out", "data": "\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Page: container \u001b[2m(only replace a part of layout's page, useful for adjusting details)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: footer\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 17.156, "type": "mark", "data": "up 3"}
+{"t": 17.156, "type": "in", "data": "\u001b[A"}
+{"t": 17.157, "type": "out", "data": "\u001b[999D\u001b[13A\u001b[4B"}
+{"t": 17.157, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Page: breadcrumb \u001b[2m(only replace a part of layout's page, useful for adjusting details)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: footer\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 17.862, "type": "mark", "data": "up 2"}
+{"t": 17.862, "type": "in", "data": "\u001b[A"}
+{"t": 17.863, "type": "out", "data": "\u001b[999D\u001b[13A\u001b[3B"}
+{"t": 17.863, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Replace & rewrite from minimal styles \u001b[2m(for those who want to build their own UI from \u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2mground up)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: breadcrumb\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: footer\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 18.559, "type": "mark", "data": "up 1"}
+{"t": 18.559, "type": "in", "data": "\u001b[A"}
+{"t": 18.56, "type": "out", "data": "\u001b[999D\u001b[14A\u001b[2B"}
+{"t": 18.56, "type": "out", "data": "\u001b[J\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m All \u001b[2m(install the entire layout)\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mReplace & rewrite from minimal styles\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: breadcrumb\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: footer\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mPage: toc\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: container\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: header\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u25cb\u001b[22m \u001b[2mLayout: sidebar\u001b[22m\r\n\u001b[36m\u2502\u001b[39m  \u001b[2m\u2191/\u2193\u001b[22m to navigate \u2022 \u001b[2mEnter:\u001b[22m confirm\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 19.354, "type": "mark", "data": "up 0: All"}
+{"t": 19.354, "type": "in", "data": "\r"}
+{"t": 19.354, "type": "out", "data": "\u001b[999D\u001b[13A\u001b[1B"}
+{"t": 19.354, "type": "out", "data": "\u001b[J\u001b[32m\u25c7\u001b[39m  Which part do you want to customize?\r\n\u001b[90m\u2502\u001b[39m  \u001b[2mAll\u001b[22m\r\n"}
+{"t": 19.354, "type": "out", "data": "\u001b[?25h"}
+{"t": 19.355, "type": "out", "data": "\u001b[?25l"}
+{"t": 19.355, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n"}
+{"t": 19.436, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  \u001b[1m\u001b[96mInstalling layouts/docs\u001b[39m\u001b[22m"}
+{"t": 19.516, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.516, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  \u001b[1m\u001b[96mInstalling layouts/docs\u001b[39m\u001b[22m"}
+{"t": 19.597, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.597, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  \u001b[1m\u001b[96mInstalling layouts/docs\u001b[39m\u001b[22m"}
+{"t": 19.677, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.677, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  \u001b[1m\u001b[96mInstalling layouts/docs\u001b[39m\u001b[22m"}
+{"t": 19.757, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.757, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  \u001b[1m\u001b[96mInstalling layouts/docs\u001b[39m\u001b[22m"}
+{"t": 19.839, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.839, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  \u001b[1m\u001b[96mInstalling layouts/docs\u001b[39m\u001b[22m"}
+{"t": 19.919, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 19.919, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  \u001b[1m\u001b[96mInstalling layouts/docs\u001b[39m\u001b[22m"}
+{"t": 20.001, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.001, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  \u001b[1m\u001b[96mInstalling layouts/docs\u001b[39m\u001b[22m"}
+{"t": 20.081, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.081, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  \u001b[1m\u001b[96mInstalling layouts/docs\u001b[39m\u001b[22m."}
+{"t": 20.162, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.162, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  \u001b[1m\u001b[96mInstalling layouts/docs\u001b[39m\u001b[22m."}
+{"t": 20.202, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 20.202, "type": "out", "data": "\u001b[32m\u25c7\u001b[39m  \u001b[1m\u001b[92mlayouts/docs installed\u001b[39m\u001b[22m\r\n\u001b[?25h"}
+{"t": 20.202, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n"}
+{"t": 20.202, "type": "out", "data": "\u001b[90m\u2502\u001b[39m \u250c\u2500New Dependencies\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\r\n\u001b[90m\u2502\u001b[39m \u2502  @fuma-translate/react@^1.0.2                                                                  \u2502\r\n"}
+{"t": 20.202, "type": "out", "data": "\u001b[90m\u2502\u001b[39m \u2502  @fumadocs/base-ui                                                                             \u2502\r\n\u001b[90m\u2502\u001b[39m \u2502  class-variance-authority@^0.7.1                                                               \u2502\r\n\u001b[90m\u2502\u001b[39m \u2502  @base-ui/react@^1.8.0                                                                         \u2502\r\n\u001b[90m\u2502\u001b[39m \u2502  next-themes@^0.4.6                                                                            \u2502\r\n\u001b[90m\u2502\u001b[39m \u2502  scroll-into-view-if-needed@^3.1.0                                                             \u2502\r\n\u001b[90m\u2502\u001b[39m \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\r\n"}
+{"t": 20.203, "type": "out", "data": "\u001b[?25l\u001b[90m\u2502\u001b[39m\r\n\u001b[36m\u25c6\u001b[39m  Do you want to install with npm?\r\n\u001b[36m\u2502\u001b[39m  \u001b[32m\u25cf\u001b[39m Yes \u001b[2m/\u001b[22m \u001b[2m\u25cb\u001b[22m \u001b[2mNo\u001b[22m\r\n\u001b[36m\u2514\u001b[39m\r\n"}
+{"t": 21.059, "type": "mark", "data": "prompt: install deps"}
+{"t": 21.06, "type": "in", "data": "\r"}
+{"t": 21.061, "type": "out", "data": "\u001b[999D\u001b[4A"}
+{"t": 21.061, "type": "out", "data": "\u001b[1B\u001b[J\u001b[32m\u25c7\u001b[39m  Do you want to install with npm?\r\n\u001b[90m\u2502\u001b[39m  \u001b[2mYes\u001b[22m"}
+{"t": 21.061, "type": "out", "data": "\r\n"}
+{"t": 21.061, "type": "out", "data": "\u001b[?25h"}
+{"t": 21.061, "type": "out", "data": "\u001b[?25l"}
+{"t": 21.061, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n"}
+{"t": 21.142, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Installing dependencies"}
+{"t": 21.223, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.223, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Installing dependencies"}
+{"t": 21.304, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.304, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Installing dependencies"}
+{"t": 21.385, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.385, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Installing dependencies"}
+{"t": 21.467, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.467, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Installing dependencies"}
+{"t": 21.547, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.547, "type": "out", "data": "\u001b[35m\u25d0\u001b[39m  Installing dependencies"}
+{"t": 21.628, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.628, "type": "out", "data": "\u001b[35m\u25d3\u001b[39m  Installing dependencies"}
+{"t": 21.709, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.709, "type": "out", "data": "\u001b[35m\u25d1\u001b[39m  Installing dependencies"}
+{"t": 21.79, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.79, "type": "out", "data": "\u001b[35m\u25d2\u001b[39m  Installing dependencies."}
+{"t": 21.819, "type": "out", "data": "\u001b[1G\u001b[J"}
+{"t": 21.819, "type": "out", "data": "\u001b[32m\u25c7\u001b[39m  Dependencies installed\r\n\u001b[?25h"}
+{"t": 21.819, "type": "out", "data": "\u001b[90m\u250c\u001b[39m  \u001b[1mWhat is Next?\u001b[22m\r\n"}
+{"t": 21.826, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n\u001b[34m\u25cf\u001b[39m  You can check the installed layouts in `layouts` folder.\r\n\u001b[90m\u2502\u001b[39m  \u001b[2m---\u001b[22m\r\n\u001b[90m\u2502\u001b[39m  Updated the imports of app/docs/layout.tsx, app/docs/[[...slug]]/page.tsx.\r\n\u001b[90m\u2502\u001b[39m  \u001b[92m\"fumadocs-ui/layouts/docs\" -> \"@/layouts/docs\"\u001b[39m\r\n\u001b[90m\u2502\u001b[39m  \u001b[92m\"fumadocs-ui/layouts/docs/page\" -> \"@/layouts/docs/page\"\u001b[39m\r\n"}
+{"t": 21.826, "type": "out", "data": "\u001b[90m\u2502\u001b[39m\r\n\u001b[90m\u2514\u001b[39m  \u001b[1mHave fun!\u001b[22m\r\n\r\n"}
+{"t": 21.833, "type": "out", "data": "\u2819"}
+{"t": 21.834, "type": "out", "data": "\u001b[1G"}
+{"t": 21.834, "type": "out", "data": "\u001b[0K"}
+{"t": 21.836, "type": "mark", "data": "done"}
+{"t": 21.836, "type": "mark", "data": "END"}

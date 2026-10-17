@@ -1,0 +1,342 @@
+{
+ "dialog": {
+  "css": [
+   320,
+   124,
+   1280,
+   832
+  ],
+  "px": [
+   640,
+   248,
+   2560,
+   1664
+  ],
+  "r": 16
+ },
+ "title": {
+  "css": [
+   341,
+   139,
+   100.2,
+   20
+  ],
+  "px": [
+   682,
+   278,
+   200,
+   40
+  ],
+  "text": "Create a planet"
+ },
+ "urlBar": {
+  "css": [
+   337,
+   173,
+   1120.14,
+   40
+  ],
+  "px": [
+   674,
+   346,
+   2240,
+   80
+  ],
+  "r": 12
+ },
+ "method": {
+  "css": [
+   342,
+   181,
+   44.81,
+   24
+  ],
+  "px": [
+   684,
+   362,
+   90,
+   48
+  ],
+  "r": 8,
+  "text": "POST",
+  "color": "lab(65.0361 -1.42065 -56.9802)",
+  "background": "oklab(0.706992 -0.043759 -0.159072 / 0.1)"
+ },
+ "server": {
+  "css": [
+   392.81,
+   179.25,
+   223,
+   27.5
+  ],
+  "px": [
+   786,
+   359,
+   446,
+   55
+  ],
+  "r": 8,
+  "text": "https://galaxy.scalar.com"
+ },
+ "path": null,
+ "send": {
+  "css": [
+   1466.91,
+   173.6,
+   114.32,
+   38.8
+  ],
+  "px": [
+   2934,
+   347,
+   229,
+   78
+  ],
+  "r": 12,
+  "text": "Send⌘ ↵"
+ },
+ "responseHeader": null,
+ "responseTiming": null,
+ "responseBody": null,
+ "status": [
+  {
+   "css": [
+    1109.2,
+    473.56,
+    43.47,
+    16
+   ],
+   "px": [
+    2218,
+    947,
+    87,
+    32
+   ],
+   "text": "Created"
+  },
+  {
+   "css": [
+    1469.17,
+    473.56,
+    21.61,
+    16
+   ],
+   "px": [
+    2938,
+    947,
+    43,
+    32
+   ],
+   "text": "201"
+  }
+ ],
+ "sendingOverlay": null,
+ "codeBlocks": [
+  {
+   "css": [
+    1022.19,
+    266,
+    560.81,
+    195.06
+   ],
+   "px": [
+    2044,
+    532,
+    1122,
+    390
+   ],
+   "text": "curl -X POST 'https://galaxy.scalar.com/planets' \\ -H 'Authorization: Bearer ' \\"
+  },
+  {
+   "css": [
+    1022.19,
+    280,
+    560.81,
+    167.06
+   ],
+   "px": [
+    2044,
+    560,
+    1122,
+    334
+   ],
+   "text": "curl -X POST 'https://galaxy.scalar.com/planets' \\ -H 'Authorization: Bearer ' \\"
+  },
+  {
+   "css": [
+    1023.19,
+    502.06,
+    558.81,
+    435.94
+   ],
+   "px": [
+    2046,
+    1004,
+    1118,
+    872
+   ],
+   "text": "{ \"id\": 1, \"name\": \"Mars\", \"description\": \"The red planet\", \"type\": \"terrestrial"
+  },
+  {
+   "css": [
+    1023.19,
+    516.06,
+    703.23,
+    1058.06
+   ],
+   "px": [
+    2046,
+    1032,
+    1406,
+    2116
+   ],
+   "text": "{ \"id\": 1, \"name\": \"Mars\", \"description\": \"The red planet\", \"type\": \"terrestrial"
+  }
+ ],
+ "inputs": [
+  {
+   "css": [
+    567.06,
+    274,
+    379.92,
+    40
+   ],
+   "px": [
+    1134,
+    548,
+    760,
+    80
+   ],
+   "value": "Bearer ",
+   "placeholder": "Enter value"
+  },
+  {
+   "css": [
+    567.06,
+    363,
+    372.72,
+    40
+   ],
+   "px": [
+    1134,
+    726,
+    745,
+    80
+   ],
+   "value": "1",
+   "placeholder": "1"
+  },
+  {
+   "css": [
+    567.06,
+    404,
+    379.92,
+    40
+   ],
+   "px": [
+    1134,
+    808,
+    760,
+    80
+   ],
+   "value": "Mars",
+   "placeholder": "Mars"
+  },
+  {
+   "css": [
+    567.06,
+    445,
+    353.92,
+    40
+   ],
+   "px": [
+    1134,
+    890,
+    708,
+    80
+   ],
+   "value": "The red planet",
+   "placeholder": "The red planet"
+  },
+  {
+   "css": [
+    567.06,
+    527,
+    379.92,
+    40
+   ],
+   "px": [
+    1134,
+    1054,
+    760,
+    80
+   ],
+   "value": "",
+   "placeholder": "0.68"
+  },
+  {
+   "css": [
+    567.06,
+    650,
+    379.92,
+    40
+   ],
+   "px": [
+    1134,
+    1300,
+    760,
+    80
+   ],
+   "value": "",
+   "placeholder": "1610-01-07T00:00:00Z"
+  },
+  {
+   "css": [
+    567.06,
+    691,
+    353.92,
+    40
+   ],
+   "px": [
+    1134,
+    1382,
+    708,
+    80
+   ],
+   "value": "",
+   "placeholder": "https://cdn.scalar.com/photos/mars.jpg"
+  },
+  {
+   "css": [
+    567.06,
+    855,
+    379.92,
+    40
+   ],
+   "px": [
+    1134,
+    1710,
+    760,
+    80
+   ],
+   "value": "",
+   "placeholder": "https://example.com/webhook"
+  },
+  {
+   "css": [
+    567.06,
+    896,
+    379.92,
+    40
+   ],
+   "px": [
+    1134,
+    1792,
+    760,
+    80
+   ],
+   "value": "",
+   "placeholder": "https://example.com/webhook"
+  }
+ ]
+}

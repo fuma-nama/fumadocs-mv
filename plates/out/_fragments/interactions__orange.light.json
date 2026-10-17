@@ -1,0 +1,713 @@
+{
+ "group": "interactions",
+ "id": "orange.light",
+ "entry": {
+  "kind": "sequences",
+  "css": [
+   1440,
+   810
+  ],
+  "dpr": 2,
+  "theme": "orange",
+  "mode": "light",
+  "url": "/themes/orange/getting-started/introduction",
+  "themeToggle": {
+   "before": "interactions/orange-light/theme-toggle/before.png",
+   "after": "interactions/orange-light/theme-toggle/after.png",
+   "toggle": {
+    "css": [
+     189,
+     763,
+     61,
+     26
+    ],
+    "px": [
+     378,
+     1526,
+     122,
+     52
+    ]
+   },
+   "options": [
+    {
+     "css": [
+      194,
+      763,
+      26,
+      26
+     ],
+     "px": [
+      388,
+      1526,
+      52,
+      52
+     ],
+     "r": 6
+    },
+    {
+     "css": [
+      220,
+      763,
+      26,
+      26
+     ],
+     "px": [
+      440,
+      1526,
+      52,
+      52
+     ],
+     "r": 6
+    }
+   ],
+   "sequence": {
+    "pattern": "interactions/orange-light/theme-toggle/seq/%04d.png",
+    "count": 30,
+    "fps": 60,
+    "durationMs": 250,
+    "animations": [
+     {
+      "type": "CSSAnimation",
+      "name": "-ua-view-transition-group-anim-root",
+      "target": "html",
+      "duration": 250,
+      "delay": 0,
+      "endTime": 250,
+      "easing": "linear",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "-ua-view-transition-fade-in",
+      "target": "html",
+      "duration": 250,
+      "delay": 0,
+      "endTime": 250,
+      "easing": "linear",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "-ua-mix-blend-mode-plus-lighter",
+      "target": "html",
+      "duration": 250,
+      "delay": 0,
+      "endTime": 250,
+      "easing": "linear",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "-ua-view-transition-fade-out",
+      "target": "html",
+      "duration": 250,
+      "delay": 0,
+      "endTime": 250,
+      "easing": "linear",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "-ua-mix-blend-mode-plus-lighter",
+      "target": "html",
+      "duration": 250,
+      "delay": 0,
+      "endTime": 250,
+      "easing": "linear",
+      "currentTime": 0
+     }
+    ]
+   },
+   "note": "next-themes switches the class on <html> with transitions disabled for the change: the page flips in one frame (the sequence shows it). Hover state on the toggle is visible in the sequence frames."
+  },
+  "folder": {
+   "clip": [
+    0,
+    0,
+    268,
+    810
+   ],
+   "closed": "interactions/orange-light/folder/closed.png",
+   "open": "interactions/orange-light/folder/open.png",
+   "itemsWhenOpen": [
+    {
+     "css": [
+      15,
+      118,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      236,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "folder",
+     "text": "Getting Started",
+     "depth": 0,
+     "active": false,
+     "open": true,
+     "icon": [
+      23,
+      128,
+      16,
+      16
+     ]
+    },
+    {
+     "css": [
+      15,
+      156,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      312,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "Introduction",
+     "depth": 1,
+     "active": true
+    },
+    {
+     "css": [
+      15,
+      194,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      388,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "Quick Start",
+     "depth": 1,
+     "active": false
+    },
+    {
+     "css": [
+      15,
+      232,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      464,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "What is Fumadocs",
+     "depth": 1,
+     "active": false
+    },
+    {
+     "css": [
+      15,
+      270,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      540,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "Comparisons",
+     "depth": 1,
+     "active": false
+    },
+    {
+     "css": [
+      15,
+      332,
+      236,
+      20
+     ],
+     "px": [
+      30,
+      664,
+      472,
+      40
+     ],
+     "kind": "separator",
+     "text": "UI",
+     "depth": 0,
+     "active": false
+    },
+    {
+     "css": [
+      15,
+      358,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      716,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "folder",
+     "text": "Layouts",
+     "depth": 0,
+     "active": false,
+     "open": true,
+     "icon": [
+      23,
+      368,
+      16,
+      16
+     ]
+    },
+    {
+     "css": [
+      15,
+      396,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      792,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "Docs Layout",
+     "depth": 1,
+     "active": false
+    },
+    {
+     "css": [
+      15,
+      434,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      868,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "Notebook",
+     "depth": 1,
+     "active": false
+    },
+    {
+     "css": [
+      15,
+      472,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      944,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "Flux",
+     "depth": 1,
+     "active": false
+    },
+    {
+     "css": [
+      15,
+      510,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      1020,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "Glass",
+     "depth": 1,
+     "active": false
+    },
+    {
+     "css": [
+      15,
+      548,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      1096,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "Spacious",
+     "depth": 1,
+     "active": false
+    },
+    {
+     "css": [
+      15,
+      586,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      1172,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "Home Layout",
+     "depth": 1,
+     "active": false
+    },
+    {
+     "css": [
+      15,
+      624,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      1248,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "Themes",
+     "depth": 0,
+     "active": false,
+     "icon": [
+      23,
+      634,
+      16,
+      16
+     ]
+    },
+    {
+     "css": [
+      15,
+      662,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      1324,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "folder",
+     "text": "Components",
+     "depth": 0,
+     "active": false,
+     "open": false,
+     "icon": [
+      23,
+      672,
+      16,
+      16
+     ]
+    },
+    {
+     "css": [
+      15,
+      700,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      1400,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "page",
+     "text": "Search",
+     "depth": 0,
+     "active": false,
+     "icon": [
+      23,
+      710,
+      16,
+      16
+     ]
+    },
+    {
+     "css": [
+      15,
+      762,
+      236,
+      20
+     ],
+     "px": [
+      30,
+      1524,
+      472,
+      40
+     ],
+     "kind": "separator",
+     "text": "Framework",
+     "depth": 0,
+     "active": false
+    },
+    {
+     "css": [
+      15,
+      788,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      1576,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "folder",
+     "text": "Core",
+     "depth": 0,
+     "active": false,
+     "open": false,
+     "icon": [
+      23,
+      798,
+      16,
+      16
+     ]
+    },
+    {
+     "css": [
+      15,
+      826,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      1652,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "folder",
+     "text": "MDX",
+     "depth": 0,
+     "active": false,
+     "open": false,
+     "icon": [
+      23,
+      836,
+      16,
+      16
+     ]
+    },
+    {
+     "css": [
+      15,
+      864,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      1728,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "folder",
+     "text": "CLI",
+     "depth": 0,
+     "active": false,
+     "open": false,
+     "icon": [
+      23,
+      874,
+      16,
+      16
+     ]
+    },
+    {
+     "css": [
+      15,
+      902,
+      236,
+      36
+     ],
+     "px": [
+      30,
+      1804,
+      472,
+      72
+     ],
+     "r": 8,
+     "kind": "folder",
+     "text": "Integrations",
+     "depth": 0,
+     "active": false,
+     "open": false,
+     "icon": [
+      23,
+      912,
+      16,
+      16
+     ]
+    }
+   ],
+   "expand": {
+    "pattern": "interactions/orange-light/folder/expand/%04d.png",
+    "count": 36,
+    "fps": 60,
+    "durationMs": 150,
+    "stretch": 4,
+    "animations": [
+     {
+      "type": "CSSTransition",
+      "name": "background-color",
+      "target": "button",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "button",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "rotate",
+      "target": "svg",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "height",
+      "target": "div",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "opacity",
+      "target": "div",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     }
+    ]
+   },
+   "collapse": {
+    "pattern": "interactions/orange-light/folder/collapse/%04d.png",
+    "count": 36,
+    "fps": 60,
+    "durationMs": 150,
+    "stretch": 4,
+    "animations": [
+     {
+      "type": "CSSTransition",
+      "name": "background-color",
+      "target": "button",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "color",
+      "target": "button",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "rotate",
+      "target": "svg",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "height",
+      "target": "div",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     },
+     {
+      "type": "CSSTransition",
+      "name": "opacity",
+      "target": "div",
+      "duration": 150,
+      "delay": 0,
+      "endTime": 150,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "currentTime": 0
+     }
+    ]
+   }
+  },
+  "notes": "Docs layout hero page. Sequences are the real CSS transitions sampled uniformly over `count` frames (stretch = how much they were slowed down). Search open/typing: see read[\"search.contents.orange.light\"]; code block copy click: read[\"extras.orange.light\"].copy."
+ }
+}
